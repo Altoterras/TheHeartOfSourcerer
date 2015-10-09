@@ -1,0 +1,212 @@
+
+<?xml version="1.0" encoding="Shift_JIS"?>
+<EventData>
+<Event ID="10999">
+	<Type>STORYCONF</Type>
+	<Data>
+		<StartupEvent>10001</StartupEvent>
+		<PlaceObj kind="extra" char_id="1105" map_id="10101" enable="false" />
+		<PlaceObj kind="mapobj" char_id="1701" map_id="10101" pos="0, 0, 250.0f" ctrl_evid="51002" enable="false" />
+		<PlaceObj kind="puitem" item_id="2001" map_id="10243" pos="-1293.0f, 0.0f, 1600.0f" rand="100" ctrl_evid="51002" comment="フィールドアイテム" />
+	</Data>
+</Event>
+
+<Event ID="10001" comment="オープニング">
+	<Type>ACT</Type>
+	<Data>
+		<ChangeMap frame="1" map_id="11891" skip="no" />
+		<Rtmv frame="1" file_id="301010161" skip="stop" />
+		<Mcut frame="1" durf="597" />
+		<Music frame="1" bgm_id="102" />
+		<ScrEff frame="1" durf="120" kind="fade_in" color="000000" />
+		
+		<Sprite frame="360" durf="230" file_id="en:301010181,jp:301010182" rect="0, 0, 480, 320" uv="0.15625, 0.90625, 0.0625, 0.0625" name="gray" fade_out_frame_num="50" />
+		<Sprite frame="361" durf="228" file_id="en:301010181,jp:301010182" rect="160, 152, 152, 16" uv="0.0, 0.0, 0.59375, 0.0625" name="dia" fade_in_frame_num="120" fade_out_frame_num="50" />
+		
+		<ScrEff frame="540" durf="60" kind="fill" color="ffffff" />
+		<ScrEff frame="600" durf="60" kind="fade_in" color="ffffff" />
+		
+		<Mcut frame="602" durf="590" />
+
+		<ScrEff frame="1110" durf="91" kind="fade_out" color="000000" />
+		<Call frame="1201" evid="10002" skip="no" />
+	</Data>
+</Event>
+
+<Event ID="10002" comment="ソウマ伝授">
+	<Type>ACT</Type>
+	<Data>
+		<ChangeMap frame="1" map_id="10101" skip="stop" />
+		<SetPos frame="1" char_id="1101" pos="162.0, 4.4, 221.9" dir="0.0, -90.0, 0.0" skip="no" />
+		<SetPos frame="1" char_id="1105" pos="116.6, 3.8, 145.4" dir="0.0, 0.0, 0.0" skip="no" />
+		<ShowObj frame="1" char_id="1101" show="false" />
+		<ShowObj frame="1" char_id="1102" show="false" />
+		<ShowObj frame="1" char_id="1103" show="false" />
+		<ShowObj frame="1" char_id="1105" show="false" />
+		<Music frame="1" bgm_id="103" loop_cnt="-1" />
+		<Rtmv frame="1" file_id="301010151" />
+		<ValFader frame="1" durf="970" spid="1014" element="color_a" value_from="0.0" value_to="0.0" />
+		<Mcut frame="270" durf="362" />
+		<Msg frame="447" durf="177" mode="SAY" msg_id="1001" />
+		<Msg frame="705" durf="236" mode="SAY" msg_id="1002" />
+		<ValFader frame="971" durf="15" spid="1014" element="color_a" value_from="0.0" value_to="255.0" />
+		<Se frame="971" durf="196" se_id="13101" loop="1" volume="0.05" />
+		<ValFader frame="1160" durf="6" spid="1014" element="color_a" value_from="255.0" value_to="0.0" />
+		<Particle frame="1167" particle_id="30001" pos ="118,52,219" />
+		<Se frame="1167" se_id="13103" volume="0.02" />
+		<Particle frame="1170" particle_id="30002" pos ="118,60,219" />
+		<Se frame="1170" se_id="13103" volume="0.02" />
+		<Particle frame="1173" particle_id="30003" pos ="118,71,219" />
+		<Se frame="1173" se_id="13103" volume="0.02" />
+		<Particle frame="1176" particle_id="30004" pos ="118,86,219" />
+		<Se frame="1176" se_id="13103" volume="0.02" />
+		<Particle frame="1179" particle_id="30005" pos ="118,96,219" />
+		<Se frame="1179" se_id="13103" volume="0.02" />
+		<Particle frame="1182" particle_id="30006" pos ="118,106,219" />
+		<Se frame="1182" se_id="13103" volume="0.02" />
+		<Particle frame="1185" particle_id="30007" pos ="118,116,219" />
+		<Se frame="1185" se_id="13103" volume="0.02" />
+		<ScrEff frame="1207" durf="53" kind="fade_out" color="000000" />
+		<ScrEff frame="1260" durf="10" kind="fill" color="000000" />
+		<ScrEff frame="1270" durf="90" kind="fade_in" color="000000" />
+		<Msg frame="1384" durf="295" mode="SAY" msg_id="1011" />
+		<Msg frame="1679" durf="236" mode="SAY" msg_id="1012" />
+		<ShowObj frame="1974" char_id="1101" show="true" skip="no" />
+		<ShowObj frame="1974" char_id="1105" show="true" skip="no" />
+		<Prog frame="1974" name="StEmp_10101_1001_MagicTutorial01" skip="stop" />
+		<Call frame="1974" evid="10003" skip="no" />
+		
+	</Data>
+</Event>
+<Event ID="10003" comment="２つ目のソウマ練習">
+	<Type>ACT</Type>
+	<Data>
+		<ChangeMap frame="1" map_id="10101" />
+		<SetPos frame="1" char_id="1101" pos="162.0, 4.4, 221.9" dir="0.0, -90.0, 0.0" skip="no" />
+		<SetPos frame="1" char_id="1105" pos="116.6, 3.8, 145.4" dir="0.0, 0.0, 0.0" skip="no" />
+		<ShowObj frame="1" char_id="1101" show="false" />
+		<ShowObj frame="1" char_id="1102" show="false" />
+		<ShowObj frame="1" char_id="1103" show="false" />
+		<ShowObj frame="1" char_id="1105" show="false" />
+		<ShowObj frame="1" char_id="1701" show="true" skip="no" />
+		<Rtmv frame="1" file_id="301010152" />
+		<Msg frame="1" durf="177" mode="SAY" msg_id="1013" />
+		<Msg frame="178" durf="350" mode="SAY" msg_id="1021" />
+		<ShowObj frame="532" char_id="1101" show="true" skip="no" />
+		<ShowObj frame="532" char_id="1105" show="true" skip="no" />
+		<Prog frame="532" name="StEmp_10101_1002_MagicTutorial02" skip="stop" />
+		<Call frame="533" evid="10006" skip="no" />
+	</Data>
+</Event>
+
+<Event ID="10004" comment="ソウマ成功">
+	<Type>ACT</Type>
+	<Data>
+		<Msg frame="1" durf="177" mode="SAY" msg_id="1014" />
+		<Msg frame="178" durf="1" mode="YESNO" msg_id="1016" skip="stop" />
+	</Data>
+</Event>
+<Event ID="10005" comment="ソウマ失敗">
+	<Type>ACT</Type>
+	<Data>
+		<Msg frame="1" durf="177" mode="SAY" msg_id="1015" />
+	</Data>
+</Event>
+<Event ID="10006" comment="ソウマ練習終了">
+	<Type>ACT</Type>
+	<Data>
+		<ChangeMap frame="1" map_id="10101" />
+		<ShowObj frame="1" char_id="1101" show="false" />
+		<ShowObj frame="1" char_id="1102" show="false" />
+		<ShowObj frame="1" char_id="1103" show="false" />
+		<ShowObj frame="1" char_id="1105" show="false" />
+		<Rtmv frame="1" file_id="301010155" />
+		<Msg frame="1" durf="295" mode="SAY" msg_id="1023" />
+		<Msg frame="296" durf="295" mode="SAY" msg_id="1024" />
+		<Msg frame="591" durf="294" mode="SAY" msg_id="1025" />
+		<Msg frame="886" durf="409" mode="SAY" msg_id="1031" />
+		<ScrEff frame="1299" durf="59" kind="fade_out" color="000000" />
+		<ShowObj frame="1358" char_id="1101" show="true" skip="no" />
+		<ShowObj frame="1358" char_id="1105" show="false" skip="no" />
+		<Call frame="1358" evid="10021" skip="no" />
+	</Data>
+</Event>
+<Event ID="10007" comment="コルポ登場">
+	<Type>ACT</Type>
+	<Data>
+		<ChangeMap frame="1" map_id="10181" />
+		<ShowObj frame="1" char_id="1101" show="false" />
+		<ShowObj frame="1" char_id="1102" show="false" />
+		<ShowObj frame="1" char_id="1103" show="false" />
+		<ShowObj frame="1" char_id="1105" show="false" />
+		<ShowObj frame="1" char_id="1202" show="false" />
+		<Rtmv frame="1" file_id="301010153" />
+		<Mcut frame="4" durf="258" />
+		<Music frame="119" bgm_id="105" volume="1.0" loop_cnt="-1" fade_out_frame_num="60" />
+		<Msg frame="224" durf="105" mode="SAY" msg_id="1032" />
+		<Mcut frame="270" durf="276" />
+		<Msg frame="330" durf="216" mode="SAY" msg_id="1033" />
+		<Mcut frame="560" durf="104" />
+		<Msg frame="674" durf="226" mode="SAY" msg_id="1034" />
+		<Mcut frame="678" durf="222" />
+		<Msg frame="910" durf="347" mode="SAY" msg_id="1035" />
+		<Mcut frame="914" durf="176" />
+		<Mcut frame="1098" durf="331" />
+		<Msg frame="1260" durf="169" mode="SAY" msg_id="1036" />
+		<Msg frame="1439" durf="226" mode="SAY" msg_id="1037" />
+		<Mcut frame="1443" durf="92" />
+		<Mcut frame="1543" durf="122" />
+		<Mcut frame="1679" durf="63" />
+		<Rtmv frame="1752" file_id="301010156" skip="stop" />
+		<Music frame="1752" bgm_id="103" volume="1.0" loop_cnt="-1" fade_out_frame_num="60" />
+		<Mcut frame="1756" durf="100" />
+		<Mcut frame="1864" durf="127" />
+		<Mcut frame="1999" durf="152" />
+		<Msg frame="2155" durf="242" mode="SAY" msg_id="1041" />
+		<Mcut frame="2159" durf="304" />
+		<Msg frame="2397" durf="186" mode="SAY" msg_id="1042" />
+		<Mcut frame="2471" durf="464" />
+		<Msg frame="2583" durf="118" mode="SAY" msg_id="1043" />
+		<Msg frame="2703" durf="232" mode="SAY" msg_id="1044" />
+		<Msg frame="2939" durf="292" mode="SAY" msg_id="1045" />
+		<Mcut frame="2943" durf="372" />
+		<Msg frame="3234" durf="82" mode="SAY" msg_id="1046" />
+		<ScrEff frame="3323" durf="59" kind="fade_out" color="000000" />
+		<ShowObj frame="3382" char_id="1101" show="true" skip="no" />
+		<ShowObj frame="3382" char_id="1102" show="true" skip="no" />
+		<ShowObj frame="3382" char_id="1105" show="true" skip="no" />
+		<ShowObj frame="3382" char_id="1202" show="true" skip="no" />
+		<Flag frame="3382" sfid="1001" value="true" skip="no" comment="コルポ合流" />
+		<Call frame="3382" evid="10022" skip="no" />
+	</Data>
+</Event>
+<Event ID="10008" comment="次のシナリオへ">
+	<Type>ACT</Type>
+	<Data>
+		<ScrEff frame="1" durf="15" kind="fade_out" color="000000" />
+		<ChangeStory frame="15" story_id="10102" skip="no" />
+	</Data>
+</Event>
+<Event ID="10021" comment="フォーカス外し操作方法">
+	<Type>ACT</Type>
+	<Data>
+		<Sprite frame="1" file_id="en:601010251,jp:601010252" rect="0, 0, 480, 320" uv="0.0, 0.0, 0.9375, 0.625" wait="yes" wait_min_frame_num="30" fade_in_frame_num="15" fade_out_frame_num="15" skip="stop" />
+	</Data>
+</Event>
+<Event ID="10022" comment="ワールドマップ操作方法">
+	<Type>ACT</Type>
+	<Data>
+		<ChangeMap frame="1" map_id="10241" skip="no" />
+		<Sprite frame="1" file_id="en:601010311,jp:601010312" layout="fit_screen_keep_ratio" side_color="0000007F" uv="0.0, 0.0, 0.9375, 0.625" wait="yes" wait_min_frame_num="30" fade_in_frame_num="15" fade_out_frame_num="15" skip="stop" />
+		<Sprite frame="1" file_id="en:601010321,jp:601010322" layout="fit_screen_keep_ratio" side_color="0000007F" uv="0.0, 0.0, 0.9375, 0.625" wait="yes" wait_min_frame_num="30" fade_in_frame_num="15" fade_out_frame_num="15" skip="stop" />
+	</Data>
+</Event>
+<Event ID="10023" comment="アイテム拾い／捨て操作方法">
+	<Type>ACT</Type>
+	<Data>
+		<Flag frame="1" sfid="1015" value="true" skip="no" comment="アイテム拾いチュートリアルを表示済み" />
+		<Sprite frame="1" file_id="en:601010411,jp:601010412" layout="fit_screen_keep_ratio" side_color="0000007F" uv="0.0, 0.0, 0.9375, 0.625" wait="yes" wait_min_frame_num="30" fade_in_frame_num="15" fade_out_frame_num="15" skip="stop" />
+		<Sprite frame="1" file_id="en:601010421,jp:601010422" layout="fit_screen_keep_ratio" side_color="0000007F" uv="0.0, 0.0, 0.9375, 0.625" wait="yes" wait_min_frame_num="30" fade_in_frame_num="15" fade_out_frame_num="15" skip="stop" />
+	</Data>
+</Event>
+</EventData>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<Menu>
+	<Node ID="21001">
+		Focus
+		<Function MenuClose="yes">
+			Focus
+		</Function>
+	</Node>
+	<Node>
+		Pick up
+		<Function MenuClose="yes">
+			Pick
+		</Function>
+	</Node>
+</Menu>

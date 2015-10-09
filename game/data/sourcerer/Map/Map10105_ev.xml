@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<EventData>
+<Event ID="999">
+	<Type>MAPCONF</Type>
+	<Data>
+		<MapKind>Indoor</MapKind>
+		<MoveMap1>19101</MoveMap1>
+		<MoveMap2>19101</MoveMap2>
+		<MoveMap3>10102</MoveMap3>
+		<MoveMap4>19101</MoveMap4>
+		<BgmId volume="0.25">103</BgmId>
+		<EleneEff cql="1000,1000,1000,1000,1000" nql="1000,1000,1000,1000,1000" />
+	</Data>
+</Event>
+</EventData>

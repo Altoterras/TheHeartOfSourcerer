@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<EventData>
+<Event ID="999">
+	<Type>MAPCONF</Type>
+	<Data>
+		<MapKind>Indoor</MapKind>
+		<MoveMap1>19101</MoveMap1>
+		<MoveMap2>19101</MoveMap2>
+		<MoveMap3>10102</MoveMap3>
+		<MoveMap4>19101</MoveMap4>
+		<BgmId volume="0.25">103</BgmId>
+		<PlaceObj kind="mapobj" char_id="1801" pos="-300, 100, 100.0" enable="false" call_evid="102" comment="「daneruros」ソース" />
+		<EleneEff cql="1000,1000,1200,1000,1000" nql="1000,1000,1200,1000,1000" />
+		<StartupEvent>901</StartupEvent>
+	</Data>
+</Event>
+<Event ID="101" comment="「nerutraos」ソース取得">
+	<Type>ACT</Type>
+	<Data>
+		<GetThing frame="1" kind="fixed_source" param="1005" show_get_msg="true" show_noget_msg="true" skip="no" />
+	</Data>
+</Event>
+<Event ID="102" comment="「daneruros」ソース取得">
+	<Type>ACT</Type>
+	<Data>
+		<GetThing frame="1" kind="fixed_source" param="1004" show_get_msg="true" show_noget_msg="true" skip="no" />
+	</Data>
+</Event>
+<Event ID="901" comment="書庫の整理（本の有効化／無効化）">
+	<Type>ACT</Type>
+	<Data>
+		<!-- <If frame="1" jump_evid="0" story_under="10102" comment="バトルチュートリアルを終えてない" /> -->
+		<ShowObj frame="1" char_id="1801" show="true" />
+	</Data>
+</Event>
+</EventData>

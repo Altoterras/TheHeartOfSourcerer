@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<Menu>
+	<Node ID="11000">
+		- Debug Mode Setting
+		<Node>
+			Debug Mode LV1
+			<Function MenuClose="yes">
+				DebugMode_Lv_1
+			</Function>
+		</Node>
+		<Node>
+			Debug Mode LV2 (Asa Event Clear)
+			<Function MenuClose="yes">
+				DebugMode_Lv_2
+			</Function>
+		</Node>
+		<Node>
+			Debug Mode LV3 (Corpo Event Clear)
+			<Function MenuClose="yes">
+				DebugMode_Lv_3
+			</Function>
+		</Node>
+		<Node>
+			Debug Mode LV4 (Vol1 Clear)
+			<Function MenuClose="yes">
+				DebugMode_Lv_4
+			</Function>
+		</Node>
+		<Node>
+			Debug Mode LV5 (Vol2 Clear)
+			<Function MenuClose="yes">
+				DebugMode_Lv_5
+			</Function>
+		</Node>
+		<Node>
+			Debug Mode LV99 (Max)
+			<Function MenuClose="yes">
+				DebugMode_Lv_99
+			</Function>
+		</Node>
+		<Node>
+			Full Fixed Source
+			<Function MenuClose="yes">
+				DebugMode_Full_Fixed_Source
+			</Function>
+		</Node>
+		<Node>
+			Force Half Enlight
+			<Function MenuClose="yes">
+				DebugMode_Force_Half_Enlight
+			</Function>
+		</Node>
+		<Node>
+			Show Ground Collision
+			<Function MenuClose="yes">
+				DebugMode_Show_Gcol
+			</Function>
+		</Node>
+		<Node>
+			Show Invalid DrawOpt Obj
+			<Function MenuClose="yes">
+				DebugMode_Show_InvalidDrawOptObj
+			</Function>
+		</Node>
+		<Node>
+			Force Down Enemy Test
+			<Function MenuClose="yes">
+				DebugMode_Force_Down_Enemy_Test
+			</Function>
+		</Node>
+		<Node>
+			Force Down Me Test
+			<Function MenuClose="yes">
+				DebugMode_Force_Down_Me_Test
+			</Function>
+		</Node>
+		<Node>
+			Force Life Energy 1 Test
+			<Function MenuClose="yes">
+				DebugMode_Force_Down_Lf1_Test
+			</Function>
+		</Node>
+		<Node>
+			Full Check Quest
+			<Function MenuClose="yes">
+				DebugMode_Full_Check_Quest
+			</Function>
+		</Node>
+	</Node>
+	<Node ID="12000">
+		Resume Game
+		<Function MenuClose="yes">
+			Resume_Game
+		</Function>
+	</Node>
+	<Node ID="13000">
+		Title
+		<Function MenuClose="yes">
+			Enter_Title
+		</Function>
+	</Node>
+	<Node ID="14000">
+		Map 19101 (t-hayashi test 01)
+		<Function Value="19101" MenuClose="yes">
+			Enter_Map_1
+		</Function>
+	</Node>
+	<Node ID="15000">
+		Map 19102 (r-kishi test 01)
+		<Function Value="19102" MenuClose="yes">
+			Enter_Map_2
+		</Function>
+	</Node>
+	<Node ID="16000">
+		Map 11101 (forest entrance)
+		<Function Value="11101" MenuClose="yes">
+			Enter_Map_3
+		</Function>
+	</Node>
+	<Node ID="17000">
+		Model Viewer 01 (common)
+		<Function MenuClose="yes">
+			Model_Viewer_01
+		</Function>
+	</Node>
+	<Node ID="18000">
+		Model Viewer 03 (r-kishi)
+		<Function MenuClose="yes">
+			Model_Viewer_03
+		</Function>
+	</Node>
+	<Node ID="19000">
+		- Play Act
+		<Node>
+			- Play Act1
+			<Node>
+				Story 10101 ActEvent 10001 オープニング
+				<Function MenuClose="yes">
+					StEv_10101_ActEvId_10001
+				</Function>
+			</Node>
+			<Node>
+				Story 10101 ActEvent 10002 ソウマ伝授
+				<Function MenuClose="yes">
+					StEv_10101_ActEvId_10002
+				</Function>
+			</Node>
+			<Node>
+				Story 10101 ActEvent 10003 ２つ目のソウマ練習
+				<Function MenuClose="yes">
+					StEv_10101_ActEvId_10003
+				</Function>
+			</Node>
+			<Node>
+				Story 10101 ActEvent 10004 ソウマ成功
+				<Function MenuClose="yes">
+					StEv_10101_ActEvId_10004
+				</Function>
+			</Node>
+			<Node>
+				Story 10101 ActEvent 10005 ソウマ失敗
+				<Function MenuClose="yes">
+					StEv_10101_ActEvId_10005
+				</Function>
+			</Node>
+			<Node>
+				Story 10101 ActEvent 10006 ソウマ練習終了
+				<Function MenuClose="yes">
+					StEv_10101_ActEvId_10006
+				</Function>
+			</Node>
+			<Node>
+				Story 10101 ActEvent 10007 コルポと会う
+				<Function MenuClose="yes">
+					StEv_10101_ActEvId_10007
+				</Function>
+			</Node>
+			<Node>
+				Story 10101 ActEvent 10021 フォーカス外し操作方法
+				<Function MenuClose="yes">
+					StEv_10101_ActEvId_10021
+				</Function>
+			</Node>
+			<Node>
+				Story 10101 ActEvent 10022 ワールドマップ操作方法
+				<Function MenuClose="yes">
+					StEv_10101_ActEvId_10022
+				</Function>
+			</Node>
+			<Node>
+				Story 10201 ActEvent 10001 盾発見
+				<Function MenuClose="yes">
+					StEv_10201_ActEvId_10001
+				</Function>
+			</Node>
+			<Node>
+				Story 10201 ActEvent 10002 コツメの声
+				<Function MenuClose="yes">
+					StEv_10201_ActEvId_10002
+				</Function>
+			</Node>
+			<Node>
+				Story 10202 ActEvent 10003 雲月岩起きる
+				<Function MenuClose="yes">
+					StEv_10202_ActEvId_10003
+				</Function>
+			</Node>
+			<Node>
+				Story 10202 ActEvent 10004 アサピンチ
+				<Function MenuClose="yes">
+					StEv_10202_ActEvId_10004
+				</Function>
+			</Node>
+			<Node>
+				Story 10202 ActEvent 10006 カバルとの会話
+				<Function MenuClose="yes">
+					StEv_10202_ActEvId_10006
+				</Function>
+			</Node>
+			<Node>
+				Story 10203 ActEvent 10001 次の日
+				<Function MenuClose="yes">
+					StEv_10203_ActEvId_10001
+				</Function>
+			</Node>
+			<Node>
+				Story 10203 ActEvent 10002 コルポ怒る
+				<Function MenuClose="yes">
+					StEv_10203_ActEvId_10002
+				</Function>
+			</Node>
+			<Node>
+				Story 10203 ActEvent 10003 コルポ錯乱
+				<Function MenuClose="yes">
+					StEv_10203_ActEvId_10003
+				</Function>
+			</Node>
+			<Node>
+				Story 10203 ActEvent 10004 コルポ沈静化
+				<Function MenuClose="yes">
+					StEv_10203_ActEvId_10004
+				</Function>
+			</Node>
+			<Node>
+				Story 10203 ActEvent 10005 コツメ解放
+				<Function MenuClose="yes">
+					StEv_10203_ActEvId_10005
+				</Function>
+			</Node>
+			<Node>
+				Story 10204 ActEvent 10001 発光ソウマもらう
+				<Function MenuClose="yes">
+					StEv_10204_ActEvId_10001
+				</Function>
+			</Node>
+			<Node>
+				Story 10204 ActEvent 10003 発光ソウマ使って
+				<Function MenuClose="yes">
+					StEv_10204_ActEvId_10003
+				</Function>
+			</Node>
+			<Node>
+				Story 10204 ActEvent 10004 雲星岩ひきあげ
+				<Function MenuClose="yes">
+					StEv_10204_ActEvId_10004
+				</Function>
+			</Node>
+		</Node>
+		<Node>
+			- Play Act2
+			<Node>
+				Story 10301 ActEvent 10001 コルポイベントはじめ
+				<Function MenuClose="yes">
+					StEv_10301_ActEvId_10001
+				</Function>
+			</Node>
+			<Node>
+				Story 10301 ActEvent 10002 コルポ手紙を見つける
+				<Function MenuClose="yes">
+					StEv_10301_ActEvId_10002
+				</Function>
+			</Node>
+			<Node>
+				Story 10301 ActEvent 10007 手紙を読むコルポ（EN）
+				<Function MenuClose="yes">
+					StEv_10301_ActEvId_10007
+				</Function>
+			</Node>
+			<Node>
+				Story 10301 ActEvent 10008 手紙を読むコルポ（JP）
+				<Function MenuClose="yes">
+					StEv_10301_ActEvId_10008
+				</Function>
+			</Node>
+			<Node>
+				Story 10301 ActEvent 10004 コルポ手紙読み終える
+				<Function MenuClose="yes">
+					StEv_10301_ActEvId_10004
+				</Function>
+			</Node>
+			<Node>
+				Story 10301 ActEvent 10005 ヤサンに聞く
+				<Function MenuClose="yes">
+					StEv_10301_ActEvId_10005
+				</Function>
+			</Node>
+			<Node>
+				Story 10301 ActEvent 10006 謎の水溜り
+				<Function MenuClose="yes">
+					StEv_10301_ActEvId_10006
+				</Function>
+			</Node>
+			<Node>
+				Story 10302 ActEvent 10001 先生いません
+				<Function MenuClose="yes">
+					StEv_10302_ActEvId_10001
+				</Function>
+			</Node>
+			<Node>
+				Story 10302 ActEvent 10002 いそがしい先生
+				<Function MenuClose="yes">
+					StEv_10302_ActEvId_10002
+				</Function>
+			</Node>
+			<Node>
+				Story 10302 ActEvent 10003 赤毛のレベッカ登場
+				<Function MenuClose="yes">
+					StEv_10302_ActEvId_10003
+				</Function>
+			</Node>
+			<Node>
+				Story 10302 ActEvent 10004 レベッカからソウマ伝授
+				<Function MenuClose="yes">
+					StEv_10302_ActEvId_10004
+				</Function>
+			</Node>
+		</Node>
+		<Node>
+			- Play Act3
+			<Node>
+				Story 10303 ActEvent 10001 レイカが見えた
+				<Function MenuClose="yes">
+					StEv_10303_ActEvId_10001
+				</Function>
+			</Node>
+			<Node>
+				Story 10304 ActEvent 10001 レベッカ相談カバル話あり
+				<Function MenuClose="yes">
+					StEv_10304_ActEvId_10001
+				</Function>
+			</Node>
+			<Node>
+				Story 10304 ActEvent 10002 レベッカに相談カバル話なし
+				<Function MenuClose="yes">
+					StEv_10304_ActEvId_10002
+				</Function>
+			</Node>
+			<Node>
+				Story 10304 ActEvent 10003 レベッカに教わる前
+				<Function MenuClose="yes">
+					StEv_10304_ActEvId_10003
+				</Function>
+			</Node>
+			<Node>
+				Story 10304 ActEvent 10004 レベッカに教わる後
+				<Function MenuClose="yes">
+					StEv_10304_ActEvId_10004
+				</Function>
+			</Node>
+			<Node>
+				Story 10305 ActEvent 10001 レイカのところへ来た
+				<Function MenuClose="yes">
+					StEv_10305_ActEvId_10001
+				</Function>
+			</Node>
+			<Node>
+				Story 10305 ActEvent 10002 レイカ出現
+				<Function MenuClose="yes">
+					StEv_10305_ActEvId_10002
+				</Function>
+			</Node>
+			<Node>
+				Story 10305 ActEvent 10003 レイカを暖める
+				<Function MenuClose="yes">
+					StEv_10305_ActEvId_10003
+				</Function>
+			</Node>
+			<Node>
+				Story 10305 ActEvent 10004 なげくレイカ
+				<Function MenuClose="yes">
+					StEv_10305_ActEvId_10004
+				</Function>
+			</Node>
+			<Node>
+				Story 10306 ActEvent 10001 手紙まだあった
+				<Function MenuClose="yes">
+					StEv_10306_ActEvId_10001
+				</Function>
+			</Node>
+			<Node>
+				Story 10306 ActEvent 10002 アサまたよろしく
+				<Function MenuClose="yes">
+					StEv_10306_ActEvId_10002
+				</Function>
+			</Node>
+			<Node>
+				Story 10306 ActEvent 10003 セルジャとレイカ
+				<Function MenuClose="yes">
+					StEv_10306_ActEvId_10003
+				</Function>
+			</Node>
+			<Node>
+				Story 10401 ActEvent 10001 ヤサンとコルポ
+				<Function MenuClose="yes">
+					StEv_10401_ActEvId_10001
+				</Function>
+			</Node>
+			<Node>
+				Story 10401 ActEvent 10002 コツメと再会
+				<Function MenuClose="yes">
+					StEv_10401_ActEvId_10002
+				</Function>
+			</Node>
+			<Node>
+				Story 10401 ActEvent 10003 シネンの森を抜ける
+				<Function MenuClose="yes">
+					StEv_10401_ActEvId_10003
+				</Function>
+			</Node>
+		</Node>
+		<Node>
+			Play Act All
+			<Function MenuClose="yes">
+				PlayActAll
+			</Function>
+		</Node>
+	</Node>
+	<Node>
+		- Story Jump
+		<Node>
+			Story 10101 ソウマチュートリアル
+			<Function MenuClose="yes">
+				StEv_10101_Jump
+			</Function>
+		</Node>
+		<Node>
+			Story 10102 対決チュートリアル
+			<Function MenuClose="yes">
+				StEv_10102_Jump
+			</Function>
+		</Node>
+		<Node>
+			Story 10201 コツメのささやき
+			<Function MenuClose="yes">
+				StEv_10201_Jump
+			</Function>
+		</Node>
+		<Node>
+			Story 10202 アサの単独行
+			<Function MenuClose="yes">
+				StEv_10202_Jump
+			</Function>
+		</Node>
+		<Node>
+			Story 10203 雲月岩再戦
+			<Function MenuClose="yes">
+				StEv_10203_Jump
+			</Function>
+		</Node>
+		<Node>
+			Story 10204 発光ソウマと雲星岩引き上げ
+			<Function MenuClose="yes">
+				StEv_10204_Jump
+			</Function>
+		</Node>
+		<Node>
+			Story 10301 セルジャの手紙
+			<Function MenuClose="yes">
+				StEv_10301_Jump
+			</Function>
+		</Node>
+		<Node>
+			Story 10302 レベッカ登場
+			<Function MenuClose="yes">
+				StEv_10302_Jump
+			</Function>
+		</Node>
+		<Node>
+			Story 10303 レイカ登場
+			<Function MenuClose="yes">
+				StEv_10303_Jump
+			</Function>
+		</Node>
+		<Node>
+			Story 10304 暖めるソウマ取得
+			<Function MenuClose="yes">
+				StEv_10304_Jump
+			</Function>
+		</Node>
+		<Node>
+			Story 10305 レイカを暖める
+			<Function MenuClose="yes">
+				StEv_10305_Jump
+			</Function>
+		</Node>
+		<Node>
+			Story 10306 セルジャとレイカ
+			<Function MenuClose="yes">
+				StEv_10306_Jump
+			</Function>
+		</Node>
+		<Node>
+			Story 10401 コツメと再会
+			<Function MenuClose="yes">
+				StEv_10401_Jump
+			</Function>
+		</Node>
+	</Node>
+	<Node>
+		- Save
+		<Node>
+			Save to File 1
+			<Function MenuClose="yes">
+				Save_1
+			</Function>
+		</Node>
+		<Node>
+			Save to File 2
+			<Function MenuClose="yes">
+				Save_2
+			</Function>
+		</Node>
+		<Node>
+			Save to Resume File
+			<Function MenuClose="yes">
+				Save_999
+			</Function>
+		</Node>
+	</Node>
+	<Node>
+		- Config
+		<Node>
+			Screen Orientation
+			<Node ID="431">
+				-90°
+				<Function MenuClose="yes">
+					Scr_Orien_M90
+				</Function>
+			</Node>
+			<Node ID="432">
+				+90°
+				<Function MenuClose="yes">
+					Scr_Orien_P90
+				</Function>
+			</Node>
+		</Node>
+		<Node>
+			Language
+			<Node ID="421">
+				English
+				<Function MenuClose="yes">
+					Language_English
+				</Function>
+			</Node>
+			<Node ID="422">
+				Japanese
+				<Function MenuClose="yes">
+					Language_Japanese
+				</Function>
+			</Node>
+		</Node>
+		<Node>
+			Event Message
+			<Node ID="441">
+				Wait
+				<Function MenuClose="yes">
+					SayMsg_Pause
+				</Function>
+			</Node>
+			<Node ID="442">
+				Auto
+				<Function MenuClose="yes">
+					SayMsg_NoWait
+				</Function>
+			</Node>
+		</Node>
+		<Node>
+			Music
+			<Node ID="451">
+				Stereo
+				<Function MenuClose="yes">
+					Music_Stereo
+				</Function>
+			</Node>
+			<Node ID="452">
+				Mono
+				<Function MenuClose="yes">
+					Music_Mono
+				</Function>
+			</Node>
+		</Node>
+	</Node>
+	<Node Explain="Enter Realtime Movie Test">
+		Realtime Movie Test
+		<Function MenuClose="yes">
+			Enter_RealtimeMovieTest
+		</Function>
+	</Node>
+	<Node Explain="Enter MPEG Movie Test">
+		MPEG Movie Test
+		<Function MenuClose="yes">
+			Enter_MpegMovieTest
+		</Function>
+	</Node>
+	<Node>
+		Tmp Event Test
+		<Function Value="10001" MenuClose="yes">
+			Enter_TmpEventTest
+		</Function>
+	</Node>
+	<Node Explain="Softkeyboard Test">
+		Softkeyboard Test
+		<Function MenuClose="yes">
+			Test_Softkb
+		</Function>
+	</Node>
+	<Node Explain="Reset Trophies">
+		Reset Trophies
+		<Function MenuClose="yes">
+			Reset_Trophies
+		</Function>
+	</Node>
+	<!--
+	<Node>
+		Map11891 (Event Dummy)
+		<Function Value="11891" MenuClose="yes">
+			Enter_Map_11891
+		</Function>
+	</Node>
+	-->
+</Menu>

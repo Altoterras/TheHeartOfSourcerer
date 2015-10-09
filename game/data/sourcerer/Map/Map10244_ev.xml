@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<EventData>
+<Event ID="999">
+	<Type>MAPCONF</Type>
+	<Data>
+		<MapKind>Indoor</MapKind>
+		<MoveMap3>10243</MoveMap3>
+		<BgmId>103</BgmId>
+		<PlaceObj kind="extra" char_id="1208" pos="-215.0f, 0.0f, -526.0f" call_evid="101" comment="Hohne" />
+		<EleneEff cql="901,1004,921,911,1000" nql="901,1004,921,911,1000" />
+	</Data>
+</Event>
+<Event ID="101">
+	<Type>ACT</Type>
+	<Data>
+		<If frame="1" sfid="1024" jump_evid="102" skip="no" comment="アイテム合成ソウマ入手後" />
+		<Msg frame="1" mode="TALK" msg_id="101" />
+		<Msg frame="1" mode="TALK" msg_id="102" />
+		<GetThing frame="1" kind="fixed_source" param="1015" show_get_msg="true" skip="no" comment="アイテム合成ソース取得" />
+		<Flag frame="1" sfid="1024" value="true" skip="no" comment="アイテム合成ソウマ入手済" />
+		<Msg frame="1" mode="TALK" msg_id="103" />
+		<Msg frame="1" mode="TALK" msg_id="105" />
+		<Msg frame="1" mode="TALK" msg_id="106" />
+	</Data>
+</Event>
+<Event ID="102">
+	<Type>ACT</Type>
+	<Data>
+		<Msg frame="1" mode="TALK" msg_id="103" />
+		<Msg frame="1" mode="TALK" msg_id="105" />
+		<Msg frame="1" mode="TALK" msg_id="106" />
+	</Data>
+</Event>
+</EventData>

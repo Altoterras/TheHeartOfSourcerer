@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<EventData>
+<Event ID="10999">
+	<Type>STORYCONF</Type>
+	<Data>
+		<StartupEvent>10001</StartupEvent>
+		<OverrideEvent kind="map" old_evid="1001" new_evid="10013" comment="自宅休息イベント置換" />
+		<OverrideEvent kind="map" old_evid="1003" new_evid="10011" comment="自宅休息後のコルポ合流イベント置換" />
+		<PlaceObj kind="mapobj" char_id="1703" map_id="11113" pos="1498, 0, -3276" call_evid="10002" />
+		<PlaceObj kind="enemy" char_id="1401" map_id="11113" pos="1498, 0, -3276" ctrl_evid="51001" enable="false" win_evid="10005" escape="false" bgm_id="109" />
+		<PlaceObj kind="extra" char_id="1104" map_id="10224" pos="31.2, 32.3, -123.4" call_evid="10401,10402" next_call_ev_sfid="1009" />
+		<PlaceObj kind="extra" char_id="1112" map_id="10224" pos="-52.3, 32.3, 0" call_evid="10403" enable="false" />
+		<!-- <AutoBeginEvent kind="map_start" call_evid="10404" map_id="10224" comment="ウコペンを語させるためコメントアウト" /> -->
+		<PlaceObj kind="extra" char_id="1105" map_id="10101" pos="-119, 0, 51" call_evid="10501,10502" />
+		<PlaceObj kind="extra" char_id="1106" map_id="10242" pos="123.8, 0, 0" call_evid="10601,10602" />
+		<PlaceObj kind="extra" char_id="1108" map_id="10203" pos="-93.9, 33.4, -226" call_evid="10801,10802" />
+	</Data>
+</Event>
+<Event ID="10001" comment="次の日">
+	<Type>ACT</Type>
+	<Data>
+		<ChangeMap frame="1" map_id="10242" />
+		<ShowObj frame="1" char_id="1101" show="false" />
+		<ShowObj frame="1" char_id="1102" show="false" />
+		<ScrEff frame="1" durf="120" kind="fade_in" color="000000" />
+		<Rtmv frame="1" file_id="301020351" />
+		<Mcut frame="3" durf="468" />
+		<Msg frame="100" durf="50" mode="SAY" msg_id="1001" />
+		<Msg frame="155" durf="276" mode="SAY" msg_id="1002" />
+		<ScrEff frame="435" durf="38" kind="fade_out" color="000000" />
+		<ShowObj frame="473" char_id="1101" show="true" skip="no" />
+		<SetPos frame="473" char_id="1101" pos="-341, 0, 62" dir="0, -90, 0" skip="no" />
+		<GetThing frame="474" kind="fixed_source" param="1006" show_get_msg="true" skip="stop" comment="ソウマ「debidulo」入手" />
+		<GetThing frame="474" kind="fixed_source" param="1007" show_get_msg="true" skip="stop" comment="ソウマ「nestaglam」入手" />
+	</Data>
+</Event>
+<Event ID="10002" comment="コルポ怒る！">
+	<Type>ACT</Type>
+	<Data>
+		<ObtainCtrl frame="1" target="music" />
+		<Music frame="1" bgm_id="109" loop_cnt="-1" />
+		<ChangeMap frame="1" map_id="11113" skip="no" />
+		<SetPos frame="1" char_id="1101" pos="1800, 0, -2400" dir="0, -180, 0" skip="no" />
+		<SetPos frame="1" char_id="1102" pos="1400, 0, -2800" dir="0, -180, 0" skip="no" />
+		<ShowObj frame="1" char_id="1101" show="false" />
+		<ShowObj frame="1" char_id="1102" show="false" />
+		<ShowObj frame="1" char_id="1703" show="false" />
+		<ShowObj frame="1" char_id="1401" show="false" />
+		<Rtmv frame="1" file_id="301020352" />
+		<Mcut frame="2" durf="50" />
+		<Msg frame="55" durf="50" mode="SAY" msg_id="1101" />
+		<Mcut frame="57" durf="55" />
+		<Msg frame="114" durf="169" mode="SAY" msg_id="1102" />
+		<Mcut frame="116" durf="173" />
+		<Msg frame="291" durf="169" mode="SAY" msg_id="1103" />
+		<Mcut frame="293" durf="173" />
+		<Msg frame="468" durf="110" mode="SAY" msg_id="1104" />
+		<Mcut frame="470" durf="114" />
+		<Msg frame="586" durf="228" mode="SAY" msg_id="1105" />
+		<Mcut frame="589" durf="230" />
+		<Msg frame="821" durf="109" mode="SAY" msg_id="1106" />
+		<Mcut frame="825" durf="105" />
+		<Msg frame="940" durf="169" mode="SAY" msg_id="1107" />
+		<Mcut frame="942" durf="167" />
+		<Msg frame="1117" durf="346" mode="SAY" msg_id="1108" />
+		<Mcut frame="1119" durf="344" />
+		<Msg frame="1471" durf="108" mode="SAY" msg_id="1109" />
+		<Mcut frame="1473" durf="106" />
+		<Msg frame="1589" durf="224" mode="SAY" msg_id="1110" />
+		<Mcut frame="1591" durf="232" />
+		<Mcut frame="1827" durf="91" />
+		<Msg frame="1847" durf="106" mode="SAY" msg_id="1111" />
+		<ShowObj frame="1966" char_id="1101" show="true" skip="no" />
+		<ShowObj frame="1966" char_id="1102" show="true" skip="no" />
+		<ShowObj frame="1966" char_id="1401" show="true" skip="no" />
+		<ShowObj frame="1966" char_id="1703" show="false" skip="no" />
+		<Confront frame="1966" target_ctrl_evid="51001" ctrl_evid="51001" skip="stop" />
+		<Prog frame="1966" name="StEmp_10203_1001_UngetsuSecondBattle" skip="stop" />
+	</Data>
+</Event>
+<Event ID="10003" comment="コルポ錯乱">
+	<Type>ACT</Type>
+	<Data>
+		<ShowObj frame="1" char_id="1101" show="false" />
+		<ShowObj frame="1" char_id="1102" show="false" />
+		<ShowObj frame="1" char_id="1401" show="false" />
+		<Rtmv frame="1" file_id="301020353" />
+		<Msg frame="1" durf="56" mode="SAY" msg_id="1121" />
+		<ShadowCtrl frame="16" char_id="1401" offset_pos="0.0, 0.0, 0.0" comment="雲月岩調整" />
+		<ShadowCtrl frame="17" char_id="1401" offset_pos="0.0, 0.0, -20.0" />
+		<Mcut frame="3" durf="62" />
+		<Msg frame="69" durf="230" mode="SAY" msg_id="1122" />
+		<Mcut frame="69" durf="230" />
+		<Msg frame="305" durf="51" mode="SAY" msg_id="1123" />
+		<ShowObj frame="362" char_id="1101" show="true" skip="no" />
+		<ShowObj frame="362" char_id="1102" show="true" skip="no" />
+		<ShowObj frame="362" char_id="1401" show="true" skip="no" />
+	</Data>
+</Event>
+<Event ID="10004" comment="コルポ沈静">
+	<Type>ACT</Type>
+	<Data>
+		<ShowObj frame="1" char_id="1101" show="false" />
+		<ShowObj frame="1" char_id="1102" show="false" />
+		<ShowObj frame="1" char_id="1401" show="false" />
+		<Rtmv frame="1" file_id="301020354" />
+		<Msg frame="1" durf="114" mode="SAY" msg_id="1131" />
+		<Mcut frame="3" durf="113" />
+		<ShowObj frame="119" char_id="1101" show="true" skip="no" />
+		<ShowObj frame="119" char_id="1102" show="true" skip="no" />
+		<ShowObj frame="119" char_id="1401" show="true" skip="no" />
+	</Data>
+</Event>
+<Event ID="10005" comment="コツメ解放">
+	<Type>ACT</Type>
+	<Data>
+		<ObtainCtrl frame="1" target="music" />
+		<ChangeMap frame="1" map_id="11113" skip="no" />
+		<ShowObj frame="1" char_id="1101" show="false" />
+		<ShowObj frame="1" char_id="1102" show="false" />
+		<ShowObj frame="1" char_id="1401" show="false" />
+		<Rtmv frame="1" file_id="301020355" />
+		<ShadowCtrl frame="1" char_id="1401" offset_pos="0.0, 0.0, 30.0" comment="雲月岩調整" />
+		<Mcut frame="3" durf="78" />
+		<ShadowCtrl frame="11" char_id="1401" offset_pos="0.0, 0.0, 40.0" comment="雲月岩調整" />
+		<ShadowCtrl frame="13" char_id="1401" offset_pos="-5.0, 0.0, 60.0" />
+		<ShadowCtrl frame="15" char_id="1401" offset_pos="-10.0, 0.0, 100.0" />
+		<ShadowCtrl frame="17" char_id="1401" offset_pos="-15.0, 0.0, 140.0" />
+		<Se frame="33" se_id="17106" volume="0.7" />
+		<Msg frame="83" durf="173" mode="SAY" msg_id="1141" />
+		<Mcut frame="85" durf="197" />
+		<TexFacial frame="286" char_id="1401" kind="eye" enable="false" />
+		<Se frame="286" durf="177" se_id="13101" loop="1" volume="0.05" />
+		<Mcut frame="288" durf="173" />
+		<Msg frame="463" durf="110" mode="SAY" msg_id="1142" />
+		<Mcut frame="465" durf="108" />
+		<Memo comment="生意気なコツメ" />
+		<Rtmv frame="581" file_id="301020356" />
+		<TexFacial frame="581" char_id="1401" kind="eye" enable="false" />
+		<ShadowCtrl frame="581" char_id="1103" enable="no" comment="コツメ影消" />
+		<ShadowCtrl frame="581" char_id="1401" offset_pos="-15.0, 0.0, 140.0" comment="雲月岩調整" />
+		<Mcut frame="583" durf="81" />
+		<Msg frame="668" durf="164 " mode="SAY" msg_id="1143" />
+		<Music frame="668" bgm_id="105" volume="0.3" loop_cnt="-1" />
+		<Mcut frame="672" durf="160" />
+		<Msg frame="842" durf="110" mode="SAY" msg_id="1144" />
+		<Mcut frame="846" durf="110" />
+		<Msg frame="960" durf="166" mode="SAY" msg_id="1145" />
+		<Mcut frame="964" durf="166" />
+		<Msg frame="1134" durf="110" mode="SAY" msg_id="1146" />
+		<Mcut frame="1138" durf="110" />
+		<Msg frame="1252" durf="114" mode="SAY" msg_id="1147" />
+		<Mcut frame="1256" durf="110" />
+		<Mcut frame="1374" durf="169" />
+		<Msg frame="1395" durf="114" mode="SAY" msg_id="1148" />
+		<Msg frame="1547" durf="316" mode="SAY" msg_id="1149" />
+		<Mcut frame="1551" durf="312" />
+		<Msg frame="1901" durf="106" mode="SAY" msg_id="1150" />
+		<Mcut frame="1905" durf="102" />
+		<Msg frame="2019" durf="167" mode="SAY" msg_id="1151" />
+		<Mcut frame="2023" durf="163" />
+		<Mcut frame="2200" durf="51" />
+		<Msg frame="2255" durf="114" mode="SAY" msg_id="1152" />
+		<Mcut frame="2259" durf="51" />
+		<Mcut frame="2318" durf="150" />
+		<Msg frame="2373" durf="228" mode="SAY" msg_id="1153" />
+		<Mcut frame="2476" durf="125" />
+		<Msg frame="2611" durf="285" mode="SAY" msg_id="1154" />
+		<Mcut frame="2615" durf="281" />
+		<Msg frame="2906" durf="167" mode="SAY" msg_id="1155" />
+		<Mcut frame="2910" durf="163" />
+		<Msg frame="3083" durf="167" mode="SAY" msg_id="1156" />
+		<Mcut frame="3087" durf="163" />
+		<Msg frame="3260" durf="112" mode="SAY" msg_id="1157" />
+		<Mcut frame="3264" durf="276" />
+		<Msg frame="3376" durf="164" mode="SAY" msg_id="1158" />
+		<Msg frame="3550" durf="108" mode="SAY" msg_id="1159" />
+		<Mcut frame="3554" durf="104" />
+		<ScrEff frame="3638" durf="30" kind="fade_out" color="000000" />
+		<ShowObj frame="3668" char_id="1101" show="true" skip="no" />
+		<ShowObj frame="3668" char_id="1102" show="true" skip="no" />
+		<ChangeStory frame="3668" story_id="10204" skip="no" />
+	</Data>
+</Event>
+<Event ID="10011" comment="外に出る">
+	<Type>ACT</Type>
+	<Data>
+		<If frame="1" sfid="1014" jump_evid="1007" skip="no" comment="アサダウン後のコルポ合流イベント実行済時は手動呼び出し用コルポイベントを起動" />
+		<ChangeMap frame="1" map_id="10241" skip="no" />
+		<ShowObj frame="1" char_id="1101" show="false" />
+		<ShowObj frame="1" char_id="1102" show="false" />
+		<ScrEff frame="1" durf="40" kind="fade_in" color="000000" />
+		<Rtmv frame="1" file_id="301020361" />
+		<Mcut frame="3" durf="295" />
+		<Msg frame="60" durf="173" mode="SAY" msg_id="1011" />
+		<Msg frame="242" durf="54" mode="SAY" msg_id="1012" />
+		<ShowObj frame="301" char_id="1101" show="true" skip="no" />
+		<ShowObj frame="301" char_id="1102" show="true" skip="no" />
+		<SetPos frame="301" char_id="1101" pos="1472, 0, -0" dir="0, -90, 0" skip="no" />
+		<SetPos frame="301" char_id="1102" pos="1289, 0, -0" dir="0, 90, 0" skip="no" />
+		<Flag frame="301" sfid="1014" value="true" skip="no" comment="アサダウン後のコルポ合流イベント実行した" />
+		<Call frame="301" evid="10012" skip="no" />
+	</Data>
+</Event>
+<Event ID="10012" comment="リーダー操作方法">
+	<Type>ACT</Type>
+	<Data>
+		<ChangeMap frame="1" map_id="10241" skip="no" />
+		<Sprite frame="1" file_id="en:601030011,jp:601030012" layout="fit_screen_keep_ratio" side_color="0000007F" uv="0.0, 0.0, 0.9375, 0.625" wait="yes" wait_min_frame_num="30" fade_in_frame_num="15" fade_out_frame_num="15" skip="stop" />
+		<Sprite frame="1" file_id="en:601030021,jp:601030022" layout="fit_screen_keep_ratio" side_color="0000007F" uv="0.0, 0.0, 0.9375, 0.625" wait="yes" wait_min_frame_num="30" fade_in_frame_num="15" fade_out_frame_num="15" skip="stop" />
+	</Data>
+</Event>
+<Event ID="10013" comment="自宅休息処理のオーバーライド">
+	<Type>ACT</Type>
+	<Data>
+		<If frame="1" sfid="1014" jump_evid="1009" skip="no" comment="アサダウン後のコルポ合流イベント実行済時は通常急速処理へ" />
+	</Data>
+</Event>
+<Event ID="10401" comment="Kabal1">
+	<Type>ACT</Type>
+	<Data>
+		<Msg frame="1" mode="TALK" msg_id="1401" />
+		<Msg frame="1" mode="TALK" msg_id="1402" />
+		<Msg frame="1" mode="TALK" msg_id="1403" />
+		<Msg frame="1" mode="TALK" msg_id="1404" />
+		<Msg frame="1" mode="TALK" msg_id="1405" />
+		<Msg frame="1" mode="TALK" msg_id="1406" />
+		<Msg frame="1" mode="TALK" msg_id="1412" />
+		<Msg frame="1" mode="TALK" msg_id="1407" />
+		<Msg frame="1" mode="TALK" msg_id="1408" />
+		<Msg frame="1" mode="TALK" msg_id="1409" />
+		<Msg frame="1" mode="TALK" msg_id="1410" />
+		<Msg frame="1" mode="TALK" msg_id="1411" />
+		<ScrEff frame="1" durf="60" kind="fade_out" color="000000" />
+		<ChangeMap frame="61" map_id="10223" skip="no" />
+		<Msg frame="61" mode="TALK" msg_id="1421" />
+		<Msg frame="61" mode="TALK" msg_id="1422" />
+		<GetThing frame="61" kind="item" param="2024" veil1_elene="300, 300, 200, 300, 300" show_get_msg="true" skip="no" comment="アイテム「癒し石」入手" />
+		
+		<Score frame="61" score_count="7" skip="no" />
+		<Flag frame="61" sfid="1021" value="true" skip="no" comment="カバル会話でアイテム取得" />
+	</Data>
+</Event>
+<Event ID="10402" comment="Kabal2">
+	<Type>ACT</Type>
+	<Data>
+		<Msg frame="1" mode="TALK" msg_id="1451" />
+	</Data>
+</Event>
+<Event ID="10403" comment="Kabal3">
+	<Type>ACT</Type>
+	<Data>
+		<Msg frame="1" mode="TALK" msg_id="1461" />
+		<Msg frame="1" mode="TALK" msg_id="1462" />
+	</Data>
+</Event>
+<Event ID="10404" comment="会話済時カバルとフォンル入替">
+	<Type>ACT</Type>
+	<Data>
+		<If frame="1" negative="true" sfid="1021" jump_evid="0" skip="no" comment="カバル会話済" />
+		<ShowObj frame="1" char_id="1104" show="false" skip="no" />
+		<ShowObj frame="1" char_id="1112" show="true" skip="no" />
+	</Data>
+</Event>
+<Event ID="10501" comment="Hermit1">
+	<Type>ACT</Type>
+	<Data>
+		<Msg frame="1" mode="TALK" msg_id="1551" />
+		<Msg frame="1" mode="TALK" msg_id="1552" />
+	</Data>
+</Event>
+<Event ID="10502" comment="Hermit2">
+	<Type>ACT</Type>
+	<Data>
+		<Msg frame="1" mode="TALK" msg_id="1556" />
+		<Msg frame="1" mode="TALK" msg_id="1557" />
+	</Data>
+</Event>
+<Event ID="10601" comment="Yu1">
+	<Type>ACT</Type>
+	<Data>
+		<If frame="1" jump_evid="10602" situ_flag_c01="1" />
+		<Msg frame="1" mode="TALK" msg_id="1561" />
+	</Data>
+</Event>
+<Event ID="10602" comment="Yu1">
+	<Type>ACT</Type>
+	<Data>
+		<Msg frame="1" mode="TALK" msg_id="1566" />
+	</Data>
+</Event>
+<Event ID="10801" comment="Mari1">
+	<Type>ACT</Type>
+	<Data>
+		<Msg frame="1" mode="TALK" msg_id="1581" />
+		<Msg frame="1" mode="TALK" msg_id="1582" />
+		<Msg frame="1" mode="TALK" msg_id="1583" />
+	</Data>
+</Event>
+<Event ID="10802" comment="Mari2">
+	<Type>ACT</Type>
+	<Data>
+		<Msg frame="1" mode="TALK" msg_id="1585" />
+		<Msg frame="1" mode="TALK" msg_id="1586" />
+	</Data>
+</Event>
+</EventData>

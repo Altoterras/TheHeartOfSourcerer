@@ -1,0 +1,537 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug_Dimz|Win32">
+      <Configuration>Debug_Dimz</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release_Dimz|Win32">
+      <Configuration>Release_Dimz</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>Dimz</ProjectName>
+    <ProjectGuid>{E76AE5C9-EDF8-4457-A584-5CB43202E9F5}</ProjectGuid>
+    <RootNamespace>Dimz</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Dimz|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Dimz|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release_Dimz|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Dimz|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug_Dimz|Win32'">__$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug_Dimz|Win32'">__$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug_Dimz|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release_Dimz|Win32'">__$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release_Dimz|Win32'">__$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release_Dimz|Win32'">false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Dimz|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>.\..\library\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DIMZ;_DEBUG;_VC9EXP;_WINDOWS;WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <StructMemberAlignment>1Byte</StructMemberAlignment>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <PrecompiledHeaderFile>PreCompile.h</PrecompiledHeaderFile>
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <DisableSpecificWarnings>4996; 4819;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <ForcedIncludeFiles>%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>winmm.lib;opengl32.lib;glu32.lib;OpenAL32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)Dimz.exe</OutputFile>
+      <AdditionalLibraryDirectories>C:\Program Files\Microsoft SDKs\Windows\v6.0A\Lib;.\..\library\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>libcd.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)Dimz.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release_Dimz|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.\..\library\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DIMZ;WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4819;</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>winmm.lib;opengl32.lib;glu32.lib;OpenAL32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)Dimz.exe</OutputFile>
+      <AdditionalLibraryDirectories>C:\Program Files\Microsoft SDKs\Windows\v6.0A\Lib;.\..\library\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\dimz\Base.h" />
+    <ClInclude Include="..\..\..\src\dimz\body\DimzBody.h" />
+    <ClInclude Include="..\..\..\src\dimz\body\DimzFixedData.h" />
+    <ClInclude Include="..\..\..\src\dimz\body\DimzFixedStrTbl.h" />
+    <ClInclude Include="..\..\..\src\dimz\debug\DimzTest.h" />
+    <ClInclude Include="..\..\..\src\dimz\file\DimzFileIdDef.h" />
+    <ClInclude Include="..\..\..\src\dimz\gui\DimzFontSet.h" />
+    <ClInclude Include="..\..\..\src\dimz\gui\DimzGui.h" />
+    <ClInclude Include="..\..\..\src\dimz\mode\GameMode.h" />
+    <ClInclude Include="..\..\..\src\dimz\mode\GameModeBase.h" />
+    <ClInclude Include="..\..\..\src\dimz\mode\GameModeParam.h" />
+    <ClInclude Include="..\..\..\src\dimz\particle\DimzParticleSys.h" />
+    <ClInclude Include="..\..\..\src\etk\Base.h" />
+    <ClInclude Include="..\..\..\src\etk\body\BodyFactory.h" />
+    <ClInclude Include="..\..\..\src\etk\body\Env.h" />
+    <ClInclude Include="..\..\..\src\etk\body\EtkBody.h" />
+    <ClInclude Include="..\..\..\src\etk\body\EtkExecCtx.h" />
+    <ClInclude Include="..\..\..\src\etk\body\EtkRenderCtx.h" />
+    <ClInclude Include="..\..\..\src\etk\body\EtkTaskModDef.h" />
+    <ClInclude Include="..\..\..\src\etk\body\OsDepMod.h" />
+    <ClInclude Include="..\..\..\src\etk\camera\EtkCustomCamClass.h" />
+    <ClInclude Include="..\..\..\src\etk\camera\ModelViewCam.h" />
+    <ClInclude Include="..\..\..\src\etk\debug\Test.h" />
+    <ClInclude Include="..\..\..\src\etk\effect\ScreenEffect.h" />
+    <ClInclude Include="..\..\..\src\etk\gui\EtkGui.h" />
+    <ClInclude Include="..\..\..\src\etk\gui\FontSet.h" />
+    <ClInclude Include="..\..\..\src\etk\gui\window\implement\ActionMsgWindow.h" />
+    <ClInclude Include="..\..\..\src\etk\gui\window\implement\SysMsgWindow.h" />
+    <ClInclude Include="..\..\..\src\etk\gui\window\MessageWindow.h" />
+    <ClInclude Include="..\..\..\src\etk\gui\window\Window.h" />
+    <ClInclude Include="..\..\..\src\etk\gui\window\WindowFrame.h" />
+    <ClInclude Include="..\..\..\src\etk\particle\Particle.h" />
+    <ClInclude Include="..\..\..\src\etk\particle\ParticleDef.h" />
+    <ClInclude Include="..\..\..\src\etk\particle\ParticleDefTbl.h" />
+    <ClInclude Include="..\..\..\src\etk\particle\ParticleSys.h" />
+    <ClInclude Include="..\..\..\src\etk\sound\SoundMngr.h" />
+    <ClInclude Include="..\..\..\src\tfw\Base.h" />
+    <ClInclude Include="..\..\..\src\tfw\BaseTypes.h" />
+    <ClInclude Include="..\..\..\src\tfw\g2d\font\FontCharDefData.h" />
+    <ClInclude Include="..\..\..\src\tfw\Tfw.h" />
+    <ClInclude Include="..\..\..\src\tfw\lib\BitFlagArray.h" />
+    <ClInclude Include="..\..\..\src\tfw\lib\Calc.h" />
+    <ClInclude Include="..\..\..\src\tfw\lib\Color.h" />
+    <ClInclude Include="..\..\..\src\tfw\lib\Matrix.h" />
+    <ClInclude Include="..\..\..\src\tfw\lib\MergeSort.h" />
+    <ClInclude Include="..\..\..\src\tfw\lib\Point.h" />
+    <ClInclude Include="..\..\..\src\tfw\lib\QuickSort.h" />
+    <ClInclude Include="..\..\..\src\tfw\lib\Rect.h" />
+    <ClInclude Include="..\..\..\src\tfw\lib\Size.h" />
+    <ClInclude Include="..\..\..\src\tfw\lib\StopWatch.h" />
+    <ClInclude Include="..\..\..\src\tfw\lib\StringTable.h" />
+    <ClInclude Include="..\..\..\src\tfw\lib\TypeUtils.h" />
+    <ClInclude Include="..\..\..\src\tfw\lib\Vector.h" />
+    <ClInclude Include="..\..\..\src\tfw\lib\XmlParser.h" />
+    <ClInclude Include="..\..\..\src\tfw\lib\XmlParserUtils.h" />
+    <ClInclude Include="..\..\..\src\tfw\lib\ZCompress.h" />
+    <ClInclude Include="..\..\..\src\tfw\g3d\CamAnim.h" />
+    <ClInclude Include="..\..\..\src\tfw\g3d\CamAnimFrame.h" />
+    <ClInclude Include="..\..\..\src\tfw\g3d\HrAnim.h" />
+    <ClInclude Include="..\..\..\src\tfw\g3d\HrAnimCtx.h" />
+    <ClInclude Include="..\..\..\src\tfw\g3d\HrAnimObj.h" />
+    <ClInclude Include="..\..\..\src\tfw\g3d\HrAnimObjCtx.h" />
+    <ClInclude Include="..\..\..\src\tfw\g3d\HrAnimObjCtxArray.h" />
+    <ClInclude Include="..\..\..\src\tfw\g3d\HrAnimObjFrame.h" />
+    <ClInclude Include="..\..\..\src\tfw\g3d\HrAnimSet.h" />
+    <ClInclude Include="..\..\..\src\tfw\g3d\HrAnimSetCtx.h" />
+    <ClInclude Include="..\..\..\src\tfw\g3d\Material.h" />
+    <ClInclude Include="..\..\..\src\tfw\g3d\MaterialCtx.h" />
+    <ClInclude Include="..\..\..\src\tfw\g3d\Shape.h" />
+    <ClInclude Include="..\..\..\src\tfw\g3d\ShapeCtx.h" />
+    <ClInclude Include="..\..\..\src\tfw\g3d\sg\SgManager.h" />
+    <ClInclude Include="..\..\..\src\tfw\g3d\sg\node\SgEntity.h" />
+    <ClInclude Include="..\..\..\src\tfw\g3d\sg\node\SgNode.h" />
+    <ClInclude Include="..\..\..\src\tfw\g3d\sg\node\SgNodeChain.h" />
+    <ClInclude Include="..\..\..\src\tfw\g3d\sg\node\SgNodeType.h" />
+    <ClInclude Include="..\..\..\src\tfw\g3d\sg\node\implement\AnimCamera.h" />
+    <ClInclude Include="..\..\..\src\tfw\g3d\sg\node\implement\BillboardModel.h" />
+    <ClInclude Include="..\..\..\src\tfw\g3d\sg\node\implement\Camera.h" />
+    <ClInclude Include="..\..\..\src\tfw\g3d\sg\node\implement\LocAngCamera.h" />
+    <ClInclude Include="..\..\..\src\tfw\g3d\sg\node\implement\LookAtCamera.h" />
+    <ClInclude Include="..\..\..\src\tfw\g3d\sg\node\implement\Model.h" />
+    <ClInclude Include="..\..\..\src\tfw\g3d\sg\node\implement\ModelLoader.h" />
+    <ClInclude Include="..\..\..\src\tfw\g3d\sg\node\implement\ModelLoader_tbf.h" />
+    <ClInclude Include="..\..\..\src\tfw\g3d\sg\node\implement\ShapeModel.h" />
+    <ClInclude Include="..\..\..\src\tfw\framemod\ExecCtx.h" />
+    <ClInclude Include="..\..\..\src\tfw\framemod\ExecRes.h" />
+    <ClInclude Include="..\..\..\src\tfw\framemod\FedTaskSys.h" />
+    <ClInclude Include="..\..\..\src\tfw\framemod\FrameDraw.h" />
+    <ClInclude Include="..\..\..\src\tfw\framemod\FrameExec.h" />
+    <ClInclude Include="..\..\..\src\tfw\framemod\FrameExecDraw.h" />
+    <ClInclude Include="..\..\..\src\tfw\framemod\RenderCtx.h" />
+    <ClInclude Include="..\..\..\src\tfw\ui\Keyboard.h" />
+    <ClInclude Include="..\..\..\src\tfw\ui\Pad.h" />
+    <ClInclude Include="..\..\..\src\tfw\ui\TouchPanel.h" />
+    <ClInclude Include="..\..\..\src\tfw\ui\Ui.h" />
+    <ClInclude Include="..\..\..\src\tfw\smenu\Base.h" />
+    <ClInclude Include="..\..\..\src\tfw\smenu\Menu.h" />
+    <ClInclude Include="..\..\..\src\tfw\smenu\MenuExecRes.h" />
+    <ClInclude Include="..\..\..\src\tfw\smenu\MenuFuncTable.h" />
+    <ClInclude Include="..\..\..\src\tfw\smenu\MenuPanelFactory.h" />
+    <ClInclude Include="..\..\..\src\tfw\smenu\MenuPanelReceptor.h" />
+    <ClInclude Include="..\..\..\src\tfw\smenu\MenuTreeNode.h" />
+    <ClInclude Include="..\..\..\src\tfw\gui\BasicScrollBar.h" />
+    <ClInclude Include="..\..\..\src\tfw\gui\Panel.h" />
+    <ClInclude Include="..\..\..\src\tfw\gui\PanelBase.h" />
+    <ClInclude Include="..\..\..\src\tfw\gui\PanelText.h" />
+    <ClInclude Include="..\..\..\src\tfw\gui\txtbox\TxtBox.h" />
+    <ClInclude Include="..\..\..\src\tfw\gui\txtbox\TxtBoxExecRes.h" />
+    <ClInclude Include="..\..\..\src\tfw\g2d\StringDrawer.h" />
+    <ClInclude Include="..\..\..\src\tfw\g2d\TiledRectDraw.h" />
+    <ClInclude Include="..\..\..\src\tfw\g2d\font\Font.h" />
+    <ClInclude Include="..\..\..\src\tfw\g2d\font\ProportionalFontData.h" />
+    <ClInclude Include="..\..\..\src\tfw\g2d\font\implement\BitmapFontAscii.h" />
+    <ClInclude Include="..\..\..\src\tfw\g2d\font\implement\BitmapFontMultiByte.h" />
+    <ClInclude Include="..\..\..\src\tfw\g2d\font\implement\OsFont.h" />
+    <ClInclude Include="..\..\..\src\tfw\gcmn\EasyStringDrawer.h" />
+    <ClInclude Include="..\..\..\src\tfw\gcmn\Gcalc.h" />
+    <ClInclude Include="..\..\..\src\tfw\gcmn\Renderer.h" />
+    <ClInclude Include="..\..\..\src\tfw\gcmn\RendererUtils.h" />
+    <ClInclude Include="..\..\..\src\tfw\gcmn\TexAnim.h" />
+    <ClInclude Include="..\..\..\src\tfw\gcmn\TexAnimCtx.h" />
+    <ClInclude Include="..\..\..\src\tfw\gcmn\Texture.h" />
+    <ClInclude Include="..\..\..\src\tfw\gcmn\TextureCtx.h" />
+    <ClInclude Include="..\..\..\src\tfw\gcmn\View.h" />
+    <ClInclude Include="..\..\..\src\tfw\modemng\Mode.h" />
+    <ClInclude Include="..\..\..\src\tfw\modemng\Role.h" />
+    <ClInclude Include="..\..\..\src\tfw\collision\Gcol.h" />
+    <ClInclude Include="..\..\..\src\tfw\common\IdManager.h" />
+    <ClInclude Include="..\..\..\src\tfw\common\PerformanceMeter.h" />
+    <ClInclude Include="..\..\..\src\tfw\common\ResourcePool.h" />
+    <ClInclude Include="..\..\..\src\tfw\tbf\TbfDefine.h" />
+    <ClInclude Include="..\..\..\src\tfw\tbf\TbmbManip.h" />
+    <ClInclude Include="..\..\..\src\tfw\file\File.h" />
+    <ClInclude Include="..\..\..\src\tfw\file\FileBase.h" />
+    <ClInclude Include="..\..\..\src\tfw\file\FileSerializer.h" />
+    <ClInclude Include="..\..\..\src\tfw\file\IdFile.h" />
+    <ClInclude Include="..\..\..\src\tfw\file\MemoryFile.h" />
+    <ClInclude Include="..\..\..\src\tfw\file\PackedIdFile.h" />
+    <ClInclude Include="..\..\..\src\tfw\collection\Array.h" />
+    <ClInclude Include="..\..\..\src\tfw\collection\ArrayBase.h" />
+    <ClInclude Include="..\..\..\src\tfw\collection\InsArray.h" />
+    <ClInclude Include="..\..\..\src\tfw\collection\InsList.h" />
+    <ClInclude Include="..\..\..\src\tfw\collection\List.h" />
+    <ClInclude Include="..\..\..\src\tfw\collection\ListBase.h" />
+    <ClInclude Include="..\..\..\src\tfw\collection\Tree.h" />
+    <ClInclude Include="..\..\..\src\tfw\string\CcString.h" />
+    <ClInclude Include="..\..\..\src\tfw\string\CvString.h" />
+    <ClInclude Include="..\..\..\src\tfw\string\CvStringArray.h" />
+    <ClInclude Include="..\..\..\src\tfw\string\StringBase.h" />
+    <ClInclude Include="..\..\..\src\tfw\string\StringUtils.h" />
+    <ClInclude Include="..\..\..\src\tfw\string\txt\Txt.h" />
+    <ClInclude Include="..\..\..\src\tfw\string\txt\TxtChar.h" />
+    <ClInclude Include="..\..\..\src\tfw\string\txt\TxtDef.h" />
+    <ClInclude Include="..\..\..\src\tfw\string\txt\TxtIterator.h" />
+    <ClInclude Include="..\..\..\src\tfw\string\txt\TxtPos.h" />
+    <ClInclude Include="..\..\..\src\tfw\string\txt\TxtPosArray.h" />
+    <ClInclude Include="..\..\..\src\tfw\string\txt\TxtUtils.h" />
+    <ClInclude Include="..\..\..\src\tfw\string\txt\TxtUtilsIos.h" />
+    <ClInclude Include="..\..\..\src\tfw\string\txt\implement\AsciiTxt.h" />
+    <ClInclude Include="..\..\..\src\tfw\string\txt\implement\SjisTxt.h" />
+    <ClInclude Include="..\..\..\src\tfw\string\txt\implement\Utf8Txt.h" />
+    <ClInclude Include="..\..\..\src\tfw\image\BmpImg.h" />
+    <ClInclude Include="..\..\..\src\tfw\image\ImageBase.h" />
+    <ClInclude Include="..\..\..\src\tfw\image\PngImg.h" />
+    <ClInclude Include="..\..\..\src\tfw\image\PvrtcImg.h" />
+    <ClInclude Include="..\..\..\src\tfw\image\TgaImg.h" />
+    <ClInclude Include="..\..\..\src\tfw\sound\CafWav.h" />
+    <ClInclude Include="..\..\..\src\tfw\sound\Music.h" />
+    <ClInclude Include="..\..\..\src\tfw\sound\OpenAl.h" />
+    <ClInclude Include="..\..\..\src\tfw\sound\RiffWav.h" />
+    <ClInclude Include="..\..\..\src\tfw\sound\Se.h" />
+    <ClInclude Include="..\..\..\src\tfw\sound\Sound.h" />
+    <ClInclude Include="..\..\..\src\tfw\sound\Wave.h" />
+    <ClInclude Include="..\..\..\src\tfw\sound\WaveFormat.h" />
+    <ClInclude Include="..\..\..\src\tfw\hash\HashEntry.h" />
+    <ClInclude Include="..\..\..\src\tfw\hash\HashOp.h" />
+    <ClInclude Include="..\..\..\src\tfw\hash\HashTable.h" />
+    <ClInclude Include="..\..\..\src\tfw\hash\StringHashEntry.h" />
+    <ClInclude Include="..\..\..\src\tfw\hash\StringHashOp.h" />
+    <ClInclude Include="..\..\..\src\tfw\debug\ScreenTrace.h" />
+    <ClInclude Include="..\..\..\src\tfw\debug\TfwDebug.h" />
+    <ClInclude Include="..\..\..\src\tfw\extlib\zlib\crc32.h" />
+    <ClInclude Include="..\..\..\src\tfw\extlib\zlib\deflate.h" />
+    <ClInclude Include="..\..\..\src\tfw\extlib\zlib\inffast.h" />
+    <ClInclude Include="..\..\..\src\tfw\extlib\zlib\inffixed.h" />
+    <ClInclude Include="..\..\..\src\tfw\extlib\zlib\inflate.h" />
+    <ClInclude Include="..\..\..\src\tfw\extlib\zlib\inftrees.h" />
+    <ClInclude Include="..\..\..\src\tfw\extlib\zlib\trees.h" />
+    <ClInclude Include="..\..\..\src\tfw\extlib\zlib\zconf.h" />
+    <ClInclude Include="..\..\..\src\tfw\extlib\zlib\zlib.h" />
+    <ClInclude Include="..\..\..\src\tfw\extlib\zlib\zutil.h" />
+    <ClInclude Include="..\..\..\src\tfw\extlib\lpng\png.h" />
+    <ClInclude Include="..\..\..\src\tfw\extlib\lpng\pngconf.h" />
+    <ClInclude Include="..\..\..\src\tfw\extlib\lpng\pngpriv.h" />
+    <ClInclude Include="..\..\..\src\tfw\serialize\SerializeBase.h" />
+    <ClInclude Include="..\..\..\src\tfw\serialize\Serializer.h" />
+    <ClInclude Include="..\..\..\src\tfw\evsys\EvCause.h" />
+    <ClInclude Include="..\..\..\src\tfw\evsys\EvData.h" />
+    <ClInclude Include="..\..\..\src\tfw\evsys\EvMatter.h" />
+    <ClInclude Include="..\..\..\src\tfw\evsys\EvMatterCreateParam.h" />
+    <ClInclude Include="..\..\..\src\tfw\evsys\EvMatterFactory.h" />
+    <ClInclude Include="..\..\..\src\tfw\evsys\EvSys.h" />
+    <ClInclude Include="..\..\..\src\tfw\evsys\MsgData.h" />
+    <ClInclude Include="..\..\..\src\tfw\evsys\MsgDataSet.h" />
+    <ClInclude Include="..\..\..\src\tfw\evsys\OverrideEvMatter.h" />
+    <ClInclude Include="..\..\..\src\windows\App.h" />
+    <ClInclude Include="..\..\..\src\windows\BasicInclude.h" />
+    <ClInclude Include="..\..\..\src\windows\DebugWin.h" />
+    <ClInclude Include="..\..\..\src\windows\MainWindow.h" />
+    <ClInclude Include="..\..\..\src\windows\OsDepModWin.h" />
+    <ClInclude Include="..\..\..\src\windows\RenderSystem.h" />
+    <ClInclude Include="..\..\..\src\windows\Resource.h" />
+    <ClInclude Include="..\..\..\src\windows\StopWatch.h" />
+    <ClInclude Include="..\library\include\al.h" />
+    <ClInclude Include="..\library\include\alc.h" />
+    <ClInclude Include="..\library\include\glext.h" />
+    <ClInclude Include="..\..\..\src\sourcerer\Base.h" />
+    <ClInclude Include="..\..\..\src\sourcerer\sg\BinaryTransparentBgSgnc.h" />
+    <ClInclude Include="..\..\..\src\sourcerer\sg\CamSgnc.h" />
+    <ClInclude Include="..\..\..\src\sourcerer\sg\ModelEffectSgnc.h" />
+    <ClInclude Include="..\..\..\src\sourcerer\sg\OpacityBgNoFogSgnc.h" />
+    <ClInclude Include="..\..\..\src\sourcerer\sg\OpacityBgSgnc.h" />
+    <ClInclude Include="..\..\..\src\sourcerer\sg\ParticleEffectSgnc.h" />
+    <ClInclude Include="..\..\..\src\sourcerer\sg\SorSgm.h" />
+    <ClInclude Include="..\..\..\src\sourcerer\sg\TbfDefineEx.h" />
+    <ClInclude Include="..\..\..\src\sourcerer\sg\TranslucentBgSgnc.h" />
+    <ClInclude Include="..\..\..\src\sourcerer\sg\ZsortModelNoFogSgnc.h" />
+    <ClInclude Include="..\..\..\src\sourcerer\sg\ZsortModelSgnc.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\dimz\body\DimzBody.cpp" />
+    <ClCompile Include="..\..\..\src\dimz\body\DimzFixedData.cpp" />
+    <ClCompile Include="..\..\..\src\dimz\debug\DimzTest.cpp" />
+    <ClCompile Include="..\..\..\src\dimz\file\DimzFileIdDef.cpp" />
+    <ClCompile Include="..\..\..\src\dimz\gui\DimzFontSet.cpp" />
+    <ClCompile Include="..\..\..\src\dimz\gui\DimzGui.cpp" />
+    <ClCompile Include="..\..\..\src\dimz\mode\GameMode.cpp" />
+    <ClCompile Include="..\..\..\src\dimz\mode\GameModeBase.cpp" />
+    <ClCompile Include="..\..\..\src\dimz\particle\DimzParticleSys.cpp" />
+    <ClCompile Include="..\..\..\src\etk\body\BodyFactory.cpp" />
+    <ClCompile Include="..\..\..\src\etk\body\Env.cpp" />
+    <ClCompile Include="..\..\..\src\etk\body\EtkBody.cpp" />
+    <ClCompile Include="..\..\..\src\etk\body\EtkExecCtx.cpp" />
+    <ClCompile Include="..\..\..\src\etk\body\EtkRenderCtx.cpp" />
+    <ClCompile Include="..\..\..\src\etk\body\OsDepMod.cpp" />
+    <ClCompile Include="..\..\..\src\etk\camera\ModelViewCam.cpp" />
+    <ClCompile Include="..\..\..\src\etk\debug\Test.cpp" />
+    <ClCompile Include="..\..\..\src\etk\effect\ScreenEffect.cpp" />
+    <ClCompile Include="..\..\..\src\etk\gui\EtkGui.cpp" />
+    <ClCompile Include="..\..\..\src\etk\gui\FontSet.cpp" />
+    <ClCompile Include="..\..\..\src\etk\gui\window\implement\ActionMsgWindow.cpp" />
+    <ClCompile Include="..\..\..\src\etk\gui\window\implement\SysMsgWindow.cpp" />
+    <ClCompile Include="..\..\..\src\etk\gui\window\MessageWindow.cpp" />
+    <ClCompile Include="..\..\..\src\etk\gui\window\Window.cpp" />
+    <ClCompile Include="..\..\..\src\etk\gui\window\WindowFrame.cpp" />
+    <ClCompile Include="..\..\..\src\etk\particle\Particle.cpp" />
+    <ClCompile Include="..\..\..\src\etk\particle\ParticleDef.cpp" />
+    <ClCompile Include="..\..\..\src\etk\particle\ParticleDefTbl.cpp" />
+    <ClCompile Include="..\..\..\src\etk\particle\ParticleSys.cpp" />
+    <ClCompile Include="..\..\..\src\etk\sound\SoundMngr.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\g2d\font\FontCharDefData.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\Tfw.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\lib\BitFlagArray.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\lib\Matrix.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\lib\MergeSort.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\lib\QuickSort.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\lib\StringTable.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\lib\TypeUtils.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\lib\XmlParser.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\lib\XmlParserUtils.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\lib\ZCompress.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\g3d\CamAnim.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\g3d\CamAnimFrame.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\g3d\HrAnim.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\g3d\HrAnimCtx.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\g3d\HrAnimObj.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\g3d\HrAnimObjCtx.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\g3d\HrAnimObjCtxArray.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\g3d\HrAnimObjFrame.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\g3d\HrAnimSet.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\g3d\HrAnimSetCtx.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\g3d\Material.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\g3d\MaterialCtx.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\g3d\Shape.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\g3d\ShapeCtx.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\g3d\sg\SgManager.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\g3d\sg\node\SgEntity.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\g3d\sg\node\SgNode.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\g3d\sg\node\SgNodeChain.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\g3d\sg\node\implement\AnimCamera.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\g3d\sg\node\implement\BillboardModel.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\g3d\sg\node\implement\Camera.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\g3d\sg\node\implement\LocAngCamera.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\g3d\sg\node\implement\LookAtCamera.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\g3d\sg\node\implement\Model.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\g3d\sg\node\implement\ModelLoader.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\g3d\sg\node\implement\ModelLoader_tbf.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\g3d\sg\node\implement\ShapeModel.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\framemod\FedTaskSys.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\ui\Keyboard.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\ui\Pad.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\ui\TouchPanel.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\ui\Ui.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\smenu\Menu.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\smenu\MenuPanelReceptor.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\smenu\MenuTreeNode.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\gui\BasicScrollBar.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\gui\Panel.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\gui\PanelText.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\gui\txtbox\TxtBox.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\g2d\StringDrawer.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\g2d\TiledRectDraw.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\g2d\font\Font.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\g2d\font\implement\BitmapFontAscii.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\g2d\font\implement\BitmapFontMultiByte.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\g2d\font\implement\OsFont.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\gcmn\EasyStringDrawer.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\gcmn\Gcalc.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\gcmn\Renderer.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\gcmn\RendererUtils.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\gcmn\TexAnim.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\gcmn\TexAnimCtx.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\gcmn\Texture.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\gcmn\TextureCtx.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\gcmn\View.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\modemng\Mode.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\modemng\Role.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\collision\Gcol.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\common\IdManager.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\common\PerformanceMeter.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\common\ResourcePool.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\tbf\TbmbManip.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\file\File.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\file\FileSerializer.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\file\IdFile.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\file\MemoryFile.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\file\PackedIdFile.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\string\CcString.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\string\CvString.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\string\CvStringArray.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\string\StringUtils.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\string\txt\Txt.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\string\txt\TxtChar.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\string\txt\TxtIterator.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\string\txt\TxtPos.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\string\txt\TxtPosArray.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\string\txt\TxtUtils.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\string\txt\implement\AsciiTxt.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\string\txt\implement\SjisTxt.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\string\txt\implement\Utf8Txt.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\image\BmpImg.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\image\PngImg.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\image\PvrtcImg.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\image\TgaImg.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\sound\CafWav.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\sound\Music.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\sound\OpenAl.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\sound\RiffWav.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\sound\Se.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\sound\Sound.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\sound\Wave.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\hash\HashEntry.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\hash\HashTable.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\hash\StringHashOp.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\debug\ScreenTrace.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\debug\TfwDebug.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\extlib\zlib\adler32.c" />
+    <ClCompile Include="..\..\..\src\tfw\extlib\zlib\compress.c" />
+    <ClCompile Include="..\..\..\src\tfw\extlib\zlib\crc32.c" />
+    <ClCompile Include="..\..\..\src\tfw\extlib\zlib\deflate.c" />
+    <ClCompile Include="..\..\..\src\tfw\extlib\zlib\inffast.c" />
+    <ClCompile Include="..\..\..\src\tfw\extlib\zlib\inflate.c" />
+    <ClCompile Include="..\..\..\src\tfw\extlib\zlib\inftrees.c" />
+    <ClCompile Include="..\..\..\src\tfw\extlib\zlib\trees.c" />
+    <ClCompile Include="..\..\..\src\tfw\extlib\zlib\uncompr.c" />
+    <ClCompile Include="..\..\..\src\tfw\extlib\zlib\zutil.c" />
+    <ClCompile Include="..\..\..\src\tfw\extlib\lpng\png.c" />
+    <ClCompile Include="..\..\..\src\tfw\extlib\lpng\pngerror.c" />
+    <ClCompile Include="..\..\..\src\tfw\extlib\lpng\pngget.c" />
+    <ClCompile Include="..\..\..\src\tfw\extlib\lpng\pngmem.c" />
+    <ClCompile Include="..\..\..\src\tfw\extlib\lpng\pngread.c" />
+    <ClCompile Include="..\..\..\src\tfw\extlib\lpng\pngrio.c" />
+    <ClCompile Include="..\..\..\src\tfw\extlib\lpng\pngrtran.c" />
+    <ClCompile Include="..\..\..\src\tfw\extlib\lpng\pngrutil.c" />
+    <ClCompile Include="..\..\..\src\tfw\extlib\lpng\pngset.c" />
+    <ClCompile Include="..\..\..\src\tfw\extlib\lpng\pngtrans.c" />
+    <ClCompile Include="..\..\..\src\tfw\extlib\lpng\pngwio.c" />
+    <ClCompile Include="..\..\..\src\tfw\extlib\lpng\pngwrite.c" />
+    <ClCompile Include="..\..\..\src\tfw\extlib\lpng\pngwtran.c" />
+    <ClCompile Include="..\..\..\src\tfw\extlib\lpng\pngwutil.c" />
+    <ClCompile Include="..\..\..\src\tfw\serialize\Serializer.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\evsys\EvData.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\evsys\EvMatter.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\evsys\EvSys.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\evsys\MsgData.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\evsys\MsgDataSet.cpp" />
+    <ClCompile Include="..\..\..\src\tfw\evsys\OverrideEvMatter.cpp" />
+    <ClCompile Include="..\..\..\src\windows\App.cpp" />
+    <ClCompile Include="..\..\..\src\windows\DebugWin.cpp" />
+    <ClCompile Include="..\..\..\src\windows\MainWindow.cpp" />
+    <ClCompile Include="..\..\..\src\windows\OsDepModWin.cpp" />
+    <ClCompile Include="..\..\..\src\windows\RenderSystem.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_Dimz|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\windows\StopWatch.cpp" />
+    <ClCompile Include="..\library\src\glext.cpp" />
+    <ClCompile Include="..\..\..\src\sourcerer\sg\BinaryTransparentBgSgnc.cpp" />
+    <ClCompile Include="..\..\..\src\sourcerer\sg\CamSgnc.cpp" />
+    <ClCompile Include="..\..\..\src\sourcerer\sg\ModelEffectSgnc.cpp" />
+    <ClCompile Include="..\..\..\src\sourcerer\sg\OpacityBgNoFogSgnc.cpp" />
+    <ClCompile Include="..\..\..\src\sourcerer\sg\OpacityBgSgnc.cpp" />
+    <ClCompile Include="..\..\..\src\sourcerer\sg\ParticleEffectSgnc.cpp" />
+    <ClCompile Include="..\..\..\src\sourcerer\sg\SorSgm.cpp" />
+    <ClCompile Include="..\..\..\src\sourcerer\sg\TranslucentBgSgnc.cpp" />
+    <ClCompile Include="..\..\..\src\sourcerer\sg\ZsortModelNoFogSgnc.cpp" />
+    <ClCompile Include="..\..\..\src\sourcerer\sg\ZsortModelSgnc.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\src\tfw\string\txt\TxtUtilsIos.mm" />
+    <None Include="resources\Dimz.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resources\Dimz.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

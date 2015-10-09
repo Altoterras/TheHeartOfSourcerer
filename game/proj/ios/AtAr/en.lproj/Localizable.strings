@@ -1,0 +1,18 @@
+/* 
+  Localizable.strings
+  atar
+
+  Created by 岸 亮太郎 on 2013/06/17.
+  Copyright (c) 2013年 Ryoutarou Kishi. All rights reserved.
+*/
+
+"server_dir" = "pancrase/";
+"msg_retry_material_download" = "Retry?";
+"button_start" = "Start!";
+"button_help" = "How to use";
+"button_getmarker" = "Get marker";
+"button_gosupport" = "Support";
+"button_cancel" = "Cancel";
+"button_retry" = "Retry";
+"button_back" = "Back";
+"button_more_view" = "More";

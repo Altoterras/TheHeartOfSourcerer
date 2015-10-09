@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<EventData>
+<Event ID="999">
+	<Type>MAPCONF</Type>
+	<Data>
+		<MapKind>Field</MapKind>
+		<MoveMap1>10221</MoveMap1>
+		<MoveMap2>19101</MoveMap2>
+		<MoveMap3>10302</MoveMap3>
+		<MoveMap4>19101</MoveMap4>
+		<BgmId>106</BgmId>
+		<Fog mode="linear" start="10000.0" end="100000.0" color="0.61, 0.91, 1.00, 1.00" />
+		<EleneEff cql="551,611,602,315,1000" nql="547,610,596,307,1000" />
+		<PlaceObj kind="enemy" char_id="1506" pos="-1799.0, 315.0, 424.0" rand_pos_r="100.0" rand="60" walk_speed="1.0" />
+		<PlaceObj kind="enemy" char_id="1506" pos="1055.0, 350.0, 242.0" rand_pos_r="100.0" rand="75" walk_speed="1.0" />
+		<PlaceObj kind="enemy" char_id="1506" pos="-1875.0, 280.0, 1766.0" rand_pos_r="500.0" rand="75" walk_speed="1.0" />
+		<PlaceObj kind="enemy" char_id="1506" pos="1397.0, 280.0, 1685.0" rand_pos_r="500.0" rand="55" walk_speed="1.0" />
+		<PlaceObj kind="enemy" char_id="1506" pos="-1500.0, 280.0, 1766.0" rand_pos_r="300.0" rand="75" walk_speed="1.0" />
+		<PlaceObj kind="enemy" char_id="1506" pos="1132.0, 280.0, 1685.0" rand_pos_r="300.0" rand="80" walk_speed="1.0" />
+		<PlaceObj kind="enemy" char_id="1506" pos="-1000.0, 280.0, 1766.0" rand_pos_r="200.0" rand="65" walk_speed="1.0" />
+		<PlaceObj kind="enemy" char_id="1506" pos="1000.0, 280.0, 1685.0" rand_pos_r="200.0" rand="77" walk_speed="1.0" />
+		<PlaceObj kind="enemy" char_id="1506" pos="-440.0, 280.0, 2200.0" rand_pos_r="200.0" rand="50" walk_speed="1.0" />
+		<PlaceObj kind="enemy" char_id="1506" pos="650.0, 280.0, 1685.0" rand_pos_r="200.0" rand="50" walk_speed="1.0" />
+		<PlaceObj kind="puitem" item_id="3002" pos="-800.0, 330.0, 200.0" rand_pos_r="20.0" rand="80" comment="温草" />
+		<PlaceObj kind="puitem" item_id="3019" pos="-1700.0, 320.0, 600.0" rand_pos_r="50.0" rand="50" comment="水草" />
+		<PlaceObj kind="puitem" item_id="3019" pos="1600.0, 300.0, 500.0" rand_pos_r="50.0" rand="50" comment="水草" />
+		<PlaceObj kind="puitem" item_id="3002" pos="700.0, 370.0, 200.0" rand_pos_r="100.0" rand="50" comment="緑草" />
+		<PlaceObj kind="puitem" item_id="3019" pos="760.0, 280.0, 1400.0" rand_pos_r="50.0" rand="35" comment="水草" />
+		<PlaceObj kind="puitem" item_id="3019" pos="1800.0, 280.0, 1500.0" rand_pos_r="50.0" rand="50" comment="水草" />
+		<PlaceObj kind="puitem" item_id="3002" pos="1450.0, 280.0, 1800.0" rand_pos_r="100.0" rand="50" comment="緑草" />
+		<PlaceObj kind="puitem" item_id="3019" pos="-1100.0, 280.0, 1400.0" rand_pos_r="50.0" rand="35" comment="水草" />
+		<PlaceObj kind="puitem" item_id="3002" pos="-1400.0, 280.0, 1600.0" rand_pos_r="100.0" rand="50" comment="緑草" />
+		<PlaceObj kind="puitem" item_id="3019" pos="-1800.0, 280.0, 1500.0" rand_pos_r="50.0" rand="35" comment="水草" />
+	</Data>
+</Event>
+</EventData>

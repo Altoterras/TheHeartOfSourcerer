@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<EventData>
+<Event ID="999">
+	<Type>MAPCONF</Type>
+	<Data>
+		<MapKind>Field</MapKind>
+		<MoveMap1>19101</MoveMap1>
+		<MoveMap2>10222</MoveMap2>
+		<MoveMap3>10203</MoveMap3>
+		<MoveMap4>10202</MoveMap4>
+		<BgmId>103</BgmId>
+		<Fog mode="linear" start="6000.0" end="60000.0" color="0.61, 0.91, 1.00, 1.00" />
+		<EleneEff cql="703,707,800,698,1000" nql="703,707,800,698,1000" />
+		<PlaceObj kind="extra" char_id="1205" pos="1430.0f, 0.0f, 1180.0f" pos_evid="" call_evid="101" walk_speed="2.0" />
+		<PlaceObj kind="puitem" item_id="2004" pos="-1240.0f, 0.0f, 1650.0f" rand_pos_r="300.0f" rand="45" comment="赤石" />
+		<PlaceObj kind="puitem" item_id="3024" pos="300.0, 0.0, 1600.0" rand_pos_r="300.0" rand="30" comment="癒し草" />
+		<PlaceObj kind="puitem" item_id="3024" pos="-2000.0, 0.0, 1000.0" rand_pos_r="300.0" rand="35" comment="癒し草" />
+	</Data>
+</Event>
+<Event ID="101">
+	<Type>ACT</Type>
+	<Data>
+		<Msg frame="1" mode="TALK" msg_id="101" />
+		<If frame="1" jump_evid="0" situ_flag_c01="1" />
+		<Msg frame="1" mode="TALK" msg_id="111" />
+		<Msg frame="1" mode="TALK" msg_id="112" />
+		<Msg frame="1" mode="TALK" msg_id="113" />
+		<Msg frame="1" mode="TALK" msg_id="114" />
+		<Msg frame="1" mode="TALK" msg_id="115" />
+	</Data>
+</Event>
+</EventData>

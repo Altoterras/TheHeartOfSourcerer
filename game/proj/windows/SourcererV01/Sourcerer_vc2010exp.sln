@@ -1,0 +1,28 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sourcerer", "Sourcerer_vc2010exp.vcxproj", "{E76AE5C9-EDF8-4457-A584-5CB43202E9F5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Deblug_Puzzle|Win32 = Deblug_Puzzle|Win32
+		Debug_V01|Win32 = Debug_V01|Win32
+		Debug_V01Lite|Win32 = Debug_V01Lite|Win32
+		Debug_V02|Win32 = Debug_V02|Win32
+		Release_V01|Win32 = Release_V01|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E76AE5C9-EDF8-4457-A584-5CB43202E9F5}.Deblug_Puzzle|Win32.ActiveCfg = Deblug_Puzzle|Win32
+		{E76AE5C9-EDF8-4457-A584-5CB43202E9F5}.Deblug_Puzzle|Win32.Build.0 = Deblug_Puzzle|Win32
+		{E76AE5C9-EDF8-4457-A584-5CB43202E9F5}.Debug_V01|Win32.ActiveCfg = Debug_V01|Win32
+		{E76AE5C9-EDF8-4457-A584-5CB43202E9F5}.Debug_V01|Win32.Build.0 = Debug_V01|Win32
+		{E76AE5C9-EDF8-4457-A584-5CB43202E9F5}.Debug_V01Lite|Win32.ActiveCfg = Debug_V01Lite|Win32
+		{E76AE5C9-EDF8-4457-A584-5CB43202E9F5}.Debug_V01Lite|Win32.Build.0 = Debug_V01Lite|Win32
+		{E76AE5C9-EDF8-4457-A584-5CB43202E9F5}.Debug_V02|Win32.ActiveCfg = Debug_V02|Win32
+		{E76AE5C9-EDF8-4457-A584-5CB43202E9F5}.Debug_V02|Win32.Build.0 = Debug_V02|Win32
+		{E76AE5C9-EDF8-4457-A584-5CB43202E9F5}.Release_V01|Win32.ActiveCfg = Release_V01|Win32
+		{E76AE5C9-EDF8-4457-A584-5CB43202E9F5}.Release_V01|Win32.Build.0 = Release_V01|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

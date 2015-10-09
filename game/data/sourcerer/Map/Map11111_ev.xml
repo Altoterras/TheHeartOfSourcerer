@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<EventData>
+<Event ID="999">
+	<Type>MAPCONF</Type>
+	<Data>
+		<MapKind>Field</MapKind>
+		<MoveMap1>11102</MoveMap1>
+		<MoveMap2>19101</MoveMap2>
+		<MoveMap3>11114</MoveMap3>
+		<MoveMap4>19101</MoveMap4>
+		<BgmId>106</BgmId>
+		<Fog mode="linear" start="6000.0" end="16000.0" color="0.067, 0.161, 0.114, 1.0" />
+		<EleneEff cql="561,772,452,303,1000" nql="555,767,447,299,1000" />
+		<PlaceObj kind="enemy" char_id="1501" pos="1314, 0, -2853" rand_pos_r="300.0" rand="78" walk_speed="1.0" />
+		<PlaceObj kind="enemy" char_id="1501" pos="1800, 0, -3620" rand_pos_r="300.0" rand="68" walk_speed="1.0" />
+		<PlaceObj kind="enemy" char_id="1501" pos="2260, 0, -2200" rand_pos_r="300.0" rand="72" walk_speed="1.0" />
+		<PlaceObj kind="enemy" char_id="1501" pos="2670, 0, -2700" rand_pos_r="300.0" rand="71" walk_speed="1.0" />
+		<PlaceObj kind="enemy" char_id="1501" pos="2730, 0, -1437" rand_pos_r="300.0" rand="58" walk_speed="1.0" />
+		<PlaceObj kind="enemy" char_id="1501" pos="3730, 0, -1914" rand_pos_r="300.0" rand="47" walk_speed="1.0" />
+		<PlaceObj kind="puitem" item_id="3014" pos="2600.0, 0.0, -2700.0" rand_pos_r="50.0" rand="10" comment="桃草" />
+		<PlaceObj kind="puitem" item_id="3014" pos="2400.0, 0.0, -2100.0" rand_pos_r="50.0" rand="10" comment="桃草" />
+		<PlaceObj kind="puitem" item_id="3001" pos="1200.0, 0.0, -3500.0" rand_pos_r="50.0" rand="40" comment="本草" />
+		<PlaceObj kind="puitem" item_id="3001" pos="3700.0, 0.0, -3400.0" rand_pos_r="50.0" rand="35" comment="本草" />
+		<PlaceObj kind="puitem" item_id="3001" pos="3700.0, 0.0, -1600.0" rand_pos_r="50.0" rand="40" comment="本草" />
+	</Data>
+</Event>
+</EventData>

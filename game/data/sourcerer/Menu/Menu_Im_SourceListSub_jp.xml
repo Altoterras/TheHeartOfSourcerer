@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<Menu>
+	<Node>
+		いちらん
+		<Function MenuClose="yes">
+			Show
+		</Function>
+	</Node>
+	<Node>
+		並び替える
+		<Function MenuClose="yes">
+			Sort
+		</Function>
+	</Node>
+	<Node>
+		複製
+		<Function MenuClose="yes">
+			Clone
+		</Function>
+	</Node>
+	<Node>
+		編集
+		<Function MenuClose="yes">
+			Edit
+		</Function>
+	</Node>
+	<Node>
+		JSに変換
+		<Function MenuClose="yes">
+			ConvToJs
+		</Function>
+	</Node>
+	<Node>
+		SSに変換
+		<Function MenuClose="yes">
+			ConvToSs
+		</Function>
+	</Node>
+	<Node>
+		削除
+		<Function MenuClose="yes">
+			Delete
+		</Function>
+	</Node>
+</Menu>

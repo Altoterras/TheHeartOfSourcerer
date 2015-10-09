@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<EventData>
+<Event ID="999">
+	<Type>MAPCONF</Type>
+	<Data>
+		<MoveMap1>19101</MoveMap1>
+		<MoveMap2>19101</MoveMap2>
+		<MoveMap3>19101</MoveMap3>
+		<MoveMap4>19101</MoveMap4>
+		<BgmId>106</BgmId>
+		<Fog mode="linear" start="8000.0" end="20000.0" color="0.6, 0.75, 1.0, 0.2" />
+		<PlaceObj kind="mapobj" char_id="1811" pos="1300.0f, 0.0f, -60.0f" />
+		<PlaceObj kind="mapobj" char_id="1812" pos="900.0f, 0.0f, -60.0f" />
+	</Data>
+</Event>
+</EventData>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<Menu>
+	<Node ID="101">
+		中断データからゲーム再開
+		<Function MenuClose="yes">
+			ResumeGame
+		</Function>
+	</Node>
+	<Node ID="201">
+		ロードゲーム
+		<Node ID="211">
+			セーブファイル１
+			<Function MenuClose="yes">
+				LoadGame01
+			</Function>
+		</Node>
+		<Node ID="212">
+			セーブファイル２
+			<Function MenuClose="yes">
+				LoadGame02
+			</Function>
+		</Node>
+	</Node>
+	<Node>
+		ニューゲーム
+		<Node ID="311">
+			最初から
+			<Function MenuClose="yes">
+				NewGame
+			</Function>
+		</Node>
+		<Node ID="312">
+			セーブファイル１からやり直す
+			<Function MenuClose="yes">
+				RestartGame01
+			</Function>
+		</Node>
+		<Node ID="313">
+			セーブファイル２からやり直す
+			<Function MenuClose="yes">
+				RestartGame02
+			</Function>
+		</Node>
+	</Node>
+	<Node>
+		コンフィグ (Config)
+		<!--
+		<Node>
+			画面の向き
+			<Node ID="431">
+				　右ランドスケープ
+				<Function MenuClose="no">
+					Scr_Orien_M90
+				</Function>
+			</Node>
+			<Node ID="432">
+				　左ランドスケープ
+				<Function MenuClose="no">
+					Scr_Orien_P90
+				</Function>
+			</Node>
+		</Node>
+		-->
+		<Node>
+			言語 (Language)
+			<Node ID="421">
+				　English
+				<Function MenuClose="no">
+					Language_English
+				</Function>
+			</Node>
+			<Node ID="422">
+				　日本語
+				<Function MenuClose="no">
+					Language_Japanese
+				</Function>
+			</Node>
+		</Node>
+		<!--
+		<Node>
+			イベントメッセージ
+			<Node ID="441">
+				　ウェイト
+				<Function MenuClose="no">
+					SayMsg_Pause
+				</Function>
+			</Node>
+			<Node ID="442">
+				　自動おくり
+				<Function MenuClose="no">
+					SayMsg_NoWait
+				</Function>
+			</Node>
+		</Node>
+		-->
+		<Node>
+			マルチタスク切り替え
+			<Node ID="451">
+				　高速（メモリ常ちゅう）
+				<Function MenuClose="no">
+					MultiTasking_Fast
+				</Function>
+			</Node>
+			<Node ID="452">
+				　低速（省メモリ）
+				<Function MenuClose="no">
+					MultiTasking_Eco
+				</Function>
+			</Node>
+		</Node>
+	</Node>
+</Menu>

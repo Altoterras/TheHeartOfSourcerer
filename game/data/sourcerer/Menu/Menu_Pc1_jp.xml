@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<Menu>
+	<Node ID="11001">
+		フォーカス
+		<Function MenuClose="yes">
+			Focus
+		</Function>
+	</Node>
+	<Node ID="11002">
+		リーダー
+		<Function MenuClose="yes">
+			Leader
+		</Function>
+	</Node>
+	<Node>
+		ソウマ
+		<Function MenuClose="yes">
+			Souma
+		</Function>
+	</Node>
+	<!--
+	<Node>
+		瞑想
+		<Function MenuClose="yes">
+			Meditation
+		</Function>
+	</Node>
+	-->
+	<Node>
+		アイテム
+		<Function MenuClose="yes">
+			Item
+		</Function>
+	</Node>
+	<Node>
+		行動の中止
+		<Function MenuClose="yes">
+			StopBehavior
+		</Function>
+	</Node>
+</Menu>

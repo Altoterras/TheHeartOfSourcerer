@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<EventData>
+<Event ID="999">
+	<Type>MAPCONF</Type>
+	<Data>
+		<MapKind>Field</MapKind>
+		<StartupEvent>1002</StartupEvent>
+		<MoveMap1>19101</MoveMap1>
+		<MoveMap2>10242</MoveMap2>
+		<MoveMap3>10243</MoveMap3>
+		<MoveMap4>10181</MoveMap4>
+		<BgmId>103</BgmId>
+		<Fog mode="linear" start="10000.0" end="60000.0" color="0.61, 0.91, 1.00, 1.00" />
+		<PlaceObj kind="extra" char_id="1204" pos="300.0f, 0.0f, -430.0f" call_evid="101" comment="Karly" />
+		<PlaceObj kind="extra" char_id="1207" pos="-640.0f, 0.0f, 500.0f" call_evid="102" walk_speed="2.0" comment="Emmo" />
+		<EleneEff cql="699,803,700,701,1000" nql="699,800,700,700,1000" />
+		<PlaceObj kind="puitem" item_id="2001" pos="0.0, 0.0, 300.0" rand_pos_r="10.0" rand="50" comment="水晶" />
+		<PlaceObj kind="puitem" item_id="3024" pos="1800.0, 0.0, 700.0" rand_pos_r="10.0" rand="32" comment="癒し草" />
+	</Data>
+</Event>
+<Event ID="1002" comment="休息後判定">
+	<Type>ACT</Type>
+	<Data>
+		<Prog frame="1" name="MapEmp_10241_1001_OutAfterRestAtHome" skip="no" />
+	</Data>
+</Event>
+<Event ID="1003" comment="コルポ合流（Ev1002からの呼出し or Override 用）">
+	<Type>ACT</Type>
+	<Data>
+		<Call frame="1" evid="1007" skip="no" />
+	</Data>
+</Event>
+<Event ID="1007" comment="コルポ合流（手動呼出し用）">
+	<Type>ACT</Type>
+	<Data>
+		<SetPos frame="1" char_id="1101" pos="1480.0, 0.0, 0.0" dir="0.0, -90.0, 0.0" />
+		<SetPos frame="1" char_id="1102" pos="1100.0, 0.0, 0.0" dir="0.0, 90.0, 0.0" />
+		<Msg frame="31" mode="TALK" msg_id="11" />
+	</Data>
+</Event>
+<Event ID="101">
+	<Type>ACT</Type>
+	<Data>
+		<Msg frame="1" mode="TALK" msg_id="101" />
+		<If frame="1" jump_evid="0" situ_flag_c01="1" />
+		<Msg frame="1" mode="TALK" msg_id="111" />
+		<Msg frame="1" mode="TALK" msg_id="112" />
+		<Msg frame="1" mode="TALK" msg_id="113" />
+		<Msg frame="1" mode="TALK" msg_id="114" />
+	</Data>
+</Event>
+<Event ID="102">
+	<Type>ACT</Type>
+	<Data>
+		<Msg frame="1" mode="TALK" msg_id="121" />
+		<If frame="1" jump_evid="0" situ_flag_c01="1" />
+		<Msg frame="1" mode="TALK" msg_id="131" />
+		<Msg frame="1" mode="TALK" msg_id="132" />
+		<Msg frame="1" mode="TALK" msg_id="133" />
+	</Data>
+</Event>
+</EventData>

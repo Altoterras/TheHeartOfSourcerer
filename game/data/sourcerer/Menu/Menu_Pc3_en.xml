@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<Menu>
+	<Node ID="13001">
+		Focus
+		<Function MenuClose="yes">
+			Focus
+		</Function>
+	</Node>
+	<!--
+	<Node ID="13002">
+		Leader
+		<Function MenuClose="yes">
+			Leader
+		</Function>
+	</Node>
+	-->
+	<Node>
+		Water Dance
+		<Function MenuClose="yes">
+			CureParty
+		</Function>
+	</Node>
+	<!--
+	<Node>
+		Meditation
+		<Function MenuClose="yes">
+			Meditation
+		</Function>
+	</Node>
+	-->
+	<Node>
+		Stop Action
+		<Function MenuClose="yes">
+			StopBehavior
+		</Function>
+	</Node>
+</Menu>

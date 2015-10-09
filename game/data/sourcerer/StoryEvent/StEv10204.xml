@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<EventData>
+<Event ID="10999">
+	<Type>STORYCONF</Type>
+	<Data>
+		<StartupEvent>10009</StartupEvent>
+		<PlaceObj kind="mapobj" char_id="1704" map_id="11113" pos="1498, 0, -2446" ctrl_evid="51001" call_evid="10003" />
+		<PlaceObj kind="mapobj" char_id="1705" map_id="11113" pos="900, 0, -2776" ctrl_evid="51004" hidden="true" />
+		<PlaceObj kind="extra" char_id="1104" map_id="10224" pos="31.2, 32.3, -123.4" call_evid="10401" />
+		<PlaceObj kind="extra" char_id="1105" map_id="10101" pos="0, 0, 0" call_evid="10001" />
+		<PlaceObj kind="extra" char_id="1112" map_id="10224" pos="300.0, 0.0, -148" call_evid="10402" enable="false" />
+		<AutoBeginEvent kind="map_start" call_evid="10403" map_id="10224" />
+		<PlaceObj kind="extra" char_id="1106" map_id="10242" pos="123.8, 0, 0" call_evid="10601,10602" />
+		<PlaceObj kind="extra" char_id="1108" map_id="10203" pos="81.0, 33.4, -226" call_evid="10801" />
+	</Data>
+</Event>
+<Event ID="10001" comment="ハーミットに発光ソウマもらう">
+	<Type>ACT</Type>
+	<Data>
+		<If frame="1" sfid="1008" jump_evid="10501" skip="no" comment="ハーミットから発光のソウマを得ている" />
+		<ChangeMap frame="1" map_id="10101" skip="no" />
+		<ShowObj frame="1" char_id="1101" show="false" />
+		<ShowObj frame="1" char_id="1102" show="false" />
+		<ShowObj frame="1" char_id="1105" show="false" />
+		<Rtmv frame="1" file_id="301020451" />
+		<Msg frame="1" durf="114" mode="SAY" msg_id="1001" />
+		<Mcut frame="4" durf="111" />
+		<Msg frame="119" durf="173" mode="SAY" msg_id="1002" />
+		<Mcut frame="123" durf="169" />
+		<Msg frame="296" durf="173" mode="SAY" msg_id="1003" />
+		<Mcut frame="300" durf="169" />
+		<Msg frame="473" durf="108" mode="SAY" msg_id="1004" />
+		<Mcut frame="477" durf="104" />
+		<Msg frame="591" durf="108" mode="SAY" msg_id="1005" />
+		<Mcut frame="595" durf="104" />
+		<Msg frame="709" durf="167" mode="SAY" msg_id="1006" />
+		<Mcut frame="713" durf="163" />
+		<Msg frame="886" durf="147" mode="SAY" msg_id="1007" />
+		<Mcut frame="890" durf="143" />
+		<ScrEff frame="1043" durf="20" kind="fade_out" color="000000" />
+		<Call frame="1063" evid="10002" skip="no" />
+	</Data>
+</Event>
+<Event ID="10002">
+	<Type>ACT</Type>
+	<Data>
+		<Rtmv frame="1" file_id="301020452" skip="stop" />
+		<ScrEff frame="1" durf="30" kind="fade_in" color="000000" />
+		<Mcut frame="4" durf="459" />
+		<Msg frame="15" durf="448" mode="SAY" msg_id="1021" />
+		<Mcut frame="477" durf="110" />
+		<Msg frame="481" durf="100" mode="SAY" msg_id="1022" />
+		<Msg frame="591" durf="462" mode="SAY" msg_id="1023" />
+		<Mcut frame="595" durf="458" />
+		<Msg frame="1063" durf="226" mode="SAY" msg_id="1024" />
+		<Mcut frame="1067" durf="222" />
+		<Msg frame="1299" durf="167" mode="SAY" msg_id="1025" />
+		<Mcut frame="1303" durf="163" />
+		<Msg frame="1476" durf="108" mode="SAY" msg_id="1026" />
+		<Mcut frame="1480" durf="104" />
+		<ShowObj frame="1594" char_id="1101" show="true" skip="no" />
+		<ShowObj frame="1594" char_id="1102" show="true" skip="no" />
+		<ShowObj frame="1594" char_id="1105" show="true" skip="no" />
+		<GetThing frame="1594" kind="fixed_source" param="1008" show_get_msg="true" skip="stop" comment="ソウマ「lucsegrefoc」入手" />
+		<Flag frame="1594" sfid="1008" value="true" skip="no" comment="ハーミットから発光のソウマを得ている" />
+	</Data>
+</Event>
+<Event ID="10003" comment="発光よろしく">
+	<Type>ACT</Type>
+	<Data>
+		<If frame="1" sfid="1008" jump_evid="10005" negative="true" skip="no" comment="ハーミットから発光のソウマを得ていない" />
+		<ChangeMap frame="1" map_id="11113" skip="no" />
+		<ShowObj frame="1" char_id="1101" show="false" />
+		<ShowObj frame="1" char_id="1102" show="false" />
+		<Rtmv frame="1" file_id="301020453" />
+		<Msg frame="1" durf="169" mode="SAY" msg_id="1101" />
+		<Mcut frame="4" durf="166" />
+		<ShowObj frame="178" char_id="1101" show="true" skip="no" />
+		<ShowObj frame="178" char_id="1102" show="true" skip="no" />
+		<SetPos frame="178" char_id="1101" pos="1450, -4, -2043" dir="0.0, -90.0, 0.0" skip="no" />
+		<SetPos frame="178" char_id="1102" pos="1350, -18, -2177" dir="0.0, -90.0, 0.0" skip="no" />
+	</Data>
+</Event>
+<Event ID="10004" comment="雲星岩ひきあげ">
+	<Type>ACT</Type>
+	<Data>
+		<ChangeMap frame="1" map_id="11113" skip="no" />
+		<ShowObj frame="1" char_id="1101" show="false" />
+		<ShowObj frame="1" char_id="1102" show="false" />
+		<ShowObj frame="1" char_id="1704" show="false" />
+		<ShowObj frame="1" char_id="1705" show="false" />
+		<Rtmv frame="1" file_id="301020454" />
+		<ShadowCtrl frame="1" char_id="1103" enable="no" comment="コツメ影消" />
+		<Se frame="2" se_id="17113" volume="0.5" />
+		<Particle frame="2" particle_id="307" pos ="900, 0, -2776" />
+		<Mcut frame="4" durf="290" />
+		<Msg frame="64" durf="167" mode="SAY" msg_id="1102" />
+		<Particle frame="65" particle_id="307" pos ="900, 0, -2776" />
+		<Particle frame="120" particle_id="307" pos ="900, 0, -2776" />
+		<ScrEff frame="238" durf="60" kind="fade_out" color="000000" />
+		<ScrEff frame="298" durf="120" kind="fade_in" color="000000" />
+		<Music frame="298" bgm_id="103" volume="0.5" loop_cnt="-1" fade_out_frame_num="120" fade_in_frame_num="120" />
+		<Mcut frame="302" durf="637" />
+		<Mcut frame="947" durf="112" />
+		<Msg frame="1063" durf="410" mode="SAY" msg_id="1111" />
+		<Mcut frame="1067" durf="406" />
+		<Msg frame="1483" durf="410" mode="SAY" msg_id="1112" />
+		<Mcut frame="1487" durf="406" />
+		<Msg frame="1903" durf="170" mode="SAY" msg_id="1113" />
+		<Se frame="1903" durf="177" se_id="13101" loop="1" volume="0.05" />
+		<Mcut frame="1907" durf="166" />
+		<Msg frame="2083" durf="462" mode="SAY" msg_id="1114" />
+		<Mcut frame="2087" durf="458" />
+		<Msg frame="2555" durf="167" mode="SAY" msg_id="1115" />
+		<Mcut frame="2559" durf="163" />
+		<Msg frame="2732" durf="226" mode="SAY" msg_id="1116" />
+		<Mcut frame="2736" durf="222" />
+		<Msg frame="2968" durf="108" mode="SAY" msg_id="1117" />
+		<Mcut frame="2972" durf="104" />
+		<TexFacial frame="3086" char_id="1109" kind="mouth" enable="false" />
+		<Msg frame="3086" durf="176" mode="SAY" msg_id="1118" />
+		<Mcut frame="3090" durf="243" />
+		<TexFacial frame="3343" char_id="1109" kind="mouth" enable="true" />
+		<Mcut frame="3347" durf="218" />
+		<Msg frame="3575" durf="226" mode="SAY" msg_id="1121" />
+		<Mcut frame="3579" durf="222" />
+		<Mcut frame="3815" durf="65" />
+		<Mcut frame="3888" durf="280" />
+		<Msg frame="4001" durf="167" mode="SAY" msg_id="1122" />
+		<ScrEff frame="4235" durf="120" kind="fade_out" color="000000" />
+		<ShowObj frame="4355" char_id="1101" show="true" skip="no" />
+		<ShowObj frame="4355" char_id="1102" show="true" skip="no" />
+		<ShowObj frame="4355" char_id="1704" show="true" skip="no" />
+		<ShowObj frame="4355" char_id="1705" show="true" skip="no" />
+		<Score frame="4355" score_count="4" skip="no" />
+		<Flag frame="4355" sfid="1010" value="true" skip="no" comment="アサイベントクリア" />
+		<ChangeStory frame="4355" story_id="10301" skip="no" />
+	</Data>
+</Event>
+<Event ID="10005" comment="何も起きなかった">
+	<Type>ACT</Type>
+	<Data>
+		<Msg frame="1" mode="TALK" fixed_str_id="3011" skip="stop" />
+	</Data>
+</Event>
+<Event ID="10008" comment="Lite版終了">
+	<Type>ACT</Type>
+	<Data>
+		<Sprite frame="1" file_id="en:301020481,jp:301020482" layout="fit_screen_keep_ratio" side_color="0000007F" uv="0.0, 0.0, 0.9375, 0.625" wait="yes" wait_min_frame_num="30" fade_in_frame_num="60" fade_out_frame_num="30" />
+		<Prog frame="1" name="StEmp_10204_1002_ClearVol01Lite" skip="stop" />
+	</Data>
+</Event>
+<Event ID="10009" comment="ストーリー開始マップ">
+	<Type>ACT</Type>
+	<Data>
+		<ChangeMap frame="1" map_id="11113" skip="stop" force_change="yes" comment="岩表示のため強制再読込" />
+		<SetPos frame="1" char_id="1101" pos="1800, 0, -2400" dir="0, -180, 0" skip="no" />
+		<SetPos frame="1" char_id="1102" pos="1400, 0, -2800" dir="0, -180, 0" skip="no" />
+		<Prog frame="1" name="StEmp_10204_1001_EndOfLiteVersion" skip="stop" />
+	</Data>
+</Event>
+<Event ID="10401" comment="Kabal1">
+	<Type>ACT</Type>
+	<Data>
+		<Msg frame="1" mode="TALK" msg_id="1401" />
+		<Msg frame="1" mode="TALK" msg_id="1402" />
+		<Msg frame="1" mode="TALK" msg_id="1403" />
+		<Msg frame="1" mode="TALK" msg_id="1404" />
+		<Msg frame="1" mode="TALK" msg_id="1405" />
+		<Msg frame="1" mode="TALK" msg_id="1406" />
+		<Msg frame="1" mode="TALK" msg_id="1407" />
+		<Msg frame="1" mode="TALK" msg_id="1411" />
+		<Msg frame="1" mode="TALK" msg_id="1412" />
+		<Msg frame="61" mode="TALK" msg_id="1413" />
+		<Msg frame="61" mode="TALK" msg_id="1414" />
+		<Msg frame="61" mode="TALK" msg_id="1415" />
+		<Msg frame="61" mode="TALK" msg_id="1416" />
+		<Msg frame="61" mode="TALK" msg_id="1417" />
+		<Msg frame="61" mode="TALK" msg_id="1418" />
+		<ScrEff frame="61" durf="60" kind="fade_out" color="000000" />
+		<ChangeMap frame="121" map_id="10223" skip="no" />
+		<GetThing frame="121" kind="item" param="2027" veil1_elene="300, 300, 300, 300, 300" show_get_msg="true" skip="no" comment="アイテム「浄化石」入手" />
+		<Score frame="121" score_count="7" skip="no" />
+		<Flag frame="121" sfid="1022" value="true" skip="no" comment="カバル会話でアイテム取得" />
+	</Data>
+</Event>
+<Event ID="10402" comment="Kabal2">
+	<Type>ACT</Type>
+	<Data>
+		<Msg frame="1" mode="TALK" msg_id="1451" />
+		<Msg frame="1" mode="TALK" msg_id="1452" />
+	</Data>
+</Event>
+<Event ID="10403" comment="会話済時カバルとフォンル入替">
+	<Type>ACT</Type>
+	<Data>
+		<If frame="1" negative="true" sfid="1022" jump_evid="0" skip="no" comment="カバル会話済" />
+		<ShowObj frame="1" char_id="1104" show="false" skip="no" />
+		<ShowObj frame="1" char_id="1112" show="true" skip="no" />
+	</Data>
+</Event>
+<Event ID="10501" comment="Hermit2">
+	<Type>ACT</Type>
+	<Data>
+		<Msg frame="1" mode="TALK" msg_id="1551" />
+		<Msg frame="1" mode="TALK" msg_id="1552" />
+	</Data>
+</Event>
+<Event ID="10601" comment="Yu1">
+	<Type>ACT</Type>
+	<Data>
+		<If frame="1" jump_evid="10602" situ_flag_c01="1" />
+		<Msg frame="1" mode="TALK" msg_id="1561" />
+		<Msg frame="1" mode="TALK" msg_id="1562" />
+	</Data>
+</Event>
+<Event ID="10602" comment="Yu1">
+	<Type>ACT</Type>
+	<Data>
+		<Msg frame="1" mode="TALK" msg_id="1566" />
+	</Data>
+</Event>
+<Event ID="10801">
+	<Type>ACT</Type>
+	<Data>
+		<Msg frame="1" mode="TALK" msg_id="1581" />
+		<Msg frame="1" mode="TALK" msg_id="1583" />
+	</Data>
+</Event>
+</EventData>

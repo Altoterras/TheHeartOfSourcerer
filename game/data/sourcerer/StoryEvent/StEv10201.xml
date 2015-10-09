@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<EventData>
+<Event ID="10999">
+	<Type>STORYCONF</Type>
+	<Data>
+		<StartupEvent>10001</StartupEvent>
+		<PlaceObj kind="mapobj" char_id="1703" map_id="11113" pos="1498, 0, -3276" call_evid="10002" ctrl_evid="" />
+		<PlaceObj kind="extra" char_id="1112" map_id="10224" pos="-52.3, 32.3, 0" call_evid="10401" />
+		<PlaceObj kind="extra" char_id="1105" map_id="10101" pos="-119, 0, 51" call_evid="10501,10502" />
+		<PlaceObj kind="extra" char_id="1106" map_id="10242" pos="123.8, 0, 0" call_evid="10601,10602" />
+		<PlaceObj kind="extra" char_id="1108" map_id="10203" pos="81.0, 33.4, -226" call_evid="10801,10802" />
+	</Data>
+</Event>
+<Event ID="10001" comment="盾発見">
+	<Type>ACT</Type>
+	<Data>
+		<ChangeMap frame="1" map_id="11101" />
+		<ShowObj frame="1" char_id="1101" show="false" />
+		<ShowObj frame="1" char_id="1102" show="false" />
+		<Rtmv frame="1" file_id="301020151" />
+		<Msg frame="1" durf="254" mode="SAY" msg_id="1001" />
+		<Mcut frame="4" durf="282" />
+		<ScrEff frame="265" durf="30" kind="fade_out" color="000000" />
+		<ChangeMap frame="295" map_id="10202" skip="stop" />
+		<Rtmv frame="297" file_id="301020152" skip="stop" />
+		<Msg frame="297" durf="234" mode="SAY" msg_id="1002" />
+		<Mcut frame="301" durf="230" />
+		<Msg frame="535" durf="180" mode="SAY" msg_id="1003" />
+		<Mcut frame="539" durf="191" />
+		<Mcut frame="799" durf="233" />
+		<Msg frame="857" durf="173" mode="SAY" msg_id="1005" />
+		<Msg frame="1036" durf="164" mode="SAY" msg_id="1006" />
+		<Mcut frame="1040" durf="160" />
+		<Msg frame="1211" durf="255" mode="SAY" msg_id="1004" />
+		<Mcut frame="1215" durf="251" />
+		<ScrEff frame="1476" durf="30" kind="fade_out" color="000000" />
+		<ChangeMap frame="1506" map_id="10201" skip="no" />
+		<ShowObj frame="1506" char_id="1101" show="true" skip="no" />
+		<ShowObj frame="1506" char_id="1102" show="true" skip="no" />
+		<Prog frame="1538" name="StEmp_10201_1001_GetShield" skip="stop" />
+		<GetThing frame="1539" kind="fixed_source" param="1005" show_get_msg="true" skip="no" comment="「nerutraos」ソース取得" />
+	</Data>
+</Event>
+<Event ID="10002" comment="コツメの声">
+	<Type>ACT</Type>
+	<Data>
+		<ChangeMap frame="1" map_id="11113" />
+		<ShowObj frame="1" char_id="1101" show="false" />
+		<ShowObj frame="1" char_id="1102" show="false" />
+		<ShowObj frame="1" char_id="1703" show="false" />
+		<Rtmv frame="1" file_id="301020153" />
+		<Mcut frame="2" durf="390" />
+		<Msg frame="150" durf="180" mode="SAY" msg_id="1011" />
+		<Msg frame="393" durf="114" mode="SAY" msg_id="1012" />
+		<Mcut frame="394" durf="116" />
+		<Msg frame="511" durf="232" mode="SAY" msg_id="1013" />
+		<Mcut frame="513" durf="228" />
+		<Msg frame="747" durf="169" mode="SAY" msg_id="1014" />
+		<Mcut frame="751" durf="167" />
+		<ScrEff frame="923" durf="60" kind="fade_out" color="000000" />
+		<ShowObj frame="983" char_id="1101" show="true" skip="no" />
+		<ShowObj frame="983" char_id="1102" show="true" skip="no" />
+		<ShowObj frame="983" char_id="1703" show="true" skip="no" />
+		<ChangeStory frame="983" story_id="10202" skip="no" />
+	</Data>
+</Event>
+<Event ID="10401" comment="Fonru1">
+	<Type>ACT</Type>
+	<Data>
+		<Msg frame="1" mode="TALK" msg_id="1541" />
+	</Data>
+</Event>
+<Event ID="10501" comment="Hermit1">
+	<Type>ACT</Type>
+	<Data>
+		<!-- ソースの変更について語っている
+		<Msg frame="1" mode="TALK" msg_id="1551" />
+		<Msg frame="1" mode="TALK" msg_id="1552" />
+		-->
+		<Msg frame="1" mode="TALK" msg_id="1553" />
+	</Data>
+</Event>
+<Event ID="10502" comment="Hermit2">
+	<Type>ACT</Type>
+	<Data>
+		<Msg frame="1" mode="TALK" msg_id="1553" />
+	</Data>
+</Event>
+<Event ID="10601" comment="Yu1">
+	<Type>ACT</Type>
+	<Data>
+		<Msg frame="1" mode="TALK" msg_id="1561" />
+		<Msg frame="1" mode="TALK" msg_id="1562" />
+	</Data>
+</Event>
+<Event ID="10602" comment="Yu2">
+	<Type>ACT</Type>
+	<Data>
+		<Msg frame="1" mode="TALK" msg_id="1563" />
+	</Data>
+</Event>
+<Event ID="10801" comment="Mari1">
+	<Type>ACT</Type>
+	<Data>
+		<Msg frame="1" mode="TALK" msg_id="1581" />
+		<Msg frame="2" mode="TALK" msg_id="1582" />
+	</Data>
+</Event>
+<Event ID="10802" comment="Mari21">
+	<Type>ACT</Type>
+	<Data>
+		<Msg frame="1" mode="TALK" msg_id="1583" />
+	</Data>
+</Event>
+</EventData>

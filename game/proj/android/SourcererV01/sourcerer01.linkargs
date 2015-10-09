@@ -1,0 +1,2 @@
+-Wl,-soname,sourcerer01 -shared --sysroot= 
+-Wl,--whole-archive ) -Wl,--no-whole-archive  jni/libandroid_native_app_glue.a ./obj/local/armeabi-v7a/libopenal.a ./obj/local/armeabi-v7a/libexternal.a -lgcc  ) -no-canonical-prefixes -march=armv7-a -Wl,--fix-cortex-a8  -Wl,--no-undefined -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now  -LD:/Systems/Android/android-ndk32-r10/platforms/android-19/arch-arm/usr/lib -llog -landroid -lEGL -lGLESv1_CM -lOpenSLES -lc -lm -o ./obj/local/armeabi/libsourcerer01.so 

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<EventData>
+<Event ID="999">
+	<Type>MAPCONF</Type>
+	<Data>
+		<MapKind>Field</MapKind>
+		<MoveMap1>19101</MoveMap1>
+		<MoveMap2>11103</MoveMap2>
+		<MoveMap3>19101</MoveMap3>
+		<MoveMap4>19101</MoveMap4>
+		<BgmId>107</BgmId>
+		<Fog mode="linear" start="6000.0" end="16000.0" color="0.067, 0.161, 0.114, 1.0" />
+		<EleneEff cql="524,667,791,597,1000" nql="522,655,781,589,1000" />
+		<PlaceObj kind="mapobj" char_id="1710" pos="1727.0, 0.0, -2768.0" ctrl_evid="51008" comment="寝猿" />
+		<PlaceObj kind="enemy" char_id="1403" pos="1727.0, 0.0, -2768.0" ctrl_evid="51009" enable="false" win_evid="825" escape="false" bgm_id="111" comment="起猿" />
+		<PlaceObj kind="enemy" char_id="1504" pos="5141.0, 0.0, -2759.0" rand_pos_r="300.0" dir="0.0, 90.0, 0.0" rand="98" walk_speed="0.1" />
+		<PlaceObj kind="enemy" char_id="1503" pos="5706.0, 0.0, -2722.0" rand_pos_r="300.0" dir="0.0, 85.0, 0.0" rand="50" walk_speed="0.1" />
+		<PlaceObj kind="enemy" char_id="1503" pos="5430.0, 0.0, -3019.0" rand_pos_r="300.0" dir="0.0, 70.0, 0.0" rand="50" walk_speed="0.1" />
+		<PlaceObj kind="enemy" char_id="1503" pos="5414.0, 0.0, -2447.0" rand_pos_r="300.0" dir="0.0, 110.0, 0.0" rand="50" walk_speed="0.1" />
+		<PlaceObj kind="enemy" char_id="1505" min_story_id="10401" pos="4150, 0, -2600" rand_pos_r="0.0" dir="0.0, 90.0, 0.0" rand="100" walk_speed="0.1" ctrl_evid="51013" />
+		<PlaceObj kind="enemy" char_id="1506" min_story_id="10401" pos="2951, 0, -2540" rand_pos_r="500.0" rand="100" walk_speed="2.0" enable="false" />
+		<PlaceObj kind="enemy" char_id="1506" min_story_id="10401" pos="2952, 0, -1900" rand_pos_r="500.0" rand="100" walk_speed="2.0" enable="false" />
+		<PlaceObj kind="enemy" char_id="1506" min_story_id="10401" pos="3020, 0, -2487" rand_pos_r="500.0" rand="100" walk_speed="2.0" enable="false" />
+		<PlaceObj kind="enemy" char_id="1506" min_story_id="10401" pos="3201, 0, -2406" rand_pos_r="500.0" rand="100" walk_speed="2.0" enable="false" />
+		<PlaceObj kind="enemy" char_id="1506" min_story_id="10401" pos="2975, 0, -2352" rand_pos_r="500.0" rand="100" walk_speed="2.0" enable="false" />
+		<PlaceObj kind="enemy" char_id="1506" min_story_id="10401" pos="3291, 0, -2211" rand_pos_r="500.0" rand="100" walk_speed="2.0" enable="false" />
+		<PlaceObj kind="enemy" char_id="1506" min_story_id="10401" pos="3101, 0, -2178" rand_pos_r="500.0" rand="100" walk_speed="2.0" enable="false" />
+		<PlaceObj kind="enemy" char_id="1506" min_story_id="10401" pos="3276, 0, -2123" rand_pos_r="500.0" rand="100" walk_speed="2.0" enable="false" />
+		<PlaceObj kind="enemy" char_id="1506" min_story_id="10401" pos="2987, 0, -2060" rand_pos_r="500.0" rand="100" walk_speed="2.0" enable="false" />
+		<PlaceObj kind="enemy" char_id="1506" min_story_id="10401" pos="3281, 0, -2035" rand_pos_r="500.0" rand="100" walk_speed="2.0" enable="false" />
+		<PlaceObj kind="enemy" char_id="1506" min_story_id="10401" pos="3010, 0, -1957" rand_pos_r="500.0" rand="100" walk_speed="2.0" enable="false" />
+		<PlaceObj kind="enemy" char_id="1506" min_story_id="10401" pos="3014, 0, -1950" rand_pos_r="500.0" rand="100" walk_speed="2.0" enable="false" />
+		<PlaceObj kind="puitem" item_id="2001" pos="5400.0, 0.0, -2300.0" rand_pos_r="100.0" rand="35" comment="水晶" />
+		<PlaceObj kind="puitem" item_id="2001" pos="4500.0, 0.0, -2000.0" rand_pos_r="200.0" rand="45" comment="水晶" />
+		<PlaceObj kind="puitem" item_id="2001" pos="3500.0, 0.0, -3500.0" rand_pos_r="100.0" rand="45" comment="水晶" />
+		<PlaceObj kind="puitem" item_id="3024" pos="3100.0, 0.0, -1600.0" rand_pos_r="100.0" rand="45" comment="癒し草" />
+		<StartupEvent>901</StartupEvent>
+	</Data>
+</Event>
+<Event ID="802" comment="両猿無効化">
+	<Type>ACT</Type>
+	<Data>
+		<ShowObj frame="1" ctrl_evid="51008" show="false" skip="stop" />
+		<ShowObj frame="1" ctrl_evid="51009" show="false" skip="stop" />
+	</Data>
+</Event>
+<Event ID="803" comment="寝猿無効化、起猿有効化">
+	<Type>ACT</Type>
+	<Data>
+		<ShowObj frame="1" ctrl_evid="51008" show="false" skip="stop" />
+		<ShowObj frame="1" ctrl_evid="51009" show="true" skip="stop" />
+	</Data>
+</Event>
+<Event ID="825" comment="猿戦闘後（上巻クリア時は Override）">
+	<Type>ACT</Type>
+	<Data>
+		<ScrEff frame="1" durf="61" kind="fade_out" color="000000" />
+		<ChangeMap frame="62" map_id="11114" next_frame_change="true" skip="no" comment="闘いの洞窟へ移動" />
+	</Data>
+</Event>
+<Event ID="901" comment="猿スイッチ">
+	<Type>ACT</Type>
+	<Data>
+		<If frame="1" sfid="1031" jump_evid="802" skip="no" comment="下巻を開始している" />
+		<If frame="1" sfid="1007" jump_evid="803" story_under="10399" skip="no" comment="上巻をクリアしており、ストーリーが10401未満" />
+		<If frame="1" sfid="1009" jump_evid="803" skip="no" comment="コツメ合流済" />
+	</Data>
+</Event>
+</EventData>

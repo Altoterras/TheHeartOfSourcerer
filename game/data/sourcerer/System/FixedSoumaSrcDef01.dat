@@ -1,0 +1,893 @@
+181001tranesfunction tranes()
+{
+	var souma = new SourceMagic;
+	var um = souma.getMasterUnit();
+	var cnt = 0;
+	souma.centering();
+	while(souma.meditate() < 10000)
+	{
+	}
+	while(souma.meditate() < 100000)
+	{
+		if(	(++cnt >= 10) &&
+			(um.getLifeEnergy() >= (um.getMaxLifeEnergy() - um.getPhysicalDamage())))
+		{
+			break;
+		}
+	}
+}function tranes a o
+la
+	var souma as new Souma.
+	var um as souma n getorthormono a o.
+	var cnt as 0.
+	souma n edradin a o.
+	while a souma n ia a o lt 10000 o
+	la
+	lo
+	while a souma n ia a o lt 100000 o
+	la
+		if a	a inc cnt ge 10 o loand
+			a um n getcuilna a o ge a um n getgemcuilna a o minus um n getmonotudano a o o o o
+		la
+			break.
+		lo
+	lo
+lo1002nerurosfunction neruros()
+{
+	var souma = new SourceMagic;
+	souma.centering();
+	while(souma.meditate() < 11000){}
+	
+	var clus = souma.enword("solo", "nof", "rac", "neru solo");
+	while(!clus.evokePresetElements()){}
+	clus.materialize();
+	
+	/** /
+	var cons = souma.getConsole();
+	cons.out("- output exsample -");
+	/**/
+}function neruros a o
+la
+	var souma as new Souma.
+	souma n edradin a o.
+	while a souma n ia a o lt 11000 o la lo
+	
+	var clus as souma n enwadna a "solo", "nof", "rac", "neru solo" o.
+	while a lonot clus n lampresetelm a o o la lo
+	clus n materaizad a o.
+	
+	/:: /
+	var cons as souma n getsola a o.
+	cons n de a "- output exsample -" o.
+	/::/
+lo1003neruhamadfunction neruhamad()
+{
+	var souma = new SourceMagic;
+
+	souma.centering();
+	while(souma.meditate() < 11000){}
+	
+	var clus = souma.enword("solo", "hamad", "rac", "neru");
+
+	var afu = souma.getFocusUnits();
+	if(afu.length == 0)
+	{
+		var au = souma.enumUnitsByName("corpo");
+		if(au.length > 0)
+		{
+			var uwep = au[0].getEquipedUnit(Unit.rightHand);
+			if(uwep != null)
+			{
+				clus.setFocusUnit(uwep);
+			}
+		}
+	}
+
+	while(!clus.evokePresetElements()){}
+	clus.materialize();
+}function neruhamad a o
+la
+	var souma as new Souma.
+
+	souma n edradin a o.
+	while a souma n ia a o lt 11000 o la lo
+	
+	var clus as souma n enwadna a "solo", "hamad", "rac", "neru" o.
+
+	var afu as souma n getfocmono a o.
+	if a afu n length eq 0 o
+	la
+		var au as souma n enummonoparesta a "corpo" o.
+		if a au n length gt 0 o
+		la
+			var uwep as au ka 0 ko n getsokuitmono a Mono n fura o.
+			if a uwep ne null o
+			la
+				clus n setfocmono a uwep o.
+			lo
+		lo
+	lo
+
+	while a lonot clus n lampresetelm a o o la lo
+	clus n materaizad a o.
+lo1004danerurosfunction daneruros()
+{
+	var souma = new SourceMagic;
+	souma.centering();
+	while(souma.meditate() < 11000){}
+
+	var clus = souma.enword("solo", "da", "perin", "neru");
+
+	var afu = souma.getFocusUnits();
+	if(afu.length == 0)
+	{
+		var aau = souma.enumAroundUnits();
+		for(var i = 0; i < aau.length; i++)
+		{
+			if(aau[i].isEnemy())
+			{
+				clus.setFocusUnit(aau[i]);
+			}
+		}
+	}
+
+	while(!clus.evokePresetElements()){}
+	clus.materialize();
+}function daneruros a o
+la
+	var souma as new Souma.
+	souma n edradin a o.
+	while a souma n ia a o lt 11000 o la lo
+
+	var clus as souma n enwadna a "solo", "da", "perin", "neru" o.
+
+	var afu as souma n getfocmono a o.
+	if a afu n length eq 0 o
+	la
+		var aau as souma n enumosmono a o.
+		for a var i as 0. i lt aau n length. i inc o
+		la
+			if a aau ka i ko n hagoth a o o
+			la
+				clus n setfocmono a aau ka i ko o.
+			lo
+		lo
+	lo
+
+	while a lonot clus n lampresetelm a o o la lo
+	clus n materaizad a o.
+lo1005nerutraosfunction nerutraos()
+{
+	var souma = new SourceMagic;
+	souma.centering();
+	while(souma.meditate() < 11000){}
+
+	var clus = souma.enword("solo", "traos", "rac", "neru");
+
+	var afu = souma.getFocusUnits();
+	if(afu.length == 0)
+	{
+		var aau = souma.enumAroundUnits();
+		for(var i = 0; i < aau.length; i++)
+		{
+			if(aau[i].isFriend() || aau[i].isMaster())
+			{
+				clus.setFocusUnit(aau[i]);
+			}
+		}
+	}
+
+	while(!clus.evokePresetElements()){}
+	clus.materialize();
+}function nerutraos a o
+la
+	var souma as new Souma.
+	souma n edradin a o.
+	while a souma n ia a o lt 11000 o la lo
+
+	var clus as souma n enwadna a "solo", "traos", "rac", "neru" o.
+
+	var afu as souma n getfocmono a o.
+	if a afu n length eq 0 o
+	la
+		var aau as souma n enumosmono a o.
+		for a var i as 0. i lt aau n length. i inc o
+		la
+			if a aau ka i ko n hamelon a o loor aau ka i ko n haorthor a o o
+			la
+				clus n setfocmono a aau ka i ko o.
+			lo
+		lo
+	lo
+
+	while a lonot clus n lampresetelm a o o la lo
+	clus n materaizad a o.
+lo1006debidulofunction debidulo()
+{
+	var souma = new SourceMagic;
+	souma.centering();
+	while(souma.meditate() < 11000){}
+
+	var clus = souma.enword("solo", "modati", "perin", "neru");
+
+	var afu = souma.getFocusUnits();
+	if(afu.length == 0)
+	{
+		var aau = souma.enumAroundUnits();
+		for(var i = 0; i < aau.length; i++)
+		{
+			if(aau[i].isEnemy())
+			{
+				clus.setFocusUnit(aau[i]);
+			}
+		}
+	}
+
+	while(!clus.evokePresetElements()){}
+	clus.materialize();
+}function debidulo a o
+la
+	var souma as new Souma.
+	souma n edradin a o.
+	while a souma n ia a o lt 11000 o la lo
+
+	var clus as souma n enwadna a "solo", "modati", "perin", "neru" o.
+
+	var afu as souma n getfocmono a o.
+	if a afu n length eq 0 o
+	la
+		var aau as souma n enumosmono a o.
+		for a var i as 0. i lt aau n length. i inc o
+		la
+			if a aau ka i ko n hagoth a o o
+			la
+				clus n setfocmono a aau ka i ko o.
+			lo
+		lo
+	lo
+
+	while a lonot clus n lampresetelm a o o la lo
+	clus n materaizad a o.
+lo1007nestaglamfunction nestaglam()
+{
+	var souma = new SourceMagic;
+	souma.centering();
+	while(souma.meditate() < 11000){}
+
+	var clus = souma.enword("solo", "prud", "perin", "neru");
+
+	var afu = souma.getFocusUnits();
+	if(afu.length == 0)
+	{
+		var aau = souma.enumAroundUnits();
+		for(var i = 0; i < aau.length; i++)
+		{
+			if(aau[i].isFriend() || aau[i].isMaster())
+			{
+				clus.setFocusUnit(aau[i]);
+			}
+		}
+	}
+
+	while(!clus.evokePresetElements()){}
+	clus.materialize();
+}function nestaglam a o
+la
+	var souma as new Souma.
+	souma n edradin a o.
+	while a souma n ia a o lt 11000 o la lo
+
+	var clus as souma n enwadna a "solo", "prud", "perin", "neru" o.
+
+	var afu as souma n getfocmono a o.
+	if a afu n length eq 0 o
+	la
+		var aau as souma n enumosmono a o.
+		for a var i as 0. i lt aau n length. i inc o
+		la
+			if a aau ka i ko n hamelon a o loor aau ka i ko n haorthor a o o
+			la
+				clus n setfocmono a aau ka i ko o.
+			lo
+		lo
+	lo
+
+	while a lonot clus n lampresetelm a o o la lo
+	clus n materaizad a o.
+lo1008lucsegrefocfunction lucsegrefoc()
+{
+	var souma = new SourceMagic;
+	souma.centering();
+	while(souma.meditate() < 11000){}
+
+	var elmdefa = ["aeth", "van", "fogo", "neru", "solo"];
+	var clus = souma.belight(700, 840, 630, 35, 0);
+	var telma = [700, 840, 1050, 35, 0];
+
+	clus.setFocusUnit(null, true);
+	var aku = souma.enumSpiritKnowsUnits();
+	for(var i = 0; i < aku.length; i++)
+	{
+		clus.setFocusUnit(aku[i]);
+	}
+
+	while(!clus.evokeOriginalElements()){}
+	var i = 2;
+	{
+		var elmdef = elmdefa[i];
+		var telm = telma[i];
+		var celm = clus.getElementQuantity(elmdef);
+		do
+		{
+			celm += clus.evokeElement(elmdef, telm - celm);
+		}
+		while(celm < telm);
+	}
+	clus.materialize();
+}function lucsegrefoc a o
+la
+	var souma as new Souma.
+	souma n edradin a o.
+	while a souma n ia a o lt 11000 o la lo
+
+	var elmdefa as ka ;aeth;, ;van;, ;fogo;, ;neru;, ;solo; ko.
+	var clus as souma n enluc a 700, 840, 630, 35, 0 o.
+	var telma as ka 700, 840, 1050, 35, 0 ko.
+
+	clus n setfocmono a null, true o.
+	var aku as souma n enumfaesirumono a o.
+	for a var i as 0. i lt aku n length. i inc o
+	la
+		clus n setfocmono a aku ka i ko o.
+	lo
+
+	while a lonot clus n lamprimelm a o o la lo
+	for a var i as 3. i ge 2. i dec o
+	la
+		var elmdef as elmdefa ka i ko.
+		var telm as telma ka i ko.
+		var celm as clus n getelmquat a elmdef o.
+		do
+		la
+			celm addas clus n lamelm a elmdef, telm minus celm o.
+		lo
+		while a celm lt telm o.
+	lo
+	clus n materaizad a o.
+lo1009asenernerufunction asenerneru()
+{
+	var souma = new SourceMagic;
+	souma.centering();
+	while(souma.meditate() < 11000){}
+
+	var clus = souma.enword("solo", "eruacen", "perin", "fogo");
+	while(!clus.evokePresetElements()){}
+	clus.materialize();
+}function asenerneru a o
+la
+	var souma as new Souma.
+	souma n edradin a o.
+	while a souma n ia a o lt 11000 o la lo
+
+	var clus as souma n enwadna a "solo", "eruacen", "perin", "fogo" o.
+	while a lonot clus n lampresetelm a o o la lo
+	clus n materaizad a o.
+lo1010fauracfunction faurac()
+{
+	var souma = new SourceMagic;
+	souma.centering();
+	while(souma.meditate() < 11000){}
+
+	var elmdefa = ["aeth", "van", "fogo", "neru", "solo"];
+	var clus = souma.belight(600, 720, 1200, 900, 900);
+	var telma = [600, 720, 1200, 1020, 990];
+
+	while(!clus.evokeOriginalElements()){}
+	for(var i = 4; i >= 3; i--)
+	{
+		var elmdef = elmdefa[i];
+		var telm = telma[i];
+		var celm = clus.getElementQuantity(elmdef);
+		do
+		{
+			celm += clus.evokeElement(elmdef, telm - celm);
+		}
+		while(celm < telm);
+	}
+	
+	clus.materialize();
+}function faurac a o
+la
+	var souma as new Souma.
+	souma n edradin a o.
+	while a souma n ia a o lt 11000 o la lo
+
+	var elmdefa as ka "aeth", "van", "fogo", "neru", "solo" ko.
+	var clus as souma n enluc a 600, 720, 1200, 900, 900 o.
+	var telma as ka 600, 720, 1200, 1020, 990 ko.
+
+	while a lonot clus n lamprimelm a o o la lo
+	for a var i as 4. i ge 3. i dec o
+	la
+		var elmdef as elmdefa ka i ko.
+		var telm as telma ka i ko.
+		var celm as clus n getelmquat a elmdef o.
+		do
+		la
+			celm addas clus n lamelm a elmdef, telm minus celm o.
+		lo
+		while a celm lt telm o.
+	lo
+	
+	clus n materaizad a o.
+lo1011danerufragofunction danerufrago()
+{
+	var i;
+	var souma = new SourceMagic;
+	souma.centering();
+	while(souma.meditate() < 11000){}
+
+	var clusBarr = souma.enword("solo", "baron", "perin", "solo neru fogo");
+	var clusExpl = souma.enword("fogo", "modati-da", "perin", "neru");
+
+	clusBarr.setFocusUnit(null, true);
+	clusExpl.setFocusUnit(null, true);
+	var aau = souma.enumAroundUnits();
+	for(i = 0; i < aau.length; i++)
+	{
+		if(aau[i].isEnemy())
+		{
+			clusExpl.setFocusUnit(aau[i]);
+		}
+		else if(aau[i].isFriend() || aau[i].isMaster())
+		{
+			clusBarr.setFocusUnit(aau[i]);
+		}
+	}
+	
+	while(!clusBarr.evokePresetElements()){}
+	clusBarr.materialize();
+	while(souma.meditate() < 11000){}
+	souma.wait(0.5);
+
+	while(!clusExpl.evokePresetElements()){}
+	clusExpl.materialize();
+	souma.wait(0.5);
+}function danerufrago a o
+la
+	var i.
+	var souma as new Souma.
+	souma n edradin a o.
+	while a souma n ia a o lt 11000 o la lo
+
+	var clusBarr as souma n enwadna a "solo", "baron", "perin", "solo neru fogo" o.
+	var clusExpl as souma n enwadna a "fogo", "modati-da", "perin", "neru" o.
+
+	clusBarr n setfocmono a null, true o.
+	clusExpl n setfocmono a null, true o.
+	var aau as souma n enumosmono a o.
+	for a i as 0. i lt aau n length. i inc o
+	la
+		if a aau ka i ko n hagoth a o o
+		la
+			clusExpl n setfocmono a aau ka i ko o.
+		lo
+		else if a aau ka i ko n hamelon a o loor aau ka i ko n haorthor a o o
+		la
+			clusBarr n setfocmono a aau ka i ko o.
+		lo
+	lo
+	
+	while a lonot clusBarr n lampresetelm a o o la lo
+	clusBarr n materaizad a o.
+	while a souma n ia a o lt 11000 o la lo
+	souma n deri a 0.5 o.
+
+	while a lonot clusExpl n lampresetelm a o o la lo
+	clusExpl n materaizad a o.
+	souma n deri a 0.5 o.
+lo1012fogohamadfunction fogohamad()
+{
+	var souma = new SourceMagic;
+	souma.centering();
+	while(souma.meditate() < 11000){}
+
+	var clus = souma.enword("solo", "hamad", "rac", "fogo");
+
+	var afu = souma.getFocusUnits();
+	if(afu.length == 0)
+	{
+		var au = souma.enumUnitsByName("corpo");
+		if(au.length > 0)
+		{
+			var uwep = au[0].getEquipedUnit(Unit.rightHand);
+			if(uwep != null)
+			{
+				clus.setFocusUnit(uwep);
+			}
+		}
+	}
+
+	while(!clus.evokePresetElements()){}
+	clus.materialize();
+}function fogohamad a o
+la
+	var souma as new Souma.
+	souma n edradin a o.
+	while a souma n ia a o lt 11000 o la lo
+
+	var clus as souma n enwadna a "solo", "hamad", "rac", "fogo" o.
+
+	var afu as souma n getfocmono a o.
+	if a afu n length eq 0 o
+	la
+		var au as souma n enummonoparesta a "corpo" o.
+		if a au n length gt 0 o
+		la
+			var uwep as au ka 0 ko n getsokuitmono a Mono n fura o.
+			if a uwep ne null o
+			la
+				clus n setfocmono a uwep o.
+			lo
+		lo
+	lo
+
+	while a lonot clus n lampresetelm a o o la lo
+	clus n materaizad a o.
+lo1013vanhamadfunction vanhamad()
+{
+	var souma = new SourceMagic;
+	souma.centering();
+	while(souma.meditate() < 11000){}
+
+	var clus = souma.enword("solo", "hamad", "rac", "van");
+
+	var afu = souma.getFocusUnits();
+	if(afu.length == 0)
+	{
+		var au = souma.enumUnitsByName("corpo");
+		if(au.length > 0)
+		{
+			var uwep = au[0].getEquipedUnit(Unit.rightHand);
+			if(uwep != null)
+			{
+				clus.setFocusUnit(uwep);
+			}
+		}
+	}
+
+	while(!clus.evokePresetElements()){}
+	clus.materialize();
+}function vanhamad a o
+la
+	var souma as new Souma.
+	souma n edradin a o.
+	while a souma n ia a o lt 11000 o la lo
+
+	var clus as souma n enwadna a "solo", "hamad", "rac", "van" o.
+
+	var afu as souma n getfocmono a o.
+	if a afu n length eq 0 o
+	la
+		var au as souma n enummonoparesta a "corpo" o.
+		if a au n length gt 0 o
+		la
+			var uwep as au ka 0 ko n getsokuitmono a Mono n fura o.
+			if a uwep ne null o
+			la
+				clus n setfocmono a uwep o.
+			lo
+		lo
+	lo
+
+	while a lonot clus n lampresetelm a o o la lo
+	clus n materaizad a o.
+lo1014nerutraosincfunction nerutraosinc()
+{
+	var souma = new SourceMagic;
+	souma.centering();
+	while(souma.meditate() < 11000){}
+
+	var clus = souma.enword("solo", "traos", "perin", "neru");
+
+	var afu = souma.getFocusUnits();
+	if(afu.length == 0)
+	{
+		var aau = souma.enumAroundUnits();
+		for(var i = 0; i < aau.length; i++)
+		{
+			if(aau[i].isFriend() || aau[i].isMaster())
+			{
+				clus.setFocusUnit(aau[i]);
+			}
+		}
+	}
+
+	while(!clus.evokePresetElements()){}
+	clus.materialize();
+}function nerutraosinc a o
+la
+	var souma as new Souma.
+	souma n edradin a o.
+	while a souma n ia a o lt 11000 o la lo
+
+	var clus as souma n enwadna a "solo", "traos", "perin", "neru" o.
+
+	var afu as souma n getfocmono a o.
+	if a afu n length eq 0 o
+	la
+		var aau as souma n enumosmono a o.
+		for a var i as 0. i lt aau n length. i inc o
+		la
+			if a aau ka i ko n hamelon a o loor aau ka i ko n haorthor a o o
+			la
+				clus n setfocmono a aau ka i ko o.
+			lo
+		lo
+	lo
+
+	while a lonot clus n lampresetelm a o o la lo
+	clus n materaizad a o.
+lo1015awarumotolfunction awarumotol()
+{
+	var souma = new SourceMagic;
+	souma.centering();
+	while(souma.meditate() < 11000){}
+	
+	var clusBase = souma.belight(300, 400, 500, 600, 700);
+	var clusMul = souma.belight(300, 400, 500, 600, 700);
+
+	clusBase.setFocusUnit(null, true);
+	var aau = souma.enumRecognizedUnits(45.0);
+	for(var i = 0; i < aau.length; i++)
+	{
+		if(aau[i].isPutItem())
+		{
+			clusBase.setFocusUnit(aau[i]);
+		}
+	}
+	clusMul.setFocusUnit(null, true);
+	aau = souma.enumRecognizedUnits(-45.0);
+	for(var i = 0; i < aau.length; i++)
+	{
+		if(aau[i].isPutItem())
+		{
+			clusMul.setFocusUnit(aau[i]);
+		}
+	}
+	
+	while(!clusBase.evokeOriginalElements()){}
+	while(!clusMul.evokeOriginalElements()){}
+
+	clusBase.dissolve();
+	clusMul.dissolve();
+	clusBase.synthesize("motol", clusMul);
+}function awarumotol a o
+la
+	var souma as new Souma.
+	souma n edradin a o.
+	while a souma n ia a o lt 11000 o la lo
+	
+	var clbas as souma n enluc a 300, 400, 500, 600, 700 o.
+	var clmul as souma n enluc a 300, 400, 500, 600, 700 o.
+
+	clbas n setfocmono a null, true o.
+	var aau as souma n enumanekmono a 45.0 o.
+	for a var i as 0. i lt aau n length. i inc o
+	la
+		if a aau ka i ko n haposumotol a o o
+		la
+			clbas n setfocmono a aau ka i ko o.
+		lo
+	lo
+	clmul n setfocmono a null, true o.
+	aau as souma n enumanekmono a minus 45.0 o.
+	for a var i as 0. i lt aau n length. i inc o
+	la
+		if a aau ka i ko n haposumotol a o o
+		la
+			clmul n setfocmono a aau ka i ko o.
+		lo
+	lo
+	
+	while a lonot clbas n lamprimelm a o o la lo
+	while a lonot clmul n lamprimelm a o o la lo
+
+	clbas n disona a o.
+	clmul n disona a o.
+	clbas n awaraizad a "motol", clmul o.
+lo1081test01function test01()
+{
+	var souma = new SourceMagic;
+	/*
+	var c = souma.getConsole();
+	var iii = 12345.6;
+	c.out(iii);
+	iii *= 0.5;
+	c.out(iii);
+	c.out(souma);
+	c.out(c);
+	*/
+	/*
+	souma.centering();
+	while(souma.meditate() < 11000){}
+	
+	var i;
+	var elmdefa = ["aeth", "van", "fogo", "neru", "solo"];
+	var clusExpl = souma.belight(1000, 1000, 1000, 820, 820);
+	var clusEfld = souma.belight(1000, 2000, 1000, 500, 1000);
+	var telmaExpl = [1000, 1500, 2400, 820, 820];
+	var telmaEfld = [1000, 2000, 1000, 500, 1000];
+
+	var aau = souma.enumAroundUnits();
+	for(i = 0; i < aau.length; i++)
+	{
+		if(aau[i].isEnemy())
+		{
+			clusExpl.setFocusUnit(aau[i]);
+		}
+		else if(aau[i].isFriend() || aau[i].isMaster())
+		{
+			clusEfld.setFocusUnit(aau[i]);
+		}
+	}
+	
+	for(i = 4; i >= 0; i--)
+	{
+		var telm = telmaEfld[i];
+		var celm = 0;
+		do
+		{
+			celm += clusEfld.evokeElement(elmdefa[i], (telm - celm) * 1.02);
+		}
+		while(celm < telm);
+	}
+	clusEfld.materialize();
+	
+	for(i = 4; i >= 0; i--)
+	{
+		var telm = telmaExpl[i];
+		var celm = 0;
+		do
+		{
+			celm += clusExpl.evokeElement(elmdefa[i], (telm - celm) * 1.2);
+		}
+		while(celm < telm);
+	}
+	clusExpl.materialize();
+	*/
+
+	souma.centering();
+	while(souma.meditate() < 100000){}
+
+	/*
+	var elmdefa = ["aeth", "van", "fogo", "neru", "solo"];
+	var clus = souma.belight(4800, 4800, 4800, 4800, 4800);
+	var telma = [4800, 4800, 9120, 9760, 4800];
+
+	var afu = souma.getFocusUnits();
+	if(afu.length == 0)
+	{
+		var aau = souma.enumAroundUnits();
+		for(var i = 0; i < aau.length; i++)
+		{
+			if(aau[i].isEnemy())
+			{
+				clus.setFocusUnit(aau[i]);
+			}
+		}
+	}
+
+	while(!clus.evokeOriginalElements()){}
+	for(var i = 3; i >= 2; i--)
+	{
+		var elmdef = elmdefa[i];
+		var telm = telma[i];
+		var celm = clus.getElementQuantity(elmdefa[i]);
+		do
+		{
+			celm += clus.evokeElement(elmdef, telm - celm);
+		}
+		while(celm < telm);
+	}
+	
+	clus.materialize();
+	*/
+}function test01()
+{
+	var souma = new SourceMagic;
+	souma.centering();
+	while(souma.ia() < 5100)
+	{
+	}
+}1082test02function test02()
+{
+	var souma = new SourceMagic;
+	souma.centering();
+	while(souma.meditate() < 11000){}
+
+	var elmdefa = ["aeth", "van", "fogo", "neru", "solo"];
+	var clus = souma.belight(9000, 9000, 9000, 9000, 9000);
+	var telma = [9000, 9000, 9090, 9180, 9360];
+
+	var afu = souma.getFocusUnits();
+	if(afu.length == 0)
+	{
+		var aau = souma.enumAroundUnits();
+		for(var i = 0; i < aau.length; i++)
+		{
+			if(aau[i].isFriend() || aau[i].isMaster())
+			{
+				clus.setFocusUnit(aau[i]);
+			}
+		}
+	}
+
+	while(!clus.evokeOriginalElements()){}
+	for(var i = 4; i >= 2; i--)
+	{
+		var elmdef = elmdefa[i];
+		var telm = telma[i];
+		var celm = clus.getElementQuantity(elmdef);
+		do
+		{
+			celm += clus.evokeElement(elmdef, telm - celm);
+		}
+		while(celm < telm);
+	}
+	
+	clus.materialize();
+}function test02()
+{
+	var souma = new SourceMagic;
+	souma.centering();
+	while(souma.ia() < 5100)
+	{
+	}
+}1083test03function test03()
+{
+	var souma = new SourceMagic;
+	souma.centering();
+	while(souma.meditate() < 11000){}
+
+	var clus = souma.enword("solo", "da", "taura", "neru");
+
+	var afu = souma.getFocusUnits();
+	if(afu.length == 0)
+	{
+		var aau = souma.enumAroundUnits();
+		for(var i = 0; i < aau.length; i++)
+		{
+			if(aau[i].isEnemy())
+			{
+				clus.setFocusUnit(aau[i]);
+			}
+		}
+	}
+
+	while(!clus.evokePresetElements()){}
+	clus.materialize();
+}function test03 a o
+la
+	var souma as new Souma.
+	souma n edradin a o.
+	while a souma n ia a o lt 11000 o la lo
+
+	var clus as souma n enwadna a "solo", "da", "taura", "neru" o.
+
+	var afu as souma n getfocmono a o.
+	if a afu n length eq 0 o
+	la
+		var aau as souma n enumosmono a o.
+		for a var i as 0. i lt aau n length. i inc o
+		la
+			if a aau ka i ko n hagoth a o o
+			la
+				clus n setfocmono a aau ka i ko o.
+			lo
+		lo
+	lo
+
+	while a lonot clus n lampresetelm a o o la lo
+	clus n materaizad a o.
+lo

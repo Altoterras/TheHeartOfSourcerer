@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<EventData>
+<Event ID="10999">
+	<Type>STORYCONF</Type>
+	<Data>
+		<StartupEvent>10009</StartupEvent>
+		<PlaceObj kind="extra" char_id="1151" map_id="10241" pos="0, 0, 1071.2" call_evid="10005" />
+		<PlaceObj kind="extra" char_id="1104" map_id="10224" pos="31.2, 32.3, -123.4" call_evid="10401" />
+		<AutoBeginEvent kind="map_start" call_evid="10406" map_id="10224" />
+		<PlaceObj kind="extra" char_id="1105" map_id="10105" pos="-200, 0, -280" call_evid="10501" />
+		<PlaceObj kind="extra" char_id="1109" map_id="10201" pos="759, 0, 13" call_evid="10901" />
+		<PlaceObj kind="extra" char_id="1152" map_id="10105" pos="0, 0, -280" call_evid="15201" />
+		<PlaceObj kind="extra" char_id="1153" map_id="10105" pos="200, 0, 0" call_evid="15301" />
+	</Data>
+</Event>
+<Event ID="10001" comment="レベッカ相談カバル話あり">
+	<Type>ACT</Type>
+	<Data>
+		<ChangeMap frame="1" map_id="10241" skip="stop" />
+		<ShowObj frame="1" char_id="1101" show="false" />
+		<ShowObj frame="1" char_id="1102" show="false" />
+		<ShowObj frame="1" char_id="1151" show="false" />
+		<Rtmv frame="1" file_id="301030451" />
+		<Msg frame="1" durf="114" mode="SAY" msg_id="1001" />
+		<Mcut frame="4" durf="111" />
+		<Msg frame="119" durf="114" mode="SAY" msg_id="1002" />
+		<Mcut frame="123" durf="110" />
+		<Msg frame="237" durf="110" mode="SAY" msg_id="1003" />
+		<Mcut frame="241" durf="165" />
+		<ScrEff frame="355" durf="60" kind="fade_out" color="000000" />
+		<ShowObj frame="414" char_id="1101" show="true" skip="no" />
+		<ShowObj frame="414" char_id="1102" show="true" skip="no" />
+		<ShowObj frame="414" char_id="1151" show="true" skip="no" />
+		<Call frame="414" evid="10003" skip="no" />
+	</Data>
+</Event>
+<Event ID="10002" comment="レベッカ相談カバル話なし">
+	<Type>ACT</Type>
+	<Data>
+		<ChangeMap frame="1" map_id="10241" skip="stop" />
+		<ShowObj frame="1" char_id="1101" show="false" />
+		<ShowObj frame="1" char_id="1102" show="false" />
+		<ShowObj frame="1" char_id="1151" show="false" />
+		<Rtmv frame="1" file_id="301030452" />
+		<Msg frame="1" durf="114" mode="SAY" msg_id="1011" />
+		<Mcut frame="4" durf="111" />
+		<Msg frame="119" durf="114" mode="SAY" msg_id="1012" />
+		<Mcut frame="123" durf="110" />
+		<Msg frame="237" durf="114" mode="SAY" msg_id="1013" />
+		<Mcut frame="241" durf="110" />
+		<Msg frame="355" durf="169" mode="SAY" msg_id="1014" />
+		<Mcut frame="359" durf="224" />
+		<ScrEff frame="532" durf="60" kind="fade_out" color="000000" />
+		<ShowObj frame="591" char_id="1101" show="true" skip="no" />
+		<ShowObj frame="591" char_id="1102" show="true" skip="no" />
+		<ShowObj frame="591" char_id="1151" show="true" skip="no" />
+		<Call frame="591" evid="10003" skip="no" />
+	</Data>
+</Event>
+<Event ID="10003" comment="レベッカに暖めるソウマ教わる">
+	<Type>ACT</Type>
+	<Data>
+		<ChangeMap frame="1" map_id="10241" skip="stop" />
+		<ShowObj frame="1" char_id="1101" show="false" />
+		<ShowObj frame="1" char_id="1102" show="false" />
+		<ShowObj frame="1" char_id="1151" show="false" />
+		<Rtmv frame="1" file_id="301030453" />
+		<ScrEff frame="1" durf="15" kind="fade_in" color="000000" />
+		<Msg frame="1" durf="232" mode="SAY" msg_id="1021" />
+		<Mcut frame="4" durf="229" />
+		<Msg frame="237" durf="114" mode="SAY" msg_id="1022" />
+		<Mcut frame="241" durf="110" />
+		<Msg frame="355" durf="350" mode="SAY" msg_id="1023" />
+		<Mcut frame="359" durf="346" />
+		<Msg frame="709" durf="167" mode="SAY" msg_id="1024" />
+		<Mcut frame="713" durf="163" />
+		<Msg frame="886" durf="173" mode="SAY" msg_id="1025" />
+		<Mcut frame="890" durf="169" />
+		<Msg frame="1063" durf="173" mode="SAY" msg_id="1026" />
+		<Mcut frame="1067" durf="169" />
+		<Msg frame="1240" durf="462" mode="SAY" msg_id="1027" />
+		<Mcut frame="1244" durf="458" />
+		<Msg frame="1712" durf="109" mode="SAY" msg_id="1028" />
+		<Mcut frame="1716" durf="165" />
+		<ScrEff frame="1830" durf="60" kind="fade_out" color="000000" />
+		<ShowObj frame="1889" char_id="1101" show="true" skip="no" />
+		<ShowObj frame="1889" char_id="1102" show="true" skip="no" />
+		<ShowObj frame="1889" char_id="1151" show="true" skip="no" />
+		<Call frame="1889" evid="10004" skip="no" />
+	</Data>
+</Event>
+<Event ID="10004" comment="レベッカに暖めるソウマ教わった後">
+	<Type>ACT</Type>
+	<Data>
+		<ChangeMap frame="1" map_id="10241" skip="stop" />
+		<ShowObj frame="1" char_id="1101" show="false" />
+		<ShowObj frame="1" char_id="1102" show="false" />
+		<ShowObj frame="1" char_id="1151" show="false" />
+		<Rtmv frame="1" file_id="301030454" />
+		<Msg frame="1" durf="173" mode="SAY" msg_id="1031" />
+		<Mcut frame="4" durf="170" />
+		<Msg frame="178" durf="51" mode="SAY" msg_id="1032" />
+		<Mcut frame="182" durf="47" />
+		<SetPos frame="237" char_id="1101" pos="116.1, 0, 1136.1" dir="0, 236.5, 0" skip="no" />
+		<SetPos frame="237" char_id="1102" pos="138.9, 0, 1012.6" dir="0, 294.2, 0" skip="no" />
+		<ShowObj frame="237" char_id="1101" show="true" skip="no" />
+		<ShowObj frame="237" char_id="1102" show="true" skip="no" />
+		<GetThing frame="237" kind="fixed_source" param="1010" show_get_msg="true" skip="stop" comment="ソウマ「faurac」入手" />
+		<GetThing frame="237" kind="fixed_source" param="1012" show_get_msg="true" skip="stop" comment="ソウマ「fogohamad」入手" />
+		<Flag frame="237" sfid="1011" value="true" skip="no" comment="火強化ソウマ取得済み" />
+		<ChangeStory frame="237" story_id="10305" skip="no" comment="★次のストーリーへ" />
+	</Data>
+</Event>
+<Event ID="10005">
+	<Type>ACT</Type>
+	<Data>
+		<If frame="1" sfid="1004" jump_evid="10001" skip="no" comment="カバル会話後" />
+		<Call frame="1" evid="10002" skip="no" />
+	</Data>
+</Event>
+<Event ID="10009" comment="ストーリー開始マップ">
+	<Type>ACT</Type>
+	<Data>
+		<ChangeMap frame="1" map_id="11112" skip="stop" />
+	</Data>
+</Event>
+<Event ID="10401" comment="Kabal1-1-1">
+	<Type>ACT</Type>
+	<Data>
+		<If frame="1" sfid="1011" jump_evid="10402" skip="no" comment="火強化ソウマ取得後" />
+		<Msg frame="1" mode="TALK" msg_id="1401" />
+		<Msg frame="1" mode="TALK" msg_id="1402" />
+		<Msg frame="1" mode="TALK" msg_id="1403" />
+		<Msg frame="1" mode="TALK" msg_id="1404" />
+		<Msg frame="1" mode="TALK" msg_id="1405" />
+		<ScrEff frame="1" durf="60" kind="fade_out" color="000000" />
+		<Call frame="1" evid="10403" skip="no" />
+	</Data>
+</Event>
+<Event ID="10402" comment="Kabal1-1-2">
+	<Type>ACT</Type>
+	<Data>
+		<Msg frame="1" mode="TALK" msg_id="1411" />
+		<Msg frame="1" mode="TALK" msg_id="1412" />
+		<ScrEff frame="1" durf="60" kind="fade_out" color="000000" />
+		<Call frame="1" evid="10403" skip="no" />
+	</Data>
+</Event>
+<Event ID="10403" comment="Kabal1-2">
+	<Type>ACT</Type>
+	<Data>
+		<ScrEff frame="1" durf="30" kind="fade_in" color="000000" />
+		<Msg frame="31" mode="TALK" msg_id="1421" />
+		<Msg frame="31" mode="TALK" msg_id="1422" />
+		<Msg frame="31" mode="TALK" msg_id="1423" />
+		<Msg frame="31" mode="TALK" msg_id="1425" />
+		<Msg frame="31" mode="TALK" msg_id="1426" />
+		<Msg frame="31" mode="TALK" msg_id="1431" />
+		<Msg frame="31" mode="TALK" msg_id="1432" />
+		<Msg frame="31" mode="TALK" msg_id="1433" />
+		<Msg frame="31" mode="TALK" msg_id="1434" />
+		<Msg frame="31" mode="TALK" msg_id="1435" />
+		<Msg frame="31" mode="TALK" msg_id="1441" />
+		<Msg frame="31" mode="TALK" msg_id="1442" />
+		<If frame="31" sfid="1011" jump_evid="10404" skip="no" comment="火強化ソウマ取得後" />
+		<Msg frame="31" mode="TALK" msg_id="1451" />
+		<Msg frame="31" mode="TALK" msg_id="1452" />
+		<Msg frame="31" mode="TALK" msg_id="1453" />
+		<Call frame="31" evid="10405" skip="no" />
+	</Data>
+</Event>
+<Event ID="10404" comment="Kabal1-3-2">
+	<Type>ACT</Type>
+	<Data>
+		<Msg frame="1" mode="TALK" msg_id="1461" />
+		<Msg frame="1" mode="TALK" msg_id="1462" />
+		<Call frame="1" evid="10405" skip="no" />
+	</Data>
+</Event>
+<Event ID="10405" comment="Kabal1-4">
+	<Type>ACT</Type>
+	<Data>
+		<Msg frame="1" mode="TALK" msg_id="1471" />
+		<Msg frame="1" mode="TALK" msg_id="1472" />
+		<Msg frame="1" mode="TALK" msg_id="1473" />
+		<Msg frame="1" mode="TALK" msg_id="1475" />
+		<Msg frame="1" mode="TALK" msg_id="1476" />
+		<Msg frame="1" mode="TALK" msg_id="1481" />
+		<Msg frame="1" mode="TALK" msg_id="1482" />
+		<ScrEff frame="1" durf="60" kind="fade_out" color="000000" />
+		<ChangeMap frame="1" map_id="10223" skip="no" />
+		<GetThing frame="1" kind="item" param="2007" show_get_msg="true" skip="no" comment="アイテム「火石」入手" />
+		<Flag frame="1" sfid="1004" value="true" skip="no" comment="カバル会話済" />
+		<Score frame="1" score_count="7" skip="no" />
+	</Data>
+</Event>
+<Event ID="10406" comment="会話済時カバル不在に">
+	<Type>ACT</Type>
+	<Data>
+		<If frame="1" negative="true" sfid="1004" jump_evid="0" skip="no" comment="カバル会話後" />
+		<ShowObj frame="1" char_id="1104" show="false" skip="no" />
+	</Data>
+</Event>
+<Event ID="10501" comment="Hermit1">
+	<Type>ACT</Type>
+	<Data>
+		<Msg frame="1" mode="TALK" msg_id="1551" />
+		<Msg frame="1" mode="TALK" msg_id="1552" />
+		<Msg frame="1" mode="TALK" msg_id="1553" />
+	</Data>
+</Event>
+<Event ID="10901" comment="Yasan1">
+	<Type>ACT</Type>
+	<Data>
+		<Msg frame="1" mode="TALK" msg_id="1591" />
+	</Data>
+</Event>
+<Event ID="15201" comment="Syuru1">
+	<Type>ACT</Type>
+	<Data>
+		<Msg frame="1" mode="TALK" msg_id="2021" />
+		<Msg frame="1" mode="TALK" msg_id="2022" />
+	</Data>
+</Event>
+<Event ID="15301" comment="Yauto1">
+	<Type>ACT</Type>
+	<Data>
+		<Msg frame="1" mode="TALK" msg_id="2031" />
+	</Data>
+</Event>
+</EventData>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<Menu>
+	<Node ID="1101">
+		SOURCE
+		<Function MenuClose="yes">
+			Source
+		</Function>
+	</Node>
+	<Node ID="1102">
+		Inventory
+		<Function MenuClose="yes">
+			Item
+		</Function>
+	</Node>
+	<Node ID="1103">
+		Status
+		<Function MenuClose="yes">
+			Status
+		</Function>
+	</Node>
+	<Node ID="1104">
+		Ability
+		<Function MenuClose="yes">
+			Ability
+		</Function>
+	</Node>
+	<Node ID="1105">
+		Equip
+		<Function MenuClose="yes">
+			Equip
+		</Function>
+	</Node>
+	<Node ID="1106">
+		Quest
+		<Function MenuClose="yes">
+			Quest
+		</Function>
+	</Node>
+	<Node ID="1107">
+		Save
+		<Function MenuClose="yes">
+			Save
+		</Function>
+	</Node>
+	<Node ID="1108">
+		Options
+		<Function MenuClose="yes">
+			Options
+		</Function>
+	</Node>
+</Menu>

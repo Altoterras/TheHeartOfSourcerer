@@ -1,0 +1,26 @@
+/*
+ *  Base.h
+ *  Terras Framework
+ *
+ *  Created by Ryoutarou Kishi on 2009/06/02.
+ *  Copyright 2009 Altoterras Corporation. All rights reserved.
+ *
+ */
+
+#ifndef _TFW_SMENU_BASE_H_
+#define _TFW_SMENU_BASE_H_
+
+////////////////////////////////////////////////////////////////////////////
+// インクルードファイル
+
+#include "../Base.h"
+
+////////////////////////////////////////////////////////////////////////////
+// マクロ
+
+#define SMENU_BEGIN_NS namespace smenu {
+#define SMENU_END_NS }
+
+////////////////////////////////////////////////////////////////////////////
+
+#endif	// _TFW_SMENU_BASE_H_

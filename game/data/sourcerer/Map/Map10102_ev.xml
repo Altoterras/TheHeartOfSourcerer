@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<EventData>
+<Event ID="999">
+	<Type>MAPCONF</Type>
+	<Data>
+		<MapKind>Field</MapKind>
+		<MoveMap1>10104</MoveMap1>
+		<MoveMap2>10101</MoveMap2>
+		<MoveMap3>10105</MoveMap3>
+		<MoveMap4>10181</MoveMap4>
+		<BgmId volume="0.5">103</BgmId>
+		<PlaceObj kind="puitem" item_id="2001" pos="-1700.0f, 500.0f, 3200.0f" rand_pos_r="500.0f" rand="60" comment="水晶" />
+		<PlaceObj kind="puitem" item_id="2046" pos="-3530.0f, 500.0f, -755.0f" rand_pos_r="500.0f" rand="8" comment="にごり石" />
+		<PlaceObj kind="puitem" item_id="2043" pos="-2000.0f, 500.0f, -3000.0f" rand_pos_r="500.0f" rand="14" comment="照石" />
+		<PlaceObj kind="puitem" item_id="2001" pos="1700.0f, 500.0f, -3000.0f" rand_pos_r="500.0f" rand="50" comment="水晶" />
+		<EleneEff cql="1000,1000,1000,1000,1000" nql="1000,1000,1000,1000,1000" />
+	</Data>
+</Event>
+</EventData>

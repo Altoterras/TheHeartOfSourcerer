@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<EventData>
+<Event ID="999">
+	<Type>MAPCONF</Type>
+	<Data>
+		<MapKind>Field</MapKind>
+		<MoveMap1>19101</MoveMap1>
+		<MoveMap2>10241</MoveMap2>
+		<MoveMap3>19101</MoveMap3>
+		<MoveMap4>10102</MoveMap4>
+		<BgmId>103</BgmId>
+		<Fog mode="linear" start="10000.0" end="60000.0" color="0.61, 0.91, 1.00, 1.00" />
+		<PlaceObj kind="extra" char_id="1202" pos="9600.0f, 0.0f, -500.0f" pos_evid="" call_evid="101" />
+	</Data>
+</Event>
+<Event ID="101">
+	<Type>ACT</Type>
+	<Data>
+		<Msg frame="1" mode="TALK" msg_id="101" />
+		<If frame="1" jump_evid="0" situ_flag_c01="1" />
+		<Msg frame="1" mode="TALK" msg_id="111" />
+		<Msg frame="1" mode="TALK" msg_id="112" />
+		<Msg frame="1" mode="TALK" msg_id="113" />
+		<Msg frame="1" mode="TALK" msg_id="114" />
+		<Msg frame="1" mode="TALK" msg_id="115" />
+		<Msg frame="1" mode="TALK" msg_id="116" />
+	</Data>
+</Event>
+</EventData>

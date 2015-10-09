@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<EventData>
+<Event ID="999">
+	<Type>MAPCONF</Type>
+	<Data>
+		<StartupEvent>901</StartupEvent>
+		<MapKind>Field</MapKind>
+		<MoveMap1>11103</MoveMap1>
+		<MoveMap2>19101</MoveMap2>
+		<MoveMap3>19101</MoveMap3>
+		<MoveMap4>19101</MoveMap4>
+		<BgmId>107</BgmId>
+		<Fog mode="linear" start="6000.0" end="16000.0" color="0.067, 0.161, 0.114, 1.0" />
+		<EleneEff cql="523,1627,791,197,1000" nql="500,1555,601,189,1000" />
+		<PlaceObj kind="mapobj" char_id="1711" map_id="11113" pos="1600.2, 0, -2525.3" enable="no" enable_focus="no" />
+		<PlaceObj kind="enemy" char_id="1505" min_story_id="10401" pos="1500.0, 0.0, -2951.0" rand_pos_r="300.0" walk_speed="0.2" comment="コグナ" />
+		<PlaceObj kind="enemy" char_id="1504" min_story_id="10401" pos="2000.0, 0.0, -2300.0" rand_pos_r="300.0" walk_speed="0.5" comment="シカナ" />
+		<PlaceObj kind="enemy" char_id="1505" min_story_id="10401" pos="1535.0, 0.0, -1570.0" rand_pos_r="300.0" walk_speed="0.2" comment="コグナ" />
+		<PlaceObj kind="enemy" char_id="1505" min_story_id="10401" pos="2233.0, 0.0, -1776.0" rand_pos_r="300.0" walk_speed="0.2" comment="コグナ" />
+		<PlaceObj kind="enemy" char_id="1505" min_story_id="10401" pos="2775.0, 0.0, -2118.0" rand_pos_r="300.0" walk_speed="0.2" comment="コグナ" />
+		<PlaceObj kind="puitem" item_id="3019" pos="1400.0, 0.0, -2900.0" rand_pos_r="100.0" rand="35" comment="水草" />
+		<PlaceObj kind="puitem" item_id="3010" pos="1450.0, 0.0, -2400.0" rand_pos_r="100.0" rand="45" comment="青草" />
+		<PlaceObj kind="puitem" item_id="3010" pos="1400.0, 0.0, -2000.0" rand_pos_r="100.0" rand="45" comment="青草" />
+		<PlaceObj kind="puitem" item_id="3019" pos="1200.0, 0.0, -1600.0" rand_pos_r="100.0" rand="35" comment="水草" />
+		<PlaceObj kind="puitem" item_id="2001" pos="2200.0, 0.0, -1700.0" rand_pos_r="300.0" rand="55" comment="水晶" />
+	</Data>
+</Event>
+<Event ID="901" comment="アサイベントクリア後、雲月岩表示">
+	<Type>ACT</Type>
+	<Data>
+		<If frame="1" sfid="1010" jump_evid="0" skip="no" negative="true" comment="アサイベントをクリアしていない(negative)" />
+		<ShowObj frame="1" char_id="1711" show="true" />
+	</Data>
+</Event>
+</EventData>

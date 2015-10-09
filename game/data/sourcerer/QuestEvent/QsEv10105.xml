@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<EventData>
+
+<Event ID="20099" comment="※クエストのイベント IDは＋クエストスロット× 100 をクエスト毎に増算するため下２桁のみ使用可能">
+	<Type>QUESTCONF</Type>
+	<Data>
+		<OverrideEvent kind="map" map_id="10223" old_evid="101" new_evid="20001" comment="アネヤを上書" />
+	</Data>
+</Event>
+
+<Event ID="20001">
+	<Type>ACT</Type>
+	<Data>
+		<If frame="1" quest_stat="2" jump_evid="20021" />
+		<If frame="1" quest_stat="3" jump_evid="20031" />
+		<If frame="1" quest_stat="4" jump_evid="20041" />
+	</Data>
+</Event>
+
+<Event ID="20021">
+	<Type>ACT</Type>
+	<Data>
+		<Msg frame="1" mode="TALK" msg_id="10011" />
+		<Msg frame="1" mode="TALK" msg_id="10012" />
+		<Prog frame="1" name="QsEmp_ConfirmContract" skip="no" />
+		<Msg frame="1" mode="TALK" msg_id="10031" />
+	</Data>
+</Event>
+
+<Event ID="20031">
+	<Type>ACT</Type>
+	<Data>
+		<Prog frame="1" name="QsEmp_ConfirmCancel" skip="no" />
+		<Msg frame="1" mode="TALK" msg_id="10071" />
+	</Data>
+</Event>
+
+<Event ID="20041">
+	<Type>ACT</Type>
+	<Data>
+		<Prog frame="1" name="QsEmp_ConfirmHandOver" param="who_char_id=1206&what_item_id=2005" skip="no" />
+		<Msg frame="1" mode="TALK" msg_id="10051" />
+		<Prog frame="1" name="QsEmp_CallFinish" skip="no" />
+	</Data>
+</Event>
+
+</EventData>

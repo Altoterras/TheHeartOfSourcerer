@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<Menu>
+	<Node>
+		見る
+		<Function MenuClose="yes">
+			Show
+		</Function>
+	</Node>
+	<Node>
+		並び替える
+		<Function MenuClose="yes">
+			Sort
+		</Function>
+	</Node>
+	<Node>
+		置く
+		<Function MenuClose="yes">
+			Throw
+		</Function>
+	</Node>
+</Menu>

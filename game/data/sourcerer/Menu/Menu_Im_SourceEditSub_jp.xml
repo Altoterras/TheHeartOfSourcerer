@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<Menu>
+	<Node>
+		テキスト コピー
+		<Function MenuClose="yes">
+			Copy
+		</Function>
+	</Node>
+	<Node>
+		テキスト 貼り付け
+		<Function MenuClose="yes">
+			Paste
+		</Function>
+	</Node>
+	<Node ID="2201">
+		JSに変換
+		<Function MenuClose="yes">
+			ConvToJs
+		</Function>
+	</Node>
+	<Node ID="2202">
+		SSに変換
+		<Function MenuClose="yes">
+			ConvToSs
+		</Function>
+	</Node>
+</Menu>

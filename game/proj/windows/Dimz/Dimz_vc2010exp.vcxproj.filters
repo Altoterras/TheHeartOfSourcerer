@@ -1,0 +1,1428 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx;h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\tfw">
+      <UniqueIdentifier>{60ba2e3b-5378-4f9e-8dd8-5a4d48ec8c89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\tfw\lib">
+      <UniqueIdentifier>{d2d13bac-0520-40b1-bbe3-ab6c95da8011}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\tfw\g3d">
+      <UniqueIdentifier>{2dc60bd1-9d56-4ee1-afca-7b6dc6f8ca98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\tfw\g3d\sg">
+      <UniqueIdentifier>{363c25e0-77d7-4c61-a96e-163598217c38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\tfw\g3d\sg\node">
+      <UniqueIdentifier>{879e80cb-e08a-41cc-a2dc-1393a8df13f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\tfw\g3d\sg\node\implement">
+      <UniqueIdentifier>{52f458db-a214-4d4a-aee1-cbcdb62d11e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\tfw\framemod">
+      <UniqueIdentifier>{7a0bf752-8579-4c70-9099-135e915afcc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\tfw\ui">
+      <UniqueIdentifier>{6b4c4014-21bb-4697-ac04-ee155766ccaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\tfw\smenu">
+      <UniqueIdentifier>{918ccd27-cedd-407c-aa16-0849ef0992cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\tfw\gui">
+      <UniqueIdentifier>{06a36445-6d15-4a51-bde9-aa30778e1d02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\tfw\gui\txtbox">
+      <UniqueIdentifier>{523e41ed-f5b9-472f-a2de-b01e4908ea8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\tfw\g2d">
+      <UniqueIdentifier>{c2d9ea02-35e4-44a5-8b4b-ed2b4ad63def}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\tfw\g2d\font">
+      <UniqueIdentifier>{e590b182-412e-485f-9a28-7a6c0698e942}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\tfw\g2d\font\implement">
+      <UniqueIdentifier>{c805bbe8-dddb-4a3a-b938-f326c3f6a582}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\tfw\gcmn">
+      <UniqueIdentifier>{cf9457d8-362e-47f1-9fa5-36d56625ebbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\tfw\modemng">
+      <UniqueIdentifier>{14786cce-b042-485e-883e-7743c1234700}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\tfw\collision">
+      <UniqueIdentifier>{6c869372-d144-4347-81a8-de8d244b2375}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\tfw\common">
+      <UniqueIdentifier>{57ab69b2-ad22-4b2e-84f9-b9e3e6b0962a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\tfw\tbf">
+      <UniqueIdentifier>{3cf9d4d7-1c0a-4fee-8976-36c61074bd9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\tfw\file">
+      <UniqueIdentifier>{980dfd5a-1196-4399-9449-628043807135}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\tfw\collection">
+      <UniqueIdentifier>{5d4d2d66-af22-44ec-b63a-c1b830b6e0ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\tfw\string">
+      <UniqueIdentifier>{731b52ed-f050-4c76-9ccb-340bc3f88439}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\tfw\string\txt">
+      <UniqueIdentifier>{1a91463b-86f7-47e2-9e17-57a48c72f5dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\tfw\string\txt\implement">
+      <UniqueIdentifier>{ea8e78a8-cc18-4eb7-9e1a-87b06062c7cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\tfw\image">
+      <UniqueIdentifier>{29c4ab3f-d8c2-413d-8db5-8b0b6f3e03e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\tfw\sound">
+      <UniqueIdentifier>{87a24161-5cb9-4ba9-926d-3c2b6d5936c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\tfw\hash">
+      <UniqueIdentifier>{ad0a1881-f2ca-41c3-8086-67917a940b99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\tfw\debug">
+      <UniqueIdentifier>{16559be8-8f0b-41fe-8170-f9ec3da4b7b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\tfw\extlib">
+      <UniqueIdentifier>{f84bd9b5-671f-4880-a604-7d263c9b9417}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\tfw\extlib\zlib">
+      <UniqueIdentifier>{85d4fc12-235b-48b3-9215-0e851108b56d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\tfw\extlib\lpng">
+      <UniqueIdentifier>{62f9af04-56d6-45d1-868f-8be9957893dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\tfw\serialize">
+      <UniqueIdentifier>{bbd12917-83bb-48c0-9808-a994e6e7aabc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\tfw\evsys">
+      <UniqueIdentifier>{c8f79a55-9457-4b0c-9283-b8b4f3e15e1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\windows">
+      <UniqueIdentifier>{7061a69f-4bc3-4740-ab67-22b695c2767f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\windows\library">
+      <UniqueIdentifier>{bf9b0687-ee0d-4d0c-9bcc-5364691fabbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\sourcerer">
+      <UniqueIdentifier>{7520a42b-85ee-46fb-adfe-52a1ff7cd162}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\sourcerer\sg">
+      <UniqueIdentifier>{2087af31-f0ff-4e9b-98cc-36c95d01c956}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\etk">
+      <UniqueIdentifier>{5f90f5ca-7ba9-48be-9db9-a80c05c5576a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\etk\debug">
+      <UniqueIdentifier>{0b822e1d-1462-455c-b787-20983f1c333a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\etk\body">
+      <UniqueIdentifier>{433c5785-8f74-4163-803e-cefe6b0ebbf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\etk\particle">
+      <UniqueIdentifier>{99562624-25bf-4f49-89cc-896d7e899fab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\etk\sound">
+      <UniqueIdentifier>{67c36195-69b8-453d-8ef8-7fd6939f2786}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\etk\effect">
+      <UniqueIdentifier>{9d34dea0-a344-4fce-92ea-a58308a6a4b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\etk\gui">
+      <UniqueIdentifier>{e82eb890-eabd-4781-8d5d-fc4e3983c650}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\etk\gui\window">
+      <UniqueIdentifier>{bd42ded6-6b56-4bd1-b343-76c77d94c6e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\etk\gui\window\implement">
+      <UniqueIdentifier>{5ef70629-77d9-4a90-be64-f0e94b1351f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\etk\camera">
+      <UniqueIdentifier>{cd384dd0-11dd-412c-aed5-c88cf4ac7717}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\dimz">
+      <UniqueIdentifier>{9ff2334d-bda2-44b6-b0e9-d06257acb897}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\dimz\body">
+      <UniqueIdentifier>{0e9ca95c-8add-4802-b4c1-8b7163b96cd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\dimz\gui">
+      <UniqueIdentifier>{1ba30e5c-30ba-4ffd-944f-ccb2043da247}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\dimz\file">
+      <UniqueIdentifier>{a87c7cb3-8e9c-441c-afe2-eb80739226eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\dimz\debug">
+      <UniqueIdentifier>{8965b731-13c5-4644-971a-d068089adb81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\dimz\particle">
+      <UniqueIdentifier>{e2eab1bb-6631-4557-b2d0-bf10a84db4ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\dimz\mode">
+      <UniqueIdentifier>{9d4f3a99-ed9f-497e-be9a-e80bd3558781}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\tfw\Base.h">
+      <Filter>ソース ファイル\tfw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\BaseTypes.h">
+      <Filter>ソース ファイル\tfw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\Tfw.h">
+      <Filter>ソース ファイル\tfw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\lib\BitFlagArray.h">
+      <Filter>ソース ファイル\tfw\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\lib\Calc.h">
+      <Filter>ソース ファイル\tfw\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\lib\Color.h">
+      <Filter>ソース ファイル\tfw\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\lib\Matrix.h">
+      <Filter>ソース ファイル\tfw\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\lib\MergeSort.h">
+      <Filter>ソース ファイル\tfw\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\lib\Point.h">
+      <Filter>ソース ファイル\tfw\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\lib\QuickSort.h">
+      <Filter>ソース ファイル\tfw\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\lib\Rect.h">
+      <Filter>ソース ファイル\tfw\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\lib\Size.h">
+      <Filter>ソース ファイル\tfw\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\lib\StopWatch.h">
+      <Filter>ソース ファイル\tfw\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\lib\StringTable.h">
+      <Filter>ソース ファイル\tfw\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\lib\TypeUtils.h">
+      <Filter>ソース ファイル\tfw\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\lib\Vector.h">
+      <Filter>ソース ファイル\tfw\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\lib\XmlParser.h">
+      <Filter>ソース ファイル\tfw\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\lib\XmlParserUtils.h">
+      <Filter>ソース ファイル\tfw\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\lib\ZCompress.h">
+      <Filter>ソース ファイル\tfw\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\g3d\CamAnim.h">
+      <Filter>ソース ファイル\tfw\g3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\g3d\CamAnimFrame.h">
+      <Filter>ソース ファイル\tfw\g3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\g3d\HrAnim.h">
+      <Filter>ソース ファイル\tfw\g3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\g3d\HrAnimCtx.h">
+      <Filter>ソース ファイル\tfw\g3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\g3d\HrAnimObj.h">
+      <Filter>ソース ファイル\tfw\g3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\g3d\HrAnimObjCtx.h">
+      <Filter>ソース ファイル\tfw\g3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\g3d\HrAnimObjCtxArray.h">
+      <Filter>ソース ファイル\tfw\g3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\g3d\HrAnimObjFrame.h">
+      <Filter>ソース ファイル\tfw\g3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\g3d\HrAnimSet.h">
+      <Filter>ソース ファイル\tfw\g3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\g3d\HrAnimSetCtx.h">
+      <Filter>ソース ファイル\tfw\g3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\g3d\Material.h">
+      <Filter>ソース ファイル\tfw\g3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\g3d\MaterialCtx.h">
+      <Filter>ソース ファイル\tfw\g3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\g3d\Shape.h">
+      <Filter>ソース ファイル\tfw\g3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\g3d\ShapeCtx.h">
+      <Filter>ソース ファイル\tfw\g3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\g3d\sg\SgManager.h">
+      <Filter>ソース ファイル\tfw\g3d\sg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\g3d\sg\node\SgEntity.h">
+      <Filter>ソース ファイル\tfw\g3d\sg\node</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\g3d\sg\node\SgNode.h">
+      <Filter>ソース ファイル\tfw\g3d\sg\node</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\g3d\sg\node\SgNodeChain.h">
+      <Filter>ソース ファイル\tfw\g3d\sg\node</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\g3d\sg\node\SgNodeType.h">
+      <Filter>ソース ファイル\tfw\g3d\sg\node</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\g3d\sg\node\implement\AnimCamera.h">
+      <Filter>ソース ファイル\tfw\g3d\sg\node\implement</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\g3d\sg\node\implement\BillboardModel.h">
+      <Filter>ソース ファイル\tfw\g3d\sg\node\implement</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\g3d\sg\node\implement\Camera.h">
+      <Filter>ソース ファイル\tfw\g3d\sg\node\implement</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\g3d\sg\node\implement\LocAngCamera.h">
+      <Filter>ソース ファイル\tfw\g3d\sg\node\implement</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\g3d\sg\node\implement\LookAtCamera.h">
+      <Filter>ソース ファイル\tfw\g3d\sg\node\implement</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\g3d\sg\node\implement\Model.h">
+      <Filter>ソース ファイル\tfw\g3d\sg\node\implement</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\g3d\sg\node\implement\ModelLoader.h">
+      <Filter>ソース ファイル\tfw\g3d\sg\node\implement</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\g3d\sg\node\implement\ModelLoader_tbf.h">
+      <Filter>ソース ファイル\tfw\g3d\sg\node\implement</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\g3d\sg\node\implement\ShapeModel.h">
+      <Filter>ソース ファイル\tfw\g3d\sg\node\implement</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\framemod\ExecCtx.h">
+      <Filter>ソース ファイル\tfw\framemod</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\framemod\ExecRes.h">
+      <Filter>ソース ファイル\tfw\framemod</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\framemod\FedTaskSys.h">
+      <Filter>ソース ファイル\tfw\framemod</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\framemod\FrameDraw.h">
+      <Filter>ソース ファイル\tfw\framemod</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\framemod\FrameExec.h">
+      <Filter>ソース ファイル\tfw\framemod</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\framemod\FrameExecDraw.h">
+      <Filter>ソース ファイル\tfw\framemod</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\framemod\RenderCtx.h">
+      <Filter>ソース ファイル\tfw\framemod</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\ui\Keyboard.h">
+      <Filter>ソース ファイル\tfw\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\ui\Pad.h">
+      <Filter>ソース ファイル\tfw\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\ui\TouchPanel.h">
+      <Filter>ソース ファイル\tfw\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\ui\Ui.h">
+      <Filter>ソース ファイル\tfw\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\smenu\Base.h">
+      <Filter>ソース ファイル\tfw\smenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\smenu\Menu.h">
+      <Filter>ソース ファイル\tfw\smenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\smenu\MenuExecRes.h">
+      <Filter>ソース ファイル\tfw\smenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\smenu\MenuFuncTable.h">
+      <Filter>ソース ファイル\tfw\smenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\smenu\MenuPanelFactory.h">
+      <Filter>ソース ファイル\tfw\smenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\smenu\MenuPanelReceptor.h">
+      <Filter>ソース ファイル\tfw\smenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\smenu\MenuTreeNode.h">
+      <Filter>ソース ファイル\tfw\smenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\gui\BasicScrollBar.h">
+      <Filter>ソース ファイル\tfw\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\gui\Panel.h">
+      <Filter>ソース ファイル\tfw\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\gui\PanelBase.h">
+      <Filter>ソース ファイル\tfw\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\gui\PanelText.h">
+      <Filter>ソース ファイル\tfw\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\gui\txtbox\TxtBox.h">
+      <Filter>ソース ファイル\tfw\gui\txtbox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\gui\txtbox\TxtBoxExecRes.h">
+      <Filter>ソース ファイル\tfw\gui\txtbox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\g2d\StringDrawer.h">
+      <Filter>ソース ファイル\tfw\g2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\g2d\TiledRectDraw.h">
+      <Filter>ソース ファイル\tfw\g2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\g2d\font\Font.h">
+      <Filter>ソース ファイル\tfw\g2d\font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\g2d\font\ProportionalFontData.h">
+      <Filter>ソース ファイル\tfw\g2d\font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\g2d\font\implement\BitmapFontAscii.h">
+      <Filter>ソース ファイル\tfw\g2d\font\implement</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\g2d\font\implement\BitmapFontMultiByte.h">
+      <Filter>ソース ファイル\tfw\g2d\font\implement</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\g2d\font\implement\OsFont.h">
+      <Filter>ソース ファイル\tfw\g2d\font\implement</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\gcmn\EasyStringDrawer.h">
+      <Filter>ソース ファイル\tfw\gcmn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\gcmn\Gcalc.h">
+      <Filter>ソース ファイル\tfw\gcmn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\gcmn\Renderer.h">
+      <Filter>ソース ファイル\tfw\gcmn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\gcmn\RendererUtils.h">
+      <Filter>ソース ファイル\tfw\gcmn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\gcmn\TexAnim.h">
+      <Filter>ソース ファイル\tfw\gcmn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\gcmn\TexAnimCtx.h">
+      <Filter>ソース ファイル\tfw\gcmn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\gcmn\Texture.h">
+      <Filter>ソース ファイル\tfw\gcmn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\gcmn\TextureCtx.h">
+      <Filter>ソース ファイル\tfw\gcmn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\gcmn\View.h">
+      <Filter>ソース ファイル\tfw\gcmn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\modemng\Mode.h">
+      <Filter>ソース ファイル\tfw\modemng</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\modemng\Role.h">
+      <Filter>ソース ファイル\tfw\modemng</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\collision\Gcol.h">
+      <Filter>ソース ファイル\tfw\collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\common\IdManager.h">
+      <Filter>ソース ファイル\tfw\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\common\PerformanceMeter.h">
+      <Filter>ソース ファイル\tfw\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\common\ResourcePool.h">
+      <Filter>ソース ファイル\tfw\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\tbf\TbfDefine.h">
+      <Filter>ソース ファイル\tfw\tbf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\tbf\TbmbManip.h">
+      <Filter>ソース ファイル\tfw\tbf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\file\File.h">
+      <Filter>ソース ファイル\tfw\file</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\file\FileBase.h">
+      <Filter>ソース ファイル\tfw\file</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\file\FileSerializer.h">
+      <Filter>ソース ファイル\tfw\file</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\file\IdFile.h">
+      <Filter>ソース ファイル\tfw\file</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\file\MemoryFile.h">
+      <Filter>ソース ファイル\tfw\file</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\file\PackedIdFile.h">
+      <Filter>ソース ファイル\tfw\file</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\collection\Array.h">
+      <Filter>ソース ファイル\tfw\collection</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\collection\ArrayBase.h">
+      <Filter>ソース ファイル\tfw\collection</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\collection\InsArray.h">
+      <Filter>ソース ファイル\tfw\collection</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\collection\InsList.h">
+      <Filter>ソース ファイル\tfw\collection</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\collection\List.h">
+      <Filter>ソース ファイル\tfw\collection</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\collection\ListBase.h">
+      <Filter>ソース ファイル\tfw\collection</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\collection\Tree.h">
+      <Filter>ソース ファイル\tfw\collection</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\string\CcString.h">
+      <Filter>ソース ファイル\tfw\string</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\string\CvString.h">
+      <Filter>ソース ファイル\tfw\string</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\string\CvStringArray.h">
+      <Filter>ソース ファイル\tfw\string</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\string\StringBase.h">
+      <Filter>ソース ファイル\tfw\string</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\string\StringUtils.h">
+      <Filter>ソース ファイル\tfw\string</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\string\txt\Txt.h">
+      <Filter>ソース ファイル\tfw\string\txt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\string\txt\TxtChar.h">
+      <Filter>ソース ファイル\tfw\string\txt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\string\txt\TxtDef.h">
+      <Filter>ソース ファイル\tfw\string\txt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\string\txt\TxtIterator.h">
+      <Filter>ソース ファイル\tfw\string\txt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\string\txt\TxtPos.h">
+      <Filter>ソース ファイル\tfw\string\txt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\string\txt\TxtPosArray.h">
+      <Filter>ソース ファイル\tfw\string\txt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\string\txt\TxtUtils.h">
+      <Filter>ソース ファイル\tfw\string\txt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\string\txt\TxtUtilsIos.h">
+      <Filter>ソース ファイル\tfw\string\txt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\string\txt\implement\AsciiTxt.h">
+      <Filter>ソース ファイル\tfw\string\txt\implement</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\string\txt\implement\SjisTxt.h">
+      <Filter>ソース ファイル\tfw\string\txt\implement</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\string\txt\implement\Utf8Txt.h">
+      <Filter>ソース ファイル\tfw\string\txt\implement</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\image\BmpImg.h">
+      <Filter>ソース ファイル\tfw\image</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\image\ImageBase.h">
+      <Filter>ソース ファイル\tfw\image</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\image\PngImg.h">
+      <Filter>ソース ファイル\tfw\image</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\image\PvrtcImg.h">
+      <Filter>ソース ファイル\tfw\image</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\image\TgaImg.h">
+      <Filter>ソース ファイル\tfw\image</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\sound\CafWav.h">
+      <Filter>ソース ファイル\tfw\sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\sound\Music.h">
+      <Filter>ソース ファイル\tfw\sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\sound\OpenAl.h">
+      <Filter>ソース ファイル\tfw\sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\sound\RiffWav.h">
+      <Filter>ソース ファイル\tfw\sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\sound\Se.h">
+      <Filter>ソース ファイル\tfw\sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\sound\Sound.h">
+      <Filter>ソース ファイル\tfw\sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\sound\Wave.h">
+      <Filter>ソース ファイル\tfw\sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\sound\WaveFormat.h">
+      <Filter>ソース ファイル\tfw\sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\hash\HashEntry.h">
+      <Filter>ソース ファイル\tfw\hash</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\hash\HashOp.h">
+      <Filter>ソース ファイル\tfw\hash</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\hash\HashTable.h">
+      <Filter>ソース ファイル\tfw\hash</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\hash\StringHashEntry.h">
+      <Filter>ソース ファイル\tfw\hash</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\hash\StringHashOp.h">
+      <Filter>ソース ファイル\tfw\hash</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\debug\ScreenTrace.h">
+      <Filter>ソース ファイル\tfw\debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\debug\TfwDebug.h">
+      <Filter>ソース ファイル\tfw\debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\extlib\zlib\crc32.h">
+      <Filter>ソース ファイル\tfw\extlib\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\extlib\zlib\deflate.h">
+      <Filter>ソース ファイル\tfw\extlib\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\extlib\zlib\inffast.h">
+      <Filter>ソース ファイル\tfw\extlib\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\extlib\zlib\inffixed.h">
+      <Filter>ソース ファイル\tfw\extlib\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\extlib\zlib\inflate.h">
+      <Filter>ソース ファイル\tfw\extlib\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\extlib\zlib\inftrees.h">
+      <Filter>ソース ファイル\tfw\extlib\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\extlib\zlib\trees.h">
+      <Filter>ソース ファイル\tfw\extlib\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\extlib\zlib\zconf.h">
+      <Filter>ソース ファイル\tfw\extlib\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\extlib\zlib\zlib.h">
+      <Filter>ソース ファイル\tfw\extlib\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\extlib\zlib\zutil.h">
+      <Filter>ソース ファイル\tfw\extlib\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\extlib\lpng\png.h">
+      <Filter>ソース ファイル\tfw\extlib\lpng</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\extlib\lpng\pngconf.h">
+      <Filter>ソース ファイル\tfw\extlib\lpng</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\extlib\lpng\pngpriv.h">
+      <Filter>ソース ファイル\tfw\extlib\lpng</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\serialize\SerializeBase.h">
+      <Filter>ソース ファイル\tfw\serialize</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\serialize\Serializer.h">
+      <Filter>ソース ファイル\tfw\serialize</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\evsys\EvCause.h">
+      <Filter>ソース ファイル\tfw\evsys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\evsys\EvData.h">
+      <Filter>ソース ファイル\tfw\evsys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\evsys\EvMatter.h">
+      <Filter>ソース ファイル\tfw\evsys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\evsys\EvMatterCreateParam.h">
+      <Filter>ソース ファイル\tfw\evsys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\evsys\EvMatterFactory.h">
+      <Filter>ソース ファイル\tfw\evsys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\evsys\EvSys.h">
+      <Filter>ソース ファイル\tfw\evsys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\evsys\MsgData.h">
+      <Filter>ソース ファイル\tfw\evsys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\evsys\MsgDataSet.h">
+      <Filter>ソース ファイル\tfw\evsys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\evsys\OverrideEvMatter.h">
+      <Filter>ソース ファイル\tfw\evsys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\windows\App.h">
+      <Filter>ソース ファイル\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\windows\BasicInclude.h">
+      <Filter>ソース ファイル\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\windows\DebugWin.h">
+      <Filter>ソース ファイル\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\windows\MainWindow.h">
+      <Filter>ソース ファイル\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\windows\OsDepModWin.h">
+      <Filter>ソース ファイル\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\windows\RenderSystem.h">
+      <Filter>ソース ファイル\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\windows\Resource.h">
+      <Filter>ソース ファイル\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\windows\StopWatch.h">
+      <Filter>ソース ファイル\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\library\include\al.h">
+      <Filter>ソース ファイル\windows\library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\library\include\alc.h">
+      <Filter>ソース ファイル\windows\library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\library\include\glext.h">
+      <Filter>ソース ファイル\windows\library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\sourcerer\Base.h">
+      <Filter>ソース ファイル\sourcerer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\sourcerer\sg\BinaryTransparentBgSgnc.h">
+      <Filter>ソース ファイル\sourcerer\sg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\sourcerer\sg\CamSgnc.h">
+      <Filter>ソース ファイル\sourcerer\sg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\sourcerer\sg\ModelEffectSgnc.h">
+      <Filter>ソース ファイル\sourcerer\sg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\sourcerer\sg\OpacityBgNoFogSgnc.h">
+      <Filter>ソース ファイル\sourcerer\sg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\sourcerer\sg\OpacityBgSgnc.h">
+      <Filter>ソース ファイル\sourcerer\sg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\sourcerer\sg\ParticleEffectSgnc.h">
+      <Filter>ソース ファイル\sourcerer\sg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\sourcerer\sg\SorSgm.h">
+      <Filter>ソース ファイル\sourcerer\sg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\sourcerer\sg\TbfDefineEx.h">
+      <Filter>ソース ファイル\sourcerer\sg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\sourcerer\sg\TranslucentBgSgnc.h">
+      <Filter>ソース ファイル\sourcerer\sg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\sourcerer\sg\ZsortModelNoFogSgnc.h">
+      <Filter>ソース ファイル\sourcerer\sg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\sourcerer\sg\ZsortModelSgnc.h">
+      <Filter>ソース ファイル\sourcerer\sg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tfw\g2d\font\FontCharDefData.h">
+      <Filter>ソース ファイル\tfw\g2d\font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\etk\Base.h">
+      <Filter>ソース ファイル\etk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\etk\debug\Test.h">
+      <Filter>ソース ファイル\etk\debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\etk\body\OsDepMod.h">
+      <Filter>ソース ファイル\etk\body</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\etk\body\BodyFactory.h">
+      <Filter>ソース ファイル\etk\body</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\etk\body\Env.h">
+      <Filter>ソース ファイル\etk\body</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\etk\particle\ParticleSys.h">
+      <Filter>ソース ファイル\etk\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\etk\particle\Particle.h">
+      <Filter>ソース ファイル\etk\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\etk\particle\ParticleDef.h">
+      <Filter>ソース ファイル\etk\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\etk\particle\ParticleDefTbl.h">
+      <Filter>ソース ファイル\etk\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\etk\sound\SoundMngr.h">
+      <Filter>ソース ファイル\etk\sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\etk\effect\ScreenEffect.h">
+      <Filter>ソース ファイル\etk\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\etk\body\EtkExecCtx.h">
+      <Filter>ソース ファイル\etk\body</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\etk\body\EtkRenderCtx.h">
+      <Filter>ソース ファイル\etk\body</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\etk\body\EtkTaskModDef.h">
+      <Filter>ソース ファイル\etk\body</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\etk\body\EtkBody.h">
+      <Filter>ソース ファイル\etk\body</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\etk\gui\EtkGui.h">
+      <Filter>ソース ファイル\etk\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\etk\gui\window\MessageWindow.h">
+      <Filter>ソース ファイル\etk\gui\window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\etk\gui\window\Window.h">
+      <Filter>ソース ファイル\etk\gui\window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\etk\gui\window\WindowFrame.h">
+      <Filter>ソース ファイル\etk\gui\window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\etk\gui\window\implement\ActionMsgWindow.h">
+      <Filter>ソース ファイル\etk\gui\window\implement</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\etk\gui\window\implement\SysMsgWindow.h">
+      <Filter>ソース ファイル\etk\gui\window\implement</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\etk\gui\FontSet.h">
+      <Filter>ソース ファイル\etk\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\dimz\body\DimzBody.h">
+      <Filter>ソース ファイル\dimz\body</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\dimz\gui\DimzFontSet.h">
+      <Filter>ソース ファイル\dimz\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\dimz\gui\DimzGui.h">
+      <Filter>ソース ファイル\dimz\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\dimz\Base.h">
+      <Filter>ソース ファイル\dimz</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\dimz\file\DimzFileIdDef.h">
+      <Filter>ソース ファイル\dimz\file</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\dimz\body\DimzFixedData.h">
+      <Filter>ソース ファイル\dimz\body</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\dimz\body\DimzFixedStrTbl.h">
+      <Filter>ソース ファイル\dimz\body</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\dimz\debug\DimzTest.h">
+      <Filter>ソース ファイル\dimz\debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\dimz\particle\DimzParticleSys.h">
+      <Filter>ソース ファイル\dimz\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\etk\camera\ModelViewCam.h">
+      <Filter>ソース ファイル\etk\camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\etk\camera\EtkCustomCamClass.h">
+      <Filter>ソース ファイル\etk\camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\dimz\mode\GameModeParam.h">
+      <Filter>ソース ファイル\dimz\mode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\dimz\mode\GameMode.h">
+      <Filter>ソース ファイル\dimz\mode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\dimz\mode\GameModeBase.h">
+      <Filter>ソース ファイル\dimz\mode</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\tfw\Tfw.cpp">
+      <Filter>ソース ファイル\tfw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\lib\BitFlagArray.cpp">
+      <Filter>ソース ファイル\tfw\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\lib\Matrix.cpp">
+      <Filter>ソース ファイル\tfw\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\lib\MergeSort.cpp">
+      <Filter>ソース ファイル\tfw\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\lib\QuickSort.cpp">
+      <Filter>ソース ファイル\tfw\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\lib\StringTable.cpp">
+      <Filter>ソース ファイル\tfw\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\lib\TypeUtils.cpp">
+      <Filter>ソース ファイル\tfw\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\lib\XmlParser.cpp">
+      <Filter>ソース ファイル\tfw\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\lib\XmlParserUtils.cpp">
+      <Filter>ソース ファイル\tfw\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\lib\ZCompress.cpp">
+      <Filter>ソース ファイル\tfw\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\g3d\CamAnim.cpp">
+      <Filter>ソース ファイル\tfw\g3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\g3d\CamAnimFrame.cpp">
+      <Filter>ソース ファイル\tfw\g3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\g3d\HrAnim.cpp">
+      <Filter>ソース ファイル\tfw\g3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\g3d\HrAnimCtx.cpp">
+      <Filter>ソース ファイル\tfw\g3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\g3d\HrAnimObj.cpp">
+      <Filter>ソース ファイル\tfw\g3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\g3d\HrAnimObjCtx.cpp">
+      <Filter>ソース ファイル\tfw\g3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\g3d\HrAnimObjCtxArray.cpp">
+      <Filter>ソース ファイル\tfw\g3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\g3d\HrAnimObjFrame.cpp">
+      <Filter>ソース ファイル\tfw\g3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\g3d\HrAnimSet.cpp">
+      <Filter>ソース ファイル\tfw\g3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\g3d\HrAnimSetCtx.cpp">
+      <Filter>ソース ファイル\tfw\g3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\g3d\Material.cpp">
+      <Filter>ソース ファイル\tfw\g3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\g3d\MaterialCtx.cpp">
+      <Filter>ソース ファイル\tfw\g3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\g3d\Shape.cpp">
+      <Filter>ソース ファイル\tfw\g3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\g3d\ShapeCtx.cpp">
+      <Filter>ソース ファイル\tfw\g3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\g3d\sg\SgManager.cpp">
+      <Filter>ソース ファイル\tfw\g3d\sg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\g3d\sg\node\SgEntity.cpp">
+      <Filter>ソース ファイル\tfw\g3d\sg\node</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\g3d\sg\node\SgNode.cpp">
+      <Filter>ソース ファイル\tfw\g3d\sg\node</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\g3d\sg\node\SgNodeChain.cpp">
+      <Filter>ソース ファイル\tfw\g3d\sg\node</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\g3d\sg\node\implement\AnimCamera.cpp">
+      <Filter>ソース ファイル\tfw\g3d\sg\node\implement</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\g3d\sg\node\implement\BillboardModel.cpp">
+      <Filter>ソース ファイル\tfw\g3d\sg\node\implement</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\g3d\sg\node\implement\Camera.cpp">
+      <Filter>ソース ファイル\tfw\g3d\sg\node\implement</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\g3d\sg\node\implement\LocAngCamera.cpp">
+      <Filter>ソース ファイル\tfw\g3d\sg\node\implement</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\g3d\sg\node\implement\LookAtCamera.cpp">
+      <Filter>ソース ファイル\tfw\g3d\sg\node\implement</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\g3d\sg\node\implement\Model.cpp">
+      <Filter>ソース ファイル\tfw\g3d\sg\node\implement</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\g3d\sg\node\implement\ModelLoader.cpp">
+      <Filter>ソース ファイル\tfw\g3d\sg\node\implement</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\g3d\sg\node\implement\ModelLoader_tbf.cpp">
+      <Filter>ソース ファイル\tfw\g3d\sg\node\implement</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\g3d\sg\node\implement\ShapeModel.cpp">
+      <Filter>ソース ファイル\tfw\g3d\sg\node\implement</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\framemod\FedTaskSys.cpp">
+      <Filter>ソース ファイル\tfw\framemod</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\ui\Keyboard.cpp">
+      <Filter>ソース ファイル\tfw\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\ui\Pad.cpp">
+      <Filter>ソース ファイル\tfw\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\ui\TouchPanel.cpp">
+      <Filter>ソース ファイル\tfw\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\ui\Ui.cpp">
+      <Filter>ソース ファイル\tfw\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\smenu\Menu.cpp">
+      <Filter>ソース ファイル\tfw\smenu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\smenu\MenuPanelReceptor.cpp">
+      <Filter>ソース ファイル\tfw\smenu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\smenu\MenuTreeNode.cpp">
+      <Filter>ソース ファイル\tfw\smenu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\gui\BasicScrollBar.cpp">
+      <Filter>ソース ファイル\tfw\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\gui\Panel.cpp">
+      <Filter>ソース ファイル\tfw\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\gui\PanelText.cpp">
+      <Filter>ソース ファイル\tfw\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\gui\txtbox\TxtBox.cpp">
+      <Filter>ソース ファイル\tfw\gui\txtbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\g2d\StringDrawer.cpp">
+      <Filter>ソース ファイル\tfw\g2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\g2d\TiledRectDraw.cpp">
+      <Filter>ソース ファイル\tfw\g2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\g2d\font\Font.cpp">
+      <Filter>ソース ファイル\tfw\g2d\font</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\g2d\font\implement\BitmapFontAscii.cpp">
+      <Filter>ソース ファイル\tfw\g2d\font\implement</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\g2d\font\implement\BitmapFontMultiByte.cpp">
+      <Filter>ソース ファイル\tfw\g2d\font\implement</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\g2d\font\implement\OsFont.cpp">
+      <Filter>ソース ファイル\tfw\g2d\font\implement</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\gcmn\EasyStringDrawer.cpp">
+      <Filter>ソース ファイル\tfw\gcmn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\gcmn\Gcalc.cpp">
+      <Filter>ソース ファイル\tfw\gcmn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\gcmn\Renderer.cpp">
+      <Filter>ソース ファイル\tfw\gcmn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\gcmn\RendererUtils.cpp">
+      <Filter>ソース ファイル\tfw\gcmn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\gcmn\TexAnim.cpp">
+      <Filter>ソース ファイル\tfw\gcmn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\gcmn\TexAnimCtx.cpp">
+      <Filter>ソース ファイル\tfw\gcmn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\gcmn\Texture.cpp">
+      <Filter>ソース ファイル\tfw\gcmn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\gcmn\TextureCtx.cpp">
+      <Filter>ソース ファイル\tfw\gcmn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\gcmn\View.cpp">
+      <Filter>ソース ファイル\tfw\gcmn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\modemng\Mode.cpp">
+      <Filter>ソース ファイル\tfw\modemng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\modemng\Role.cpp">
+      <Filter>ソース ファイル\tfw\modemng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\collision\Gcol.cpp">
+      <Filter>ソース ファイル\tfw\collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\common\IdManager.cpp">
+      <Filter>ソース ファイル\tfw\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\common\PerformanceMeter.cpp">
+      <Filter>ソース ファイル\tfw\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\common\ResourcePool.cpp">
+      <Filter>ソース ファイル\tfw\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\tbf\TbmbManip.cpp">
+      <Filter>ソース ファイル\tfw\tbf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\file\File.cpp">
+      <Filter>ソース ファイル\tfw\file</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\file\FileSerializer.cpp">
+      <Filter>ソース ファイル\tfw\file</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\file\IdFile.cpp">
+      <Filter>ソース ファイル\tfw\file</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\file\MemoryFile.cpp">
+      <Filter>ソース ファイル\tfw\file</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\file\PackedIdFile.cpp">
+      <Filter>ソース ファイル\tfw\file</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\string\CcString.cpp">
+      <Filter>ソース ファイル\tfw\string</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\string\CvString.cpp">
+      <Filter>ソース ファイル\tfw\string</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\string\CvStringArray.cpp">
+      <Filter>ソース ファイル\tfw\string</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\string\StringUtils.cpp">
+      <Filter>ソース ファイル\tfw\string</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\string\txt\Txt.cpp">
+      <Filter>ソース ファイル\tfw\string\txt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\string\txt\TxtChar.cpp">
+      <Filter>ソース ファイル\tfw\string\txt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\string\txt\TxtIterator.cpp">
+      <Filter>ソース ファイル\tfw\string\txt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\string\txt\TxtPos.cpp">
+      <Filter>ソース ファイル\tfw\string\txt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\string\txt\TxtPosArray.cpp">
+      <Filter>ソース ファイル\tfw\string\txt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\string\txt\TxtUtils.cpp">
+      <Filter>ソース ファイル\tfw\string\txt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\string\txt\implement\AsciiTxt.cpp">
+      <Filter>ソース ファイル\tfw\string\txt\implement</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\string\txt\implement\SjisTxt.cpp">
+      <Filter>ソース ファイル\tfw\string\txt\implement</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\string\txt\implement\Utf8Txt.cpp">
+      <Filter>ソース ファイル\tfw\string\txt\implement</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\image\BmpImg.cpp">
+      <Filter>ソース ファイル\tfw\image</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\image\PngImg.cpp">
+      <Filter>ソース ファイル\tfw\image</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\image\PvrtcImg.cpp">
+      <Filter>ソース ファイル\tfw\image</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\image\TgaImg.cpp">
+      <Filter>ソース ファイル\tfw\image</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\sound\CafWav.cpp">
+      <Filter>ソース ファイル\tfw\sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\sound\Music.cpp">
+      <Filter>ソース ファイル\tfw\sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\sound\OpenAl.cpp">
+      <Filter>ソース ファイル\tfw\sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\sound\RiffWav.cpp">
+      <Filter>ソース ファイル\tfw\sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\sound\Se.cpp">
+      <Filter>ソース ファイル\tfw\sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\sound\Sound.cpp">
+      <Filter>ソース ファイル\tfw\sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\sound\Wave.cpp">
+      <Filter>ソース ファイル\tfw\sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\hash\HashEntry.cpp">
+      <Filter>ソース ファイル\tfw\hash</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\hash\HashTable.cpp">
+      <Filter>ソース ファイル\tfw\hash</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\hash\StringHashOp.cpp">
+      <Filter>ソース ファイル\tfw\hash</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\debug\ScreenTrace.cpp">
+      <Filter>ソース ファイル\tfw\debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\debug\TfwDebug.cpp">
+      <Filter>ソース ファイル\tfw\debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\extlib\zlib\adler32.c">
+      <Filter>ソース ファイル\tfw\extlib\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\extlib\zlib\compress.c">
+      <Filter>ソース ファイル\tfw\extlib\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\extlib\zlib\crc32.c">
+      <Filter>ソース ファイル\tfw\extlib\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\extlib\zlib\deflate.c">
+      <Filter>ソース ファイル\tfw\extlib\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\extlib\zlib\inffast.c">
+      <Filter>ソース ファイル\tfw\extlib\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\extlib\zlib\inflate.c">
+      <Filter>ソース ファイル\tfw\extlib\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\extlib\zlib\inftrees.c">
+      <Filter>ソース ファイル\tfw\extlib\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\extlib\zlib\trees.c">
+      <Filter>ソース ファイル\tfw\extlib\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\extlib\zlib\uncompr.c">
+      <Filter>ソース ファイル\tfw\extlib\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\extlib\zlib\zutil.c">
+      <Filter>ソース ファイル\tfw\extlib\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\extlib\lpng\png.c">
+      <Filter>ソース ファイル\tfw\extlib\lpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\extlib\lpng\pngerror.c">
+      <Filter>ソース ファイル\tfw\extlib\lpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\extlib\lpng\pngget.c">
+      <Filter>ソース ファイル\tfw\extlib\lpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\extlib\lpng\pngmem.c">
+      <Filter>ソース ファイル\tfw\extlib\lpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\extlib\lpng\pngread.c">
+      <Filter>ソース ファイル\tfw\extlib\lpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\extlib\lpng\pngrio.c">
+      <Filter>ソース ファイル\tfw\extlib\lpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\extlib\lpng\pngrtran.c">
+      <Filter>ソース ファイル\tfw\extlib\lpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\extlib\lpng\pngrutil.c">
+      <Filter>ソース ファイル\tfw\extlib\lpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\extlib\lpng\pngset.c">
+      <Filter>ソース ファイル\tfw\extlib\lpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\extlib\lpng\pngtrans.c">
+      <Filter>ソース ファイル\tfw\extlib\lpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\extlib\lpng\pngwio.c">
+      <Filter>ソース ファイル\tfw\extlib\lpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\extlib\lpng\pngwrite.c">
+      <Filter>ソース ファイル\tfw\extlib\lpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\extlib\lpng\pngwtran.c">
+      <Filter>ソース ファイル\tfw\extlib\lpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\extlib\lpng\pngwutil.c">
+      <Filter>ソース ファイル\tfw\extlib\lpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\serialize\Serializer.cpp">
+      <Filter>ソース ファイル\tfw\serialize</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\evsys\EvData.cpp">
+      <Filter>ソース ファイル\tfw\evsys</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\evsys\EvMatter.cpp">
+      <Filter>ソース ファイル\tfw\evsys</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\evsys\EvSys.cpp">
+      <Filter>ソース ファイル\tfw\evsys</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\evsys\MsgData.cpp">
+      <Filter>ソース ファイル\tfw\evsys</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\evsys\MsgDataSet.cpp">
+      <Filter>ソース ファイル\tfw\evsys</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\evsys\OverrideEvMatter.cpp">
+      <Filter>ソース ファイル\tfw\evsys</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\windows\App.cpp">
+      <Filter>ソース ファイル\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\windows\DebugWin.cpp">
+      <Filter>ソース ファイル\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\windows\MainWindow.cpp">
+      <Filter>ソース ファイル\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\windows\OsDepModWin.cpp">
+      <Filter>ソース ファイル\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\windows\RenderSystem.cpp">
+      <Filter>ソース ファイル\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\windows\StopWatch.cpp">
+      <Filter>ソース ファイル\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\library\src\glext.cpp">
+      <Filter>ソース ファイル\windows\library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\sourcerer\sg\BinaryTransparentBgSgnc.cpp">
+      <Filter>ソース ファイル\sourcerer\sg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\sourcerer\sg\CamSgnc.cpp">
+      <Filter>ソース ファイル\sourcerer\sg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\sourcerer\sg\ModelEffectSgnc.cpp">
+      <Filter>ソース ファイル\sourcerer\sg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\sourcerer\sg\OpacityBgNoFogSgnc.cpp">
+      <Filter>ソース ファイル\sourcerer\sg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\sourcerer\sg\OpacityBgSgnc.cpp">
+      <Filter>ソース ファイル\sourcerer\sg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\sourcerer\sg\ParticleEffectSgnc.cpp">
+      <Filter>ソース ファイル\sourcerer\sg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\sourcerer\sg\SorSgm.cpp">
+      <Filter>ソース ファイル\sourcerer\sg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\sourcerer\sg\TranslucentBgSgnc.cpp">
+      <Filter>ソース ファイル\sourcerer\sg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\sourcerer\sg\ZsortModelNoFogSgnc.cpp">
+      <Filter>ソース ファイル\sourcerer\sg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\sourcerer\sg\ZsortModelSgnc.cpp">
+      <Filter>ソース ファイル\sourcerer\sg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tfw\g2d\font\FontCharDefData.cpp">
+      <Filter>ソース ファイル\tfw\g2d\font</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\etk\debug\Test.cpp">
+      <Filter>ソース ファイル\etk\debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\etk\body\OsDepMod.cpp">
+      <Filter>ソース ファイル\etk\body</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\etk\body\BodyFactory.cpp">
+      <Filter>ソース ファイル\etk\body</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\etk\body\Env.cpp">
+      <Filter>ソース ファイル\etk\body</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\etk\particle\ParticleSys.cpp">
+      <Filter>ソース ファイル\etk\particle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\etk\particle\Particle.cpp">
+      <Filter>ソース ファイル\etk\particle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\etk\particle\ParticleDef.cpp">
+      <Filter>ソース ファイル\etk\particle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\etk\particle\ParticleDefTbl.cpp">
+      <Filter>ソース ファイル\etk\particle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\etk\sound\SoundMngr.cpp">
+      <Filter>ソース ファイル\etk\sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\etk\effect\ScreenEffect.cpp">
+      <Filter>ソース ファイル\etk\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\etk\body\EtkRenderCtx.cpp">
+      <Filter>ソース ファイル\etk\body</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\etk\body\EtkExecCtx.cpp">
+      <Filter>ソース ファイル\etk\body</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\etk\body\EtkBody.cpp">
+      <Filter>ソース ファイル\etk\body</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\etk\gui\EtkGui.cpp">
+      <Filter>ソース ファイル\etk\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\etk\gui\window\MessageWindow.cpp">
+      <Filter>ソース ファイル\etk\gui\window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\etk\gui\window\Window.cpp">
+      <Filter>ソース ファイル\etk\gui\window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\etk\gui\window\WindowFrame.cpp">
+      <Filter>ソース ファイル\etk\gui\window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\etk\gui\window\implement\ActionMsgWindow.cpp">
+      <Filter>ソース ファイル\etk\gui\window\implement</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\etk\gui\window\implement\SysMsgWindow.cpp">
+      <Filter>ソース ファイル\etk\gui\window\implement</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\etk\gui\FontSet.cpp">
+      <Filter>ソース ファイル\etk\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\dimz\body\DimzBody.cpp">
+      <Filter>ソース ファイル\dimz\body</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\dimz\gui\DimzFontSet.cpp">
+      <Filter>ソース ファイル\dimz\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\dimz\gui\DimzGui.cpp">
+      <Filter>ソース ファイル\dimz\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\dimz\file\DimzFileIdDef.cpp">
+      <Filter>ソース ファイル\dimz\file</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\dimz\body\DimzFixedData.cpp">
+      <Filter>ソース ファイル\dimz\body</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\dimz\debug\DimzTest.cpp">
+      <Filter>ソース ファイル\dimz\debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\dimz\particle\DimzParticleSys.cpp">
+      <Filter>ソース ファイル\dimz\particle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\etk\camera\ModelViewCam.cpp">
+      <Filter>ソース ファイル\etk\camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\dimz\mode\GameMode.cpp">
+      <Filter>ソース ファイル\dimz\mode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\dimz\mode\GameModeBase.cpp">
+      <Filter>ソース ファイル\dimz\mode</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\src\tfw\string\txt\TxtUtilsIos.mm">
+      <Filter>ソース ファイル\tfw\string\txt</Filter>
+    </None>
+    <None Include="resources\Dimz.ico">
+      <Filter>リソース ファイル</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resources\Dimz.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<EventData>
+<Event ID="10999">
+	<Type>STORYCONF</Type>
+	<Data>
+		<StartupEvent>10009</StartupEvent>
+		<PlaceObj kind="mapobj" char_id="1707" map_id="11112" pos="2500, 0, -3450" no_y_coll="true" call_evid="10002" ctrl_evid="51006" />
+		<PlaceObj kind="extra" char_id="1112" map_id="10224" pos="-52.3, 32.3, 0" call_evid="10401" />
+		<PlaceObj kind="extra" char_id="1105" map_id="10105" pos="-200, 0, -280" call_evid="10501" />
+		<PlaceObj kind="extra" char_id="1109" map_id="10201" pos="759, 0, 13" call_evid="10901" />
+		<PlaceObj kind="extra" char_id="1151" map_id="10102" pos="3208, 500, 983" call_evid="15101" />
+		<PlaceObj kind="extra" char_id="1152" map_id="10105" pos="0, 0, -280" call_evid="15201" />
+		<PlaceObj kind="extra" char_id="1153" map_id="10105" pos="200, 0, 0" call_evid="15301" />
+	</Data>
+</Event>
+<Event ID="10001" comment="レイカが見えた">
+	<Type>ACT</Type>
+	<Data>
+		<ChangeMap frame="1" map_id="11112" skip="no" />
+		<ShowObj frame="1" char_id="1101" show="false" />
+		<ShowObj frame="1" char_id="1102" show="false" />
+		<Rtmv frame="1" file_id="301030351" />
+		<Se frame="1" se_id="17113" volume="0.2" />
+		<ValFader frame="1" durf="240" spid="1011" element="color_a" value_from="0.0" value_to="255.0" />
+		<ValFader frame="1" durf="299" spid="1013" element="color_a" value_from="0.0" value_to="255.0" />
+		<ValFader frame="1" durf="299" spid="1006" element="color_a" value_from="0.0" value_to="255.0" />
+		<Mcut frame="4" durf="228" />
+		<Msg frame="178" durf="114" mode="SAY" msg_id="1001" />
+		<Msg frame="296" durf="55" mode="SAY" msg_id="1002" />
+		<TexFacial frame="296" char_id="1113" kind="eye" enable="false" />
+		<Mcut frame="300" durf="110" />
+		<ValFader frame="310" durf="16" spid="1006" element="color_a" value_from="255.0" value_to="0.0" />
+		<ValFader frame="310" durf="16" spid="1013" element="color_a" value_from="255.0" value_to="0.0" />
+		<Msg frame="414" durf="114" mode="SAY" msg_id="1003" />
+		<Mcut frame="418" durf="110" />
+		<Music frame="532" bgm_id="110" volume="0.5" loop_cnt="-1" fade_out_frame_num="180" />
+		<TexFacial frame="532" char_id="1113" kind="eye" enable="true" />
+		<Msg frame="532" durf="174" mode="SAY" msg_id="1004" />
+		<Mcut frame="536" durf="172" />
+		<Msg frame="712" durf="108" mode="SAY" msg_id="1010" />
+		<Mcut frame="716" durf="102" />
+		<Msg frame="830" durf="114" mode="SAY" msg_id="1011" />
+		<Mcut frame="834" durf="114" />
+		<Mcut frame="948" durf="118" />
+		<Msg frame="948" durf="114" mode="SAY" msg_id="1012" />
+		<Mcut frame="1066" durf="106" />
+		<Msg frame="1066" durf="108" mode="SAY" msg_id="1013" />
+		<Msg frame="1184" durf="108" mode="SAY" msg_id="1014" />
+		<Mcut frame="1188" durf="102" />
+		<Msg frame="1302" durf="226" mode="SAY" msg_id="1015" />
+		<Mcut frame="1306" durf="220" />
+		<Msg frame="1538" durf="48" mode="SAY" msg_id="1016" />
+		<Mcut frame="1542" durf="44" />
+		<Msg frame="1598" durf="104" mode="SAY" msg_id="1017" />
+		<Mcut frame="1602" durf="100" />
+		<Msg frame="1716" durf="163" mode="SAY" msg_id="1018" />
+		<Mcut frame="1720" durf="159" />
+		<Msg frame="1893" durf="104" mode="SAY" msg_id="1019" />
+		<Mcut frame="1897" durf="100" />
+		<TexFacial frame="2011" char_id="1113" kind="eye" enable="false" />
+		<Se frame="2011" se_id="17113" volume="0.2" />
+		<ValFader frame="2011" durf="236" spid="1011" element="color_a" value_from="255.0" value_to="0.0" />
+		<ValFader frame="2011" durf="164" spid="1013" element="color_a" value_from="0.0" value_to="255.0" />
+		<ValFader frame="2011" durf="164" spid="1006" element="color_a" value_from="0.0" value_to="255.0" />
+		<Mcut frame="2015" durf="222" />
+		<ValFader frame="2180" durf="32" spid="1013" element="color_a" value_from="255.0" value_to="0.0" />
+		<ValFader frame="2180" durf="32" spid="1006" element="color_a" value_from="255.0" value_to="0.0" />
+		<TexFacial frame="2247" char_id="1113" kind="eye" enable="true" />
+		<Msg frame="2247" durf="98" mode="SAY" msg_id="1021" />
+		<Mcut frame="2251" durf="94" />
+		<SetPos frame="2365" char_id="1101" pos="2424.8, 0, -2884.5" dir="0, -10, 0" skip="no" />
+		<SetPos frame="2365" char_id="1102" pos="2619.9, 0, -2884.5" dir="0, 18, 0" skip="no" />
+		<ShowObj frame="2365" char_id="1101" show="true" skip="no" />
+		<ShowObj frame="2365" char_id="1102" show="true" skip="no" />
+		<ChangeStory frame="2365" story_id="10304" skip="no" comment="★次のストーリーへ" />
+	</Data>
+</Event>
+<Event ID="10002">
+	<Type>ACT</Type>
+	<Data>
+		<Msg frame="1" mode="TALK" fixed_str_id="3001" />
+	</Data>
+</Event>
+<Event ID="10009" comment="ストーリー開始マップ">
+	<Type>ACT</Type>
+	<Data>
+		<ChangeMap frame="1" map_id="10102" skip="stop" />
+	</Data>
+</Event>
+<Event ID="10401" comment="Fonru1">
+	<Type>ACT</Type>
+	<Data>
+		<Msg frame="1" mode="TALK" msg_id="1461" />
+		<Msg frame="1" mode="TALK" msg_id="1462" />
+	</Data>
+</Event>
+<Event ID="10501" comment="Hermit1">
+	<Type>ACT</Type>
+	<Data>
+		<Msg frame="1" mode="TALK" msg_id="1551" />
+		<Msg frame="1" mode="TALK" msg_id="1552" />
+	</Data>
+</Event>
+<Event ID="10901" comment="Yasan1">
+	<Type>ACT</Type>
+	<Data>
+		<Msg frame="1" mode="TALK" msg_id="1591" />
+	</Data>
+</Event>
+<Event ID="15101" comment="Rebecca1">
+	<Type>ACT</Type>
+	<Data>
+		<Msg frame="1" mode="TALK" msg_id="2011" />
+		<Msg frame="1" mode="TALK" msg_id="2012" />
+	</Data>
+</Event>
+<Event ID="15201" comment="Syuru1">
+	<Type>ACT</Type>
+	<Data>
+		<Msg frame="1" mode="TALK" msg_id="2021" />
+		<Msg frame="1" mode="TALK" msg_id="2022" />
+	</Data>
+</Event>
+<Event ID="15301" comment="Yauto1">
+	<Type>ACT</Type>
+	<Data>
+		<Msg frame="1" mode="TALK" msg_id="2031" />
+	</Data>
+</Event>
+</EventData>

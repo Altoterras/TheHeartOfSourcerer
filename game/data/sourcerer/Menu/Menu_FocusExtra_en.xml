@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<Menu>
+	<Node ID="23001">
+		Focus
+		<Function MenuClose="yes">
+			Focus
+		</Function>
+	</Node>
+	<Node ID="23002">
+		Talk
+		<Function MenuClose="yes">
+			Talk
+		</Function>
+	</Node>
+</Menu>

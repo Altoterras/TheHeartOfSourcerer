@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<EventData>
+<Event ID="999">
+	<Type>MAPCONF</Type>
+	<Data>
+		<MapKind>Field</MapKind>
+		<MoveMap1>10243</MoveMap1>
+		<MoveMap2>10223</MoveMap2>
+		<MoveMap3>10221</MoveMap3>
+		<MoveMap4>10201</MoveMap4>
+		<BgmId>103</BgmId>
+		<Fog mode="linear" start="10000.0" end="60000.0" color="0.61, 0.91, 1.00, 1.00" />
+		<PlaceObj kind="extra" char_id="1201" pos="0.0, 0.0, 0.0" dir="0.0, -120.0, 0.0" call_evid="101" />
+		<PlaceObj kind="mapobj" char_id="1821" pos="-957.5, 0, -587.4" call_evid="111" />
+		<EleneEff cql="700,700,700,802,1000" nql="700,700,700,802,1000" />
+	</Data>
+</Event>
+<Event ID="101">
+	<Type>ACT</Type>
+	<Data>
+		<Msg frame="1" mode="TALK" msg_id="101" />
+	</Data>
+</Event>
+<Event ID="111">
+	<Type>ACT</Type>
+	<Data>
+		<Msg frame="1" mode="TALK" msg_id="111" />
+	</Data>
+</Event>
+</EventData>

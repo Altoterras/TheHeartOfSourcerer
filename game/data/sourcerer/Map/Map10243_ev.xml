@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<EventData>
+<Event ID="999">
+	<Type>MAPCONF</Type>
+	<Data>
+		<MapKind>Field</MapKind>
+		<MoveMap1>10241</MoveMap1>
+		<MoveMap3>10222</MoveMap3>
+		<MoveMap4>10244</MoveMap4>
+		<BgmId>103</BgmId>
+		<Fog mode="linear" start="10000.0" end="120000.0" color="0.61, 0.91, 1.00, 1.00" />
+		<PlaceObj kind="extra" char_id="1210" pos="570.0f, 0.0f, -1076.0f" dir="0.0, -45.0, 0.0" call_evid="101" walk_speed="2.0" comment="Sohya" />
+		<PlaceObj kind="extra" char_id="1209" pos="-1692.0f, 0.0f, 445.0f" dir="0.0, 30.0, 0.0" call_evid="111" walk_speed="2.0" comment="Takeri" />
+		<PlaceObj kind="mapobj" char_id="1811" pos="-995.0f, 50.0f, -480.0f" enable_focus="no" comment="Door(Open)" />
+		<PlaceObj kind="mapobj" char_id="1812" pos="-995.0f, 50.0f, -480.0f" enable_focus="no" enable="no" comment="Door(Close)" />
+		<EleneEff cql="701,812,710,708,1000" nql="701,812,710,708,1000" />
+		<StartupEvent>901</StartupEvent>
+	</Data>
+</Event>
+<Event ID="101">
+	<Type>ACT</Type>
+	<Data>
+		<Msg frame="1" mode="TALK" msg_id="101" />
+	</Data>
+</Event>
+<Event ID="111">
+	<Type>ACT</Type>
+	<Data>
+		<If frame="1" sfid="1025" jump_evid="112" skip="no" comment="タケリと既に話している" />
+		<Flag frame="1" sfid="1025" value="true" skip="no" comment="タケリと既に話している" />
+		<Msg frame="1" mode="TALK" msg_id="111" />
+		<Msg frame="1" mode="TALK" msg_id="112" />
+		<Msg frame="1" mode="TALK" msg_id="113" />
+		<Prog frame="1" name="MapEmp_10243_1002_HandoverItemToCollector" skip="no" />
+	</Data>
+</Event>
+<Event ID="112">
+	<Type>ACT</Type>
+	<Data>
+		<Msg frame="1" mode="TALK" msg_id="113" />
+		<Prog frame="1" name="MapEmp_10243_1002_HandoverItemToCollector" skip="no" />
+	</Data>
+</Event>
+<Event ID="114">
+	<Type>ACT</Type>
+	<Data>
+		<Msg frame="1" mode="TALK" msg_id="114" />
+	</Data>
+</Event>
+<Event ID="115">
+	<Type>ACT</Type>
+	<Data>
+		<Msg frame="1" mode="TALK" msg_id="115" />
+	</Data>
+</Event>
+<Event ID="116">
+	<Type>ACT</Type>
+	<Data>
+		<Msg frame="1" mode="TALK" msg_id="116" />
+	</Data>
+</Event>
+<Event ID="901" comment="ドア制御">
+	<Type>ACT</Type>
+	<Data>
+		<Prog frame="1" name="MapEmp_10243_1001_DoorControl" skip="no" />
+	</Data>
+</Event>
+</EventData>

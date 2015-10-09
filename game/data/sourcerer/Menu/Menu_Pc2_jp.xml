@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<Menu>
+	<Node ID="12001">
+		フォーカス
+		<Function MenuClose="yes">
+			Focus
+		</Function>
+	</Node>
+	<Node ID="12002">
+		リーダー
+		<Function MenuClose="yes">
+			Leader
+		</Function>
+	</Node>
+	<Node ID="12003">
+		防御＆ためる
+		<Function MenuClose="yes">
+			GuardCharge
+		</Function>
+	</Node>
+	<!--
+	<Node ID="12004">
+		挑発
+		<Function MenuClose="yes">
+			Attract
+		</Function>
+	</Node>
+	-->
+	<Node>
+		アイテム
+		<Function MenuClose="yes">
+			Item
+		</Function>
+	</Node>
+	<Node ID="12005">
+		行動の中止
+		<Function MenuClose="yes">
+			StopBehavior
+		</Function>
+	</Node>
+	<!--
+	<Node ID="12006">
+		武器をフォーカス
+		<Function MenuClose="yes">
+			FocusWeapon
+		</Function>
+	</Node>
+	-->
+</Menu>

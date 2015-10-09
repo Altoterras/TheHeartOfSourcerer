@@ -1,0 +1,1195 @@
+Category,"ID
+1 Å`
+4294967295",Path,Compress,Debug,"Platform
+0 = common
+1 = iPhone
+2 = Windows
+3 = Android
+99 = FileNameDetect
+777 = Comment
+ (Windows: *-w.*,
+  iPhone: *-i.*Åj",Product Define,Memo
+,,,,,,,
+////,,,,,,,"<< System (and Other) Data >>
+0 Å` 99,999"
+,,,,,,,
+////,,,,,,,"[ System (and Other) Data ]
+0 Å` 99,999"
+,,,,,,,
+System,11,FixedStrTbl.dat,1,0,0,ALL,String table
+System,16,SystemFixed_ev.xml,1,0,0,ALL,System Fixed Event XML
+,,,,,,,
+System,51,CrcShdw.png,0,0,0,ALL,Circle Shadow Texture
+,,,,,,,
+System,101,CommonSprite_black.png,0,0,0,ALL,Common Sprite
+,,,,,,,
+System,201,Gui01_sd_en.png,0,0,0,ALL,2D Texture (EN;SD)
+System,202,Gui01_sd_jp.png,0,0,0,ALL,2D Texture (JP;SD)
+System,211,Gui01_hd_en.png,0,0,0,ALL,2D Texture (EN;HD)
+System,212,Gui01_hd_jp.png,0,0,0,ALL,2D Texture (JP;HD)
+System,221,Gui01_rd_en.png,0,0,0,ALL,2D Texture (EN;RD)
+System,222,Gui01_rd_jp.png,0,0,0,ALL,2D Texture (JP;RD)
+System,301,Skb01_sd.png,0,0,0,ALL,SoftwareKeyboard Texture (SD)
+System,311,Skb01_hd.png,0,0,0,ALL,SoftwareKeyboard Texture (HD)
+System,321,Skb01_rd.png,0,0,0,ALL,SoftwareKeyboard Texture (RD)
+,,,,,,,
+System,511,PauseScreen_hd.png,0,0,0,ALL,Pause Screen Texture (HD)
+System,521,PauseScreen_rd.png,0,0,0,ALL,Pause Screen Texture (RD)
+,,,,,,,
+System,1111,Font_en01_sd.png,0,0,0,ALL,English Font Texture (SD)
+System,1121,Font_en01_hd.png,0,0,0,ALL,English Font Texture (HD)
+System,1131,Font_en01_rd.png,0,0,0,ALL,English Font Texture (RD)
+System,1211,Font_jp01g_sd.png,0,0,0,ALL,Japanese Gothic Font Texture (SD)
+System,1212,Font_jp01g_sd.ptbl,1,0,0,ALL,Japanese Gothic Font Proportional-Table (SD)
+System,1221,Font_jp01g_hd.png,0,0,0,ALL,Japanese Gothic Font Texture (HD)
+System,1222,Font_jp01g_hd.ptbl,1,0,0,ALL,Japanese Gothic Font Proportional-Table (HD)
+System,1231,Font_jp01g_rd.png,0,0,0,ALL,Japanese Gothic Font Texture (RD)
+System,1232,Font_jp01g_rd.ptbl,1,0,0,ALL,Japanese Gothic Font Proportional-Table (RD)
+System,1311,Font_jp01m_sd.png,0,0,0,ALL,Japanese Movie Font Texture (SD)
+System,1312,Font_jp01m_sd.ptbl,1,0,0,ALL,Japanese Movie Font Proportional-Table (SD)
+System,1321,Font_jp01m_hd.png,0,0,0,ALL,Japanese Movie Font Texture (HD)
+System,1322,Font_jp01m_hd.ptbl,1,0,0,ALL,Japanese Movie Font Proportional-Table (HD)
+System,1331,Font_jp01m_rd.png,0,0,0,ALL,Japanese Movie Font Texture (RD)
+System,1332,Font_jp01m_rd.ptbl,1,0,0,ALL,Japanese Movie Font Proportional-Table (RD)
+System,1901,FontJpCharDef.dat,1,0,0,ALL,Japanese Bitmap-Font Character Table
+,,,,,,,
+System,2101,WorldMap01.png,0,0,0,ALL,TGA
+,,,,,,,
+System,2201,ItemDef01.dat,1,0,0,ALL,Item Data
+System,2202,ItemStr01.txt,1,0,0,ALL,Item String
+,,,,,,,
+System,2301,FixedSoumaSrcDef01.dat,1,0,0,ALL,Standard SOUMA Data
+System,2302,FixedSoumaSrcStr01.txt,1,0,0,ALL,SOUMA Explain String
+,,,,,,,
+System,5101,Title_Main_v01.png,0,0,0,V01,Title Texture - Main Image
+System,5102,Title_Main_v01lite.png,0,0,0,V01Lite,Title Texture - Main Image
+System,5103,Title_Main_v02.png,0,0,0,V02,Title Texture - Main Image
+System,5121,Title_Main_v01_rd.png,0,0,0,V01,Title Texture - Main Image
+System,5122,Title_Main_v01lite_rd.png,0,0,0,V01Lite,Title Texture - Main Image
+System,5110,Title_CorpLogo.png,0,0,0,ALL,Title Texture - Corporate Logo
+System,5130,Title_CorpLogo_rd.png,0,0,0,ALL,Title Texture - Corporate Logo
+,,,,,,,
+,,,,,,,
+////,,,,,,,"<< Common Data >>
+100,000 Å` 999.999"
+,,,,,,,
+////,,,,,,,"[ Character Data ]
+300,000 Å` 399,999
+300,000 + CharaID (1,001 Å` 9,999) Å~ 10"
+,,,,,,,
+Character,310001,CharDef01.dat,1,0,0,ALL,Character Data
+Character,310002,CharStr01.txt,1,0,0,ALL,Character String
+Character,310011,PcLv01.dat,1,0,0,ALL,Player Charcter Lv Data
+Character,310021,CharLogic01.dat,1,0,0,ALL,Character Logic Data
+,,,,,,,
+Character,311011,Char1101.tbmb,1,0,99,ALL,PC1 Model
+Character,311012,Char1101_eye.tbmb,1,0,99,ALL,PC1 Eye Model
+Character,311013,Char1101_mouth.tbmb,1,0,99,ALL,PC1 Mouth Model
+Character,311021,Char1102.tbmb,1,0,99,ALL,PC2 Model
+Character,311022,Char1102_eye.tbmb,1,0,99,ALL,PC2 Eye Model
+Character,311023,Char1102_mouth.tbmb,1,0,99,ALL,PC2 Mouth Model
+Character,311031,Char1103.tbmb,1,0,99,ALL,PC-Help Model
+Character,311032,Char1103_eye.tbmb,1,0,99,ALL,PC-Help Eye Model
+Character,311033,Char1103_mouth.tbmb,1,0,99,ALL,PC-Help Mouth Model
+Character,311041,Char1104.tbmb,1,0,99,ALL,Character Mode
+Character,311042,Char1104_eye.tbmb,1,0,99,ALL,Character Eye Model
+Character,311043,Char1104_mouth.tbmb,1,0,99,ALL,Character Mouth Model
+Character,311051,Char1105.tbmb,1,0,99,ALL,Character Mode
+Character,311052,Char1105_eye.tbmb,1,0,99,ALL,Character Eye Model
+Character,311053,Char1105_mouth.tbmb,1,0,99,ALL,Character Mouth Model
+Character,311061,Char1106.tbmb,1,0,99,ALL,Character Mode
+Character,311062,Char1106_eye.tbmb,1,0,99,ALL,Character Eye Model
+Character,311063,Char1106_mouth.tbmb,1,0,99,ALL,Character Mouth Model
+Character,311081,Char1108.tbmb,1,0,99,ALL,Character Mode
+Character,311082,Char1108_eye.tbmb,1,0,99,ALL,Character Eye Model
+Character,311083,Char1108_mouth.tbmb,1,0,99,ALL,Character Mouth Model
+Character,311091,Char1109.tbmb,1,0,99,ALL,Character Mode
+Character,311092,Char1109_eye.tbmb,1,0,99,ALL,Character Eye Model
+Character,311093,Char1109_mouth.tbmb,1,0,99,ALL,Character Mouth Model
+,,,,,,,
+Character,311102,Char1110_eye.tbmb,1,0,99,ALL,Character Eye Model
+Character,311103,Char1110_mouth.tbmb,1,0,99,ALL,Character Mouth Model
+,,,,,,,
+Character,311121,Char1112.tbmb,1,0,99,ALL,Character Model
+Character,311131,Char1113.tbmb,1,0,99,ALL,Character Mode
+Character,311132,Char1113_eye.tbmb,1,0,99,ALL,Character Eye Model
+Character,311133,Char1113_mouth.tbmb,1,0,99,ALL,Character Mouth Model
+,,,,,,,
+Character,311511,Char1151.tbmb,1,0,99,ALL,Character Mode
+Character,311512,Char1151_eye.tbmb,1,0,99,ALL,Character Eye Model
+Character,311513,Char1151_mouth.tbmb,1,0,99,ALL,Character Mouth Model
+Character,311521,Char1152.tbmb,1,0,99,ALL,Character Mode
+Character,311522,Char1152_eye.tbmb,1,0,99,ALL,Character Eye Model
+Character,311523,Char1152_mouth.tbmb,1,0,99,ALL,Character Mouth Model
+Character,311531,Char1153.tbmb,1,0,99,ALL,Character Mode
+Character,311532,Char1153_eye.tbmb,1,0,99,ALL,Character Eye Model
+Character,311533,Char1153_mouth.tbmb,1,0,99,ALL,Character Mouth Model
+,,,,,,,
+Character,312011,Char1201.tbmb,1,0,99,ALL,Npc Model
+Character,312021,Char1202.tbmb,1,0,99,ALL,Npc Model
+Character,312031,Char1203.tbmb,1,0,99,ALL,Npc Model
+Character,312041,Char1204.tbmb,1,0,99,ALL,Npc Model
+Character,312051,Char1205.tbmb,1,0,99,ALL,Npc Model
+Character,312061,Char1206.tbmb,1,0,99,ALL,Npc Model
+Character,312071,Char1207.tbmb,1,0,99,ALL,Npc Model
+Character,312081,Char1208.tbmb,1,0,99,ALL,Npc Model
+Character,312091,Char1209.tbmb,1,0,99,ALL,Npc Model
+Character,312101,Char1210.tbmb,1,0,99,ALL,Npc Model
+,,,,,,,
+Character,312181,Char1218.tbmb,1,0,99,ALL,Npc Model
+,,,,,,,
+Character,314011,Char1401.tbmb,1,0,99,ALL,EnemyCharacter
+Character,314012,Char1401_eye.tbmb,1,0,99,ALL,EnemyCharacter Eye Model
+Character,314013,Char1401_mouth.tbmb,1,0,99,ALL,EnemyCharacter Mouth Model
+Character,314031,Char1403.tbmb,1,0,99,ALL,EnemyCharacter
+Character,314041,Char1404.tbmb,1,0,99,ALL,EnemyCharacter
+Character,314051,Char1405.tbmb,1,0,99,ALL,EnemyCharacter
+Character,314061,Char1406.tbmb,1,0,99,ALL,EnemyCharacter
+,,,,,,,
+Character,315011,Char1501.tbmb,1,0,99,ALL,EnemyCharacter
+Character,315021,Char1502.tbmb,1,0,99,ALL,EnemyCharacter
+Character,315031,Char1503.tbmb,1,0,99,ALL,EnemyCharacter
+Character,315041,Char1504.tbmb,1,0,99,ALL,EnemyCharacter
+Character,315051,Char1505.tbmb,1,0,99,ALL,EnemyCharacter
+Character,315061,Char1506.tbmb,1,0,99,ALL,EnemyCharacter
+,,,,,,,
+Character,316911,Char1691.tbmb,1,1,99,ALL,DebugEnemyCharacter
+Character,316921,Char1692.tbmb,1,1,99,ALL,DebugEnemyCharacter
+,,,,,,,
+Character,317011,Char1701.tbmb,1,0,99,ALL,OtherCharacter
+Character,317031,Char1703.tbmb,1,0,99,ALL,OtherCharacter
+Character,317041,Char1704.tbmb,1,0,99,ALL,OtherCharacter
+Character,317051,Char1705.tbmb,1,0,99,ALL,OtherCharacter
+Character,317061,Char1706.tbmb,1,0,99,ALL,OtherCharacter
+Character,317071,Char1707.tbmb,1,0,99,ALL,OtherCharacter
+Character,317081,Char1708.tbmb,1,0,99,ALL,OtherCharacter
+Character,317091,Char1709.tbmb,1,0,99,ALL,OtherCharacter
+Character,317101,Char1710.tbmb,1,0,99,ALL,OtherCharacter
+Character,317111,Char1711.tbmb,1,0,99,ALL,OtherCharacter
+,,,,,,,
+Character,318011,Char1801.tbmb,1,0,99,ALL,OtherCharacter
+Character,318021,Char1802.tbmb,1,0,99,ALL,OtherCharacter
+Character,318111,Char1811.tbmb,1,0,99,ALL,OtherCharacter
+Character,318121,Char1812.tbmb,1,0,99,ALL,OtherCharacter
+Character,318211,Char1821.tbmb,1,0,99,ALL,OtherCharacter
+,,,,,,,
+Character,319011,Char1901.tbmb,1,0,99,ALL,Quest Character
+,,,,,,,
+,,,,,,,
+////,,,,,,,"[ Menu Data ]
+810,000 Å` 810,999"
+,,,,,,,
+Menu,810001,Menu_Pc1_en.xml,1,0,0,ALL,PC1 Menu (english)
+Menu,810002,Menu_Pc1_jp.xml,1,0,0,ALL,PC1 Menu (japanese)
+Menu,810011,Menu_Pc2_en.xml,1,0,0,ALL,PC2 Menu (english)
+Menu,810012,Menu_Pc2_jp.xml,1,0,0,ALL,PC2 Menu (japanese)
+Menu,810021,Menu_Pc3_en.xml,1,0,0,ALL,PC3 Menu (english)
+Menu,810022,Menu_Pc3_jp.xml,1,0,0,ALL,PC3 Menu (japanese)
+Menu,810031,Menu_FocusEnemy_en.xml,1,0,0,ALL,Focus-Enemy Menu (english)
+Menu,810032,Menu_FocusEnemy_jp.xml,1,0,0,ALL,Focus-Enemy Menu (japanese)
+Menu,810041,Menu_FocusExtra_en.xml,1,0,0,ALL,Focus-Extra Menu (english)
+Menu,810042,Menu_FocusExtra_jp.xml,1,0,0,ALL,Focus-Extra Menu (japanese)
+Menu,810051,Menu_FocusDropItem_en.xml,1,0,0,ALL,Focus-Item Menu (english)
+Menu,810052,Menu_FocusDropItem_jp.xml,1,0,0,ALL,Focus-Item Menu (japanese)
+Menu,810061,Menu_FocusMapObj_en.xml,1,0,0,ALL,Focus-Extra Menu (english)
+Menu,810062,Menu_FocusMapObj_jp.xml,1,0,0,ALL,Focus-Extra Menu (japanese)
+Menu,810071,Menu_EquippedItem_en.xml,1,0,0,ALL,Equipped Item Menu (english)
+Menu,810072,Menu_EquippedItem_jp.xml,1,0,0,ALL,Equipped Item Menu (japanese)
+,,,,,,,
+Menu,810101,Menu_IngameMain_en.xml,1,0,0,ALL,Ingame Main Menu (english)
+Menu,810102,Menu_IngameMain_jp.xml,1,0,0,ALL,Ingame Main Menu (japanese)
+Menu,810111,Menu_Im_ItemListSub_en.xml,1,0,0,ALL,Ingame Main Item List Sub Menu (english)
+Menu,810112,Menu_Im_ItemListSub_jp.xml,1,0,0,ALL,Ingame Main Item List Sub Menu (japanese)
+Menu,810121,Menu_Im_SourceListSub_en.xml,1,0,0,ALL,Ingame Main Source List Sub Menu (english)
+Menu,810122,Menu_Im_SourceListSub_jp.xml,1,0,0,ALL,Ingame Main Source List Sub Menu (japanese)
+Menu,810211,Menu_Im_SourceEditSub_en.xml,1,0,0,ALL,Ingame Main Source Edit Sub Menu (english)
+Menu,810212,Menu_Im_SourceEditSub_jp.xml,1,0,0,ALL,Ingame Main Source Edit Sub Menu (japanese)
+,,,,,,,
+Menu,810701,Menu_Title_en.xml,1,0,0,"V01,V02",Title Menu (english)
+Menu,810702,Menu_Title_jp.xml,1,0,0,"V01,V02",Title Menu (japanese)
+Menu,810711,Menu_TitleLite_en.xml,1,0,0,V01Lite,Title Menu (english)
+Menu,810712,Menu_TitleLite_jp.xml,1,0,0,V01Lite,Title Menu (japanese)
+,,,,,,,
+Menu,810901,Menu_Debug.xml,1,1,0,ALL,Debug Menu
+,,,,,,,
+,,,,,,,
+////,,,,,,,"[ Particle Model ]
+820,000 Å` 820,999"
+,,,,,,,
+Particle,820001,Ptcl001.tbmb,1,0,99,ALL,Particle Model
+Particle,820002,Ptcl002.tbmb,1,0,99,ALL,Particle Model
+Particle,820003,Ptcl003.tbmb,1,0,99,ALL,Particle Model
+Particle,820004,Ptcl004.tbmb,1,0,99,ALL,Particle Model
+Particle,820005,Ptcl005.tbmb,1,0,99,ALL,Particle Model
+Particle,820006,Ptcl006.tbmb,1,0,99,ALL,Particle Model
+Particle,820007,Ptcl007.tbmb,1,0,99,ALL,Particle Model
+Particle,820008,Ptcl008.tbmb,1,0,99,ALL,Particle Model
+Particle,820009,Ptcl009.tbmb,1,0,99,ALL,Particle Model
+Particle,820010,Ptcl010.tbmb,1,0,99,ALL,Particle Model
+Particle,820011,Ptcl011.tbmb,1,0,99,ALL,Particle Model
+Particle,820012,Ptcl012.tbmb,1,0,99,ALL,Particle Model
+Particle,820013,Ptcl013.tbmb,1,0,99,ALL,Particle Model
+Particle,820014,Ptcl014.tbmb,1,0,99,ALL,Particle Model
+Particle,820015,Ptcl015.tbmb,1,0,99,ALL,Particle Model
+Particle,820016,Ptcl016.tbmb,1,0,99,ALL,Particle Model
+Particle,820017,Ptcl017.tbmb,1,0,99,ALL,Particle Model
+Particle,820018,Ptcl018.tbmb,1,0,99,ALL,Particle Model
+Particle,820019,Ptcl019.tbmb,1,0,99,ALL,Particle Model
+Particle,820020,Ptcl020.tbmb,1,0,99,ALL,Particle Model
+Particle,820021,Ptcl021.tbmb,1,0,99,ALL,Particle Model
+Particle,820022,Ptcl022.tbmb,1,0,99,ALL,Particle Model
+Particle,820023,Ptcl023.tbmb,1,0,99,ALL,Particle Model
+Particle,820024,Ptcl024.tbmb,1,0,99,ALL,Particle Model
+Particle,820025,Ptcl025.tbmb,1,0,99,ALL,Particle Model
+Particle,820026,Ptcl026.tbmb,1,0,99,ALL,Particle Model
+Particle,820027,Ptcl027.tbmb,1,0,99,ALL,Particle Model
+,,,,,,,
+Particle,820301,Ptcl301.tbmb,1,0,99,ALL,Particle Model
+Particle,820302,Ptcl302.tbmb,1,0,99,ALL,Particle Model
+Particle,820303,Ptcl303.tbmb,1,0,99,ALL,Particle Model
+Particle,820304,Ptcl304.tbmb,1,0,99,ALL,Particle Model
+Particle,820305,Ptcl305.tbmb,1,0,99,ALL,Particle Model
+Particle,820306,Ptcl306.tbmb,1,0,99,ALL,Particle Model
+Particle,820307,Ptcl307.tbmb,1,0,99,ALL,Particle Model
+,,,,,,,
+Particle,820311,Ptcl311.tbmb,1,0,99,ALL,Particle Model
+Particle,820312,Ptcl312.tbmb,1,0,99,ALL,Particle Model
+Particle,820313,Ptcl313.tbmb,1,0,99,ALL,Particle Model
+,,,,,,,
+Particle,820351,Ptcl351.tbmb,1,0,99,ALL,Particle Model
+,,,,,,,
+Particle,820501,Ptcl501.tbmb,1,0,99,ALL,Particle Model
+Particle,820502,Ptcl502.tbmb,1,0,99,ALL,Particle Model
+Particle,820503,Ptcl503.tbmb,1,0,99,ALL,Particle Model
+Particle,820504,Ptcl504.tbmb,1,0,99,ALL,Particle Model
+Particle,820505,Ptcl505.tbmb,1,0,99,ALL,Particle Model
+Particle,820506,Ptcl506.tbmb,1,0,99,ALL,Particle Model
+Particle,820507,Ptcl507.tbmb,1,0,99,ALL,Particle Model
+Particle,820508,Ptcl508.tbmb,1,0,99,ALL,Particle Model
+Particle,820509,Ptcl509.tbmb,1,0,99,ALL,Particle Model
+Particle,820510,Ptcl510.tbmb,1,0,99,ALL,Particle Model
+Particle,820511,Ptcl511.tbmb,1,0,99,ALL,Particle Model
+Particle,820512,Ptcl512.tbmb,1,0,99,ALL,Particle Model
+Particle,820513,Ptcl513.tbmb,1,0,99,ALL,Particle Model
+,,,,,,,
+Particle,820515,Ptcl515.tbmb,1,0,99,ALL,Particle Model
+,,,,,,,
+Particle,820520,Ptcl520.tbmb,1,0,99,ALL,Particle Model
+Particle,820521,Ptcl521.tbmb,1,0,99,ALL,Particle Model
+Particle,820522,Ptcl522.tbmb,1,0,99,ALL,Particle Model
+,,,,,,,
+Particle,820531,Ptcl531.tbmb,1,0,99,ALL,Particle Model
+,,,,,,,
+Particle,820601,Ptcl601.tbmb,1,0,99,ALL,Particle Model
+,,,,,,,
+Particle,821991,ParticleDef01.dat,1,0,0,ALL,Particle Data
+,,,,,,,
+,,,,,,,
+////,,Se10101_22k.caf,,,,,"<< Sound Data >>
+1,000,000 Å`1,999,999"
+,,,,,,,
+////,,,,,,,"[ SE Data ]
+1,000,000 Å` 1,999,999"
+,,,,,,,
+Sound,1101011,Se10101.wav,1,0,2,ALL,Wave Data
+Sound,1101012,Se10101_22k.caf,1,0,1,ALL,Wave Data (CAFF)
+Sound,1101013,Se10101.wav,1,0,3,ALL,Wave Data
+Sound,1101021,Se10102.wav,1,0,2,ALL,Wave Data
+Sound,1101022,Se10102_22k.caf,1,0,1,ALL,Wave Data (CAFF)
+Sound,1101023,Se10102.wav,1,0,3,ALL,Wave Data
+Sound,1101031,Se10103.wav,1,0,2,ALL,Wave Data
+Sound,1101032,Se10103_22k.caf,1,0,1,ALL,Wave Data (CAFF)
+Sound,1101033,Se10103.wav,1,0,3,ALL,Wave Data
+Sound,1101041,Se10104.wav,1,0,2,ALL,Wave Data
+Sound,1101042,Se10104_22k.caf,1,0,1,ALL,Wave Data (CAFF)
+Sound,1101043,Se10104.wav,1,0,3,ALL,Wave Data
+Sound,1101051,Se10105.wav,1,0,2,ALL,Wave Data
+Sound,1101052,Se10105_22k.caf,1,0,1,ALL,Wave Data (CAFF)
+Sound,1101053,Se10105.wav,1,0,3,ALL,Wave Data
+Sound,1101081,Se10108.wav,1,0,2,ALL,Wave Data
+Sound,1101082,Se10108_22k.caf,1,0,1,ALL,Wave Data (CAFF)
+Sound,1101083,Se10108.wav,1,0,3,ALL,Wave Data
+Sound,1101091,Se10109.wav,1,0,2,ALL,Wave Data
+Sound,1101092,Se10109_22k.caf,1,0,1,ALL,Wave Data (CAFF)
+Sound,1101093,Se10109.wav,1,0,3,ALL,Wave Data
+Sound,1101101,Se10110.wav,1,0,2,ALL,Wave Data
+Sound,1101102,Se10110_22k.caf,1,0,1,ALL,Wave Data (CAFF)
+Sound,1101103,Se10110.wav,1,0,3,ALL,Wave Data
+Sound,,,,,,,
+Sound,1102011,Se10201.wav,1,0,2,ALL,Wave Data
+Sound,1102012,Se10201_22k.caf,1,0,1,ALL,Wave Data (CAFF)
+Sound,1102013,Se10201.wav,1,0,3,ALL,Wave Data
+Sound,1102021,Se10202.wav,1,0,2,ALL,Wave Data
+Sound,1102022,Se10202_22k.caf,1,0,1,ALL,Wave Data (CAFF)
+Sound,1102023,Se10202.wav,1,0,3,ALL,Wave Data
+Sound,1102031,Se10203.wav,1,0,2,,Wave Data
+Sound,1102032,Se10203_22k.caf,1,0,1,,Wave Data (CAFF)
+Sound,1102033,Se10203.wav,1,0,3,,Wave Data
+Sound,1102041,Se10204.wav,1,0,2,,Wave Data
+Sound,1102042,Se10204_22k.caf,1,0,1,,Wave Data (CAFF)
+Sound,1102043,Se10204.wav,1,0,3,,Wave Data
+Sound,1102051,Se10205.wav,1,0,2,,Wave Data
+Sound,1102052,Se10205_22k.caf,1,0,1,,Wave Data (CAFF)
+Sound,1102053,Se10205.wav,1,0,3,,Wave Data
+Sound,1102061,Se10206.wav,1,0,2,,Wave Data
+Sound,1102062,Se10206_22k.caf,1,0,1,,Wave Data (CAFF)
+Sound,1102063,Se10206.wav,1,0,3,,Wave Data
+Sound,1102071,Se10207.wav,1,0,2,,Wave Data
+Sound,1102072,Se10207_22k.caf,1,0,1,,Wave Data (CAFF)
+Sound,1102073,Se10207.wav,1,0,3,,Wave Data
+Sound,1102081,Se10208.wav,1,0,2,,Wave Data
+Sound,1102082,Se10208_22k.caf,1,0,1,,Wave Data (CAFF)
+Sound,1102083,Se10208.wav,1,0,3,,Wave Data
+Sound,,,,,,,
+Sound,1102111,Se10211.wav,1,0,2,ALL,Wave Data
+Sound,1102112,Se10211_22k.caf,1,0,1,ALL,Wave Data (CAFF)
+Sound,1102113,Se10211.wav,1,0,3,ALL,Wave Data
+Sound,1102121,Se10212.wav,1,0,2,,Wave Data
+Sound,1102122,Se10212_22k.caf,1,0,1,,Wave Data (CAFF)
+Sound,1102123,Se10212.wav,1,0,3,,Wave Data
+Sound,,,,,,,
+Sound,1102211,Se10221.wav,1,0,2,ALL,Wave Data
+Sound,1102212,Se10221_22k.caf,1,0,1,ALL,Wave Data (CAFF)
+Sound,1102213,Se10221.wav,1,0,3,ALL,Wave Data
+Sound,1102221,Se10222.wav,1,0,2,ALL,Wave Data
+Sound,1102222,Se10222_22k.caf,1,0,1,ALL,Wave Data (CAFF)
+Sound,1102223,Se10222.wav,1,0,3,ALL,Wave Data
+Sound,1102231,Se10223.wav,1,0,2,ALL,Wave Data
+Sound,1102232,Se10223_22k.caf,1,0,1,ALL,Wave Data (CAFF)
+Sound,1102233,Se10223.wav,1,0,3,ALL,Wave Data
+Sound,,,,,,,
+Sound,1102251,Se10225.wav,1,0,2,ALL,Wave Data
+Sound,1102252,Se10225_22k.caf,1,0,1,ALL,Wave Data (CAFF)
+Sound,1102253,Se10225.wav,1,0,3,ALL,Wave Data
+Sound,1102261,Se10226.wav,1,0,2,ALL,Wave Data
+Sound,1102262,Se10226_22k.caf,1,0,1,ALL,Wave Data (CAFF)
+Sound,1102263,Se10226.wav,1,0,3,ALL,Wave Data
+Sound,,,,,,,
+Sound,1102311,Se10231.wav,1,0,2,ALL,Wave Data
+Sound,1102312,Se10231_22k.caf,1,0,1,ALL,Wave Data (CAFF)
+Sound,1102313,Se10231.wav,1,0,3,ALL,Wave Data
+Sound,1102351,Se10235.wav,1,0,2,ALL,Wave Data
+Sound,1102352,Se10235_22k.caf,1,0,1,ALL,Wave Data (CAFF)
+Sound,1102353,Se10235.wav,1,0,3,ALL,Wave Data
+Sound,,,,,,,
+Sound,1102411,Se10241.wav,1,0,2,ALL,Wave Data
+Sound,1102412,Se10241_22k.caf,1,0,1,ALL,Wave Data (CAFF)
+Sound,1102413,Se10241.wav,1,0,3,ALL,Wave Data
+Sound,1102421,Se10242.wav,1,0,2,,Wave Data
+Sound,1102422,Se10242_22k.caf,1,0,1,,Wave Data (CAFF)
+Sound,1102423,Se10242.wav,1,0,3,,Wave Data
+Sound,1102431,Se10243.wav,1,0,2,ALL,Wave Data
+Sound,1102432,Se10243_22k.caf,1,0,1,ALL,Wave Data (CAFF)
+Sound,1102433,Se10243.wav,1,0,3,ALL,Wave Data
+Sound,1102441,Se10244.wav,1,0,2,,Wave Data
+Sound,1102442,Se10244_22k.caf,1,0,1,,Wave Data (CAFF)
+Sound,1102443,Se10244.wav,1,0,3,,Wave Data
+Sound,1102451,Se10245.wav,1,0,2,,Wave Data
+Sound,1102452,Se10245_22k.caf,1,0,1,,Wave Data (CAFF)
+Sound,1102453,Se10245.wav,1,0,3,,Wave Data
+Sound,1102461,Se10246.wav,1,0,2,,Wave Data
+Sound,1102462,Se10246_22k.caf,1,0,1,,Wave Data (CAFF)
+Sound,1102463,Se10246.wav,1,0,3,,Wave Data
+Sound,1102471,Se10247.wav,1,0,2,,Wave Data
+Sound,1102472,Se10247_22k.caf,1,0,1,,Wave Data (CAFF)
+Sound,1102473,Se10247.wav,1,0,3,,Wave Data
+Sound,,,,,,,
+Sound,1102511,Se10251.wav,1,0,2,,Wave Data
+Sound,1102512,Se10251_22k.caf,1,0,1,,Wave Data (CAFF)
+Sound,1102513,Se10251.wav,1,0,3,,Wave Data
+Sound,1102521,Se10252.wav,1,0,2,,Wave Data
+Sound,1102522,Se10252_22k.caf,1,0,1,,Wave Data (CAFF)
+Sound,1102523,Se10252.wav,1,0,3,,Wave Data
+Sound,1102531,Se10253.wav,1,0,2,,Wave Data
+Sound,1102532,Se10253_22k.caf,1,0,1,,Wave Data (CAFF)
+Sound,1102533,Se10253.wav,1,0,3,,Wave Data
+Sound,1102541,Se10254.wav,1,0,2,,Wave Data
+Sound,1102542,Se10254_22k.caf,1,0,1,,Wave Data (CAFF)
+Sound,1102543,Se10254.wav,1,0,3,,Wave Data
+Sound,1102551,Se10255.wav,1,0,2,ALL,Wave Data
+Sound,1102552,Se10255_22k.caf,1,0,1,ALL,Wave Data (CAFF)
+Sound,1102553,Se10255.wav,1,0,3,ALL,Wave Data
+Sound,,,,,,,
+Sound,1102611,Se10261.wav,1,0,2,,Wave Data
+Sound,1102612,Se10261_22k.caf,1,0,1,,Wave Data (CAFF)
+Sound,1102613,Se10261.wav,1,0,3,,Wave Data
+Sound,1102621,Se10262.wav,1,0,2,,Wave Data
+Sound,1102622,Se10262_22k.caf,1,0,1,,Wave Data (CAFF)
+Sound,1102623,Se10262.wav,1,0,3,,Wave Data
+Sound,1102631,Se10263.wav,1,0,2,,Wave Data
+Sound,1102632,Se10263_22k.caf,1,0,1,,Wave Data (CAFF)
+Sound,1102633,Se10263.wav,1,0,3,,Wave Data
+Sound,1102641,Se10264.wav,1,0,2,,Wave Data
+Sound,1102642,Se10264_22k.caf,1,0,1,,Wave Data (CAFF)
+Sound,1102643,Se10264.wav,1,0,3,,Wave Data
+Sound,1102651,Se10265.wav,1,0,2,,Wave Data
+Sound,1102652,Se10265_22k.caf,1,0,1,,Wave Data (CAFF)
+Sound,1102653,Se10265.wav,1,0,3,,Wave Data
+Sound,1102661,Se10266.wav,1,0,2,,Wave Data
+Sound,1102662,Se10266_22k.caf,1,0,1,,Wave Data (CAFF)
+Sound,1102663,Se10266.wav,1,0,3,,Wave Data
+Sound,1102671,Se10267.wav,1,0,2,,Wave Data
+Sound,1102672,Se10267_22k.caf,1,0,1,,Wave Data (CAFF)
+Sound,1102673,Se10267.wav,1,0,3,,Wave Data
+Sound,1102681,Se10268.wav,1,0,2,,Wave Data
+Sound,1102682,Se10268_22k.caf,1,0,1,,Wave Data (CAFF)
+Sound,1102683,Se10268.wav,1,0,3,,Wave Data
+Sound,1102691,Se10269.wav,1,0,2,,Wave Data
+Sound,1102692,Se10269_22k.caf,1,0,1,,Wave Data (CAFF)
+Sound,1102693,Se10269.wav,1,0,3,,Wave Data
+Sound,1102701,Se10270.wav,1,0,2,,Wave Data
+Sound,1102702,Se10270_22k.caf,1,0,1,,Wave Data (CAFF)
+Sound,1102703,Se10270.wav,1,0,3,,Wave Data
+Sound,1102711,Se10271.wav,1,0,2,,Wave Data
+Sound,1102712,Se10271_22k.caf,1,0,1,,Wave Data (CAFF)
+Sound,1102713,Se10271.wav,1,0,3,,Wave Data
+Sound,1102721,Se10272.wav,1,0,2,ALL,Wave Data
+Sound,1102722,Se10272_22k.caf,1,0,1,ALL,Wave Data (CAFF)
+Sound,1102723,Se10272.wav,1,0,3,ALL,Wave Data
+Sound,1102731,Se10273.wav,1,0,2,,Wave Data
+Sound,1102732,Se10273_22k.caf,1,0,1,,Wave Data (CAFF)
+Sound,1102733,Se10273.wav,1,0,3,,Wave Data
+Sound,1102741,Se10274.wav,1,0,2,,Wave Data
+Sound,1102742,Se10274_22k.caf,1,0,1,,Wave Data (CAFF)
+Sound,1102743,Se10274.wav,1,0,3,,Wave Data
+Sound,1102751,Se10275.wav,1,0,2,,Wave Data
+Sound,1102752,Se10275_22k.caf,1,0,1,,Wave Data (CAFF)
+Sound,1102753,Se10275.wav,1,0,3,,Wave Data
+Sound,,,,,,,
+Sound,1111011,Se11101.wav,1,0,2,,Wave Data
+Sound,1111012,Se11101_22k.caf,1,0,1,,Wave Data (CAFF)
+Sound,1111013,Se11101.wav,1,0,3,,Wave Data
+Sound,1111021,Se11102.wav,1,0,2,,Wave Data
+Sound,1111022,Se11102_22k.caf,1,0,1,,Wave Data (CAFF)
+Sound,1111023,Se11102.wav,1,0,3,,Wave Data
+Sound,,,,,,,
+Sound,1111111,Se11111.wav,1,0,2,ALL,Wave Data
+Sound,1111112,Se11111_22k.caf,1,0,1,ALL,Wave Data (CAFF)
+Sound,1111113,Se11111.wav,1,0,3,ALL,Wave Data
+Sound,1111121,Se11112.wav,1,0,2,ALL,Wave Data
+Sound,1111122,Se11112_22k.caf,1,0,1,ALL,Wave Data (CAFF)
+Sound,1111123,Se11112.wav,1,0,3,ALL,Wave Data
+Sound,1111131,Se11113.wav,1,0,2,,Wave Data
+Sound,1111132,Se11113_22k.caf,1,0,1,,Wave Data (CAFF)
+Sound,1111133,Se11113.wav,1,0,3,,Wave Data
+Sound,1111141,Se11114.wav,1,0,2,,Wave Data
+Sound,1111142,Se11114_22k.caf,1,0,1,,Wave Data (CAFF)
+Sound,1111143,Se11114.wav,1,0,3,,Wave Data
+Sound,1111151,Se11115.wav,1,0,2,,Wave Data
+Sound,1111152,Se11115_22k.caf,1,0,1,,Wave Data (CAFF)
+Sound,1111153,Se11115.wav,1,0,3,,Wave Data
+Sound,1111161,Se11116.wav,1,0,2,,Wave Data
+Sound,1111162,Se11116_22k.caf,1,0,1,,Wave Data (CAFF)
+Sound,1111163,Se11116.wav,1,0,3,,Wave Data
+Sound,1111171,Se11117.wav,1,0,2,,Wave Data
+Sound,1111172,Se11117_22k.caf,1,0,1,,Wave Data (CAFF)
+Sound,1111173,Se11117.wav,1,0,3,,Wave Data
+Sound,1111181,Se11118.wav,1,0,2,,Wave Data
+Sound,1111182,Se11118_22k.caf,1,0,1,,Wave Data (CAFF)
+Sound,1111183,Se11118.wav,1,0,3,,Wave Data
+Sound,1111191,Se11119.wav,1,0,2,,Wave Data
+Sound,1111192,Se11119_22k.caf,1,0,1,,Wave Data (CAFF)
+Sound,1111193,Se11119.wav,1,0,3,,Wave Data
+Sound,1111201,Se11120.wav,1,0,2,,Wave Data
+Sound,1111202,Se11120_22k.caf,1,0,1,,Wave Data (CAFF)
+Sound,1111203,Se11120.wav,1,0,3,,Wave Data
+Sound,1111211,Se11121.wav,1,0,2,,Wave Data
+Sound,1111212,Se11121_22k.caf,1,0,1,,Wave Data (CAFF)
+Sound,1111213,Se11121.wav,1,0,3,,Wave Data
+Sound,1111221,Se11122.wav,1,0,2,,Wave Data
+Sound,1111222,Se11122_22k.caf,1,0,1,,Wave Data (CAFF)
+Sound,1111223,Se11122.wav,1,0,3,,Wave Data
+Sound,1111231,Se11123.wav,1,0,2,,Wave Data
+Sound,1111232,Se11123_22k.caf,1,0,1,,Wave Data (CAFF)
+Sound,1111233,Se11123.wav,1,0,3,,Wave Data
+Sound,1111241,Se11124.wav,1,0,2,,Wave Data
+Sound,1111242,Se11124_22k.caf,1,0,1,,Wave Data (CAFF)
+Sound,1111243,Se11124.wav,1,0,3,,Wave Data
+Sound,1111251,Se11125.wav,1,0,2,,Wave Data
+Sound,1111252,Se11125_22k.caf,1,0,1,,Wave Data (CAFF)
+Sound,1111253,Se11125.wav,1,0,3,,Wave Data
+Sound,,,,,,,
+Sound,1112031,Se11203.wav,1,0,2,ALL,Wave Data
+Sound,1112032,Se11203_22k.caf,1,0,1,ALL,Wave Data (CAFF)
+Sound,1112033,Se11203.wav,1,0,3,ALL,Wave Data
+Sound,1112041,Se11204.wav,1,0,2,,Wave Data
+Sound,1112042,Se11204_22k.caf,1,0,1,,Wave Data (CAFF)
+Sound,1112043,Se11204.wav,1,0,3,,Wave Data
+Sound,1112051,Se11205.wav,1,0,2,,Wave Data
+Sound,1112052,Se11205_22k.caf,1,0,1,,Wave Data (CAFF)
+Sound,1112053,Se11205.wav,1,0,3,,Wave Data
+Sound,1112061,Se11206.wav,1,0,2,,Wave Data
+Sound,1112062,Se11206_22k.caf,1,0,1,,Wave Data (CAFF)
+Sound,1112063,Se11206.wav,1,0,3,,Wave Data
+Sound,1112071,Se11207.wav,1,0,2,,Wave Data
+Sound,1112072,Se11207_22k.caf,1,0,1,,Wave Data (CAFF)
+Sound,1112073,Se11207.wav,1,0,3,,Wave Data
+Sound,,,,,,,
+Sound,1121011,Se12101.wav,1,0,2,,Wave Data
+Sound,1121012,Se12101_22k.caf,1,0,1,,Wave Data (CAFF)
+Sound,1121013,Se12101.wav,1,0,3,,Wave Data
+Sound,1121021,Se12102.wav,1,0,2,ALL,Wave Data
+Sound,1121022,Se12102_22k.caf,1,0,1,ALL,Wave Data (CAFF)
+Sound,1121023,Se12102.wav,1,0,3,ALL,Wave Data
+Sound,1121031,Se12103.wav,1,0,2,,Wave Data
+Sound,1121032,Se12103_22k.caf,1,0,1,,Wave Data (CAFF)
+Sound,1121033,Se12103.wav,1,0,3,,Wave Data
+Sound,1121041,Se12104.wav,1,0,2,ALL,Wave Data
+Sound,1121042,Se12104_22k.caf,1,0,1,ALL,Wave Data (CAFF)
+Sound,1121043,Se12104.wav,1,0,3,ALL,Wave Data
+Sound,1121051,Se12105.wav,1,0,2,,Wave Data
+Sound,1121052,Se12105_22k.caf,1,0,1,,Wave Data (CAFF)
+Sound,1121053,Se12105.wav,1,0,3,,Wave Data
+Sound,1121061,Se12106.wav,1,0,2,,Wave Data
+Sound,1121062,Se12106_22k.caf,1,0,1,,Wave Data (CAFF)
+Sound,1121063,Se12106.wav,1,0,3,,Wave Data
+Sound,1121071,Se12107.wav,1,0,2,,Wave Data
+Sound,1121072,Se12107_22k.caf,1,0,1,,Wave Data (CAFF)
+Sound,1121073,Se12107.wav,1,0,3,,Wave Data
+Sound,1121081,Se12108.wav,1,0,2,,Wave Data
+Sound,1121082,Se12108_22k.caf,1,0,1,,Wave Data (CAFF)
+Sound,1121083,Se12108.wav,1,0,3,,Wave Data
+Sound,1121091,Se12109.wav,1,0,2,ALL,Wave Data
+Sound,1121092,Se12109_22k.caf,1,0,1,ALL,Wave Data (CAFF)
+Sound,1121093,Se12109.wav,1,0,3,ALL,Wave Data
+Sound,1121101,Se12110.wav,1,0,2,ALL,Wave Data
+Sound,1121102,Se12110_22k.caf,1,0,1,ALL,Wave Data (CAFF)
+Sound,1121103,Se12110.wav,1,0,3,ALL,Wave Data
+Sound,1121111,Se12111.wav,1,0,2,ALL,Wave Data
+Sound,1121112,Se12111_22k.caf,1,0,1,ALL,Wave Data (CAFF)
+Sound,1121113,Se12111.wav,1,0,3,ALL,Wave Data
+Sound,1121121,Se12112.wav,1,0,2,,Wave Data
+Sound,1121122,Se12112_22k.caf,1,0,1,,Wave Data (CAFF)
+Sound,1121123,Se12112.wav,1,0,3,,Wave Data
+Sound,1121131,Se12113.wav,1,0,2,ALL,Wave Data
+Sound,1121132,Se12113_22k.caf,1,0,1,ALL,Wave Data (CAFF)
+Sound,1121133,Se12113.wav,1,0,3,ALL,Wave Data
+Sound,1121141,Se12114.wav,1,0,2,,Wave Data
+Sound,1121142,Se12114_22k.caf,1,0,1,,Wave Data (CAFF)
+Sound,1121143,Se12114.wav,1,0,3,,Wave Data
+Sound,1121151,Se12115.wav,1,0,2,ALL,Wave Data
+Sound,1121152,Se12115_22k.caf,1,0,1,ALL,Wave Data (CAFF)
+Sound,1121153,Se12115.wav,1,0,3,ALL,Wave Data
+Sound,1121161,Se12116.wav,1,0,2,,Wave Data
+Sound,1121162,Se12116_22k.caf,1,0,1,,Wave Data (CAFF)
+Sound,1121163,Se12116.wav,1,0,3,,Wave Data
+Sound,1121171,Se12117.wav,1,0,2,,Wave Data
+Sound,1121172,Se12117_22k.caf,1,0,1,,Wave Data (CAFF)
+Sound,1121173,Se12117.wav,1,0,3,,Wave Data
+Sound,1121181,Se12118.wav,1,0,2,,Wave Data
+Sound,1121182,Se12118_22k.caf,1,0,1,,Wave Data (CAFF)
+Sound,1121183,Se12118.wav,1,0,3,,Wave Data
+Sound,,,,,,,
+Sound,1121511,Se12151.wav,1,0,2,,Wave Data
+Sound,1121512,Se12151_22k.caf,1,0,1,,Wave Data (CAFF)
+Sound,1121513,Se12151.wav,1,0,3,,Wave Data
+Sound,1121521,Se12152.wav,1,0,2,,Wave Data
+Sound,1121522,Se12152_22k.caf,1,0,1,,Wave Data (CAFF)
+Sound,1121523,Se12152.wav,1,0,3,,Wave Data
+Sound,1121531,Se12153.wav,1,0,2,ALL,Wave Data
+Sound,1121532,Se12153_22k.caf,1,0,1,ALL,Wave Data (CAFF)
+Sound,1121533,Se12153.wav,1,0,3,ALL,Wave Data
+Sound,1121541,Se12154.wav,1,0,2,ALL,Wave Data
+Sound,1121542,Se12154_22k.caf,1,0,1,ALL,Wave Data (CAFF)
+Sound,1121543,Se12154.wav,1,0,3,ALL,Wave Data
+Sound,1121551,Se12155.wav,1,0,2,,Wave Data
+Sound,1121552,Se12155_22k.caf,1,0,1,,Wave Data (CAFF)
+Sound,1121553,Se12155.wav,1,0,3,,Wave Data
+Sound,1121561,Se12156.wav,1,0,2,,Wave Data
+Sound,1121562,Se12156_22k.caf,1,0,1,,Wave Data (CAFF)
+Sound,1121563,Se12156.wav,1,0,3,,Wave Data
+Sound,1121571,Se12157.wav,1,0,2,ALL,Wave Data
+Sound,1121572,Se12157_22k.caf,1,0,1,ALL,Wave Data (CAFF)
+Sound,1121573,Se12157.wav,1,0,3,ALL,Wave Data
+Sound,1121581,Se12158.wav,1,0,2,,Wave Data
+Sound,1121582,Se12158_22k.caf,1,0,1,,Wave Data (CAFF)
+Sound,1121583,Se12158.wav,1,0,3,,Wave Data
+Sound,,,,,,,
+Sound,1131011,Se13101.wav,1,0,2,ALL,Wave Data
+Sound,1131012,Se13101_22k.caf,1,0,1,ALL,Wave Data (CAFF)
+Sound,1131013,Se13101.wav,1,0,3,ALL,Wave Data
+Sound,1131021,Se13102.wav,1,0,2,ALL,Wave Data
+Sound,1131022,Se13102_22k.caf,1,0,1,ALL,Wave Data (CAFF)
+Sound,1131023,Se13102.wav,1,0,3,ALL,Wave Data
+Sound,1131031,Se13103.wav,1,0,2,ALL,Wave Data
+Sound,1131032,Se13103_22k.caf,1,0,1,ALL,Wave Data (CAFF)
+Sound,1131033,Se13103.wav,1,0,3,ALL,Wave Data
+Sound,1131041,Se13104.wav,1,0,2,ALL,Wave Data
+Sound,1131042,Se13104_22k.caf,1,0,1,ALL,Wave Data (CAFF)
+Sound,1131043,Se13104.wav,1,0,3,ALL,Wave Data
+Sound,1131051,Se13105.wav,1,0,2,,Wave Data
+Sound,1131052,Se13105_22k.caf,1,0,1,,Wave Data (CAFF)
+Sound,1131053,Se13105.wav,1,0,3,,Wave Data
+Sound,1131061,Se13106.wav,1,0,2,,Wave Data
+Sound,1131062,Se13106_22k.caf,1,0,1,,Wave Data (CAFF)
+Sound,1131063,Se13106.wav,1,0,3,,Wave Data
+Sound,1131071,Se13107.wav,1,0,2,,Wave Data
+Sound,1131072,Se13107_22k.caf,1,0,1,,Wave Data (CAFF)
+Sound,1131073,Se13107.wav,1,0,3,,Wave Data
+Sound,1131081,Se13108.wav,1,0,2,,Wave Data
+Sound,1131082,Se13108_22k.caf,1,0,1,,Wave Data (CAFF)
+Sound,1131083,Se13108.wav,1,0,3,,Wave Data
+Sound,1131091,Se13109.wav,1,0,2,,Wave Data
+Sound,1131092,Se13109_22k.caf,1,0,1,,Wave Data (CAFF)
+Sound,1131093,Se13109.wav,1,0,3,,Wave Data
+Sound,1131101,Se13110.wav,1,0,2,,Wave Data
+Sound,1131102,Se13110_22k.caf,1,0,1,,Wave Data (CAFF)
+Sound,1131103,Se13110.wav,1,0,3,,Wave Data
+Sound,1131111,Se13111.wav,1,0,2,,Wave Data
+Sound,1131112,Se13111_22k.caf,1,0,1,,Wave Data (CAFF)
+Sound,1131113,Se13111.wav,1,0,3,,Wave Data
+Sound,1131121,Se13112.wav,1,0,2,,Wave Data
+Sound,1131122,Se13112_22k.caf,1,0,1,,Wave Data (CAFF)
+Sound,1131123,Se13112.wav,1,0,3,,Wave Data
+Sound,1131131,Se13113.wav,1,0,2,ALL,Wave Data
+Sound,1131132,Se13113_22k.caf,1,0,1,ALL,Wave Data (CAFF)
+Sound,1131133,Se13113.wav,1,0,3,ALL,Wave Data
+Sound,,,,,,,
+Sound,1171011,Se17101.wav,1,0,2,,Wave Data
+Sound,1171012,Se17101_22k.caf,1,0,1,,Wave Data (CAFF)
+Sound,1171013,Se17101.wav,1,0,3,,Wave Data
+Sound,1171021,Se17102.wav,1,0,2,,Wave Data
+Sound,1171022,Se17102_22k.caf,1,0,1,,Wave Data (CAFF)
+Sound,1171023,Se17102.wav,1,0,3,,Wave Data
+Sound,1171031,Se17103.wav,1,0,2,,Wave Data
+Sound,1171032,Se17103_22k.caf,1,0,1,,Wave Data (CAFF)
+Sound,1171033,Se17103.wav,1,0,3,,Wave Data
+Sound,1171041,Se17104.wav,1,0,2,,Wave Data
+Sound,1171042,Se17104_22k.caf,1,0,1,,Wave Data (CAFF)
+Sound,1171043,Se17104.wav,1,0,3,,Wave Data
+Sound,1171051,Se17105.wav,1,0,2,,Wave Data
+Sound,1171052,Se17105_22k.caf,1,0,1,,Wave Data (CAFF)
+Sound,1171053,Se17105.wav,1,0,3,,Wave Data
+Sound,1171061,Se17106.wav,1,0,2,ALL,Wave Data
+Sound,1171062,Se17106_22k.caf,1,0,1,ALL,Wave Data (CAFF)
+Sound,1171063,Se17106.wav,1,0,3,ALL,Wave Data
+Sound,1171071,Se17107.wav,1,0,2,,Wave Data
+Sound,1171072,Se17107_22k.caf,1,0,1,,Wave Data (CAFF)
+Sound,1171073,Se17107.wav,1,0,3,,Wave Data
+Sound,1171081,Se17108.wav,1,0,2,,Wave Data
+Sound,1171082,Se17108_22k.caf,1,0,1,,Wave Data (CAFF)
+Sound,1171083,Se17108.wav,1,0,3,,Wave Data
+Sound,1171091,Se17109.wav,1,0,2,,Wave Data
+Sound,1171092,Se17109_22k.caf,1,0,1,,Wave Data (CAFF)
+Sound,1171093,Se17109.wav,1,0,3,,Wave Data
+Sound,1171101,Se17110.wav,1,0,2,,Wave Data
+Sound,1171102,Se17110_22k.caf,1,0,1,,Wave Data (CAFF)
+Sound,1171103,Se17110.wav,1,0,3,,Wave Data
+Sound,1171111,Se17111.wav,1,0,2,,Wave Data
+Sound,1171112,Se17111_22k.caf,1,0,1,,Wave Data (CAFF)
+Sound,1171113,Se17111.wav,1,0,3,,Wave Data
+Sound,1171121,Se17112.wav,1,0,2,,Wave Data
+Sound,1171122,Se17112_22k.caf,1,0,1,,Wave Data (CAFF)
+Sound,1171123,Se17112.wav,1,0,3,,Wave Data
+Sound,1171131,Se17113.wav,1,0,2,ALL,Wave Data
+Sound,1171132,Se17113_22k.caf,1,0,1,ALL,Wave Data (CAFF)
+Sound,1171133,Se17113.wav,1,0,3,ALL,Wave Data
+Sound,1171141,Se17114.wav,1,0,2,,Wave Data
+Sound,1171142,Se17114_22k.caf,1,0,1,,Wave Data (CAFF)
+Sound,1171143,Se17114.wav,1,0,3,,Wave Data
+Sound,1171151,Se17115.wav,1,0,2,,Wave Data
+Sound,1171152,Se17115_22k.caf,1,0,1,,Wave Data (CAFF)
+Sound,1171153,Se17115.wav,1,0,3,,Wave Data
+Sound,1171161,Se17116.wav,1,0,2,,Wave Data
+Sound,1171162,Se17116_22k.caf,1,0,1,,Wave Data (CAFF)
+Sound,1171163,Se17116.wav,1,0,3,,Wave Data
+,,,,,,,
+,,,,,,,
+////,,,,,,,"[ Music Data ]
+2,000,000 Å` 2,999,999"
+,,,,,,,
+Sound,2110111,Bgm101_ml.wav,1,0,777,ALL,Wave Data (Mono;RIFF)
+Sound,2110112,Bgm101_ml_caff22k.wav,0,0,777,ALL,Wave Data (Mono;CAFF)
+Sound,2110121,Bgm101_sl.wav,1,0,777,ALL,Wave Data (Stereo;RIFF)
+Sound,2110122,Bgm101_sl_caff22k.wav,0,0,777,ALL,Wave Data (Stereo;CAFF)
+Sound,2110211,Bgm102_ml.wav,1,0,777,ALL,Wave Data (Mono;RIFF)
+Sound,2110212,Bgm102_ml_caff22k.wav,0,0,777,ALL,Wave Data (Mono;CAFF)
+Sound,2110221,Bgm102_sl.wav,1,0,777,ALL,Wave Data (Stereo;RIFF)
+Sound,2110222,Bgm102_sl_caff22k.wav,0,0,777,ALL,Wave Data (Stereo;CAFF)
+Sound,2110311,Bgm103_ml.wav,1,0,777,ALL,Wave Data (Mono;RIFF)
+Sound,2110312,Bgm103_ml_caff22k.wav,0,0,777,ALL,Wave Data (Mono;CAFF)
+Sound,2110321,Bgm103_sl.wav,1,0,777,ALL,Wave Data (Stereo;RIFF)
+Sound,2110322,Bgm103_sl_caff22k.wav,0,0,777,ALL,Wave Data (Stereo;CAFF)
+Sound,2110511,Bgm105_ml.wav,1,0,777,ALL,Wave Data (Mono;RIFF)
+Sound,2110512,Bgm105_ml_caff22k.wav,0,0,777,ALL,Wave Data (Mono;CAFF)
+Sound,2110521,Bgm105_sl.wav,1,0,777,ALL,Wave Data (Stereo;RIFF)
+Sound,2110522,Bgm105_sl_caff22k.wav,0,0,777,ALL,Wave Data (Stereo;CAFF)
+Sound,2110611,Bgm106_ml.wav,1,0,777,ALL,Wave Data (Mono;RIFF)
+Sound,2110612,Bgm106_ml_caff22k.wav,0,0,777,ALL,Wave Data (Mono;CAFF)
+Sound,2110621,Bgm106_sl.wav,1,0,777,ALL,Wave Data (Stereo;RIFF)
+Sound,2110622,Bgm106_sl_caff22k.wav,0,0,777,ALL,Wave Data (Stereo;CAFF)
+Sound,2110711,Bgm107_ml.wav,1,0,777,ALL,Wave Data (Mono;RIFF)
+Sound,2110712,Bgm107_ml_caff22k.wav,0,0,777,ALL,Wave Data (Mono;CAFF)
+Sound,2110721,Bgm107_sl.wav,1,0,777,ALL,Wave Data (Stereo;RIFF)
+Sound,2110722,Bgm107_sl_caff22k.wav,0,0,777,ALL,Wave Data (Stereo;CAFF)
+Sound,2110811,Bgm108_ml.wav,1,0,777,ALL,Wave Data (Mono;RIFF)
+Sound,2110812,Bgm108_ml_caff22k.wav,0,0,777,ALL,Wave Data (Mono;CAFF)
+Sound,2110821,Bgm108_sl.wav,1,0,777,ALL,Wave Data (Stereo;RIFF)
+Sound,2110822,Bgm108_sl_caff22k.wav,0,0,777,ALL,Wave Data (Stereo;CAFF)
+Sound,2110911,Bgm109_ml.wav,1,0,777,ALL,Wave Data (Mono;RIFF)
+Sound,2110912,Bgm109_ml_caff22k.wav,0,0,777,ALL,Wave Data (Mono;CAFF)
+Sound,2110921,Bgm109_sl.wav,1,0,777,ALL,Wave Data (Stereo;RIFF)
+Sound,2110922,Bgm109_sl_caff22k.wav,0,0,777,ALL,Wave Data (Stereo;CAFF)
+Sound,2111011,Bgm110_ml.wav,1,0,777,ALL,Wave Data (Mono;RIFF)
+Sound,2111012,Bgm110_ml_caff22k.wav,0,0,777,ALL,Wave Data (Mono;CAFF)
+Sound,2111021,Bgm110_sl.wav,1,0,777,ALL,Wave Data (Stereo;RIFF)
+Sound,2111022,Bgm110_sl_caff22k.wav,0,0,777,ALL,Wave Data (Stereo;CAFF)
+Sound,2111111,Bgm111_ml.wav,1,0,777,ALL,Wave Data (Mono;RIFF)
+Sound,2111112,Bgm111_ml_caff22k.wav,0,0,777,ALL,Wave Data (Mono;CAFF)
+Sound,2111121,Bgm111_sl.wav,1,0,777,ALL,Wave Data (Stereo;RIFF)
+Sound,2111122,Bgm111_sl_caff22k.wav,0,0,777,ALL,Wave Data (Stereo;CAFF)
+Sound,2111211,Bgm112_ml.wav,1,0,777,ALL,Wave Data (Mono;RIFF)
+Sound,2111212,Bgm112_ml_caff22k.wav,0,0,777,ALL,Wave Data (Mono;CAFF)
+Sound,2111221,Bgm112_sl.wav,1,0,777,ALL,Wave Data (Stereo;RIFF)
+Sound,2111222,Bgm112_sl_caff22k.wav,0,0,777,ALL,Wave Data (Stereo;CAFF)
+Sound,2111311,Bgm113_ml.wav,1,0,777,ALL,Wave Data (Mono;RIFF)
+Sound,2111312,Bgm113_ml_caff22k.wav,0,0,777,ALL,Wave Data (Mono;CAFF)
+Sound,2111321,Bgm113_sl.wav,1,0,777,ALL,Wave Data (Stereo;RIFF)
+Sound,2111322,Bgm113_sl_caff22k.wav,0,0,777,ALL,Wave Data (Stereo;CAFF)
+Sound,2111411,Bgm114_ml.wav,1,0,777,ALL,Wave Data (Mono;RIFF)
+Sound,2111412,Bgm114_ml_caff22k.wav,0,0,777,ALL,Wave Data (Mono;CAFF)
+Sound,2111421,Bgm114_sl.wav,1,0,777,ALL,Wave Data (Stereo;RIFF)
+Sound,2111422,Bgm114_sl_caff22k.wav,0,0,777,ALL,Wave Data (Stereo;CAFF)
+Sound,2111511,Bgm115_ml.wav,1,0,777,ALL,Wave Data (Mono;RIFF)
+Sound,2111512,Bgm115_ml_caff22k.wav,0,0,777,ALL,Wave Data (Mono;CAFF)
+Sound,2111521,Bgm115_sl.wav,1,0,777,ALL,Wave Data (Stereo;RIFF)
+Sound,2111522,Bgm115_sl_caff22k.wav,0,0,777,ALL,Wave Data (Stereo;CAFF)
+Sound,2111611,Bgm116_ml.wav,1,0,777,ALL,Wave Data (Mono;RIFF)
+Sound,2111612,Bgm116_ml_caff22k.wav,0,0,777,ALL,Wave Data (Mono;CAFF)
+Sound,2111621,Bgm116_sl.wav,1,0,777,ALL,Wave Data (Stereo;RIFF)
+Sound,2111622,Bgm116_sl_caff22k.wav,0,0,777,ALL,Wave Data (Stereo;CAFF)
+Sound,2111711,Bgm117_ml.wav,1,0,777,ALL,Wave Data (Mono;RIFF)
+Sound,2111712,Bgm117_ml_caff22k.wav,0,0,777,ALL,Wave Data (Mono;CAFF)
+Sound,2111721,Bgm117_sl.wav,1,0,777,ALL,Wave Data (Stereo;RIFF)
+Sound,2111722,Bgm117_sl_caff22k.wav,0,0,777,ALL,Wave Data (Stereo;CAFF)
+Sound,2111811,Bgm118_ml.wav,1,0,777,ALL,Wave Data (Mono;RIFF)
+Sound,2111812,Bgm118_ml_caff22k.wav,0,0,777,ALL,Wave Data (Mono;CAFF)
+Sound,2111821,Bgm118_sl.wav,1,0,777,ALL,Wave Data (Stereo;RIFF)
+Sound,2111822,Bgm118_sl_caff22k.wav,0,0,777,ALL,Wave Data (Stereo;CAFF)
+Sound,2111911,Bgm119_ml.wav,1,0,777,ALL,Wave Data (Mono;RIFF)
+Sound,2111912,Bgm119_ml_caff22k.wav,0,0,777,ALL,Wave Data (Mono;CAFF)
+Sound,2111921,Bgm119_sl.wav,1,0,777,ALL,Wave Data (Stereo;RIFF)
+Sound,2111922,Bgm119_sl_caff22k.wav,0,0,777,ALL,Wave Data (Stereo;CAFF)
+Sound,2112011,Bgm120_ml.wav,1,0,777,ALL,Wave Data (Mono;RIFF)
+Sound,2112012,Bgm120_ml_caff22k.wav,0,0,777,ALL,Wave Data (Mono;CAFF)
+Sound,2112021,Bgm120_sl.wav,1,0,777,ALL,Wave Data (Stereo;RIFF)
+Sound,2112022,Bgm120_sl_caff22k.wav,0,0,777,ALL,Wave Data (Stereo;CAFF)
+Sound,2112111,Bgm121_ml.wav,1,0,777,ALL,Wave Data (Mono;RIFF)
+Sound,2112112,Bgm121_ml_caff22k.wav,0,0,777,ALL,Wave Data (Mono;CAFF)
+Sound,2112121,Bgm121_sl.wav,1,0,777,ALL,Wave Data (Stereo;RIFF)
+Sound,2112122,Bgm121_sl_caff22k.wav,0,0,777,ALL,Wave Data (Stereo;CAFF)
+,,,,,,,
+Sound,2110111,Bgm101_ss.mp3,1,0,3,ALL,Wave Data (Stereo;MP3;x2)
+Sound,2110211,Bgm102_ss.mp3,1,0,3,ALL,Wave Data (Stereo;MP3;x2)
+Sound,2110311,Bgm103_ss.mp3,1,0,3,ALL,Wave Data (Stereo;MP3;x2)
+Sound,2110511,Bgm105_ss.mp3,1,0,3,ALL,Wave Data (Stereo;MP3;x2)
+Sound,2110611,Bgm106_ss.mp3,1,0,3,ALL,Wave Data (Stereo;MP3;x2)
+Sound,2110711,Bgm107_ss.mp3,1,0,3,ALL,Wave Data (Stereo;MP3;x2)
+Sound,2110811,Bgm108_ss.mp3,1,0,3,ALL,Wave Data (Stereo;MP3;x2)
+Sound,2110911,Bgm109_ss.mp3,1,0,3,ALL,Wave Data (Stereo;MP3;x2)
+Sound,2111011,Bgm110_ss.mp3,1,0,3,ALL,Wave Data (Stereo;MP3;x2)
+Sound,2111111,Bgm111_ss.mp3,1,0,3,ALL,Wave Data (Stereo;MP3;x2)
+Sound,2111211,Bgm112_ss.mp3,1,0,3,ALL,Wave Data (Stereo;MP3;x2)
+Sound,2111311,Bgm113_ss.mp3,1,0,3,ALL,Wave Data (Stereo;MP3;x2)
+Sound,2111411,Bgm114_ss.mp3,1,0,3,ALL,Wave Data (Stereo;MP3;x2)
+Sound,2111511,Bgm115_ss.mp3,1,0,3,ALL,Wave Data (Stereo;MP3;x2)
+Sound,2111611,Bgm116_ss.mp3,1,0,3,ALL,Wave Data (Stereo;MP3;x2)
+Sound,2111711,Bgm117_ss.mp3,1,0,3,ALL,Wave Data (Stereo;MP3;x2)
+Sound,2111811,Bgm118_ss.mp3,1,0,3,ALL,Wave Data (Stereo;MP3;x2)
+Sound,2111911,Bgm119_ss.mp3,1,0,3,ALL,Wave Data (Stereo;MP3;x2)
+Sound,2112011,Bgm120_ss.mp3,1,0,3,ALL,Wave Data (Stereo;MP3;x2)
+Sound,2112111,Bgm121_ss.mp3,1,0,3,ALL,Wave Data (Stereo;MP3;x2)
+,,,,,,,
+,,,,,,,
+////,,,,,,,"<< Data that Strongly Depend on Title >>
+100,000,000 Å` 899,999,999"
+,,,,,,,
+////,,,,,,,"[ Map Data ]
+200,000,000 Å` 209,999,999
+200,000,000 + MapID(10,101 Å` 99,999) Å~ 100 + (1Å`99)"
+,,,,,,,
+Map,201010101,Map10101.tbmb,1,0,99,ALL,Model Data
+Map,201010102,Map10101_ev.xml,1,0,0,ALL,Event Data
+Map,201010111,Map10101_en.msgd,1,0,0,ALL,Message Data (english)
+Map,201010112,Map10101_jp.msgd,1,0,0,ALL,Message Data (japanese)
+,,,,,,,
+Map,201010201,Map10102.tbmb,1,0,99,ALL,Model Data
+Map,201010202,Map10102_ev.xml,1,0,0,ALL,Event Data
+Map,201010211,Map10102_en.msgd,1,0,0,ALL,Message Data (english)
+Map,201010212,Map10102_jp.msgd,1,0,0,ALL,Message Data (japanese)
+,,,,,,,
+Map,201010401,Map10104.tbmb,1,0,99,ALL,Model Data
+Map,201010402,Map10104_ev.xml,1,0,0,ALL,Event Data
+Map,201010411,Map10104_en.msgd,1,0,0,ALL,Message Data (english)
+Map,201010412,Map10104_jp.msgd,1,0,0,ALL,Message Data (japanese)
+,,,,,,,
+Map,201010501,Map10105.tbmb,1,0,99,ALL,Model Data
+Map,201010502,Map10105_ev.xml,1,0,0,ALL,Event Data
+Map,201010511,Map10105_en.msgd,1,0,0,ALL,Message Data (english)
+Map,201010512,Map10105_jp.msgd,1,0,0,ALL,Message Data (japanese)
+,,,,,,,
+Map,201018101,Map10181.tbmb,1,0,99,ALL,Model Data
+Map,201018102,Map10181_ev.xml,1,0,0,ALL,Event Data
+Map,201018111,Map10181_en.msgd,1,0,0,ALL,Message Data (english)
+Map,201018112,Map10181_jp.msgd,1,0,0,ALL,Message Data (japanese)
+,,,,,,,
+Map,201020101,Map10201.tbmb,1,0,99,ALL,Model Data
+Map,201020102,Map10201_ev.xml,1,0,0,ALL,Event Data
+Map,201020111,Map10201_en.msgd,1,0,0,ALL,Message Data (english)
+Map,201020112,Map10201_jp.msgd,1,0,0,ALL,Message Data (japanese)
+,,,,,,,
+Map,201020201,Map10202.tbmb,1,0,99,ALL,Model Data
+Map,201020202,Map10202_ev.xml,1,0,0,ALL,Event Data
+Map,201020211,Map10202_en.msgd,1,0,0,ALL,Message Data (english)
+Map,201020212,Map10202_jp.msgd,1,0,0,ALL,Message Data (japanese)
+,,,,,,,
+Map,201020301,Map10203.tbmb,1,0,99,ALL,Model Data
+Map,201020302,Map10203_ev.xml,1,0,0,ALL,Event Data
+Map,201020311,Map10203_en.msgd,1,0,0,ALL,Message Data (english)
+Map,201020312,Map10203_jp.msgd,1,0,0,ALL,Message Data (japanese)
+,,,,,,,
+Map,201022101,Map10221.tbmb,1,0,99,ALL,Model Data
+Map,201022102,Map10221_ev.xml,1,0,0,ALL,Event Data
+Map,201022111,Map10221_en.msgd,1,0,0,ALL,Message Data (english)
+Map,201022112,Map10221_jp.msgd,1,0,0,ALL,Message Data (japanese)
+,,,,,,,
+Map,201022201,Map10222.tbmb,1,0,99,ALL,Model Data
+Map,201022202,Map10222_ev.xml,1,0,0,ALL,Event Data
+Map,201022211,Map10222_en.msgd,1,0,0,ALL,Message Data (english)
+Map,201022212,Map10222_jp.msgd,1,0,0,ALL,Message Data (japanese)
+,,,,,,,
+Map,201022301,Map10223.tbmb,1,0,99,ALL,Model Data
+Map,201022302,Map10223_ev.xml,1,0,0,ALL,Event Data
+Map,201022311,Map10223_en.msgd,1,0,0,ALL,Message Data (english)
+Map,201022312,Map10223_jp.msgd,1,0,0,ALL,Message Data (japanese)
+,,,,,,,
+Map,201022401,Map10224.tbmb,1,0,99,ALL,Model Data
+Map,201022402,Map10224_ev.xml,1,0,0,ALL,Event Data
+Map,201022411,Map10224_en.msgd,1,0,0,ALL,Message Data (english)
+Map,201022412,Map10224_jp.msgd,1,0,0,ALL,Message Data (japanese)
+,,,,,,,
+Map,201024101,Map10241.tbmb,1,0,99,ALL,Model Data
+Map,201024102,Map10241_ev.xml,1,0,0,ALL,Event Data
+Map,201024111,Map10241_en.msgd,1,0,0,ALL,Message Data (english)
+Map,201024112,Map10241_jp.msgd,1,0,0,ALL,Message Data (japanese)
+,,,,,,,
+Map,201024201,Map10242.tbmb,1,0,99,ALL,Model Data
+Map,201024202,Map10242_ev.xml,1,0,0,ALL,Event Data
+Map,201024211,Map10242_en.msgd,1,0,0,ALL,Message Data (english)
+Map,201024212,Map10242_jp.msgd,1,0,0,ALL,Message Data (japanese)
+,,,,,,,
+Map,201024301,Map10243.tbmb,1,0,99,ALL,Model Data
+Map,201024302,Map10243_ev.xml,1,0,0,ALL,Event Data
+Map,201024311,Map10243_en.msgd,1,0,0,ALL,Message Data (english)
+Map,201024312,Map10243_jp.msgd,1,0,0,ALL,Message Data (japanese)
+,,,,,,,
+Map,201024401,Map10244.tbmb,1,0,99,ALL,Model Data
+Map,201024402,Map10244_ev.xml,1,0,0,ALL,Event Data
+Map,201024411,Map10244_en.msgd,1,0,0,ALL,Message Data (english)
+Map,201024412,Map10244_jp.msgd,1,0,0,ALL,Message Data (japanese)
+,,,,,,,
+Map,201030101,Map10301.tbmb,1,0,99,ALL,Model Data
+Map,201030102,Map10301_ev.xml,1,0,0,ALL,Event Data
+,,,,,,,
+Map,201030201,Map10302.tbmb,1,0,99,ALL,Model Data
+Map,201030202,Map10302_ev.xml,1,0,0,ALL,Event Data
+,,,,,,,
+Map,201030301,Map10303.tbmb,1,0,99,ALL,Model Data
+Map,201030302,Map10303_ev.xml,1,0,0,ALL,Event Data
+,,,,,,,
+Map,201110101,Map11101.tbmb,1,0,99,ALL,Model Data
+Map,201110102,Map11101_ev.xml,1,0,0,ALL,Event Data
+Map,201110151,Map11101_rtmv01.tbmb,1,0,99,ALL,RtMovie Data
+,,,,,,,
+Map,201110201,Map11102.tbmb,1,0,99,ALL,Model Data
+Map,201110202,Map11102_ev.xml,1,0,0,ALL,Event Data
+,,,,,,,
+Map,201110301,Map11103.tbmb,1,0,99,ALL,Model Data
+Map,201110302,Map11103_ev.xml,1,0,0,ALL,Event Data
+,,,,,,,
+Map,201110401,Map11104.tbmb,1,0,99,ALL,Model Data
+Map,201110402,Map11104_ev.xml,1,0,0,ALL,Event Data
+,,,,,,,
+Map,201111101,Map11111.tbmb,1,0,99,ALL,Model Data
+Map,201111102,Map11111_ev.xml,1,0,0,ALL,Event Data
+,,,,,,,
+Map,201111201,Map11112.tbmb,1,0,99,ALL,Model Data
+Map,201111202,Map11112_ev.xml,1,0,0,ALL,Event Data
+,,,,,,,
+Map,201111301,Map11113.tbmb,1,0,99,ALL,Model Data
+Map,201111302,Map11113_ev.xml,1,0,0,ALL,Event Data
+,,,,,,,
+Map,201111401,Map11114.tbmb,1,0,99,ALL,Model Data
+Map,201111402,Map11114_ev.xml,1,0,0,ALL,Event Data
+,,,,,,,
+Map,201115101,Map11151.tbmb,1,0,99,ALL,Model Data
+Map,201115102,Map11151_ev.xml,1,0,0,ALL,Event Data
+,,,,,,,
+Map,201189101,Map11891.tbmb,1,0,99,ALL,Model Data
+Map,201189102,Map11891_ev.xml,1,0,0,ALL,Event Data
+,,,,,,,
+Map,201910101,Map19101.tbmb,1,1,99,ALL,Model Data
+Map,201910102,Map19101_ev.xml,1,1,0,ALL,Event Data
+,,,,,,,
+Map,201910201,Map19102.tbmb,1,1,99,ALL,Model Data
+Map,201910202,Map19102_ev.xml,1,1,0,ALL,Event Data
+Map,201910211,Map19102_en.msgd,1,1,0,ALL,Message Data (english)
+Map,201910212,Map19102_jp.msgd,1,1,0,ALL,Message Data (japanese)
+Map,201910251,Map19102_rtmv01.tbmb,1,1,99,ALL,RtMovie Data
+Map,201910281,Map19102_sprite01.png,0,1,0,ALL,Texture Data
+Map,201910282,Map19102_sprite02_jp.png,0,1,0,ALL,Texture Data
+Map,201910283,Map19102_sprite02_en.png,0,1,0,ALL,Texture Data
+Map,201910284,Map19102_sprite03.png,0,1,0,ALL,Texture Data
+,,,,,,,
+,,,,,,,
+////,,,,,,,"[ Story Event Data ]
+300,000,000 Å` 309,999,999
+300,000,000 + StoryID(10,101 Å` 99,999) Å~ 100 + (1Å`99)"
+,,,,,,,
+StoryEvent,301010101,StEv10101.xml,1,0,0,ALL,Event Data
+StoryEvent,301010111,StEv10101_en.msgd,1,0,0,ALL,Message Data (english)
+StoryEvent,301010112,StEv10101_jp.msgd,1,0,0,ALL,Message Data (japanese)
+StoryEvent,301010151,StEv10101_rtmv01.tbmb,1,0,99,ALL,RealTimeMovie
+StoryEvent,301010152,StEv10101_rtmv02.tbmb,1,0,99,ALL,RealTimeMovie
+StoryEvent,301010153,StEv10101_rtmv03.tbmb,1,0,99,ALL,RealTimeMovie
+StoryEvent,301010155,StEv10101_rtmv05.tbmb,1,0,99,ALL,RealTimeMovie
+StoryEvent,301010156,StEv10101_rtmv06.tbmb,1,0,99,ALL,RealTimeMovie
+StoryEvent,301010161,StEv10101_rtmv20.tbmb,1,0,99,ALL,RealTimeMovie
+StoryEvent,301010181,StEv10101_sprite01_en.png,0,0,0,ALL,Texture Data
+StoryEvent,301010182,StEv10101_sprite01_jp.png,0,0,0,ALL,Texture Data
+,,,,,,,
+StoryEvent,301010201,StEv10102.xml,1,0,0,ALL,Event Data
+StoryEvent,301010211,StEv10102_en.msgd,1,0,0,ALL,Message Data (english)
+StoryEvent,301010212,StEv10102_jp.msgd,1,0,0,ALL,Message Data (japanese)
+StoryEvent,301010251,StEv10102_rtmv01.tbmb,1,0,99,ALL,RealTimeMovie
+,,,,,,,
+StoryEvent,301020101,StEv10201.xml,1,0,0,ALL,Event Data
+StoryEvent,301020111,StEv10201_en.msgd,1,0,0,ALL,Message Data (english)
+StoryEvent,301020112,StEv10201_jp.msgd,1,0,0,ALL,Message Data (japanese)
+StoryEvent,301020151,StEv10201_rtmv01.tbmb,1,0,99,ALL,RealTimeMovie
+StoryEvent,301020152,StEv10201_rtmv02.tbmb,1,0,99,ALL,RealTimeMovie
+StoryEvent,301020153,StEv10201_rtmv03.tbmb,1,0,99,ALL,RealTimeMovie
+,,,,,,,
+StoryEvent,301020201,StEv10202.xml,1,0,0,ALL,Event Data
+StoryEvent,301020211,StEv10202_en.msgd,1,0,0,ALL,Message Data (english)
+StoryEvent,301020212,StEv10202_jp.msgd,1,0,0,ALL,Message Data (japanese)
+StoryEvent,301020251,StEv10202_rtmv01.tbmb,1,0,99,ALL,RealTimeMovie
+StoryEvent,301020252,StEv10202_rtmv02.tbmb,1,0,99,ALL,RealTimeMovie
+StoryEvent,301020253,StEv10202_rtmv03.tbmb,1,0,99,ALL,RealTimeMovie
+StoryEvent,301020254,StEv10202_rtmv04.tbmb,1,0,99,ALL,RealTimeMovie
+StoryEvent,301020255,StEv10202_rtmv05.tbmb,1,0,99,ALL,RealTimeMovie
+,,,,,,,
+StoryEvent,301020301,StEv10203.xml,1,0,0,ALL,Event Data
+StoryEvent,301020311,StEv10203_en.msgd,1,0,0,ALL,Message Data (english)
+StoryEvent,301020312,StEv10203_jp.msgd,1,0,0,ALL,Message Data (japanese)
+StoryEvent,301020351,StEv10203_rtmv01.tbmb,1,0,99,ALL,RealTimeMovie
+StoryEvent,301020352,StEv10203_rtmv02.tbmb,1,0,99,ALL,RealTimeMovie
+StoryEvent,301020353,StEv10203_rtmv03.tbmb,1,0,99,ALL,RealTimeMovie
+StoryEvent,301020354,StEv10203_rtmv04.tbmb,1,0,99,ALL,RealTimeMovie
+StoryEvent,301020355,StEv10203_rtmv05.tbmb,1,0,99,ALL,RealTimeMovie
+StoryEvent,301020356,StEv10203_rtmv06.tbmb,1,0,99,ALL,RealTimeMovie
+StoryEvent,301020361,StEv10203_rtmv11.tbmb,1,0,99,ALL,RealTimeMovie
+,,,,,,,
+StoryEvent,301020401,StEv10204.xml,1,0,0,ALL,Event Data
+StoryEvent,301020411,StEv10204_en.msgd,1,0,0,ALL,Message Data (english)
+StoryEvent,301020412,StEv10204_jp.msgd,1,0,0,ALL,Message Data (japanese)
+StoryEvent,301020451,StEv10204_rtmv01.tbmb,1,0,99,ALL,RealTimeMovie
+StoryEvent,301020452,StEv10204_rtmv02.tbmb,1,0,99,ALL,RealTimeMovie
+StoryEvent,301020453,StEv10204_rtmv03.tbmb,1,0,99,ALL,RealTimeMovie
+StoryEvent,301020454,StEv10204_rtmv04.tbmb,1,0,99,ALL,RealTimeMovie
+StoryEvent,301020481,StEv10204_liteend_en.png,0,0,0,ALL,Texture Data
+StoryEvent,301020482,StEv10204_liteend_jp.png,0,0,0,ALL,Texture Data
+,,,,,,,
+StoryEvent,301030101,StEv10301.xml,1,0,0,V01,Event Data
+StoryEvent,301030111,StEv10301_en.msgd,1,0,0,V01,Message Data (english)
+StoryEvent,301030112,StEv10301_jp.msgd,1,0,0,V01,Message Data (japanese)
+StoryEvent,301030151,StEv10301_rtmv01.tbmb,1,0,99,V01,RealTimeMovie
+StoryEvent,301030152,StEv10301_rtmv02.tbmb,1,0,99,V01,RealTimeMovie
+StoryEvent,301030153,StEv10301_rtmv03.tbmb,1,0,99,V01,RealTimeMovie
+StoryEvent,301030154,StEv10301_rtmv04.tbmb,1,0,99,V01,RealTimeMovie
+StoryEvent,301030155,StEv10301_rtmv05.tbmb,1,0,99,V01,RealTimeMovie
+StoryEvent,301030156,StEv10301_rtmv06.tbmb,1,0,99,V01,RealTimeMovie
+StoryEvent,301030157,StEv10301_rtmv07.tbmb,1,0,99,V01,RealTimeMovie
+StoryEvent,301030181,StEv10301_letter_en.png,0,0,0,V01,Texture Data
+StoryEvent,301030182,StEv10301_letter_jp.png,0,0,0,V01,Texture Data
+,,,,,,,
+StoryEvent,301030201,StEv10302.xml,1,0,0,V01,Event Data
+StoryEvent,301030211,StEv10302_en.msgd,1,0,0,V01,Message Data (english)
+StoryEvent,301030212,StEv10302_jp.msgd,1,0,0,V01,Message Data (japanese)
+StoryEvent,301030251,StEv10302_rtmv01.tbmb,1,0,99,V01,RealTimeMovie
+StoryEvent,301030252,StEv10302_rtmv02.tbmb,1,0,99,V01,RealTimeMovie
+StoryEvent,301030253,StEv10302_rtmv03.tbmb,1,0,99,V01,RealTimeMovie
+StoryEvent,301030254,StEv10302_rtmv04.tbmb,1,0,99,V01,RealTimeMovie
+StoryEvent,301030255,StEv10302_rtmv05.tbmb,1,0,99,V01,RealTimeMovie
+,,,,,,,
+StoryEvent,301030301,StEv10303.xml,1,0,0,V01,Event Data
+StoryEvent,301030311,StEv10303_en.msgd,1,0,0,V01,Message Data (english)
+StoryEvent,301030312,StEv10303_jp.msgd,1,0,0,V01,Message Data (japanese)
+StoryEvent,301030351,StEv10303_rtmv01.tbmb,1,0,99,V01,RealTimeMovie
+,,,,,,,
+StoryEvent,301030401,StEv10304.xml,1,0,0,V01,Event Data
+StoryEvent,301030411,StEv10304_en.msgd,1,0,0,V01,Message Data (english)
+StoryEvent,301030412,StEv10304_jp.msgd,1,0,0,V01,Message Data (japanese)
+StoryEvent,301030451,StEv10304_rtmv01.tbmb,1,0,99,V01,RealTimeMovie
+StoryEvent,301030452,StEv10304_rtmv02.tbmb,1,0,99,V01,RealTimeMovie
+StoryEvent,301030453,StEv10304_rtmv03.tbmb,1,0,99,V01,RealTimeMovie
+StoryEvent,301030454,StEv10304_rtmv04.tbmb,1,0,99,V01,RealTimeMovie
+,,,,,,,
+StoryEvent,301030501,StEv10305.xml,1,0,0,V01,Event Data
+StoryEvent,301030511,StEv10305_en.msgd,1,0,0,V01,Message Data (english)
+StoryEvent,301030512,StEv10305_jp.msgd,1,0,0,V01,Message Data (japanese)
+StoryEvent,301030551,StEv10305_rtmv01.tbmb,1,0,99,V01,RealTimeMovie
+StoryEvent,301030552,StEv10305_rtmv02.tbmb,1,0,99,V01,RealTimeMovie
+StoryEvent,301030553,StEv10305_rtmv03.tbmb,1,0,99,V01,RealTimeMovie
+StoryEvent,301030554,StEv10305_rtmv04.tbmb,1,0,99,V01,RealTimeMovie
+StoryEvent,301030555,StEv10305_rtmv05.tbmb,1,0,99,V01,RealTimeMovie
+,,,,,,,
+StoryEvent,301030601,StEv10306.xml,1,0,0,V01,Event Data
+StoryEvent,301030611,StEv10306_en.msgd,1,0,0,V01,Message Data (english)
+StoryEvent,301030612,StEv10306_jp.msgd,1,0,0,V01,Message Data (japanese)
+StoryEvent,301030651,StEv10306_rtmv01.tbmb,1,0,99,V01,RealTimeMovie
+StoryEvent,301030652,StEv10306_rtmv02.tbmb,1,0,99,V01,RealTimeMovie
+StoryEvent,301030653,StEv10306_rtmv03.tbmb,1,0,99,V01,RealTimeMovie
+,,,,,,,
+StoryEvent,301040101,StEv10401.xml,1,0,0,V01,Event Data
+StoryEvent,301040111,StEv10401_en.msgd,1,0,0,V01,Message Data (english)
+StoryEvent,301040112,StEv10401_jp.msgd,1,0,0,V01,Message Data (japanese)
+StoryEvent,301040151,StEv10401_rtmv01.tbmb,1,0,99,V01,RealTimeMovie
+StoryEvent,301040152,StEv10401_rtmv02.tbmb,1,0,99,V01,RealTimeMovie
+StoryEvent,301040153,StEv10401_rtmv03.tbmb,1,0,99,V01,RealTimeMovie
+StoryEvent,301040181,StEv10401_ending01_en.png,0,0,0,V01,Texture Data
+StoryEvent,301040182,StEv10401_ending01_jp.png,0,0,0,V01,Texture Data
+,,,,,,,
+StoryEvent,301040183,StEv10401_staffroll01.png,0,0,0,ALL,Texture Data
+,,,,,,,
+Book,301059181,Book01_Page01.png,0,0,0,"V02,V02Lite",Book Texture Data
+Book,301059182,Book01_Page02.png,0,0,0,"V02,V02Lite",Book Texture Data
+Book,301059183,Book01_Page03.png,0,0,0,"V02,V02Lite",Book Texture Data
+Book,301059184,Book01_Page04.png,0,0,0,"V02,V02Lite",Book Texture Data
+Book,301059185,Book01_Page05.png,0,0,0,"V02,V02Lite",Book Texture Data
+Book,301059186,Book01_Page06.png,0,0,0,"V02,V02Lite",Book Texture Data
+,,,,,,,
+,,,,,,,
+////,,,,,,,"[ Quest Event Data ]
+400,000,000 Å` 409,999,999
+400,000,000 + QuestID(10,001 Å` 99,999) Å~ 100 + (1Å`99)"
+,,,,,,,
+QuestEvent,401000001,QuestDef01.dat,1,0,0,ALL,Quest Definition Data
+QuestEvent,401000002,QuestTxt01.dat,1,0,0,ALL,Quest Definition Text Data
+,,,,,,,
+QuestEvent,401000011,Sprite_QuestAchieve_en.png,0,0,0,ALL,Texture Data
+QuestEvent,401000012,Sprite_QuestAchieve_jp.png,0,0,0,ALL,Texture Data
+QuestEvent,401000021,Sprite_QuestFinish_en.png,0,0,0,ALL,Texture Data
+QuestEvent,401000022,Sprite_QuestFinish_jp.png,0,0,0,ALL,Texture Data
+QuestEvent,401000031,Sprite_QuestAccept_en.png,0,0,0,ALL,Texture Data
+QuestEvent,401000032,Sprite_QuestAccept_jp.png,0,0,0,ALL,Texture Data
+,,,,,,,
+QuestEvent,401010101,QsEv10101.xml,1,0,0,ALL,Event Data
+QuestEvent,401010111,QsEv10101_en.msgd,1,0,0,ALL,Message Data (english)
+QuestEvent,401010112,QsEv10101_jp.msgd,1,0,0,ALL,Message Data (japanese)
+,,,,,,,
+QuestEvent,401010201,QsEv10102.xml,1,0,0,ALL,Event Data
+QuestEvent,401010211,QsEv10102_en.msgd,1,0,0,ALL,Message Data (english)
+QuestEvent,401010212,QsEv10102_jp.msgd,1,0,0,ALL,Message Data (japanese)
+,,,,,,,
+QuestEvent,401010301,QsEv10103.xml,1,0,0,ALL,Event Data
+QuestEvent,401010311,QsEv10103_en.msgd,1,0,0,ALL,Message Data (english)
+QuestEvent,401010312,QsEv10103_jp.msgd,1,0,0,ALL,Message Data (japanese)
+,,,,,,,
+QuestEvent,401010401,QsEv10104.xml,1,0,0,ALL,Event Data
+QuestEvent,401010411,QsEv10104_en.msgd,1,0,0,ALL,Message Data (english)
+QuestEvent,401010412,QsEv10104_jp.msgd,1,0,0,ALL,Message Data (japanese)
+,,,,,,,
+QuestEvent,401010501,QsEv10105.xml,1,0,0,ALL,Event Data
+QuestEvent,401010511,QsEv10105_en.msgd,1,0,0,ALL,Message Data (english)
+QuestEvent,401010512,QsEv10105_jp.msgd,1,0,0,ALL,Message Data (japanese)
+,,,,,,,
+QuestEvent,401010601,QsEv10106.xml,1,0,0,ALL,Event Data
+QuestEvent,401010611,QsEv10106_en.msgd,1,0,0,ALL,Message Data (english)
+QuestEvent,401010612,QsEv10106_jp.msgd,1,0,0,ALL,Message Data (japanese)
+,,,,,,,
+QuestEvent,401010701,QsEv10107.xml,1,0,0,ALL,Event Data
+QuestEvent,401010711,QsEv10107_en.msgd,1,0,0,ALL,Message Data (english)
+QuestEvent,401010712,QsEv10107_jp.msgd,1,0,0,ALL,Message Data (japanese)
+,,,,,,,
+QuestEvent,401010801,QsEv10108.xml,1,0,0,ALL,Event Data
+QuestEvent,401010811,QsEv10108_en.msgd,1,0,0,ALL,Message Data (english)
+QuestEvent,401010812,QsEv10108_jp.msgd,1,0,0,ALL,Message Data (japanese)
+,,,,,,,
+,,,,,,,
+////,,,,,,,"[ Temporary Event Data ]
+500,000,000 Å` 509,999,999
+500,000,000 + StageID(10,001 Å` 99,999) Å~ 100 + (1Å`99)"
+,,,,,,,
+TmpEvent,501000101,TmpEv10001.xml,1,0,0,ALL,Event Data
+TmpEvent,501000111,TmpEv10001_en.msgd,1,0,0,ALL,Message Data (english)
+TmpEvent,501000112,TmpEv10001_jp.msgd,1,0,0,ALL,Message Data (japanese)
+,,,,,,,
+,,,,,,,
+////,,,,,,,"[ Other Event Data ]
+600,000,000 Å` 609,999,999
+600,000,000 + (Vol * 1,000,000) + n"
+,,,,,,,
+OtherEvent,601010011,StEv10101_tutorial01_en.png,0,0,0,ALL,Texture Data
+OtherEvent,601010012,StEv10101_tutorial01_jp.png,0,0,0,ALL,Texture Data
+OtherEvent,601010021,StEv10101_tutorial02_en.png,0,0,0,ALL,Texture Data
+OtherEvent,601010022,StEv10101_tutorial02_jp.png,0,0,0,ALL,Texture Data
+OtherEvent,601010031,StEv10101_tutorial03_en.png,0,0,0,ALL,Texture Data
+OtherEvent,601010032,StEv10101_tutorial03_jp.png,0,0,0,ALL,Texture Data
+OtherEvent,601010041,StEv10101_tutorial04_en.png,0,0,0,ALL,Texture Data
+OtherEvent,601010042,StEv10101_tutorial04_jp.png,0,0,0,ALL,Texture Data
+OtherEvent,601010211,StEv10101_tutorial21_en.png,0,0,0,ALL,Texture Data
+OtherEvent,601010212,StEv10101_tutorial21_jp.png,0,0,0,ALL,Texture Data
+OtherEvent,601010221,StEv10101_tutorial22_en.png,0,0,0,ALL,Texture Data
+OtherEvent,601010222,StEv10101_tutorial22_jp.png,0,0,0,ALL,Texture Data
+OtherEvent,601010231,StEv10101_tutorial23_en.png,0,0,0,ALL,Texture Data
+OtherEvent,601010232,StEv10101_tutorial23_jp.png,0,0,0,ALL,Texture Data
+OtherEvent,601010251,StEv10101_tutorial25_en.png,0,0,0,ALL,Texture Data
+OtherEvent,601010252,StEv10101_tutorial25_jp.png,0,0,0,ALL,Texture Data
+OtherEvent,601010311,StEv10101_tutorial31_en.png,0,0,0,ALL,Texture Data
+OtherEvent,601010312,StEv10101_tutorial31_jp.png,0,0,0,ALL,Texture Data
+OtherEvent,601010321,StEv10101_tutorial32_en.png,0,0,0,ALL,Texture Data
+OtherEvent,601010322,StEv10101_tutorial32_jp.png,0,0,0,ALL,Texture Data
+OtherEvent,601010411,StEv10101_tutorial41_en.png,0,0,0,ALL,Texture Data
+OtherEvent,601010412,StEv10101_tutorial41_jp.png,0,0,0,ALL,Texture Data
+OtherEvent,601010421,StEv10101_tutorial42_en.png,0,0,0,ALL,Texture Data
+OtherEvent,601010422,StEv10101_tutorial42_jp.png,0,0,0,ALL,Texture Data
+,,,,,,,
+OtherEvent,601020011,StEv10102_tutorial01_en.png,0,0,0,ALL,Texture Data
+OtherEvent,601020012,StEv10102_tutorial01_jp.png,0,0,0,ALL,Texture Data
+OtherEvent,601020111,StEv10102_tutorial11_en.png,0,0,0,ALL,Texture Data
+OtherEvent,601020112,StEv10102_tutorial11_jp.png,0,0,0,ALL,Texture Data
+OtherEvent,601020211,StEv10102_tutorial21_en.png,0,0,0,ALL,Texture Data
+OtherEvent,601020212,StEv10102_tutorial21_jp.png,0,0,0,ALL,Texture Data
+OtherEvent,601020221,StEv10102_tutorial22_en.png,0,0,0,ALL,Texture Data
+OtherEvent,601020222,StEv10102_tutorial22_jp.png,0,0,0,ALL,Texture Data
+OtherEvent,601020311,StEv10102_tutorial31_en.png,0,0,0,ALL,Texture Data
+OtherEvent,601020312,StEv10102_tutorial31_jp.png,0,0,0,ALL,Texture Data
+,,,,,,,
+OtherEvent,601030011,StEv10203_tutorial01_en.png,0,0,0,ALL,Texture Data
+OtherEvent,601030012,StEv10203_tutorial01_jp.png,0,0,0,ALL,Texture Data
+OtherEvent,601030021,StEv10203_tutorial02_en.png,0,0,0,ALL,Texture Data
+OtherEvent,601030022,StEv10203_tutorial02_jp.png,0,0,0,ALL,Texture Data
+,,,,,,,
+,,,,,,,
+////,,,,,,,"[ PurePuzzle Data ]
+700,000,000 Å` 700,000,999"
+,,,,,,,
+Menu,700000001,Menu_TitlePrpzl_en.xml,0,0,0,PZL01,Title Menu (english)
+Menu,700000002,Menu_TitlePrpzl_jp.xml,0,0,0,PZL01,Title Menu (japanese)
+Menu,700000011,Menu_PrpzlMain_en.xml,0,0,0,PZL01,Main Menu (english)
+Menu,700000012,Menu_PrpzlMain_jp.xml,0,0,0,PZL01,Main Menu (japanese)
+,,,,,,,
+PurePuzzle,700000500,PzlQ_Test.txt,0,0,0,PZL01,PurePuzzle Quest Data
+PurePuzzle,700000501,PzlQ01.txt,0,0,0,PZL01,PurePuzzle Quest Data
+PurePuzzle,700000502,PzlQ02.txt,0,0,0,PZL01,PurePuzzle Quest Data
+PurePuzzle,700000503,PzlQ03.txt,0,0,0,PZL01,PurePuzzle Quest Data
+PurePuzzle,700000504,PzlQ04.txt,0,0,0,PZL01,PurePuzzle Quest Data
+PurePuzzle,700000505,PzlQ05.txt,0,0,0,PZL01,PurePuzzle Quest Data
+,,,,,,,
+,,,,,,,
+////,,,,,,,"<< Test Data >>
+900,000,000 Å`"
+,,,,,,,
+////,,,,,,,"[ Test Data ]
+900,000,001 Å` 4,294,967,295"

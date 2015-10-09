@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<EventData>
+<Event ID="20001">
+	<Type>ACT</Type>
+	<Data>
+		<Msg mode="TALK" frame="1" msg_id="10001" />
+		<Msg mode="TALK" frame="1" msg_id="10002" />
+	</Data>
+</Event>
+</EventData>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<EventData>
+<Event ID="999">
+	<Type>MAPCONF</Type>
+	<Data>
+		<MapKind>Field</MapKind>
+		<MoveMap1>10244</MoveMap1>
+		<MoveMap2>19101</MoveMap2>
+		<MoveMap3>10102</MoveMap3>
+		<MoveMap4>19101</MoveMap4>
+		<BgmId>103</BgmId>
+		<PlaceObj kind="enemy" char_id="1502" pos="500.0f, 0.0f, 0.0f" rand_pos_r="100.0f" rand="1" comment="ウサナ" />
+		<PlaceObj kind="enemy" char_id="1401" pos="-1100.0f, 0.0f, 0.0f" rand_pos_r="100.0f" rand="1" comment="雲月岩" />
+		<PlaceObj kind="enemy" char_id="1403" pos="-500.0f, 0.0f, 0.0f" rand_pos_r="100.0f" rand="1" comment="大猿" />
+		<PlaceObj kind="enemy" char_id="1405" pos="-500.0f, 0.0f, 0.0f" rand_pos_r="100.0f" rand="100" comment="影岩" />
+		<PlaceObj kind="enemy" char_id="1406" pos="-500.0f, 0.0f, 0.0f" rand_pos_r="100.0f" rand="1" comment="カブナハ" />
+		<PlaceObj kind="enemy" char_id="1692" pos="0.0f, 0.0f, 0.0f" rand_pos_r="100.0f" rand="100" call_evid="1008" comment="デブナ２" />
+		<PlaceObj kind="puitem" item_id="3001" pos="0.0f, 0.0f, -100.0f" rand_pos_r="1000.0f" rand="100" comment="フィールドアイテム" />
+	</Data>
+</Event>
+<Event ID="10001">
+	<Type>ACT</Type>
+	<Data>
+		<Music frame="1" bgm_id="102" skip="no" comment="この10001は単なるテスト．特に意味無し" />
+		<Call frame="2" evid="10002" skip="no" comment="★単純呼び出し" />
+	</Data>
+</Event>
+<Event ID="10002">
+	<Type>ACT</Type>
+	<Data>
+		<Music frame="1" bgm_id="102" skip="no" />
+		<ScrEff frame="1" durf="60" kind="fill" color="000000" comment="★画面塗りつぶし" />
+		<ScrEff frame="60" durf="60" kind="fade_in" color="000000" comment="★フェードイン" />
+		<Sprite frame="60" durf="300" file_id="201910281" rect="0, 0, 480, 1000" name="bubble_sprite" comment="★スプライト表示" />
+		<ValFader frame="60" durf="300" name="bubble_sprite" element="pos_y" value_to="-680.0" comment="★スプライトの表示位置移動" />
+		<If frame="360" lang="en" jump_evid="10003" skip="no" />
+		<If frame="360" lang="jp" jump_evid="10004" skip="no" />
+	</Data>
+</Event>
+<Event ID="10003">
+	<Type>ACT</Type>
+	<Data>
+		<ScrEff frame="1" durf="120" kind="fade_in" color="666666" />
+		<Sprite frame="1" durf="240" file_id="201910283" />
+		<ScrEff frame="180" durf="60" kind="fade_out" color="ffffff" />
+		<Call frame="240" evid="10005" skip="no" />
+	</Data>
+</Event>
+<Event ID="10004">
+	<Type>ACT</Type>
+	<Data>
+		<ScrEff frame="1" durf="120" kind="fade_in" color="666666" />
+		<Sprite frame="1" durf="240" file_id="201910282" />
+		<ScrEff frame="180" durf="60" kind="fade_out" color="ffffff" />
+		<Call frame="240" evid="10005" skip="no" />
+	</Data>
+</Event>
+<Event ID="10005">
+	<Type>ACT</Type>
+	<Data>
+		<ScrEff frame="1" durf="60" kind="fade_in" color="ffffff" />
+		<Sprite frame="1" durf="630" file_id="201910284" rect="0, 0, 480, 1000" name="nobi_sprite" />
+		<ValFader frame="1" durf="480" name="nobi_sprite" element="pos_y" value_to="-680.0" />
+		<ScrEff frame="510" durf="120" kind="fade_out" color="000000" comment="★フェードアウト" />
+		<Call frame="630" evid="10006" skip="no" />
+	</Data>
+</Event>
+<Event ID="10006">
+	<Type>ACT</Type>
+	<Data>
+		<ChangeMap frame="1" map_id="19102" skip="no" />
+		<ShowObj frame="1" char_id="1101" show="false" />
+		<ShowObj frame="1" char_id="1102" show="false" />
+		<ShowObj frame="1" char_id="1103" show="false" />
+		<ShowObj frame="1" char_id="1104" show="false" />
+		<ShowObj frame="1" char_id="1105" show="false" />
+		<Music frame="1" bgm_id="103" volume="0.2" skip="no" />
+		<Rtmv frame="1" file_id="301010151" />
+		<Mcut frame="1" durf="150" comment="★カット定義（補間有効間隔定義）" />
+		<ValFader frame="1" durf="1200" name="chr02" element="color_a" value_from="255.0" value_to="0.0" comment="★モデルの色かえ" />
+		<ValFader frame="1" durf="1800" name="chr02" element="color_r" value_from="255.0" value_to="0.0" comment="モデル色かえテスト" />
+		<ValFader frame="1" durf="2400" name="chr02" element="color_g" value_from="255.0" value_to="0.0" comment="モデル色かえテスト" />
+		<ValFader frame="1" durf="3000" name="chr02" element="color_b" value_from="255.0" value_to="0.0" comment="モデル色かえテスト" />
+		<Se frame="30" se_id="10101" comment="～ SE テスト～" />
+		<Se frame="60" se_id="10102" comment="～ SE テスト～" />
+		<Se frame="90" se_id="10103" comment="～ SE テスト～" />
+		<Se frame="120" se_id="10104" comment="～ SE テスト～" />
+		<Se frame="150" se_id="10105" comment="～ SE テスト～" />
+		<Se frame="180" se_id="10108" comment="～ SE テスト～" />
+		<Se frame="210" se_id="10109" comment="～ SE テスト～" />
+		<Se frame="240" se_id="10110" comment="～ SE テスト～" />
+		<ShowObj frame="1914" char_id="1101" show="true" />
+		<ShowObj frame="1914" char_id="1105" show="true" />
+		<Prog frame="1914" name="OpeningMagicTutorial" />
+		<Rtmv frame="1915" file_id="301010152" />
+		<ShowObj frame="1915" char_id="1101" show="false" />
+		<ShowObj frame="1915" char_id="1102" show="false" />
+		<ShowObj frame="1915" char_id="1103" show="false" />
+		<ShowObj frame="1915" char_id="1104" show="false" />
+		<ShowObj frame="1915" char_id="1105" show="false" />
+		<Rtmv frame="2092" file_id="301010155" />
+		<ShowObj frame="2984" char_id="1101" show="true" skip="no" />
+		<ShowObj frame="2984" char_id="1105" show="true" skip="no" />
+	</Data>
+</Event>
+<Event ID="1008">
+	<Type>ACT</Type>
+	<Data>
+		<Rtmv frame="1" file_id="201910251" />
+		<TexFacial frame="8" durf="200" kind="eye" char_id="1101" spot_spid="1101" show_durf="1" show_rand="1" />
+		<TexFacial frame="8" durf="200" kind="mouth" char_id="1101" spot_spid="1101" show_durf="30" show_rand="50" />
+		<Msg frame="16" durf="200" mode="SAY" msg_id="11" />
+	</Data>
+</Event>
+</EventData>

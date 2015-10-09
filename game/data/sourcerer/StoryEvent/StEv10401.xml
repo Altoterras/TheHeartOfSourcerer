@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<EventData>
+<Event ID="10999">
+	<Type>STORYCONF</Type>
+	<Data>
+		<StartupEvent>10009</StartupEvent>
+		<OverrideEvent kind="map" old_evid="1003" new_evid="10005" comment="自宅休息後のコルポ合流イベント置換" />
+		<OverrideEvent kind="map" old_evid="825" new_evid="10003" comment="大猿戦闘勝利イベントを上巻クリアイベントに置換" />
+		<PlaceObj kind="extra" char_id="1104" map_id="10224" pos="31.2, 32.3, -123.4" call_evid="10401,10402" />
+		<PlaceObj kind="extra" char_id="1105" map_id="10105" pos="-200, 0, -280" call_evid="10501" />
+		<PlaceObj kind="extra" char_id="1109" map_id="10201" pos="759, 0, 13" call_evid="10901" />
+		<PlaceObj kind="extra" char_id="1151" map_id="10102" pos="3208, 500, 983" call_evid="15101" />
+		<PlaceObj kind="extra" char_id="1152" map_id="10105" pos="0, 0, -280" call_evid="15201" />
+		<PlaceObj kind="extra" char_id="1153" map_id="10105" pos="200, 0, 0" call_evid="15301" />
+	</Data>
+</Event>
+
+<Event ID="10001" comment="ヤサンとコルポ">
+	<Type>ACT</Type>
+	<Data>
+		<ChangeMap frame="1" map_id="10241" skip="no" />
+		<Rtmv frame="1" file_id="301040151" />
+		<ShowObj frame="1" char_id="1101" show="false" />
+		<ShowObj frame="1" char_id="1102" show="false" />
+		<ShowObj frame="1" char_id="1204" show="false" />
+		<ShowObj frame="1" char_id="1207" show="false" />
+		<Music frame="1" bgm_id="105" volume="0.25" loop_cnt="-1" fade_out_frame_num="120" fade_in_frame_num="180" />
+		<Mcut frame="4" durf="52" />
+		<Msg frame="60" durf="173" mode="SAY" msg_id="1001" />
+		<Mcut frame="64" durf="169" />
+		<Msg frame="237" durf="173" mode="SAY" msg_id="1002" />
+		<Mcut frame="241" durf="170" />
+		<Msg frame="414" durf="173" mode="SAY" msg_id="1005" />
+		<Mcut frame="418" durf="73" />
+		<Mcut frame="499" durf="88" />
+		<Msg frame="591" durf="169" mode="SAY" msg_id="1006" />
+		<Mcut frame="595" durf="165" />
+		<Msg frame="768" durf="108" mode="SAY" msg_id="1007" />
+		<Mcut frame="772" durf="104" />
+		<Mcut frame="890" durf="21" />
+		<Se frame="908" se_id="12109" volume="0.4" />
+		<Msg frame="915" durf="108" mode="SAY" msg_id="1008" />
+		<Mcut frame="919" durf="104" />
+		<Msg frame="1033" durf="167" mode="SAY" msg_id="1009" />
+		<Mcut frame="1037" durf="163" />
+		<Msg frame="1210" durf="108" mode="SAY" msg_id="1011" />
+		<Mcut frame="1214" durf="104" />
+		<Msg frame="1328" durf="285" mode="SAY" msg_id="1012" />
+		<Mcut frame="1332" durf="281" />
+		<Msg frame="1623" durf="108" mode="SAY" msg_id="1013" />
+		<Mcut frame="1627" durf="104" />
+		<Mcut frame="1745" durf="21" />
+		<Se frame="1762" se_id="12109" volume="0.4" />
+		<Msg frame="1770" durf="97" mode="SAY" msg_id="1014" />
+		<Mcut frame="1774" durf="93" />
+		<Mcut frame="1881" durf="62" />
+		<Msg frame="1947" durf="173" mode="SAY" msg_id="1018" />
+		<Mcut frame="1951" durf="169" />
+		<Mcut frame="2128" durf="18" />
+		<Mcut frame="2154" durf="25" />
+		<Msg frame="2183" durf="232" mode="SAY" msg_id="1019" />
+		<Mcut frame="2187" durf="228" />
+		<Msg frame="2419" durf="173" mode="SAY" msg_id="1020" />
+		<Mcut frame="2423" durf="89" />
+		<Mcut frame="2520" durf="72" />
+		<Msg frame="2596" durf="114" mode="SAY" msg_id="1021" />
+		<Mcut frame="2600" durf="110" />
+		<Msg frame="2714" durf="173" mode="SAY" msg_id="1025" />
+		<Mcut frame="2718" durf="169" />
+		<Msg frame="2891" durf="230" mode="SAY" msg_id="1026" />
+		<Mcut frame="2895" durf="228" />
+		<Msg frame="3127" durf="230" mode="SAY" msg_id="1027" />
+		<Mcut frame="3131" durf="228" />
+		<Mcut frame="3367" durf="112" />
+		<Msg frame="3483" durf="173" mode="SAY" msg_id="1031" />
+		<Mcut frame="3487" durf="169" />
+		<Msg frame="3660" durf="232" mode="SAY" msg_id="1032" />
+		<Mcut frame="3664" durf="228" />
+		<Msg frame="3896" durf="169" mode="SAY" msg_id="1033" />
+		<Mcut frame="3900" durf="165" />
+		<ShowObj frame="4073" char_id="1101" show="true" skip="no" />
+		<ShowObj frame="4073" char_id="1102" show="true" skip="no" />
+		<ShowObj frame="4073" char_id="1204" show="true" skip="no" />
+		<ShowObj frame="4073" char_id="1207" show="true" skip="no" />
+		<GetThing frame="4078" kind="fixed_source" param="1011" show_get_msg="true" skip="stop" comment="ソウマ「danerumol」入手" />
+		<GetThing frame="4078" kind="fixed_source" param="1013" show_get_msg="true" skip="stop" comment="ソウマ「vanhamad」入手" />
+		<GetThing frame="4078" kind="fixed_source" param="1014" show_get_msg="true" skip="stop" comment="ソウマ「neruvantraos」入手" />
+		<Flag frame="4078" sfid="1006" value="true" skip="no" comment="ヤサンとコルポイベント実行した" />
+		<Music frame="4078" bgm_id="103" loop_cnt="-1" fade_out_frame_num="60" fade_in_frame_num="120" skip="no" />
+	</Data>
+</Event>
+
+<Event ID="10002" comment="コツメと再会">
+	<Type>ACT</Type>
+	<Data>
+		<ChangeMap frame="1" map_id="11104" skip="no" />
+		<Rtmv frame="1" file_id="301040152" />
+		<ShowObj frame="1" char_id="1101" show="false" />
+		<ShowObj frame="1" char_id="1102" show="false" />
+		<ShowObj frame="1" char_id="1103" show="false" />
+		<ShowObj frame="1" ctrl_evid="51008" show="false" comment="mapobj寝猿消" />
+		<ShowObj frame="1" ctrl_evid="51009" show="false" comment="mapobj起猿消" />
+		<ShadowCtrl frame="1" char_id="1103" enable="no" comment="コツメ影消" />
+		<Mcut frame="4" durf="143" />
+		<Msg frame="151" durf="173" mode="SAY" msg_id="1101" />
+		<Mcut frame="155" durf="169" />
+		<Mcut frame="332" durf="13" />
+		<Mcut frame="353" durf="31" />
+		<Se frame="358" se_id="12109" volume="0.4" />
+		<Msg frame="391" durf="114" mode="SAY" msg_id="1102" />
+		<Mcut frame="392" durf="113" />
+		<Mcut frame="513" durf="82" />
+		<Msg frame="600" durf="173" mode="SAY" msg_id="1103" />
+		<Mcut frame="603" durf="169" />
+		<Msg frame="776" durf="232" mode="SAY" msg_id="1104" />
+		<Mcut frame="780" durf="228" />
+		<Msg frame="1012" durf="173" mode="SAY" msg_id="1105" />
+		<Mcut frame="1016" durf="169" />
+		<Msg frame="1189" durf="173" mode="SAY" msg_id="1106" />
+		<Mcut frame="1193" durf="168" />
+		<Msg frame="1366" durf="114" mode="SAY" msg_id="1107" />
+		<Mcut frame="1370" durf="110" />
+		<Mcut frame="1488" durf="142" />
+		<Msg frame="1634" durf="114" mode="SAY" msg_id="1111" />
+		<Mcut frame="1638" durf="110" />
+		<Msg frame="1752" durf="110" mode="SAY" msg_id="1112" />
+		<Mcut frame="1756" durf="106" />
+		<ShowObj frame="1870" char_id="1101" show="true" skip="no" />
+		<ShowObj frame="1870" char_id="1102" show="true" skip="no" />
+		<ShowObj frame="1870" char_id="1103" show="true" skip="no" />
+		<SetPos frame="1870" char_id="1103" pos="2700.0, 0.0, -2700.0" skip="no" />
+		<Flag frame="1870" sfid="1009" value="true" skip="no" comment="コツメ合流" />
+		<ShowObj frame="1" ctrl_evid="51009" show="true" skip="no" comment="mapobj起猿有" />
+	</Data>
+</Event>
+
+<Event ID="10003" comment="シネンの森を抜ける">
+	<Type>ACT</Type>
+	<Data>
+		<ChangeMap frame="1" map_id="11104" skip="no" />
+		<Music frame="1" bgm_id="0" />
+		<Rtmv frame="1" file_id="301040153" />
+		<ShadowCtrl frame="1" char_id="1103" enable="no" comment="コツメ影消" />
+		<ShowObj frame="1" char_id="1101" show="false" />
+		<ShowObj frame="1" char_id="1102" show="false" />
+		<ShowObj frame="1" char_id="1103" show="false" />
+		<ShowObj frame="1" char_id="1710" show="false" />
+		<Msg frame="1" durf="173" mode="SAY" msg_id="1121" />
+		<Mcut frame="5" durf="168" />
+		<Msg frame="178" durf="232" mode="SAY" msg_id="1122" />
+		<Mcut frame="182" durf="228" />
+		<Music frame="411" bgm_id="105" volume="0.25" loop_cnt="-1" fade_in_frame_num="120" />
+		<Msg frame="414" durf="173" mode="SAY" msg_id="1125" />
+		<Mcut frame="418" durf="169" />
+		<Msg frame="591" durf="114" mode="SAY" msg_id="1126" />
+		<Mcut frame="594" durf="112" />
+		<Msg frame="709" durf="232" mode="SAY" msg_id="1127" />
+		<Mcut frame="712" durf="229" />
+		<Msg frame="945" durf="431" mode="SAY" msg_id="1128" />
+		<Mcut frame="949" durf="427" />
+		<Msg frame="1380" durf="173" mode="SAY" msg_id="1131" />
+		<Mcut frame="1384" durf="171" />
+		<Msg frame="1557" durf="173" mode="SAY" msg_id="1132" />
+		<Mcut frame="1561" durf="168" />
+		<Msg frame="1734" durf="114" mode="SAY" msg_id="1133" />
+		<Mcut frame="1737" durf="111" />
+		<Msg frame="1852" durf="173" mode="SAY" msg_id="1134" />
+		<Mcut frame="1855" durf="171" />
+		<Msg frame="2029" durf="232" mode="SAY" msg_id="1137" />
+		<Mcut frame="2033" durf="228" />
+		<Msg frame="2265" durf="173" mode="SAY" msg_id="1141" />
+		<Mcut frame="2270" durf="169" />
+		<Music frame="2299" bgm_id="106" fade_out_frame_num="180" fade_in_frame_num="180" />
+		<Msg frame="2442" durf="114" mode="SAY" msg_id="1142" />
+		<Mcut frame="2446" durf="111" />
+		<Msg frame="2560" durf="114" mode="SAY" msg_id="1143" />
+		<Mcut frame="2563" durf="111" />
+		<Mcut frame="2681" durf="590" />
+		<Sprite frame="2899" durf="150" file_id="en:301040181,jp:301040182" rect="136, 256, 208, 32" uv="0.0, 0.0, 0.40625, 0.0625" />
+		<ScrEff frame="2973" durf="305" kind="fade_out" color="000000" />
+		<Sprite frame="3274" durf="305" file_id="en:301040181,jp:301040182" rect="0, 0, 480, 320" uv="0.9531, 0.0156, 0.03125, 0.03125" />
+		<ScrEff frame="3279" durf="90" kind="fade_in" color="000000" skip="stop" />
+		<Sprite frame="3280" durf="298" file_id="en:301040181,jp:301040182" rect="56, 136, 368, 112" uv="0.0, 0.0625, 0.71875, 0.21875" />
+		<ScrMode frame="3281" durf="298" mode="fix" />
+		<ScrEff frame="3489" durf="90" kind="fade_out" color="000000" />
+		<Sprite frame="3579" durf="1" file_id="101" layout="fit_screen_keep_ratio" side_color="000000FF" uv="0.0, 0.0, 0.9375, 0.625" skip="stop" />
+		<Music frame="3579" bgm_id="0" fade_out_frame_num="120" skip="no" />
+		<Sprite frame="3579" durf="1" file_id="301040183" layout="fit_screen_keep_ratio" side_color="000000FF" uv="0.0, 0.0, 0.9375, 0.625" wait="yes" wait_min_frame_num="30" fade_out_frame_num="30" fade_in_frame_num="60" name="staffroll01" />
+		<ShowObj frame="3580" char_id="1101" show="true" skip="no" />
+		<ShowObj frame="3580" char_id="1102" show="true" skip="no" />
+		<ShowObj frame="3580" char_id="1103" show="true" skip="no" />
+		<ShowObj frame="3580" char_id="1710" show="true" skip="no" />
+		<Flag frame="3580" sfid="1007" value="true" skip="no" comment="Vol01クリア" />
+		<Prog frame="3580" name="StEmp_10401_1001_ClearVol01" skip="stop" />
+	</Data>
+</Event>
+
+<Event ID="10005" comment="ヤサンとコルポイベント実行判定">
+	<Type>ACT</Type>
+	<Data>
+		<ChangeMap frame="1" map_id="10241" skip="stop" />
+		<If frame="1" sfid="1006" jump_evid="1007" skip="no" comment="ヤサンとコルポイベント実行済時は手動呼び出し用コルポイベントを起動" />
+		<Call frame="2" evid="10001" skip="no" comment="ヤサンとコルポイベント呼び出し" />
+	</Data>
+</Event>
+
+<Event ID="10009" comment="ストーリー開始マップ">
+	<Type>ACT</Type>
+	<Data>
+		<ChangeMap frame="1" map_id="10242" skip="stop" />
+	</Data>
+</Event>
+
+<Event ID="10401" comment="Kabal1">
+	<Type>ACT</Type>
+	<Data>
+		<If frame="1" sfid="1023" jump_evid="10402" skip="no" comment="カバル会話済" />
+		<Msg frame="1" mode="TALK" msg_id="1401" />
+		<Msg frame="1" mode="TALK" msg_id="1402" />
+		<Msg frame="1" mode="TALK" msg_id="1403" />
+		<Msg frame="1" mode="TALK" msg_id="1404" />
+		<Msg frame="1" mode="TALK" msg_id="1405" />
+		<Msg frame="1" mode="TALK" msg_id="1406" />
+		<Msg frame="1" mode="TALK" msg_id="1407" />
+		<Msg frame="1" mode="TALK" msg_id="1408" />
+		<Msg frame="1" mode="TALK" msg_id="1411" />
+		<Msg frame="1" mode="TALK" msg_id="1412" />
+		<Msg frame="1" mode="TALK" msg_id="1413" />
+		<Msg frame="1" mode="TALK" msg_id="1414" />
+		<Msg frame="1" mode="TALK" msg_id="1421" />
+		<Msg frame="1" mode="TALK" msg_id="1422" />
+		<Msg frame="1" mode="TALK" msg_id="1423" />
+		<Msg frame="1" mode="TALK" msg_id="1424" />
+		<ScrEff frame="1" durf="60" kind="fade_out" color="000000" />
+		<ChangeMap frame="61" map_id="10223" skip="no" />
+		<GetThing frame="61" kind="item" param="2060" show_get_msg="true" skip="no" comment="アイテム「不二石」入手" />
+		<Score frame="61" score_count="7" skip="no" />
+		<Flag frame="61" sfid="1023" value="true" skip="no" comment="カバル会話でアイテム取得" />
+	</Data>
+</Event>
+<Event ID="10402" comment="Kabal2">
+	<Type>ACT</Type>
+	<Data>
+		<Msg frame="1" mode="TALK" msg_id="1401" />
+		<Msg frame="1" mode="TALK" msg_id="1402" />
+		<Msg frame="1" mode="TALK" msg_id="1403" />
+		<Msg frame="1" mode="TALK" msg_id="1404" />
+		<Msg frame="1" mode="TALK" msg_id="1405" />
+		<Msg frame="1" mode="TALK" msg_id="1406" />
+		<Msg frame="1" mode="TALK" msg_id="1407" />
+		<Msg frame="1" mode="TALK" msg_id="1408" />
+		<Msg frame="1" mode="TALK" msg_id="1411" />
+		<Msg frame="1" mode="TALK" msg_id="1412" />
+		<Msg frame="1" mode="TALK" msg_id="1413" />
+		<Msg frame="1" mode="TALK" msg_id="1414" />
+		<Msg frame="1" mode="TALK" msg_id="1423" />
+		<Msg frame="1" mode="TALK" msg_id="1424" />
+		<ScrEff frame="1" durf="60" kind="fade_out" color="000000" />
+		<ChangeMap frame="61" map_id="10223" />
+	</Data>
+</Event>
+<Event ID="10501" comment="Hermit1">
+	<Type>ACT</Type>
+	<Data>
+		<Msg frame="1" mode="TALK" msg_id="1551" />
+		<Msg frame="1" mode="TALK" msg_id="1552" />
+		<Msg frame="1" mode="TALK" msg_id="1553" />
+		<Msg frame="1" mode="TALK" msg_id="1554" />
+		<Msg frame="1" mode="TALK" msg_id="1555" />
+		<Msg frame="1" mode="TALK" msg_id="1556" />
+	</Data>
+</Event>
+<Event ID="10901" comment="Yasan1">
+	<Type>ACT</Type>
+	<Data>
+		<Msg frame="1" mode="TALK" msg_id="1591" />
+		<Msg frame="1" mode="TALK" msg_id="1592" />
+		<Msg frame="1" mode="TALK" msg_id="1593" />
+	</Data>
+</Event>
+<Event ID="15101" comment="Rebecca1">
+	<Type>ACT</Type>
+	<Data>
+		<Msg frame="1" mode="TALK" msg_id="2011" />
+		<Msg frame="1" mode="TALK" msg_id="2012" />
+		<Msg frame="1" mode="TALK" msg_id="2013" />
+		<Msg frame="1" mode="TALK" msg_id="2015" />
+		<Msg frame="1" mode="TALK" msg_id="2016" />
+		<Msg frame="1" mode="TALK" msg_id="2017" />
+	</Data>
+</Event>
+<Event ID="15201" comment="Syuru1">
+	<Type>ACT</Type>
+	<Data>
+		<Msg frame="1" mode="TALK" msg_id="2021" />
+		<Msg frame="1" mode="TALK" msg_id="2022" />
+	</Data>
+</Event>
+<Event ID="15301" comment="Yauto1">
+	<Type>ACT</Type>
+	<Data>
+		<Msg frame="1" mode="TALK" msg_id="2031" />
+		<Msg frame="1" mode="TALK" msg_id="2032" />
+		<Msg frame="1" mode="TALK" msg_id="2033" />
+	</Data>
+</Event>
+</EventData>

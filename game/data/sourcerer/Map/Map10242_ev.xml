@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<EventData>
+<Event ID="999">
+	<Type>MAPCONF</Type>
+	<Data>
+		<MapKind>Indoor</MapKind>
+		<StartupEvent>901</StartupEvent>
+		<MoveMap1>19101</MoveMap1>
+		<MoveMap2>19101</MoveMap2>
+		<MoveMap3>19101</MoveMap3>
+		<MoveMap4>10241</MoveMap4>
+		<BgmId>103</BgmId>
+		<EleneEff cql="593,689,610,601,1000" nql="593,689,610,601,1000" />
+	</Data>
+</Event>
+<Event ID="901">
+	<Type>ACT</Type>
+	<Data>
+		<Prog frame="1" name="MapEmp_10242_1701_RestAtHome" />
+	</Data>
+</Event>
+<Event ID="1008">
+	<Type>ACT</Type>
+	<Data>
+		<!-- Dummy for Override -->
+	</Data>
+</Event>
+<Event ID="1009">
+	<Type>ACT</Type>
+	<Data>
+		<!-- Manual-Call for Override -->
+		<Prog frame="1" name="MapEmp_10242_1701_RestAtHome" />
+	</Data>
+</Event>
+</EventData>

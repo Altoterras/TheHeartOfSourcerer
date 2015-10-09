@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<Menu>
+	<Node>
+		Show
+		<Function MenuClose="yes">
+			Show
+		</Function>
+	</Node>
+	<Node>
+		Sort
+		<Function MenuClose="yes">
+			Sort
+		</Function>
+	</Node>
+	<Node>
+		Duplicate
+		<Function MenuClose="yes">
+			Clone
+		</Function>
+	</Node>
+	<Node>
+		Edit
+		<Function MenuClose="yes">
+			Edit
+		</Function>
+	</Node>
+	<Node>
+		To JS
+		<Function MenuClose="yes">
+			ConvToJs
+		</Function>
+	</Node>
+	<Node>
+		To SS
+		<Function MenuClose="yes">
+			ConvToSs
+		</Function>
+	</Node>
+	<Node>
+		Delete
+		<Function MenuClose="yes">
+			Delete
+		</Function>
+	</Node>
+</Menu>

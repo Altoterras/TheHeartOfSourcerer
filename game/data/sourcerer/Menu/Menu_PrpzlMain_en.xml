@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<Menu>
+	<Node ID="1001">
+		VS CPU
+		<Function MenuClose="yes">
+			VsCpu
+		</Function>
+	</Node>
+	<Node ID="2001">
+		VS 2P
+		<Node ID="2011">
+			↑↑
+			<Function MenuClose="yes">
+				Vs2p_SideBySide
+			</Function>
+		</Node>
+		<Node ID="2012">
+			↑↓
+			<Function MenuClose="yes">
+				Vs2p_FaceToFace
+			</Function>
+		</Node>
+	</Node>
+	<Node ID="3001">
+		Score Attack
+		<Function MenuClose="yes">
+			Inf1p
+		</Function>
+	</Node>
+	<Node ID="4001">
+		Quest
+		<Node ID="4101">
+			Quest 1 (Very Easy)
+			<Function MenuClose="yes">
+				Quest_01
+			</Function>
+		</Node>
+		<Node ID="4102">
+			Quest 2 (Very Easy)
+			<Function MenuClose="yes">
+				Quest_02
+			</Function>
+		</Node>
+		<Node ID="4103">
+			Quest 3 (Very Easy)
+			<Function MenuClose="yes">
+				Quest_03
+			</Function>
+		</Node>
+		<Node ID="4104">
+			Quest 4 (Very Easy)
+			<Function MenuClose="yes">
+				Quest_04
+			</Function>
+		</Node>
+		<Node ID="4105">
+			Quest 5 (Very Easy)
+			<Function MenuClose="yes">
+				Quest_05
+			</Function>
+		</Node>
+	</Node>
+</Menu>

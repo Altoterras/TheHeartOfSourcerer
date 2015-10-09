@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<Menu>
+	<Node Disabled="true">
+		Copy
+		<Function MenuClose="yes">
+			Copy
+		</Function>
+	</Node>
+	<Node Disabled="true">
+		Paste
+		<Function MenuClose="yes">
+			Paste
+		</Function>
+	</Node>
+	<Node ID="2201">
+		To JS
+		<Function MenuClose="yes">
+			ConvToJs
+		</Function>
+	</Node>
+	<Node ID="2202">
+		To SS
+		<Function MenuClose="yes">
+			ConvToSs
+		</Function>
+	</Node>
+</Menu>

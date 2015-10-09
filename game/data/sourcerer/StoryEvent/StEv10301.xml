@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<EventData>
+<Event ID="10999">
+	<Type>STORYCONF</Type>
+	<Data>
+		<StartupEvent>10009</StartupEvent>
+		<OverrideEvent kind="map" old_evid="1008" new_evid="10001" comment="自宅休息直後イベント置換" />
+		<PlaceObj kind="mapobj" char_id="1706" map_id="10202" pos="182, 0, 0" call_evid="10002" ctrl_evid="51005" />
+		<PlaceObj kind="extra" char_id="1112" map_id="10224" pos="-52.3, 32.3, 0" call_evid="10401" />
+		<PlaceObj kind="extra" char_id="1105" map_id="10101" pos="-119, 0, 51" call_evid="10501,10502" />
+		<PlaceObj kind="extra" char_id="1108" map_id="10203" pos="81.0, 33.4, -226" call_evid="10801" />
+		<!-- <PlaceObj kind="mapobj" char_id="1707" map_id="11112" no_y_coll="true" pos="2500, 0, -3450" call_evid="10006" /> -->
+	</Data>
+</Event>
+<Event ID="10001" comment="「納屋に寄ってくれ」">
+	<Type>ACT</Type>
+	<Data>
+		<If frame="1" sfid="1002" jump_evid="0" skip="no" comment="「納屋に寄ってくれ」と既に言っている" />
+		<ChangeMap frame="1" map_id="10242" skip="stop" />
+		<ShowObj frame="1" char_id="1101" show="false" />
+		<ShowObj frame="1" char_id="1102" show="false" />
+		<Rtmv frame="1" file_id="301030151" />
+		<Msg frame="1" durf="110" mode="SAY" msg_id="1001" />
+		<Mcut frame="4" durf="107" />
+		<ChangeMap frame="119" map_id="10241" skip="no" />
+		<Rtmv frame="119" file_id="301030152" />
+		<Mcut frame="123" durf="271" />
+		<Msg frame="178" durf="216" mode="SAY" msg_id="1002" />
+		<ShowObj frame="404" char_id="1101" show="true" skip="no" />
+		<ShowObj frame="404" char_id="1102" show="true" skip="no" />
+		<Flag frame="404" sfid="1002" value="true" skip="no" comment="「納屋に寄ってくれ」" />
+	</Data>
+</Event>
+<Event ID="10002" comment="手紙発見">
+	<Type>ACT</Type>
+	<Data>
+		<If frame="1" sfid="1003" jump_evid="10003" skip="no" comment="手紙既読時" />
+		<ChangeMap frame="1" map_id="10202" skip="no" />
+		<ShowObj frame="1" char_id="1101" show="false" />
+		<ShowObj frame="1" char_id="1102" show="false" />
+		<ShowObj frame="1" char_id="1706" show="false" />
+		<Rtmv frame="1" file_id="301030153" />
+		<Msg frame="34" durf="151" mode="SAY" msg_id="1011" />
+		<Mcut frame="4" durf="182" />
+		<ShowObj frame="193" char_id="1101" show="true" skip="no" />
+		<ShowObj frame="193" char_id="1102" show="true" skip="no" />
+		<If frame="193" lang="en" jump_evid="10007" skip="no" />
+		<If frame="193" lang="jp" jump_evid="10008" skip="no" />
+	</Data>
+</Event>
+<Event ID="10003" comment="手紙再読">
+	<Type>ACT</Type>
+	<Data>
+		<If frame="1" lang="en" jump_evid="10007" skip="no" />
+		<If frame="1" lang="jp" jump_evid="10008" skip="no" />
+	</Data>
+</Event>
+<Event ID="10004" comment="手紙読み終える">
+	<Type>ACT</Type>
+	<Data>
+		<ChangeMap frame="1" map_id="10202" skip="stop" />
+		<Music frame="1" bgm_id="103" loop_cnt="-1" fade_out_frame_num="120" fade_in_frame_num="120" skip="no" />
+		<If frame="1" sfid="1003" jump_evid="0" skip="no" comment="手紙既読時は終了" />
+		<ShowObj frame="1" char_id="1101" show="false" />
+		<ShowObj frame="1" char_id="1102" show="false" />
+		<ShowObj frame="1" char_id="1706" show="false" />
+		<Rtmv frame="1" file_id="301030155" />
+		<ScrEff frame="1" durf="60" kind="fade_in" color="000000" />
+		<Mcut frame="4" durf="363" />
+		<Msg frame="80" durf="235" mode="SAY" msg_id="1021" />
+		<ScrEff frame="315" durf="60" kind="fade_out" color="000000" />
+		<ShowObj frame="375" char_id="1101" show="true" skip="no" />
+		<ShowObj frame="375" char_id="1102" show="true" skip="no" />
+		<Flag frame="375" sfid="1003" value="true" skip="no" comment="手紙読んだ" />
+		<Flag frame="375" sfid="1002" value="true" skip="no" comment="「納屋に寄ってくれ」ももう不要" />
+		<Call frame="375" evid="10005" skip="no" />
+	</Data>
+</Event>
+<Event ID="10005" comment="ヤサンとの会話">
+	<Type>ACT</Type>
+	<Data>
+		<ChangeMap frame="1" map_id="10201" skip="stop" />
+		<ShowObj frame="1" char_id="1101" show="false" />
+		<ShowObj frame="1" char_id="1102" show="false" />
+		<Rtmv frame="1" file_id="301030156" />
+		<Msg frame="1" durf="59" mode="SAY" msg_id="1022" />
+		<Mcut frame="4" durf="52" />
+		<Mcut frame="64" durf="110" />
+		<Msg frame="178" durf="167" mode="SAY" msg_id="1023" />
+		<Mcut frame="182" durf="163" />
+		<Msg frame="355" durf="226" mode="SAY" msg_id="1024" />
+		<Mcut frame="360" durf="221" />
+		<Msg frame="591" durf="462" mode="SAY" msg_id="1025" />
+		<Mcut frame="595" durf="458" />
+		<Msg frame="1063" durf="226" mode="SAY" msg_id="1026" />
+		<Mcut frame="1067" durf="222" />
+		<Msg frame="1299" durf="108" mode="SAY" msg_id="1027" />
+		<Mcut frame="1303" durf="104" />
+		<Mcut frame="1422" durf="103" />
+		<Msg frame="1535" durf="167" mode="SAY" msg_id="1028" />
+		<Mcut frame="1539" durf="163" />
+		<SetPos frame="1712" char_id="1101" pos="-329, 0, -988" dir="0, 90, 0" skip="no" />
+		<SetPos frame="1712" char_id="1102" pos="-378, 0, -804" dir="0, 90, 0" skip="no" />
+		<ShowObj frame="1712" char_id="1101" show="true" skip="no" />
+		<ShowObj frame="1712" char_id="1102" show="true" skip="no" />
+	</Data>
+</Event>
+<Event ID="10006" comment="謎の水溜り">
+	<Type>ACT</Type>
+	<Data>
+		<ChangeMap frame="1" map_id="11112" skip="stop" />
+		<ShowObj frame="1" char_id="1101" show="false" />
+		<ShowObj frame="1" char_id="1102" show="false" />
+		<Rtmv frame="1" file_id="301030157" />
+		<Msg frame="1" durf="173" mode="SAY" msg_id="1031" />
+		<Mcut frame="4" durf="84" />
+		<Mcut frame="96" durf="137" />
+		<Msg frame="178" durf="232" mode="SAY" msg_id="1032" />
+		<Mcut frame="241" durf="169" />
+		<Msg frame="414" durf="167" mode="SAY" msg_id="1033" />
+		<Mcut frame="418" durf="163" />
+		<ShowObj frame="591" char_id="1101" show="true" skip="no" />
+		<ShowObj frame="591" char_id="1102" show="true" skip="no" />
+		<SetPos frame="591" char_id="1101" pos="2600, 0, -2900" dir="0, 0, 0" skip="no" />
+		<SetPos frame="591" char_id="1102" pos="2400, 0, -2900" dir="0, 0, 0" skip="no" />
+		<ChangeStory frame="591" story_id="10302" skip="no" comment="★次のストーリーへ" />
+	</Data>
+</Event>
+<Event ID="10007" comment="手紙（英語）">
+	<Type>ACT</Type>
+	<Data>
+		<ChangeMap frame="1" map_id="10202" skip="stop" />
+		<Music frame="1" bgm_id="110" fade_out_frame_num="120" skip="no" />
+		<ShowObj frame="1" char_id="1101" show="false" />
+		<ShowObj frame="1" char_id="1102" show="false" />
+		<ShowObj frame="1" char_id="1706" show="false" />
+		<Rtmv frame="1" file_id="301030154" />
+		<Mcut frame="2" durf="6395" />
+		<Sprite frame="1" durf="6400" file_id="301030181" rect="0, 320, 480, 1024" uv="0.0, 0.0, 0.46875, 1.0" name="letterEn01" />
+		<Sprite frame="1" durf="6400" file_id="301030181" rect="0, 1344, 480, 368" uv="0.46875, 0.0, 0.46875, 0.359375" name="letterEn02" />
+		<ValFader frame="1" durf="6070" name="letterEn01" element="pos_y" value_from="320.0" value_to="-1072.0" />
+		<ValFader frame="1" durf="6070" name="letterEn02" element="pos_y" value_from="1344.0" value_to="-48.0" />
+		<ScrEff frame="6340" durf="60" kind="fade_out" color="000000" />
+		<ShowObj frame="6400" char_id="1101" show="true" skip="no" />
+		<ShowObj frame="6400" char_id="1102" show="true" skip="no" />
+		<Call frame="6400" evid="10004" skip="no" />
+	</Data>
+</Event>
+<Event ID="10008" comment="手紙（日本語）">
+	<Type>ACT</Type>
+	<Data>
+		<ChangeMap frame="1" map_id="10202" skip="stop" />
+		<Music frame="1" bgm_id="110" fade_out_frame_num="120" skip="no" />
+		<ShowObj frame="1" char_id="1101" show="false" />
+		<ShowObj frame="1" char_id="1102" show="false" />
+		<ShowObj frame="1" char_id="1706" show="false" />
+		<Rtmv frame="1" file_id="301030154" />
+		<Mcut frame="2" durf="6395" />
+		<Sprite frame="1" durf="6400" file_id="301030182" rect="0, 320, 480, 1024" uv="0.0, 0.0, 0.46875, 1.0" name="letterJp01" />
+		<Sprite frame="1" durf="6400" file_id="301030182" rect="0, 1344, 480, 368" uv="0.46875, 0.0, 0.46875, 0.359375" name="letterJp02" />
+		<ValFader frame="1" durf="6070" name="letterJp01" element="pos_y" value_from="320.0" value_to="-1072.0" />
+		<ValFader frame="1" durf="6070" name="letterJp02" element="pos_y" value_from="1344.0" value_to="-48.0" />
+		<ScrEff frame="6340" durf="60" kind="fade_out" color="000000" />
+		<ShowObj frame="6400" char_id="1101" show="true" skip="no" />
+		<ShowObj frame="6400" char_id="1102" show="true" skip="no" />
+		<Call frame="6400" evid="10004" skip="no" />
+	</Data>
+</Event>
+<Event ID="10009" comment="ストーリー開始マップ">
+	<Type>ACT</Type>
+	<Data>
+		<ChangeMap frame="1" map_id="10242" skip="stop" />
+	</Data>
+</Event>
+<Event ID="10401" comment="Fonru1">
+	<Type>ACT</Type>
+	<Data>
+		<Msg frame="1" mode="TALK" msg_id="1461" />
+		<Msg frame="1" mode="TALK" msg_id="1462" />
+	</Data>
+</Event>
+<Event ID="10501" comment="Hermit1">
+	<Type>ACT</Type>
+	<Data>
+		<Msg frame="1" mode="TALK" msg_id="1551" />
+		<Msg frame="1" mode="TALK" msg_id="1552" />
+		<Msg frame="1" mode="TALK" msg_id="1553" />
+	</Data>
+</Event>
+<Event ID="10502" comment="Hermit2">
+	<Type>ACT</Type>
+	<Data>
+		<Msg frame="1" mode="TALK" msg_id="1555" />
+		<Msg frame="1" mode="TALK" msg_id="1556" />
+	</Data>
+</Event>
+<Event ID="10801" comment="Mari1">
+	<Type>ACT</Type>
+	<Data>
+		<If frame="1" sfid="1003" jump_evid="10802" skip="no" comment="手紙既読時" />
+		<Msg frame="1" mode="TALK" msg_id="1581" />
+		<Msg frame="1" mode="TALK" msg_id="1582" />
+	</Data>
+</Event>
+<Event ID="10802" comment="Mari2">
+	<Type>ACT</Type>
+	<Data>
+		<Msg frame="1" mode="TALK" msg_id="1585" />
+	</Data>
+</Event>
+</EventData>

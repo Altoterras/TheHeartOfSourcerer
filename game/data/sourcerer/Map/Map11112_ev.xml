@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<EventData>
+<Event ID="999">
+	<Type>MAPCONF</Type>
+	<Data>
+		<StartupEvent>901</StartupEvent>
+		<MapKind>Field</MapKind>
+		<MoveMap1>19101</MoveMap1>
+		<MoveMap2>19101</MoveMap2>
+		<MoveMap3>11103</MoveMap3>
+		<MoveMap4>19101</MoveMap4>
+		<BgmId>107</BgmId>
+		<Fog mode="linear" start="6000.0" end="16000.0" color="0.067, 0.161, 0.114, 1.0" />
+		<EleneEff cql="523,967,191,377,1000" nql="502,955,187,375,1000" />
+		<PlaceObj kind="mapobj" char_id="1709" map_id="11112" pos="2498.92, 0.0, -3464.92" no_y_coll="true" enable="no" enable_focus="no" comment="桜" />
+		<PlaceObj kind="puitem" item_id="3002" pos="1450.0, 0.0, -3000.0" rand_pos_r="500.0" rand="35" comment="緑草" />
+		<PlaceObj kind="puitem" item_id="3002" pos="1600.0, 0.0, -3500.0" rand_pos_r="500.0" rand="45" comment="緑草" />
+		<PlaceObj kind="puitem" item_id="3004" pos="3200.0, 0.0, -3600.0" rand_pos_r="500.0" rand="35" comment="赤草" />
+		<PlaceObj kind="puitem" item_id="3004" pos="3600.0, 0.0, -3400.0" rand_pos_r="500.0" rand="45" comment="赤草" />
+		<PlaceObj kind="puitem" item_id="3010" pos="1700.0, 0.0, -1600.0" rand_pos_r="500.0" rand="40" comment="青草" />
+		<PlaceObj kind="puitem" item_id="2003" pos="3700.0, 0.0, -2500.0" rand_pos_r="300.0" rand="15" comment="風石" />
+		<PlaceObj kind="puitem" item_id="2001" pos="3200.0, 0.0, -2000.0" rand_pos_r="300.0" rand="35" comment="水晶" />
+		<PlaceObj kind="puitem" item_id="2001" pos="3000.0, 0.0, -2600.0" rand_pos_r="300.0" rand="25" comment="水晶" />
+		<PlaceObj kind="puitem" item_id="2001" pos="1500.0, 0.0, -2200.0" rand_pos_r="300.0" rand="35" comment="水晶" />
+		<PlaceObj kind="puitem" item_id="2001" pos="1300.0, 0.0, -1800.0" rand_pos_r="300.0" rand="35" comment="水晶" />
+	</Data>
+</Event>
+<Event ID="901" comment="コルポイベントクリア後、桜表示">
+	<Type>ACT</Type>
+	<Data>
+		<If frame="1" sfid="1012" jump_evid="0" skip="no" negative="true" comment="コルポイベントをクリアしている" />
+		<ShowObj frame="1" char_id="1709" show="true" />
+	</Data>
+</Event>
+</EventData>

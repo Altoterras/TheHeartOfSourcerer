@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<Menu>
+	<Node ID="12001" Explain="Set Focus">
+		Focus
+		<Function MenuClose="yes">
+			Focus
+		</Function>
+	</Node>
+	<Node ID="12002">
+		Leader
+		<Function MenuClose="yes">
+			Leader
+		</Function>
+	</Node>
+	<Node ID="12003">
+		Guard & Charge
+		<Function MenuClose="yes">
+			GuardCharge
+		</Function>
+	</Node>
+	<!--
+	<Node ID="12004">
+		Attract
+		<Function MenuClose="yes">
+			Attract
+		</Function>
+	</Node>
+	-->
+	<Node>
+		Item
+		<Function MenuClose="yes">
+			Item
+		</Function>
+	</Node>
+	<Node ID="12005">
+		Stop Action
+		<Function MenuClose="yes">
+			StopBehavior
+		</Function>
+	</Node>
+	<!--
+	<Node ID="12006">
+		Focus on Weapon
+		<Function MenuClose="yes">
+			FocusWeapon
+		</Function>
+	</Node>
+	-->
+</Menu>

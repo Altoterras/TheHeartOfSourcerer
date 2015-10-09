@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<EventData>
+<Event ID="10999">
+	<Type>STORYCONF</Type>
+	<Data>
+		<StartupEvent>10001</StartupEvent>
+		<PlaceObj kind="enemy" char_id="1404" map_id="11101" pos="-4000.0, 0, -2400.0" ctrl_evid="51003" enable="true" escape="false" comment="チュートリアル敵" />
+	</Data>
+</Event>
+<Event ID="10001" comment="対決チュートリアル">
+	<Type>ACT</Type>
+	<Data>
+		<ChangeMap frame="1" map_id="11101" skip="no" />
+
+		<ShowObj frame="1" char_id="1101" show="false" />
+		<ShowObj frame="1" char_id="1102" show="false" />
+		<ShowObj frame="1" char_id="1404" show="false" />
+		<Rtmv frame="1" file_id="301010251" />
+		<Mcut frame="4" durf="149" />
+		<Mcut frame="161" durf="95" />
+		<ShowObj frame="261" char_id="1101" show="true" skip="no" />
+		<ShowObj frame="261" char_id="1102" show="true" skip="no" />
+		<ShowObj frame="261" char_id="1404" show="true" skip="no" />
+		
+		<SetPos frame="261" char_id="1101" pos="-3630.0, 0, -2400.0" dir="0.0, -90.0, 0.0" skip="no" />
+		<SetPos frame="261" char_id="1102" pos="-3730.0, 0, -2534.0" dir="0.0, -45.0, 0.0" skip="no" />
+		<Msg frame="261" durf="180" mode="SAY" msg_id="1001" />
+		<Msg frame="440" durf="180" mode="SAY" msg_id="1002" />
+		<Prog frame="620" name="StEmp_10102_1001_BattleTutorial01" skip="stop" />
+		<ChangeStory frame="620" story_id="10201" skip="no" />
+
+	</Data>
+</Event>
+<Event ID="10002">
+	<Type>ACT</Type>
+	<Data>
+		<Msg frame="1" durf="180" mode="SAY" msg_id="1021" />
+		<Msg frame="180" durf="180" mode="SAY" msg_id="1022" />
+	</Data>
+</Event>
+<Event ID="10003">
+	<Type>ACT</Type>
+	<Data>
+		<Msg frame="1" durf="180" mode="SAY" msg_id="1031" />
+	</Data>
+</Event>
+<Event ID="10004">
+	<Type>ACT</Type>
+	<Data>
+		<Msg frame="1" durf="180" mode="SAY" msg_id="1041" />
+	</Data>
+</Event>
+<Event ID="10006">
+	<Type>ACT</Type>
+	<Data>
+		<Msg frame="1" durf="180" mode="SAY" msg_id="1051" />
+	</Data>
+</Event>
+<Event ID="10008">
+	<Type>ACT</Type>
+	<Data>
+		<Msg frame="1" durf="180" mode="SAY" msg_id="1061" />
+	</Data>
+</Event>
+<Event ID="10009">
+	<Type>ACT</Type>
+	<Data>
+		<Msg frame="1" durf="180" mode="SAY" msg_id="1062" />
+	</Data>
+</Event>
+<Event ID="10011">
+	<Type>ACT</Type>
+	<Data>
+		<Msg frame="1" durf="180" mode="SAY" msg_id="1071" />
+	</Data>
+</Event>
+</EventData>

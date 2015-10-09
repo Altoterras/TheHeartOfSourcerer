@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<Menu>
+	<Node ID="1101">
+		ソースブック
+		<Function MenuClose="yes">
+			Source
+		</Function>
+	</Node>
+	<Node ID="1102">
+		アイテム
+		<Function MenuClose="yes">
+			Item
+		</Function>
+	</Node>
+	<Node ID="1103">
+		ステータス
+		<Function MenuClose="yes">
+			Status
+		</Function>
+	</Node>
+	<Node ID="1104">
+		アビリティ
+		<Function MenuClose="yes">
+			Ability
+		</Function>
+	</Node>
+	<Node ID="1105">
+		装備
+		<Function MenuClose="yes">
+			Equip
+		</Function>
+	</Node>
+	<Node ID="1106">
+		クエスト
+		<Function MenuClose="yes">
+			Quest
+		</Function>
+	</Node>
+	<Node ID="1107">
+		セーブ
+		<Function MenuClose="yes">
+			Save
+		</Function>
+	</Node>
+	<Node ID="1108">
+		オプション
+		<Function MenuClose="yes">
+			Options
+		</Function>
+	</Node>
+</Menu>

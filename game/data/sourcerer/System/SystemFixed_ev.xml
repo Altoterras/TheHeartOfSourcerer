@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<EventData>
+<Event ID="41001" comment="Asa Down">
+	<Type>ACT</Type>
+	<Data>
+		<ScrEff frame="1" durf="180" kind="fade_out" color="000000" skip="stop" />
+		<ChangeMap frame="181" map_id="10221" skip="stop" />
+	</Data>
+</Event>
+</EventData>

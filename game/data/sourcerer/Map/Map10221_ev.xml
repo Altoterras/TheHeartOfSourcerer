@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<EventData>
+<Event ID="999">
+	<Type>MAPCONF</Type>
+	<Data>
+		<MapKind>Field</MapKind>
+		<StartupEvent>1004</StartupEvent>
+		<MoveMap1>10222</MoveMap1>
+		<MoveMap2>19101</MoveMap2>
+		<MoveMap3>10301</MoveMap3>
+		<MoveMap4>11101</MoveMap4>
+		<Fog mode="linear" start="10000.0" end="60000.0" color="0.61, 0.91, 1.00, 1.00" />
+		<PlaceObj kind="extra" char_id="1203" pos="510.0f, 0.0f, -645.0f" pos_evid="" call_evid="101" walk_speed="2.0" />
+		<PlaceObj kind="puitem" item_id="3024" pos="500.0, 0.0, 700.0" rand_pos_r="100.0" rand="30" comment="癒し草" />
+		<EleneEff cql="700,700,700,812,1000" nql="700,700,700,812,1000" />
+	</Data>
+</Event>
+<Event ID="1004" comment="敗北確認">
+	<Type>MapEmp_10221_1001_LostCheck</Type>
+</Event>
+<Event ID="1005" comment="敗北台詞">
+	<Type>ACT</Type>
+	<Data>
+		<ScrEff frame="1" durf="30" kind="fade_in" color="000000" />
+		<ShowObj frame="1" char_id="1102" show="true" />
+		<Msg frame="31" mode="TALK" msg_id="51" />
+		<Msg frame="31" mode="TALK" msg_id="52" />
+		<ShowObj frame="32" char_id="1102" show="false" skip="no" />
+		<ChangeMap frame="32" map_id="10242" next_frame_change="true" skip="no" />
+	</Data>
+</Event>
+<Event ID="101">
+	<Type>ACT</Type>
+	<Data>
+		<Msg frame="1" mode="TALK" msg_id="101" />
+		<If frame="1" jump_evid="0" situ_flag_c01="1" />
+		<Msg frame="1" mode="TALK" msg_id="111" />
+		<Msg frame="1" mode="TALK" msg_id="112" />
+		<Msg frame="1" mode="TALK" msg_id="113" />
+	</Data>
+</Event>
+<Event ID="102" comment="仕様変更により現在未使用">
+	<Type>ACT</Type>
+	<Data>
+		<Msg frame="1" mode="TALK" msg_id="121" />
+	</Data>
+</Event>
+</EventData>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<Menu>
+	<Node ID="501">
+		Start Game
+		<Function MenuClose="yes">
+			StartGame
+		</Function>
+	</Node>
+	<Node ID="601">
+		Rule
+		<Function MenuClose="yes">
+			ShowRule
+		</Function>
+	</Node>
+	<Node>
+		Config
+		<Node>
+			Screen Orientation
+			<Node ID="431">
+				　Orientation A
+				<Function MenuClose="no">
+					Scr_Orien_M90
+				</Function>
+			</Node>
+			<Node ID="432">
+				　Orientation B
+				<Function MenuClose="no">
+					Scr_Orien_P90
+				</Function>
+			</Node>
+		</Node>
+		<Node>
+			Language
+			<Node ID="421">
+				　English
+				<Function MenuClose="no">
+					Language_English
+				</Function>
+			</Node>
+			<Node ID="422">
+				　Japanese
+				<Function MenuClose="no">
+					Language_Japanese
+				</Function>
+			</Node>
+		</Node>
+	</Node>
+</Menu>

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<EventData>
+<Event ID="10999">
+	<Type>STORYCONF</Type>
+	<Data>
+		<StartupEvent>10009</StartupEvent>
+		<AutoBeginEvent kind="map_start" call_evid="10001,0" map_id="10101" />
+		<AutoBeginEvent kind="map_start" call_evid="10002" map_id="10105" />
+		<PlaceObj kind="extra" char_id="1112" map_id="10224" pos="300.0, 0.0, -148" call_evid="10401" />
+		<PlaceObj kind="extra" char_id="1105" map_id="10105" pos="-200, 0, -200" call_evid="10501" />
+		<PlaceObj kind="extra" char_id="1106" map_id="10242" pos="123.8, 0, 0" call_evid="10601" />
+		<PlaceObj kind="extra" char_id="1109" map_id="10201" pos="759, 0, 13" call_evid="10901" />
+		<PlaceObj kind="extra" char_id="1152" map_id="10105" pos="0, 0, -200" call_evid="15201" />
+		<PlaceObj kind="extra" char_id="1153" map_id="10105" pos="200, 0, 0" call_evid="15301" />
+	</Data>
+</Event>
+<Event ID="10001" comment="ハーミット不在">
+	<Type>ACT</Type>
+	<Data>
+		<ChangeMap frame="1" map_id="10101" skip="stop" />
+		<ShowObj frame="1" char_id="1101" show="false" />
+		<ShowObj frame="1" char_id="1102" show="false" />
+		<Rtmv frame="1" file_id="301030251" />
+		<Mcut frame="4" durf="52" />
+		<Mcut frame="64" durf="51" />
+		<Mcut frame="123" durf="51" />
+		<Mcut frame="182" durf="165" />
+		<Msg frame="178" durf="169" mode="SAY" msg_id="1001" />
+		<ShowObj frame="355" char_id="1101" show="true" skip="no" />
+		<ShowObj frame="355" char_id="1102" show="true" skip="no" />
+	</Data>
+</Event>
+<Event ID="10002" comment="ハーミット来客対応中">
+	<Type>ACT</Type>
+	<Data>
+		<ChangeMap frame="1" map_id="10105" skip="stop" />
+		<ShowObj frame="1" char_id="1101" show="false" />
+		<ShowObj frame="1" char_id="1102" show="false" />
+		<ShowObj frame="1" char_id="1105" show="false" />
+		<ShowObj frame="1" char_id="1152" show="false" />
+		<ShowObj frame="1" char_id="1153" show="false" />
+		<Rtmv frame="1" file_id="301030252" />
+		<ShadowCtrl frame="1" char_id="1153" radius="200.0" comment="ヤウト影調整" />
+		<Mcut frame="4" durf="111" />
+		<Mcut frame="123" durf="110" />
+		<Msg frame="237" durf="114" mode="SAY" msg_id="1011" />
+		<Mcut frame="241" durf="110" />
+		<Msg frame="355" durf="173" mode="SAY" msg_id="1012" />
+		<Mcut frame="359" durf="169" />
+		<Msg frame="532" durf="173" mode="SAY" msg_id="1013" />
+		<Mcut frame="536" durf="169" />
+		<Msg frame="709" durf="147" mode="SAY" msg_id="1014" />
+		<Mcut frame="713" durf="143" />
+		<ScrEff frame="866 " durf="20" kind="fade_out" color="000000" />
+		<ShowObj frame="886" char_id="1101" show="true" skip="no" />
+		<ShowObj frame="886" char_id="1102" show="true" skip="no" />
+		<ShowObj frame="886" char_id="1105" show="true" skip="no" />
+		<ShowObj frame="886" char_id="1152" show="true" skip="no" />
+		<ShowObj frame="886" char_id="1153" show="true" skip="no" />
+		<Call frame="886" evid="10003" skip="no" />
+	</Data>
+</Event>
+<Event ID="10003" comment="レベッカ登場">
+	<Type>ACT</Type>
+	<Data>
+		<ChangeMap frame="1" map_id="10102" skip="stop" />
+		<ShowObj frame="1" char_id="1101" show="false" />
+		<ShowObj frame="1" char_id="1102" show="false" />
+		<Rtmv frame="1" file_id="301030253" />
+		<ShadowCtrl frame="1" char_id="1151" radius="100.0" offset_pos="12.0, 0.0, 5.0" comment="レベッカ影調整" />
+		<ScrEff frame="1 " durf="30" kind="fade_in" color="000000" />
+		<Mcut frame="4" durf="259" />
+		<Msg frame="90" durf="173" mode="SAY" msg_id="1021" />
+		<Msg frame="267" durf="173" mode="SAY" msg_id="1022" />
+		<Mcut frame="271" durf="169" />
+		<Msg frame="444" durf="50" mode="SAY" msg_id="1023" />
+		<Mcut frame="448" durf="46" />
+		<Mcut frame="508" durf="227" />
+		<Msg frame="739" durf="94" mode="SAY" msg_id="1024" />
+		<Mcut frame="743" durf="100" />
+		<Mcut frame="851" durf="217" />
+		<Msg frame="895" durf="285" mode="SAY" msg_id="1025" />
+		<Mcut frame="1076" durf="104" />
+		<Msg frame="1190" durf="248" mode="SAY" msg_id="1026" />
+		<Mcut frame="1194" durf="244" />
+		<Msg frame="1448" durf="286" mode="SAY" msg_id="1027" />
+		<Mcut frame="1452" durf="282" />
+		<Msg frame="1744" durf="285" mode="SAY" msg_id="1030" />
+		<Mcut frame="1748" durf="281" />
+		<Msg frame="2039" durf="108" mode="SAY" msg_id="1031" />
+		<Mcut frame="2043" durf="104" />
+		<ScrEff frame="2157" durf="90" kind="fade_out" color="000000" />
+		<ScrEff frame="2247" durf="90" kind="fade_in" color="000000" />
+		<Rtmv frame="2247" file_id="301030254" />
+		<Mcut frame="2251" durf="548" />
+		<Msg frame="2337" durf="462" mode="SAY" msg_id="1032" />
+		<Msg frame="2809" durf="344" mode="SAY" msg_id="1033" />
+		<Mcut frame="2813" durf="340" />
+		<Msg frame="3163" durf="344" mode="SAY" msg_id="1034" />
+		<Mcut frame="3167" durf="340" />
+		<Msg frame="3517" durf="167" mode="SAY" msg_id="1035" />
+		<Mcut frame="3521" durf="163" />
+		<Msg frame="3694" durf="108" mode="SAY" msg_id="1036" />
+		<Mcut frame="3698" durf="104" />
+		<Msg frame="3812" durf="232" mode="SAY" msg_id="1037" />
+		<Mcut frame="3816" durf="399" />
+		<Msg frame="4048" durf="167" mode="SAY" msg_id="1038" />
+		<Msg frame="4225" durf="108" mode="SAY" msg_id="1039" />
+		<Mcut frame="4229" durf="104" />
+		<Msg frame="4343" durf="226" mode="SAY" msg_id="1045" />
+		<Mcut frame="4347" durf="222" />
+		<Msg frame="4579" durf="167" mode="SAY" msg_id="1046" />
+		<Mcut frame="4583" durf="157" />
+		<Msg frame="4756" durf="285" mode="SAY" msg_id="1047" />
+		<Mcut frame="4760" durf="281" />
+		<Msg frame="5051" durf="167" mode="SAY" msg_id="1048" />
+		<Mcut frame="5055" durf="163" />
+		<Msg frame="5228" durf="110" mode="SAY" msg_id="1049" />
+		<Mcut frame="5232" durf="281" />
+		<ScrEff frame="5346" durf="177" kind="fade_out" color="000000" />
+		<ShowObj frame="5523" char_id="1101" show="true" skip="no" />
+		<ShowObj frame="5523" char_id="1102" show="true" skip="no" />
+		<GetThing frame="5523" kind="fixed_source" param="1009" show_get_msg="true" skip="stop" comment="ソウマ「asenerneru」入手" />
+		<Call frame="5523" evid="10004" skip="no" />
+	</Data>
+</Event>
+<Event ID="10004" comment="水シフトソウマ取得">
+	<Type>ACT</Type>
+	<Data>
+		<ChangeMap frame="1" map_id="10102" skip="stop" />
+		<ShowObj frame="1" char_id="1101" show="false" />
+		<ShowObj frame="1" char_id="1102" show="false" />
+		<Rtmv frame="1" file_id="301030255" />
+		<Msg frame="1" durf="173" mode="SAY" msg_id="1051" />
+		<Mcut frame="5" durf="169" />
+		<Msg frame="178" durf="173" mode="SAY" msg_id="1052" />
+		<Mcut frame="182" durf="169" />
+		<Msg frame="355" durf="114" mode="SAY" msg_id="1055" />
+		<Mcut frame="359" durf="110" />
+		<Msg frame="473" durf="106" mode="SAY" msg_id="1056" />
+		<Mcut frame="477" durf="102" />
+		<SetPos frame="590" char_id="1101" pos="3410, 500, 847.9" dir="0, 120, 0" skip="no" />
+		<SetPos frame="590" char_id="1102" pos="3394, 500, 761.8" dir="0, 100, 0" skip="no" />
+		<ShowObj frame="590" char_id="1101" show="true" skip="no" />
+		<ShowObj frame="590" char_id="1102" show="true" skip="no" />
+		<ChangeStory frame="590" story_id="10303" skip="no" comment="★次のストーリーへ" />
+	</Data>
+</Event>
+<Event ID="10009" comment="ストーリー開始マップ">
+	<Type>ACT</Type>
+	<Data>
+		<ChangeMap frame="1" map_id="11112" skip="stop" />
+	</Data>
+</Event>
+<Event ID="10401" comment="Fonru1">
+	<Type>ACT</Type>
+	<Data>
+		<Msg frame="1" mode="TALK" msg_id="1461" />
+		<Msg frame="1" mode="TALK" msg_id="1462" />
+	</Data>
+</Event>
+<Event ID="10501" comment="Hermit1">
+	<Type>ACT</Type>
+	<Data>
+		<Msg frame="1" mode="TALK" msg_id="1551" />
+		<Msg frame="1" mode="TALK" msg_id="1552" />
+	</Data>
+</Event>
+<Event ID="10601" comment="Yu1">
+	<Type>ACT</Type>
+	<Data>
+		<Msg frame="1" mode="TALK" msg_id="1561" />
+	</Data>
+</Event>
+<Event ID="10901" comment="Yasan1">
+	<Type>ACT</Type>
+	<Data>
+		<Msg frame="1" mode="TALK" msg_id="1591" />
+	</Data>
+</Event>
+<Event ID="15201" comment="Syuru1">
+	<Type>ACT</Type>
+	<Data>
+		<Msg frame="1" mode="TALK" msg_id="2021" />
+		<Msg frame="1" mode="TALK" msg_id="2022" />
+	</Data>
+</Event>
+<Event ID="15301" comment="Yauto1">
+	<Type>ACT</Type>
+	<Data>
+		<Msg frame="1" mode="TALK" msg_id="2031" />
+	</Data>
+</Event>
+</EventData>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<Menu>
+	<Node ID="101">
+		Resume Game
+		<Function MenuClose="yes">
+			ResumeGame
+		</Function>
+	</Node>
+	<Node ID="201">
+		Load Game
+		<Node ID="211">
+			Save File 1
+			<Function MenuClose="yes">
+				LoadGame01
+			</Function>
+		</Node>
+		<Node ID="212">
+			Save File 2
+			<Function MenuClose="yes">
+				LoadGame02
+			</Function>
+		</Node>
+	</Node>
+	<Node ID="202">
+		New Game
+		<Node ID="311">
+			New File
+			<Function MenuClose="yes">
+				NewGame
+			</Function>
+		</Node>
+		<Node ID="312">
+			Restart Save File 1
+			<Function MenuClose="yes">
+				RestartGame01
+			</Function>
+		</Node>
+		<Node ID="313">
+			Restart Save File 2
+			<Function MenuClose="yes">
+				RestartGame02
+			</Function>
+		</Node>
+	</Node>
+	<Node ID="203">
+		Transfer Saves to The Heart of SOURCERER 1 (paid version)
+		<Function MenuClose="yes">
+			TransferSavesTo
+		</Function>
+	</Node>
+	<Node>
+		Config
+		<!--
+		<Node>
+			Screen Orientation
+			<Node ID="431">
+				　Landscape Right
+				<Function MenuClose="no">
+					Scr_Orien_M90
+				</Function>
+			</Node>
+			<Node ID="432">
+				　Landscape Left
+				<Function MenuClose="no">
+					Scr_Orien_P90
+				</Function>
+			</Node>
+		</Node>
+		-->
+		<Node>
+			Language
+			<Node ID="421">
+				　English
+				<Function MenuClose="no">
+					Language_English
+				</Function>
+			</Node>
+			<Node ID="422">
+				　Japanese
+				<Function MenuClose="no">
+					Language_Japanese
+				</Function>
+			</Node>
+		</Node>
+		<!--
+		<Node>
+			Event Message
+			<Node ID="441">
+				　Wait Mode
+				<Function MenuClose="no">
+					SayMsg_Pause
+				</Function>
+			</Node>
+			<Node ID="442">
+				　Auto Mode
+				<Function MenuClose="no">
+					SayMsg_NoWait
+				</Function>
+			</Node>
+		</Node>
+		-->
+		<Node>
+			Multitask Processing
+			<Node ID="451">
+				　High Speed (Memory Resident)
+				<Function MenuClose="no">
+					MultiTasking_Fast
+				</Function>
+			</Node>
+			<Node ID="452">
+				　Low Speed (Saving Memory)
+				<Function MenuClose="no">
+					MultiTasking_Eco
+				</Function>
+			</Node>
+		</Node>
+	</Node>
+</Menu>
