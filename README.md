@@ -1,14 +1,14 @@
 # TheHeartOfSourcerer
 
-¡ƒrƒ‹ƒh‚ÆÀs‚Ìd•ûiWindows”Å Vol.1 ‚Ìê‡j
+â– ãƒ“ãƒ«ãƒ‰ã¨å®Ÿè¡Œã®ä»•æ–¹ï¼ˆWindowsç‰ˆ Vol.1 ã®å ´åˆï¼‰
 
-1. Œ‹‡ƒQ[ƒ€ƒf[ƒ^ƒtƒ@ƒCƒ‹‚ğì¬‚·‚é
+1. çµåˆã‚²ãƒ¼ãƒ ãƒ‡ãƒ¼ã‚¿ãƒ•ã‚¡ã‚¤ãƒ«ã‚’ä½œæˆã™ã‚‹
 	game/data/#FilePack_sourcerer_Win_V01.bat
-	‚ğÀs‚µA
+	ã‚’å®Ÿè¡Œã—ã€
 	game/data/sourcerer/enlight1010w.dat
-	‚ªì¬‚³‚ê‚é‚Ì‚ğŠm”F‚·‚éB
+	ãŒä½œæˆã•ã‚Œã‚‹ã®ã‚’ç¢ºèªã™ã‚‹ã€‚
 
-2.VisualStudio ‚Åƒrƒ‹ƒhEÀs‚·‚é
+2.VisualStudio ã§ãƒ“ãƒ«ãƒ‰ãƒ»å®Ÿè¡Œã™ã‚‹
 	game/proj/windows/SourcererV01/Sourcerer_vc2013exp.sln
-	‚ğŠJ‚«Aƒrƒ‹ƒhEÀs‚·‚é
-	¦uVisual Studio Express 2013 for Windows Desktopv‚ğ‘z’è
+	ã‚’é–‹ãã€ãƒ“ãƒ«ãƒ‰ãƒ»å®Ÿè¡Œã™ã‚‹
+	â€»ã€ŒVisual Studio Express 2013 for Windows Desktopã€ã‚’æƒ³å®š
