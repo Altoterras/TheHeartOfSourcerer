@@ -38,6 +38,10 @@
 #include "alError.h"
 #include "bs2b.h"
 #include "alu.h"
+#include "../../../include/AL/al.h"
+#include "../../../include/AL/alc.h"
+#include "../OpenAL32/Include/alMain.h"
+#include "../../../include/AL/alext.h"
 
 
 #define EmptyFuncs { NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL }

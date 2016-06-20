@@ -113,15 +113,15 @@ void RendererUtils::draw2dFillArc(Renderer* rdr, f32 x, f32 y, f32 r, f32 thetaS
 
 	f32 x1, y1, x2, y2, t1, t2;
 	t1 = thetaStart;
-	x1 = x + (r * ::cos(t1));
-	y1 = y + (r * ::sin(t1));
+	x1 = x + (r * ::cosf(t1));
+	y1 = y + (r * ::sinf(t1));
 	vtxs[2] = x1;
 	vtxs[3] = y1;
 	s32 i = 4;
 	for(t2 = thetaStart + thetaInc; t2 <= thetaEnd; t2 += thetaInc)
 	{
-		x2 = x + (r * ::cos(t2));
-		y2 = y + (r * ::sin(t2));
+		x2 = x + (r * ::cosf(t2));
+		y2 = y + (r * ::sinf(t2));
 		ASSERT((i + 1) < s);
 		vtxs[i + 0] = x2;
 		vtxs[i + 1] = y2;
@@ -136,8 +136,8 @@ void RendererUtils::draw2dFillArc(Renderer* rdr, f32 x, f32 y, f32 r, f32 thetaS
 	}
 	else
 	{
-		x2 = x + (r * ::cos(thetaEnd));
-		y2 = y + (r * ::sin(thetaEnd));
+		x2 = x + (r * ::cosf(thetaEnd));
+		y2 = y + (r * ::sinf(thetaEnd));
 		ASSERT((i + 1) < s);
 		vtxs[i + 0] = x2;
 		vtxs[i + 1] = y2;
