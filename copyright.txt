@@ -7,7 +7,6 @@ The author of this software is Ryoutarou Kishi.
 This code is released under the Apache license (See license.txt).
 
 
- * * *
 
 
 dtoa.c
@@ -28,7 +27,6 @@ REPRESENTATION OR WARRANTY OF ANY KIND CONCERNING THE MERCHANTABILITY
 OF THIS SOFTWARE OR ITS FITNESS FOR ANY PARTICULAR PURPOSE.
 
 
- * * *
 
 
 libpng
@@ -125,7 +123,7 @@ source code in a product, acknowledgment is not required but would be
 appreciated.
 
 
- * * *
+
 
 
 zlib
@@ -157,7 +155,6 @@ Comments) 1950 to 1952 in the files http://www.ietf.org/rfc/rfc1950.txt
 (zlib format), rfc1951.txt (deflate format) and rfc1952.txt (gzip format).
 
 
- * * *
 
 
 Mozilla

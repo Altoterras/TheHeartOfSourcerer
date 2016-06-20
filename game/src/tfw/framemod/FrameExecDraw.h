@@ -33,10 +33,17 @@ public:
 	// フレーム制御
 	virtual void exec(ExecRes* res, const ExecCtx* ec) = 0;
 	// 3D 描画
+#if defined(_IOS)
 	virtual void render(const RenderCtx* rc) {}
-
+#else
+	virtual void render(const RenderCtx* rc) { *((int*)0) = 0; }
+#endif
 	// 2D 描画
+#if defined(_IOS)
 	virtual void draw(const RenderCtx* rc) {}
+#else
+	virtual void draw(const RenderCtx* rc) { *((int*)0) = 0; }
+#endif
 };
 
 ////////////////////////////////////////////////////////////////////////////

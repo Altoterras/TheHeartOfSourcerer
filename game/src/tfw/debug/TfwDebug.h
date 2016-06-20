@@ -47,26 +47,16 @@
 	#endif
 	#define ASSERTM(a_, b_)	::tfw::TfwDebug::assert(a_, b_)
 #else
-	#define TRACE			(void)
-	#define STRACE			(void)
-	#define TRACELN			(void)
-	#define ASSERT			(void)
-	#define ASSERTM			(void)
-	/*
 	#define TRACE			//
 	#define STRACE			//
 	#define TRACELN			//
 	#define ASSERT			//
 	#define ASSERTM			//
-	*/
 #endif
 #if 0	// フルトレース
 	#define FTRACE	TRACE
 #else
-	#define FTRACE			(void)
-	/*
-	#define FTRACE			//
-	*/
+	#define FTRACE	//
 #endif
 
 ////////////////////////////////////////////////////////////////////////////

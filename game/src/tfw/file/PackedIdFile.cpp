@@ -82,7 +82,8 @@ bool PackedIdFile::create(const CStringBase* fname, u32 flags)
 		goto FAILED;
 	}
 
-	if(TFW_IS_FLAG(flags, PIFF_STORED_ZIP))	// 無圧縮 ZIP ヘッダをスキップする
+	// 無圧縮 ZIP ヘッダをスキップする
+	if(TFW_IS_FLAG(flags, PIFF_STORED_ZIP))
 	{
 		#if defined(_WINDOWS)
 			#define PACKED
@@ -105,7 +106,6 @@ bool PackedIdFile::create(const CStringBase* fname, u32 flags)
 		} PACKED;
 		ZipFileHeader ziphead;
 		readsize = _file->read(&ziphead, sizeof(ZipFileHeader));
-		///TRACE("ZFH[%x %x %x %x]\n", ziphead._signature[0], ziphead._signature[1], ziphead._signature[2], ziphead._signature[3]);
 		if(readsize != sizeof(ZipFileHeader))
 		{
 			// 失敗
@@ -125,11 +125,6 @@ bool PackedIdFile::create(const CStringBase* fname, u32 flags)
 			_offsetHead += ziphead._lengthExtra;
 		}
 	}
-	else if(TFW_IS_FLAG(flags, PIFF_STORED_OBB))
-	{
-		// 未実装
-		_offsetHead = 0;
-	}
 	else
 	{
 		_offsetHead = 0;
@@ -144,7 +139,6 @@ bool PackedIdFile::create(const CStringBase* fname, u32 flags)
 		ASSERTM(false, VcString::format(&msg, "{PackedIdFile::create} read header faild. - readsize=%d/%d", readsize, sizeof(TbfHeader)));
 		goto FAILED;
 	}
-	///TRACE("TBFH[%u %u %u %u %u %u]\n", head._declare[0], head._declare[1], head._declare[2], head._declare[3], head._declare[4], head._declare[5]);
 	if(head._typeInclude != TbfHeader::INCTYPE_ID)	// ID ファイルではない
 	{
 		// 失敗

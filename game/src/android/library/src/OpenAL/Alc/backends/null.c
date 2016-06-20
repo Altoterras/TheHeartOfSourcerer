@@ -77,16 +77,16 @@ static ALCenum null_open_playback(ALCdevice *device, const ALCchar *deviceName)
 {
     null_data *data;
 
-// LOGI("*** null_open_playback 000");
+ LOGI("*** null_open_playback 000");
     if(!deviceName)
         deviceName = nullDevice;
     else if(strcmp(deviceName, nullDevice) != 0)
         return ALC_INVALID_VALUE;
 
-// LOGI("*** null_open_playback 010");
+ LOGI("*** null_open_playback 010");
     data = (null_data*)calloc(1, sizeof(*data));
 
-// LOGI("*** null_open_playback 020");
+ LOGI("*** null_open_playback 020");
     device->szDeviceName = strdup(deviceName);
     device->ExtraData = data;
     return ALC_NO_ERROR;

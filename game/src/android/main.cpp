@@ -34,6 +34,8 @@
 #include <errno.h>
 #include <jni.h>
 
+using namespace app;
+
 ////////////////////////////////////////////////////////////////////////////
 // マクロ
 
@@ -43,7 +45,7 @@
 #if defined(_DEBUG)
 	#define DBGTRACE	LOGI
 #else
-	#define DBGTRACE	(void)
+	#define DBGTRACE	//
 #endif
 
 #define ENABLE_APP				(1)		// アプリケーション有効
@@ -51,10 +53,6 @@
 
 ////////////////////////////////////////////////////////////////////////////
 // 定数
-
-// デフォルトの画面サイズ
-#define			WIDTH_DEFAULT			(480)
-#define			HEIGHT_DEFAULT			(320)
 
 // フレーム値
 #define RENDER_SPF		(60.0f)		// １秒間の描画フレーム数
@@ -105,8 +103,8 @@ struct engine
 
 #if ENABLE_APP
 	StopWatchAndroid* _swFrame;
-	app::OsDepModAndroid* _osdep;
-	app::PsnsAndroid* _psns;
+	OsDepModAndroid* _osdep;
+	PsnsAndroid* _psns;
 	etk::EtkBody* _body;
 #endif
 };
@@ -124,11 +122,11 @@ struct engine g_engine;
 extern "C"
 {
 
-JNIEXPORT void JNICALL Java_jp_co_altoterras_sourcerer01_EnlightLib_init(JNIEnv* env, jobject jobjThis, jobject jobjActivity, jint width, jint height);
-JNIEXPORT void JNICALL Java_jp_co_altoterras_sourcerer01_EnlightLib_step(JNIEnv* env, jobject jobjThis);
-JNIEXPORT void JNICALL Java_jp_co_altoterras_sourcerer01_EnlightLib_enterBackground(JNIEnv* env, jobject jobjThis);
-JNIEXPORT void JNICALL Java_jp_co_altoterras_sourcerer01_EnlightLib_leaveBackground(JNIEnv* env, jobject jobjThis);
-JNIEXPORT void JNICALL Java_jp_co_altoterras_sourcerer01_EnlightLib_touch(JNIEnv* env, jobject jobjThis, jint action, jint cntTouch, jfloat x1, jfloat y1, jfloat x2, jfloat y2);
+JNIEXPORT void JNICALL Java_jp_co_altoterras_enlight_EnlightLib_init(JNIEnv* env, jobject jobjThis, jobject jobjActivity, jint width, jint height);
+JNIEXPORT void JNICALL Java_jp_co_altoterras_enlight_EnlightLib_step(JNIEnv* env, jobject jobjThis);
+JNIEXPORT void JNICALL Java_jp_co_altoterras_enlight_EnlightLib_enterBackground(JNIEnv* env, jobject jobjThis);
+JNIEXPORT void JNICALL Java_jp_co_altoterras_enlight_EnlightLib_leaveBackground(JNIEnv* env, jobject jobjThis);
+JNIEXPORT void JNICALL Java_jp_co_altoterras_enlight_EnlightLib_touch(JNIEnv* env, jobject jobjThis, jint action, jint cntTouch, jfloat x1, jfloat y1, jfloat x2, jfloat y2);
 
 };	// extern "C"
 
@@ -402,7 +400,7 @@ void android_main(struct android_app* aapp)
 	struct engine engineStackInstance;
 
 	// Make sure glue isn't stripped.
-	//app_dummy();
+	app_dummy();
 
 	struct engine* eng = &engineStackInstance;
 	memset(eng, 0, sizeof(engine));
@@ -429,7 +427,7 @@ void android_main(struct android_app* aapp)
 /*---------------------------------------------------------------------*//**
 	Java 実行時の初期化処理
 **//*---------------------------------------------------------------------*/
-JNIEXPORT void JNICALL Java_jp_co_altoterras_sourcerer01_EnlightLib_init(JNIEnv* env, jobject jobjThis, jobject jobjActivity, jint width, jint height)
+JNIEXPORT void JNICALL Java_jp_co_altoterras_enlight_EnlightLib_init(JNIEnv* env, jobject jobjThis, jobject jobjActivity, jint width, jint height)
 {
 	DBGTRACE("{Java_jp_co_altoterras_enlight_EnlightLib_init} started.\n");
 
@@ -467,7 +465,7 @@ JNIEXPORT void JNICALL Java_jp_co_altoterras_sourcerer01_EnlightLib_init(JNIEnv*
 /*---------------------------------------------------------------------*//**
 	Java 実行時の更新・描画処理
 **//*---------------------------------------------------------------------*/
-JNIEXPORT void JNICALL Java_jp_co_altoterras_sourcerer01_EnlightLib_step(JNIEnv* env, jobject jobjThis)
+JNIEXPORT void JNICALL Java_jp_co_altoterras_enlight_EnlightLib_step(JNIEnv* env, jobject jobjThis)
 {
 	///DBGTRACE("{Java_jp_co_altoterras_enlight_EnlightLib_step} started.\n");
 
@@ -483,7 +481,7 @@ JNIEXPORT void JNICALL Java_jp_co_altoterras_sourcerer01_EnlightLib_step(JNIEnv*
 /*---------------------------------------------------------------------*//**
 	Java 実行時のバックグラウンドへ入る処理
 **//*---------------------------------------------------------------------*/
-JNIEXPORT void JNICALL Java_jp_co_altoterras_sourcerer01_EnlightLib_enterBackground(JNIEnv* env, jobject jobjThis)
+JNIEXPORT void JNICALL Java_jp_co_altoterras_enlight_EnlightLib_enterBackground(JNIEnv* env, jobject jobjThis)
 {
 #if !ENABLE_NATIVE_ACTIVITY
 	struct engine* eng = &g_engine;
@@ -498,7 +496,7 @@ JNIEXPORT void JNICALL Java_jp_co_altoterras_sourcerer01_EnlightLib_enterBackgro
 /*---------------------------------------------------------------------*//**
 	Java 実行時のバックグラウンドから抜ける処理
 **//*---------------------------------------------------------------------*/
-JNIEXPORT void JNICALL Java_jp_co_altoterras_sourcerer01_EnlightLib_leaveBackground(JNIEnv* env, jobject jobjThis)
+JNIEXPORT void JNICALL Java_jp_co_altoterras_enlight_EnlightLib_leaveBackground(JNIEnv* env, jobject jobjThis)
 {
 #if !ENABLE_NATIVE_ACTIVITY
 	struct engine* eng = &g_engine;
@@ -513,7 +511,7 @@ JNIEXPORT void JNICALL Java_jp_co_altoterras_sourcerer01_EnlightLib_leaveBackgro
 /*---------------------------------------------------------------------*//**
 	Java 実行時のタッチイベント処理
 **//*---------------------------------------------------------------------*/
-JNIEXPORT void JNICALL Java_jp_co_altoterras_sourcerer01_EnlightLib_touch(JNIEnv* env, jobject jobjThis, jint action, jint cntTouch, jfloat x1, jfloat y1, jfloat x2, jfloat y2)
+JNIEXPORT void JNICALL Java_jp_co_altoterras_enlight_EnlightLib_touch(JNIEnv* env, jobject jobjThis, jint action, jint cntTouch, jfloat x1, jfloat y1, jfloat x2, jfloat y2)
 {
 #if !ENABLE_NATIVE_ACTIVITY
 	struct engine* eng = &g_engine;
@@ -547,9 +545,9 @@ static int initApp(struct engine* eng, JNIEnv* jnienv, jobject clazzActivity)
 	etk::EtkBody* body = 0L;
 	#if defined(_ENLIGHT_V01)
 		proddefid = sourcerer::PRODDEFID_V01;
-		CcString prod("jp.co.altoterras.sourcerer01");
+		CcString prod("jp.co.altoterras.enlight");
 		VcString appnam("sourcerer01");
-		VcString fname("main.100.jp.co.altoterras.sourcerer01.obb");
+		VcString fname("main.100.jp.co.altoterras.enlight.obb");
 		body = new sourcerer::Game();
 	#elif defined(_ENLIGHT_V01_LITE)
 		proddefid = sourcerer::PRODDEFID_V01LITE;
@@ -590,13 +588,13 @@ static int initApp(struct engine* eng, JNIEnv* jnienv, jobject clazzActivity)
 	#endif
 
 	// デバッグモジュール初期化
-	app::DebugAndroid::init();
+	DebugAndroid::init();
 
 	// OS モジュールの作成
-	eng->_osdep = new app::OsDepModAndroid(jnienv, clazzActivity);
+	eng->_osdep = new OsDepModAndroid(jnienv, clazzActivity);
 
 	// PSNS の作成
-	eng->_psns = new app::PsnsAndroid();
+	eng->_psns = new PsnsAndroid();
 
 	// ボディ生成フラグ
 	u32 bcflags = etk::EtkBody::BCF_HD_RESOLUTION;
@@ -613,39 +611,11 @@ static int initApp(struct engine* eng, JNIEnv* jnienv, jobject clazzActivity)
 
 	// TFW ファイルジュール初期化
 	tfw::File::init(&pathRes);
-	tfw::IdFile::init(&fname, &postfix, SIZE_UNCOMPRESS_READ_BUFFER_1, SIZE_UNCOMPRESS_READ_BUFFER_2, IdFile::PIFF_STORED_OBB);
-	/*
-	 OBB 周りは未実装である。
-	 実機での実行は、enlight1010a.dat を main.100.jp.co.altoterras.sourcerer01.obb にリネームし、
-	 /Android/obb/jp.co.altoterras.sourcerer01/
-	 にコピーすれば可能である。
-
-	 本来、OBB は
-	 D:\Systems\Android\Sdk\tools\jobb.bat -pn jp.co.altoterras.sourcerer01 -pv 1 -d D:\Works\Projects\Enlight\Src_Public\game\data\sourcerer_obb -o D:\Works\Projects\Enlight\Src_Public\game\data\main.100.jp.co.altoterras.sourcerer01.obb
-	 のようなコマンドで作成するもの。
-
-	 また、MP3 をどうするかの扱いについては現状は未検討である。
-	 */
+	tfw::IdFile::init(&fname, &postfix, SIZE_UNCOMPRESS_READ_BUFFER_1, SIZE_UNCOMPRESS_READ_BUFFER_2, IdFile::PIFF_STORED_ZIP);
 	DBGTRACE("{initApp} file-module inited. pathRes=%s, fname=%s, postfix=%s\n", pathRes.getRaw(), fname.getRaw(), postfix.getRaw());
-
-	// ゲームの論理画面サイズ
-	f32 widthLogical = (f32)eng->_width;
-	f32 heightLogical = (f32)eng->_height;
-	{
-		f32 qw = widthLogical / WIDTH_DEFAULT;
-		f32 qh = heightLogical / HEIGHT_DEFAULT;
-		if((qw > 1.0f) && (qh > 1.0f))
-		{
-			f32 q = qw > qh ? qh : qw;
-			widthLogical /= q;
-			heightLogical /= q;
-		}
-	}
-
+		
 	// ゲームアプリケーション作成
 	if((body == 0L) || ! body->init(
-		widthLogical,
-		heightLogical,
 		(s32)eng->_width,
 		(s32)eng->_height,
 		1.0f,
@@ -836,8 +806,8 @@ static void touchApp(struct engine* eng, int action, int cntTouch, float x1, flo
 	tfw::TouchPanel* ui = eng->_body->getTouchPanel();
 
 	tfw::TouchPanel::Touch arrt[NUM_TOUCH_MAX];
-	arrt[0]._pt->set(x1, y1);
-	arrt[1]._pt->set(x2, y2);
+	arrt[0].set(x1, y1);
+	arrt[1].set(x2, y2);
 
 	switch(action & AMOTION_EVENT_ACTION_MASK)
 	{

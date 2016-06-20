@@ -227,7 +227,7 @@ bool TxtUtils::convUnicodeToSjisText(SjisTxt* dst, const UnicodeTxt* src)
 		jbyte* jbSjis = jni->GetByteArrayElements(jbarrSjis, &jb);
 		if(jbSjis == NULL)									{	TRACE("{TxtUtils::convUnicodeToSjisText} ### 403 ###\n");	return false;	}
 		VcString strSjis((const char*)jbSjis, (int)lenSjis);
-		dst->setSingleString(&strSjis);
+		dst->setText(&strSjis);
 		jni->ReleaseByteArrayElements(jbarrSjis, jbSjis, 0);
 		return true;
 	}
@@ -312,7 +312,7 @@ bool TxtUtils::convSjisToUnicodeText(UnicodeTxt* dst, const SjisTxt* src)
 		jchar* jbUnicode = jni->GetCharArrayElements(jcarrUnicode, &jb);
 		if(jbUnicode == NULL)								{	TRACE("{TxtUtils::convSjisToUnicodeText} ### 405 ###\n");	return false;	}
 		VwString strUnicode((const u16*)jbUnicode, (int)lenUnicode);
-		dst->setWideString(&strUnicode);
+		dst->setText(&strUnicode);
 		jni->ReleaseCharArrayElements(jcarrUnicode, jbUnicode, 0);
 		return true;
 	}
@@ -415,7 +415,7 @@ bool TxtUtils::convUtf8ToSjisText(SjisTxt* dst, const Utf8Txt* src)
 		jbyte* jbSjis = jni->GetByteArrayElements(jbarrSjis, &jb);
 		if(jbSjis == NULL)									{	TRACE("{TxtUtils::convUtf8ToSjisText} ### 403 ###\n");	return false;	}
 		VcString strSjis((const char*)jbSjis, (int)lenSjis);
-		dst->setSingleString(&strSjis);
+		dst->setText(&strSjis);
 		jni->ReleaseByteArrayElements(jbarrSjis, jbSjis, 0);
 		return true;
 	}
@@ -530,7 +530,7 @@ bool TxtUtils::convSjisToUtf8Text(Utf8Txt* dst, const SjisTxt* src)
 		jbyte* jbUtf8 = jni->GetByteArrayElements(jbarrUtf8, &jb);
 		if(jbUtf8 == NULL)									{	TRACE("{TxtUtils::convUtf8ToUtf8Text} ### 405 ###\n");	return false;	}
 		VcString strUtf8((const char*)jbUtf8, (int)lenUtf8);
-		dst->setSingleString(&strUtf8);
+		dst->setText(&strUtf8);
 		jni->ReleaseByteArrayElements(jbarrUtf8, jbUtf8, 0);
 		return true;
 	}

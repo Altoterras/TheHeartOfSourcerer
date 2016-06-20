@@ -91,13 +91,13 @@ public:
 	inline BasicModelGui* getGui() const { return (BasicModelGui*)_gui; }
 
 	// 標準スクリーン幅を得る
-	f32 getStandardWidth() const { return 480; }
+	s32 getStandardWidth() const { return 480; }
 	// 標準スクリーン高さを得る
-	f32 getStandardHeight() const { return 320; }
+	s32 getStandardHeight() const { return 320; }
 	// 論理スクリーン幅を得る
-	f32 getLogicalWidth() const { return 480; }
+	s32 getLogicalWidth() const { return 480; }
 	// 論理スクリーン高さを得る
-	f32 getLogicalHeight() const { return 320; }
+	s32 getLogicalHeight() const { return 320; }
 	// オプションフラグを得る
 	inline u8 getOptionFlags() const { return _optflags; }
 	// マルチタスキングモードかどうかを得る

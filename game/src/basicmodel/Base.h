@@ -36,7 +36,7 @@ using namespace etk;
 extern void debug_traceScreen(const char* str, ...);
 #define STRACE	debug_traceScreen
 #else
-#define STRACE	(void)
+#define STRACE	//
 #endif
 
 ////////////////////////////////////////////////////////////////////////////

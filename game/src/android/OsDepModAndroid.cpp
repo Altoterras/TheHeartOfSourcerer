@@ -45,14 +45,6 @@ namespace app
 // 外部サービス
 
 /*---------------------------------------------------------------------*//**
-	アプリケーションのバージョン文字列を得る
-**//*---------------------------------------------------------------------*/
-void OsDepModAndroid::getAppVersionString(VcString* ver)
-{
-	*ver = "3.0";
-}
-
-/*---------------------------------------------------------------------*//**
 	リソースパスを得る
 **//*---------------------------------------------------------------------*/
 bool OsDepModAndroid::getResourceDirPath(tfw::VcString* path, const CcString prod)
@@ -125,7 +117,7 @@ bool OsDepModAndroid::getDocumentDirPath(tfw::VcString* path, bool isMakeDirIfNo
 /*---------------------------------------------------------------------*//**
 	一時ディレクトリのパスを得る
 **//*---------------------------------------------------------------------*/
-bool OsDepModAndroid::getTemporaryDirPath(VcString* path)
+bool OsDepModIos::getTemporaryDirPath(VcString* path)
 {
 	/*
 	NSString* nspathTemp = NSTemporaryDirectory();
@@ -296,14 +288,6 @@ void OsDepModAndroid::gotoHp(CStringBase* str) const
 }
 
 /*---------------------------------------------------------------------*//**
-	広告バナー表示制御
-**//*---------------------------------------------------------------------*/
-void OsDepModAndroid::showAdBanner(bool show) const
-{
-	ASSERT(false);	// 未実装
-}
-
-/*---------------------------------------------------------------------*//**
 	クリップボードからペーストするテキストを得る
 **//*---------------------------------------------------------------------*/
 bool OsDepModAndroid::getPasteTextFromClipboard(Txt** txt)
@@ -343,8 +327,7 @@ bool OsDepModAndroid::getPasteTextFromClipboard(Txt** txt)
 	jni->ReleaseStringUTFChars(jstrClipText, chars);
 
 	SjisTxt* sjistxt = new SjisTxt();
-	Utf8Txt utf8txt;
-	utf8txt.setSingleString(&strClipText);
+	Utf8Txt utf8txt(&strClipText, Utf8Txt::F_REF_STRING);
 	TxtUtils::convUtf8ToSjisText(sjistxt, &utf8txt);
 
 	*txt = sjistxt;
@@ -402,7 +385,7 @@ bool OsDepModAndroid::setCopyTextToClipboard(const Txt* txt)
 /*---------------------------------------------------------------------*//**
 	テキストフィールドを作成する
 **//*---------------------------------------------------------------------*/
-u32 OsDepModAndroid::createTextField(const Txt* txt, const RectF32* rect, const View* view, u32 flags)
+u32 OsDepModAndroid::createTextField(const Txt* txt, const RectS32* rect, const View* view, u32 flags)
 {
 	ASSERT(false);	// 未実装
 	return 0;

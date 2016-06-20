@@ -1,4 +1,0 @@
-include ':app'
-include ':googlePlayDownloaderLibrary'
-include ':googlePlayLicenseLibrary'
-include ':zipFileLibrary'

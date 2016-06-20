@@ -18,7 +18,6 @@
 
 // External
 #include "../tfw/string/CcString.h"
-#include "../tfw/string/VcString.h"
 #if defined(UNICODE)
 	#include "../tfw/string/VwString.h"
 #endif
@@ -116,7 +115,7 @@ void DebugAndroid::DbgIf::assert(bool isValid, const char* msg)
 			wk.add("\n");
 			LOGW(wk.getRaw());
 		#else
-			tfw::VcString wk("*** Assertion Failed ! *** ");
+			tfw::CvString wk("*** Assertion Failed ! *** ");
 			wk.add(msg);
 			wk.add("\n");
 			LOGW(wk.getRaw());

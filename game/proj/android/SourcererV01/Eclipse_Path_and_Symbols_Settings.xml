@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cdtprojectproperties>
+<section name="org.eclipse.cdt.internal.ui.wizards.settingswizards.IncludePaths">
+<language name="C++ Source File">
+<includepath>D:\Systems\Android\android-ndk32-r10\platforms\android-17\arch-arm\usr\include</includepath>
+
+</language>
+</section>
+<section name="org.eclipse.cdt.internal.ui.wizards.settingswizards.Macros">
+<language name="C++ Source File">
+<macro>
+<name>_ANDROID</name><value>1</value>
+</macro>
+<macro>
+<name>_ENLIGHT_V01</name><value>1</value>
+</macro>
+
+</language>
+</section>
+</cdtprojectproperties>

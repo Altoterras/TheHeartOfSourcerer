@@ -80,10 +80,10 @@ bool OsDepModWin::getResourceDirPath(tfw::VcString* path, const CcString prod)
 
 	// デバッグ環境時のパス
 	#if defined(_DEBUG)
-		#if 1	// proj の中でビルドする場合
+		#if 0	// proj の中でビルドする場合
 			wk1 = dir + _T("..\\..\\..\\..\\data\\");
-		#elif 0	// ローカル相対でビルドする場合
-			wk1 = dir + _T("..\\..\\game\\data\\");
+		#elif 1	// ローカル相対でビルドする場合
+			wk1 = dir + _T("..\\..\\Src\\game\\data\\");
 		#elif 0	// OneDrive でビルドする場合
 			wk1 = dir + _T("..\\..\\..\\..\\..\\SkyDrive\\Works\\Enlight\\Src\\game\\data\\");
 		#endif
