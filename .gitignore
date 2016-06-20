@@ -26,3 +26,8 @@
 *.exe
 *.out
 *.app
+
+# Custom
+FilePackLog_sourcerer_*.txt
+enlight*.dat
+__*/

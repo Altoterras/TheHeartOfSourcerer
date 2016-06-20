@@ -31,17 +31,10 @@ TFW_INTERFACE FrameDraw
 {
 public:
 	// 3D 描画
-#if defined(_IOS)
 	virtual void render(const RenderCtx* rc) {}
-#else
-	virtual void render(const RenderCtx* rc) { *((int*)0) = 0; }	// 【仮処理】実行すると強制終了
-#endif
+
 	// 2D 描画
-#if defined(_IOS)
 	virtual void draw(const RenderCtx* rc) {}
-#else
-	virtual void draw(const RenderCtx* rc) { *((int*)0) = 0; }		// 【仮処理】実行すると強制終了
-#endif
 };
 
 ////////////////////////////////////////////////////////////////////////////
