@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License"); 
+** you may not use this file except in compliance with the License. 
+** You may obtain a copy of the License at 
+**
+**     http://www.apache.org/licenses/LICENSE-2.0 
+**
+** Unless required by applicable law or agreed to in writing, software 
+** distributed under the License is distributed on an "AS IS" BASIS, 
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+** See the License for the specific language governing permissions and 
+** limitations under the License.
+*/
+-->
+
+<!-- This file contains resource definitions for displayed strings, allowing
+     them to be changed based on the locale and options. -->
+
+<resources>
+    <!-- App -->
+    <string name="Enlight_activity">Sourcerer01j</string>
+
+    <!-- UI -->
+    <string name="text_paused_cellular">Would you like to enable downloading over cellular connections? Depending on your data plan, this may cost you money.</string>
+    <string name="text_paused_cellular_2">If you choose not to enable downloading over cellular connections, the download will automatically resume when wi-fi is available.</string>
+    <string name="text_button_resume_cellular">Resume download</string>
+    <string name="text_button_wifi_settings">Wi-Fi settings</string>
+    <string name="text_verifying_download">Verifying Download</string>
+    <string name="text_validation_complete">XAPK File Validation Complete.  Select OK to exit.</string>
+    <string name="text_validation_failed">XAPK File Validation Failed.</string>
+    <string name="text_button_pause">Pause Download</string>
+    <string name="text_button_resume">Resume Download</string>
+    <string name="text_button_cancel">Cancel</string>
+    <string name="text_button_cancel_verify">Cancel Verification</string>
+
+</resources>

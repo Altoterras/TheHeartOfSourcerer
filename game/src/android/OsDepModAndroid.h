@@ -21,6 +21,7 @@
 #include "../tfw/string/CcString.h"
 #include "../tfw/string/VcString.h"
 #include "CompilerSwitch.h"
+#include "../tfw/lib/Rect.h"
 
 // Library
 
@@ -69,6 +70,9 @@ public:
 	// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 	// 外部サービス
 public:
+	// アプリケーションパラメータの取得
+	void getAppVersionString(VcString* ver);
+
 	// リソースディレクトリの取得
 	bool getResourceDirPath(tfw::VcString* path, const CcString prod);
 	bool getDocumentDirPath(tfw::VcString* path, bool isMakeDirIfNoExist);
@@ -79,12 +83,15 @@ public:
 	// ホームページへのジャンプ動作
 	void gotoHp(CStringBase* str) const;
 
+	// 広告バナー表示制御
+	void showAdBanner(bool show) const;
+
 	// テキストのコピー＆ペースト
 	bool getPasteTextFromClipboard(Txt** txt);
 	bool setCopyTextToClipboard(const Txt* txt);
 
 	// 独自テキストフィールドの実装
-	u32 createTextField(const Txt* txt, const RectS32* rect, const View* view, u32 flags);
+	u32 createTextField(const Txt* txt, const RectF32* rect, const View* view, u32 flags);
 	bool destroyTextField(u32 oscmpid);
 	bool showTextField(u32 oscmpid, bool isShow);
 	bool getTextFieldString(u32 oscmpid, Txt** txt);

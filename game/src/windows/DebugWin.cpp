@@ -194,7 +194,7 @@ void DebugWin::DbgIf::assert(bool isValid, const char* msg)
 **//*---------------------------------------------------------------------*/
 void DebugWin::DbgIf::assert(bool isValid, const tfw::WStringBase* msg)
 {
-	assert(isValid, msg->getRaw());
+	assert(isValid, (const wchar_t*)msg->getRaw());
 }
 
 /*---------------------------------------------------------------------*//**
