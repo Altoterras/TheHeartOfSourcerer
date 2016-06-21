@@ -44,6 +44,7 @@ class IdFile : public FileBase
 	// 定数
 public:
 	static const u32	PIFF_STORED_ZIP			= 0x00000001;	// 無圧縮 ZIP を読み込む
+	static const u32	PIFF_STORED_OBB			= 0x00000002;	// Android OBB を読み込む
 
 	// プラットフォーム
 	enum Platform
