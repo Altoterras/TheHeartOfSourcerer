@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="debug"><source path="D:\Works\Projects\Enlight\Src_Public\game\proj\android\SourcererV01\googlePlayLicenseLibrary\build\intermediates\bundles\debug\assets"/></dataSet><dataSet config="main"><source path="D:\Works\Projects\Enlight\Src_Public\game\proj\android\SourcererV01\googlePlayLicenseLibrary\src\androidTest\assets"/><source path="D:\Works\Projects\Enlight\Src_Public\game\proj\android\SourcererV01\googlePlayLicenseLibrary\build\generated\assets\shaders\androidTest\debug"/></dataSet></merger>
