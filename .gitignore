@@ -28,6 +28,8 @@
 *.app
 
 # Custom
+*.iml
 FilePackLog_sourcerer_*.txt
 enlight*.dat
 __*/
+build/
