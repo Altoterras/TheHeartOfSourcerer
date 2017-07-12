@@ -31,7 +31,7 @@
 //==========================================================================
 // 定数
 
-#if ENABLE_IAD
+#if ENABLE_ADMOB
 // AD バナーフラグ
 static const unsigned int	ADBF_EXTERNAL_SHOWN		= 0x00000001;	// 外部からの表示要求
 static const unsigned int	ADBF_EXTERNAL_HIDDEN	= 0x00000002;	// 外部からの非表示要求
@@ -158,7 +158,7 @@ static const unsigned int	ADBF_REQ_CREATION_INTR	= 0x02000000;	// 内部から�
 	#endif
 }
 
-#if ENABLE_IAD
+#if ENABLE_ADMOB
 /*---------------------------------------------------------------------*//**
 	外部からの広告バナーを作成要求
 **//*---------------------------------------------------------------------*/
@@ -169,7 +169,7 @@ static const unsigned int	ADBF_REQ_CREATION_INTR	= 0x02000000;	// 内部から�
 }
 #endif
 
-#if ENABLE_IAD
+#if ENABLE_ADMOB
 /*---------------------------------------------------------------------*//**
 	広告バナーを作成要求を処理する
 **//*---------------------------------------------------------------------*/
@@ -179,9 +179,17 @@ static const unsigned int	ADBF_REQ_CREATION_INTR	= 0x02000000;	// 内部から�
 	if(!(_flagsAdBannerCtrl & ADBF_REQ_CREATION_INTR)) { return; }
 	if(!(_flagsAdBannerCtrl & ADBF_REQ_CREATION_EXTR)) { return; }
 	
-	// iAD 作成
-	_adview = [[ADBannerView alloc] initWithFrame:CGRectZero];
-	
+	// AdMob 作成
+    NSLog(@"Google Mobile Ads SDK version: %@", [GADRequest sdkVersion]);
+    _adview = [[GADBannerView alloc] initWithAdSize:kGADAdSizeSmartBannerLandscape];
+    _adview.adUnitID = @"ca-app-pub-6334172994869870/7534837346";
+    //_adview.adUnitID = @"ca-app-pub-3940256099942544/2934735716"; // test code
+    _adview.rootViewController = self;
+    _adview.delegate = self;
+    [_adview loadRequest:[GADRequest request]];
+    
+    
+    
 	// ランドスケープ表示
 	CGRect rectThis = self.view.frame;
 	CGRect rectAd = _adview.frame;
@@ -190,12 +198,13 @@ static const unsigned int	ADBF_REQ_CREATION_INTR	= 0x02000000;	// 内部から�
 	[_adview setAutoresizingMask:UIViewAutoresizingFlexibleWidth];
 	//_adview.requiredContentSizeIdentifiers = [NSSet setWithObject:ADBannerContentSizeIdentifierLandscape];
 	//_adview.currentContentSizeIdentifier = ADBannerContentSizeIdentifierLandscape;
+    
 	
-	// iAD をビューに設定
+	// AdMob をビューに設定
 	_adview.alpha = 0.0f;		// 非表示にしておく
 	[self moveAdBanner:false];
-	[self.view addSubview:_adview];
-	_adview.delegate = self;
+    [self.view addSubview:_adview];
+    
 	
 	//TRACELOGV("!!! %f, %f, %f, %f, %f, %f", self.view.frame.size.width, self.view.frame.size.height, _adview.frame.size.width, _adview.frame.size.height, rect.size.width, rect.size.height);
 
@@ -204,7 +213,7 @@ static const unsigned int	ADBF_REQ_CREATION_INTR	= 0x02000000;	// 内部から�
 }
 #endif
 
-#if ENABLE_IAD
+#if ENABLE_ADMOB
 /*---------------------------------------------------------------------*//**
 	広告バナーを移動する（画面内=表示／画面外=非表示 制御）
 **//*---------------------------------------------------------------------*/
@@ -215,6 +224,7 @@ static const unsigned int	ADBF_REQ_CREATION_INTR	= 0x02000000;	// 内部から�
 	if(show) { y -= _adview.frame.size.height; }
 
 	CGRect rectBnnr = CGRectMake(0, y, _adview.frame.size.width, _adview.frame.size.height);
+    
 	[UIView animateWithDuration:0.25 animations:^{
 		_adview.frame = rectBnnr;
 		[_adview setAlpha:show ? 1.0f : 0.0f];
@@ -229,7 +239,7 @@ static const unsigned int	ADBF_REQ_CREATION_INTR	= 0x02000000;	// 内部から�
 **//*---------------------------------------------------------------------*/
 - (void)showAdBanner:(BOOL)show
 {
-#if ENABLE_IAD
+#if ENABLE_ADMOB
 	TRACEERRV("--- MainViewController::showAdBanner show=%d\n", show);
 	_flagsAdBannerCtrl &= ~(ADBF_EXTERNAL_SHOWN | ADBF_EXTERNAL_HIDDEN);
 	_flagsAdBannerCtrl |= show ? ADBF_EXTERNAL_SHOWN : ADBF_EXTERNAL_HIDDEN;
@@ -237,7 +247,7 @@ static const unsigned int	ADBF_REQ_CREATION_INTR	= 0x02000000;	// 内部から�
 #endif
 }
 
-#if ENABLE_IAD
+#if ENABLE_ADMOB
 /*---------------------------------------------------------------------*//**
 	広告バナーを制御する
 **//*---------------------------------------------------------------------*/
@@ -277,7 +287,7 @@ static const unsigned int	ADBF_REQ_CREATION_INTR	= 0x02000000;	// 内部から�
 {
 	[super viewDidLoad];
 	
-#if ENABLE_IAD
+#if ENABLE_ADMOB
 	// 内部からの広告バナーを作成要求
 	_flagsAdBannerCtrl |= ADBF_REQ_CREATION_INTR;
 	[self respondAdBannerCreation];
@@ -311,29 +321,29 @@ static const unsigned int	ADBF_REQ_CREATION_INTR	= 0x02000000;	// 内部から�
 #endif
 }
 
-#if ENABLE_IAD
+#if ENABLE_ADMOB
 /*---------------------------------------------------------------------*//**
-	iAd 受信成功通知
+	AdMob 受信成功通知
 **//*---------------------------------------------------------------------*/
--(void)bannerViewDidLoadAd:(ADBannerView*)banner
-{
-	TRACEERR("--- MainViewController::bannerViewDidLoadAd\n");
-	_flagsAdBannerCtrl &= ~(ADBF_AD_RECV_LOADED | ADBF_AD_RECV_FAILED);
-	_flagsAdBannerCtrl |= ADBF_AD_RECV_LOADED;
-	[self ctrlAdBanner];
+
+- (void)adViewDidReceiveAd:(GADBannerView *)bannerView {
+    TRACEERR("--- MainViewController::adViewDidReceiveAd\n");
+    _flagsAdBannerCtrl &= ~(ADBF_AD_RECV_LOADED | ADBF_AD_RECV_FAILED);
+    _flagsAdBannerCtrl |= ADBF_AD_RECV_LOADED;
+    [self ctrlAdBanner];
 }
+
 #endif
 
-#if ENABLE_IAD
+#if ENABLE_ADMOB
 /*---------------------------------------------------------------------*//**
-	iAd 受信失敗通知
+	AdMob 受信失敗通知
 **//*---------------------------------------------------------------------*/
--(void)bannerView:(ADBannerView*)banner didFailToReceiveAdWithError:(NSError *)error
-{
-	TRACEERR("--- MainViewController::didFailToReceiveAdWithError\n");
-	_flagsAdBannerCtrl &= ~(ADBF_AD_RECV_LOADED | ADBF_AD_RECV_FAILED);
-	_flagsAdBannerCtrl |= ADBF_AD_RECV_FAILED;
-	[self ctrlAdBanner];
+- (void)adView:(GADBannerView *)bannerView didFailToReceiveAdWithError:(GADRequestError *)error {
+    TRACEERR("--- MainViewController::didFailToReceiveAdWithError\n");
+    _flagsAdBannerCtrl &= ~(ADBF_AD_RECV_LOADED | ADBF_AD_RECV_FAILED);
+    _flagsAdBannerCtrl |= ADBF_AD_RECV_FAILED;
+    [self ctrlAdBanner];
 }
 #endif
 

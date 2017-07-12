@@ -28,9 +28,9 @@
 
 static ALCenum loopback_open_playback(ALCdevice *device, const ALCchar *deviceName)
 {
-LOGI("*** loopback_open_playback 000: %x", deviceName);
+//LOGI("*** loopback_open_playback 000: %x", deviceName);
 	device->szDeviceName = strdup(deviceName);
-LOGI("*** loopback_open_playback 001: %x", device->szDeviceName);
+//LOGI("*** loopback_open_playback 001: %x", device->szDeviceName);
     return ALC_NO_ERROR;
 }
 

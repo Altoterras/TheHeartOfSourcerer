@@ -132,7 +132,7 @@ bool MsgData::create(u16 catid, FileBase* file, u16 ofsMsgid)
 		EnlightEventMsgData data;
 		if(file->read(&data, sizeof(EnlightEventMsgData)) < sizeof(EnlightEventMsgData))
 		{
-			delete marrMsg;
+			delete[] marrMsg;
 			ASSERT(false);
 			return false;
 		}
@@ -147,13 +147,13 @@ bool MsgData::create(u16 catid, FileBase* file, u16 ofsMsgid)
 	char* cbuf = new char[head._lenString];
 	if(file->read(cbuf, head._lenString) < head._lenString)
 	{
-		delete marrMsg;
-		delete cbuf;
+		delete[] marrMsg;
+		delete[] cbuf;
 		ASSERT(false);
 		return false;
 	}
 	_strAll = new VcString(cbuf);
-	delete cbuf;
+	delete[] cbuf;
 
 	_numMsg = head._numMsg;
 	_marrMsg = marrMsg;

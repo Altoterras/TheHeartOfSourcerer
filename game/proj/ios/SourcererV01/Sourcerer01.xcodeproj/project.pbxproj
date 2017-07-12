@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9531962A1D1A31EA0036A28E /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 953196291D1A31EA0036A28E /* AdSupport.framework */; };
+		9531962C1D1A32090036A28E /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9531962B1D1A32090036A28E /* CoreTelephony.framework */; };
+		9531962E1D1A32120036A28E /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9531962D1D1A32120036A28E /* EventKit.framework */; };
+		953196301D1A321E0036A28E /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9531962F1D1A321E0036A28E /* EventKitUI.framework */; };
+		953196321D1A32330036A28E /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 953196311D1A32330036A28E /* MessageUI.framework */; };
+		953196341D1A323B0036A28E /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 953196331D1A323B0036A28E /* StoreKit.framework */; };
+		953196361D1A32490036A28E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 953196351D1A32490036A28E /* SystemConfiguration.framework */; };
+		953196381D1A33840036A28E /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 953196371D1A33840036A28E /* CoreMedia.framework */; };
+		9531963A1D1A34690036A28E /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 953196391D1A34690036A28E /* SafariServices.framework */; };
+		9531963C1D1A34A20036A28E /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9531963B1D1A34A20036A28E /* CoreBluetooth.framework */; };
+		953C6EE91ECA9E480057AD83 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 953196271D1A31BA0036A28E /* GoogleMobileAds.framework */; };
+		95BB74661EB8516B00CE9195 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95BB74651EB8516B00CE9195 /* CFNetwork.framework */; };
+		95BB74681EB8538100CE9195 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95BB74671EB8538100CE9195 /* MobileCoreServices.framework */; };
+		95BB746A1EB853C500CE9195 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95BB74691EB853C500CE9195 /* CoreVideo.framework */; };
+		95BB746C1EB853F200CE9195 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95BB746B1EB853F200CE9195 /* GLKit.framework */; };
+		95BB746E1EB8542000CE9195 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95BB746D1EB8542000CE9195 /* CoreMotion.framework */; };
 		F3005C9A18F7B80A00361365 /* sourcerer01_icon076.png in Resources */ = {isa = PBXBuildFile; fileRef = F3005C9718F7B80A00361365 /* sourcerer01_icon076.png */; };
 		F3005C9B18F7B80A00361365 /* sourcerer01_icon120.png in Resources */ = {isa = PBXBuildFile; fileRef = F3005C9818F7B80A00361365 /* sourcerer01_icon120.png */; };
 		F3005C9C18F7B80A00361365 /* sourcerer01_icon152.png in Resources */ = {isa = PBXBuildFile; fileRef = F3005C9918F7B80A00361365 /* sourcerer01_icon152.png */; };
@@ -44,7 +60,6 @@
 		F3CC44BC1A8CC14E006C4E78 /* EleneUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3CC44BA1A8CC14E006C4E78 /* EleneUtils.cpp */; };
 		F3CC44BF1A8CC168006C4E78 /* VelocityInterpolation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3CC44BD1A8CC168006C4E78 /* VelocityInterpolation.cpp */; };
 		F3CC44C11A8CC198006C4E78 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3CC44C01A8CC198006C4E78 /* CoreGraphics.framework */; };
-		F3CC44C31A8CC1C3006C4E78 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3CC44C21A8CC1C3006C4E78 /* iAd.framework */; };
 		F3CC44C61A8E2FDB006C4E78 /* StatusIfEx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3CC44C41A8E2FDB006C4E78 /* StatusIfEx.cpp */; };
 		F3CEA3C31AA0838D003E60F7 /* CharFronts.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3CEA3BF1AA0838D003E60F7 /* CharFronts.cpp */; };
 		F3CEA3C41AA0838D003E60F7 /* StatGauge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3CEA3C11AA0838D003E60F7 /* StatGauge.cpp */; };
@@ -623,6 +638,22 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		953196271D1A31BA0036A28E /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		953196291D1A31EA0036A28E /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		9531962B1D1A32090036A28E /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		9531962D1D1A32120036A28E /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		9531962F1D1A321E0036A28E /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+		953196311D1A32330036A28E /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		953196331D1A323B0036A28E /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		953196351D1A32490036A28E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		953196371D1A33840036A28E /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		953196391D1A34690036A28E /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		9531963B1D1A34A20036A28E /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		95BB74651EB8516B00CE9195 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		95BB74671EB8538100CE9195 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		95BB74691EB853C500CE9195 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		95BB746B1EB853F200CE9195 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		95BB746D1EB8542000CE9195 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		F3005C9718F7B80A00361365 /* sourcerer01_icon076.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sourcerer01_icon076.png; sourceTree = "<group>"; };
 		F3005C9818F7B80A00361365 /* sourcerer01_icon120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sourcerer01_icon120.png; sourceTree = "<group>"; };
 		F3005C9918F7B80A00361365 /* sourcerer01_icon152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sourcerer01_icon152.png; sourceTree = "<group>"; };
@@ -1920,16 +1951,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3CC44C31A8CC1C3006C4E78 /* iAd.framework in Frameworks */,
+				953C6EE91ECA9E480057AD83 /* GoogleMobileAds.framework in Frameworks */,
+				95BB746E1EB8542000CE9195 /* CoreMotion.framework in Frameworks */,
+				95BB746C1EB853F200CE9195 /* GLKit.framework in Frameworks */,
+				95BB746A1EB853C500CE9195 /* CoreVideo.framework in Frameworks */,
+				95BB74681EB8538100CE9195 /* MobileCoreServices.framework in Frameworks */,
+				F38E368F164BB14100B3218B /* OpenGLES.framework in Frameworks */,
+				95BB74661EB8516B00CE9195 /* CFNetwork.framework in Frameworks */,
+				9531963C1D1A34A20036A28E /* CoreBluetooth.framework in Frameworks */,
+				9531963A1D1A34690036A28E /* SafariServices.framework in Frameworks */,
+				953196381D1A33840036A28E /* CoreMedia.framework in Frameworks */,
+				953196361D1A32490036A28E /* SystemConfiguration.framework in Frameworks */,
+				953196341D1A323B0036A28E /* StoreKit.framework in Frameworks */,
+				953196321D1A32330036A28E /* MessageUI.framework in Frameworks */,
+				F38E367B164BA93900B3218B /* MediaPlayer.framework in Frameworks */,
+				953196301D1A321E0036A28E /* EventKitUI.framework in Frameworks */,
+				9531962E1D1A32120036A28E /* EventKit.framework in Frameworks */,
+				9531962C1D1A32090036A28E /* CoreTelephony.framework in Frameworks */,
 				F3CC44C11A8CC198006C4E78 /* CoreGraphics.framework in Frameworks */,
+				F38E3681164BA96B00B3218B /* AVFoundation.framework in Frameworks */,
+				F38E3680164BA96B00B3218B /* AudioToolbox.framework in Frameworks */,
+				9531962A1D1A31EA0036A28E /* AdSupport.framework in Frameworks */,
 				F38E2EC2164BA78F00B3218B /* Foundation.framework in Frameworks */,
 				F38E2EC0164BA78F00B3218B /* UIKit.framework in Frameworks */,
-				F38E368F164BB14100B3218B /* OpenGLES.framework in Frameworks */,
 				F38E3DEF164BB65100B3218B /* QuartzCore.framework in Frameworks */,
 				F38E3682164BA96B00B3218B /* OpenAL.framework in Frameworks */,
-				F38E367B164BA93900B3218B /* MediaPlayer.framework in Frameworks */,
-				F38E3680164BA96B00B3218B /* AudioToolbox.framework in Frameworks */,
-				F38E3681164BA96B00B3218B /* AVFoundation.framework in Frameworks */,
 				F38E3679164BA92600B3218B /* GameKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1957,6 +2003,22 @@
 		F38E2EBE164BA78F00B3218B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				95BB746D1EB8542000CE9195 /* CoreMotion.framework */,
+				95BB746B1EB853F200CE9195 /* GLKit.framework */,
+				95BB74691EB853C500CE9195 /* CoreVideo.framework */,
+				95BB74671EB8538100CE9195 /* MobileCoreServices.framework */,
+				95BB74651EB8516B00CE9195 /* CFNetwork.framework */,
+				9531963B1D1A34A20036A28E /* CoreBluetooth.framework */,
+				953196391D1A34690036A28E /* SafariServices.framework */,
+				953196371D1A33840036A28E /* CoreMedia.framework */,
+				953196351D1A32490036A28E /* SystemConfiguration.framework */,
+				953196331D1A323B0036A28E /* StoreKit.framework */,
+				953196311D1A32330036A28E /* MessageUI.framework */,
+				9531962F1D1A321E0036A28E /* EventKitUI.framework */,
+				9531962D1D1A32120036A28E /* EventKit.framework */,
+				9531962B1D1A32090036A28E /* CoreTelephony.framework */,
+				953196291D1A31EA0036A28E /* AdSupport.framework */,
+				953196271D1A31BA0036A28E /* GoogleMobileAds.framework */,
 				F3CC44C21A8CC1C3006C4E78 /* iAd.framework */,
 				F3CC44C01A8CC198006C4E78 /* CoreGraphics.framework */,
 				F38E3DEE164BB65100B3218B /* QuartzCore.framework */,
@@ -4485,11 +4547,12 @@
 		F38E2EB2164BA78F00B3218B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Ryoutarou Kishi";
 				TargetAttributes = {
 					F38E2EBA164BA78F00B3218B = {
 						DevelopmentTeam = 7AAQ624YW8;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -5139,15 +5202,27 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Altoterras Corporation (7AAQ624YW8)";
 				COPY_PHASE_STRIP = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PROVISIONING_PROFILE = "960032EF-A610-4F91-9376-8EF1EBCE55BB";
@@ -5165,8 +5240,13 @@
 				CLANG_ANALYZER_SECURITY_INSECUREAPI_STRCPY = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
 				CLANG_CXX_LIBRARY = "compiler-default";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Altoterras Corporation (7AAQ624YW8)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Sourcerer01-Prefix.pch";
@@ -5176,9 +5256,12 @@
 				GCC_WARN_UNUSED_VARIABLE = NO;
 				HEADER_SEARCH_PATHS = ../../../src/common/library/include;
 				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.altoterras.sourcerer01;
 				PRODUCT_NAME = Sourcerer1;
 				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
@@ -5190,22 +5273,32 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Ryoutarou Kishi (36V42P5TKF)";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				PROVISIONING_PROFILE = "50FF9E2C-0A74-486E-B150-96C2CD25E89C";
 				SDKROOT = iphoneos;
@@ -5220,15 +5313,27 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Ryoutarou Kishi (36V42P5TKF)";
 				COPY_PHASE_STRIP = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PROVISIONING_PROFILE = "50FF9E2C-0A74-486E-B150-96C2CD25E89C";
@@ -5248,6 +5353,11 @@
 				CLANG_CXX_LIBRARY = "compiler-default";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Sourcerer01-Prefix.pch";
@@ -5261,10 +5371,13 @@
 				GCC_WARN_UNUSED_VARIABLE = NO;
 				HEADER_SEARCH_PATHS = ../../../src/common/library/include;
 				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.altoterras.sourcerer01;
 				PRODUCT_NAME = Sourcerer1;
 				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALID_ARCHS = "armv7 armv7s arm64";
 				WRAPPER_EXTENSION = app;
@@ -5280,6 +5393,11 @@
 				CLANG_CXX_LIBRARY = "compiler-default";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Sourcerer01-Prefix.pch";
@@ -5289,9 +5407,12 @@
 				GCC_WARN_UNUSED_VARIABLE = NO;
 				HEADER_SEARCH_PATHS = ../../../src/common/library/include;
 				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.altoterras.sourcerer01;
 				PRODUCT_NAME = Sourcerer1;
 				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;

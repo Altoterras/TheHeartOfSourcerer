@@ -12,7 +12,9 @@
 
 #import <UIKit/UIKit.h>
 #import <GameKit/GameKit.h>
-#import <iAd/iAd.h>
+
+#import <GoogleMobileAds/GoogleMobileAds.h>
+
 
 #import "Base.h"
 #import "GameCenterManipulator.h"
@@ -21,7 +23,7 @@
 // クラス
 
 #define ENABLE_MOVIE_PLAYBACK_VIEW	0
-#define ENABLE_IAD 1
+#define ENABLE_ADMOB 1
 
 @class MainGlView;
 #if ENABLE_MOVIE_PLAYBACK_VIEW
@@ -32,14 +34,14 @@
  *	メイン ビューコントローラー
  *
 **//*---------------------------------------------------------------------*/
-@interface MainViewController : UIViewController <UINavigationControllerDelegate, GKLeaderboardViewControllerDelegate, GKAchievementViewControllerDelegate, ADBannerViewDelegate>
+@interface MainViewController : UIViewController <UINavigationControllerDelegate, GKLeaderboardViewControllerDelegate, GKAchievementViewControllerDelegate, GADBannerViewDelegate>
 {
 	MainGlView* _viewGl;
 #if ENABLE_MOVIE_PLAYBACK_VIEW
 	MoviePlaybackView* _viewMp;
 #endif
-#if ENABLE_IAD
-    ADBannerView* _adview;
+#if ENABLE_ADMOB
+    GADBannerView*  _adview;
 	unsigned int _flagsAdBannerCtrl;
 #endif
 	GameCenterManipulator* _gmcmp;
@@ -57,7 +59,7 @@
 - (UIInterfaceOrientation)preferredInterfaceOrientationForPresentation;
 - (void)showLeaderboardViewController:(NSString*)leaderboard;
 - (void)showAchievementsViewController;
-#if ENABLE_IAD
+#if ENABLE_ADMOB
 - (void)requestAdBannerCreation;
 #endif
 - (void)showAdBanner:(BOOL)show;
