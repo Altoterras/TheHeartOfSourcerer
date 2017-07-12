@@ -244,7 +244,7 @@ const int VIEW_MOVIE_PLAYBACK = 2;
 
 	[self changeActiveView:_viewGl];
 	
-#if ENABLE_IAD
+#if ENABLE_ADMOB
 	[_vcMain requestAdBannerCreation];
 #endif
 	
