@@ -2879,6 +2879,7 @@ EsItNode* EsParser::parseAssignExpression()
 		break;
 	case TKN_LB:	// “[”
 		nodeLeft->setOpcodeType(OP_SETELEM);
+		break;
 	case TKN_LP:
 		if(!setSetCall(nodeLeft))
 		{
