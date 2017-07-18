@@ -20,18 +20,18 @@
 #include "SoumaScriptContext.h"
 #include "SoumaScriptKeywords.h"
 #include "../Souma.h"
-#include "../../es/EsContext.h"
-#include "../../es/EsObject.h"
-#include "../../es/EsScopeProperty.h"
-#include "../../es/EsSysClasses.h"
-#include "../../es/EsSysPrototypes.h"
-#include "../../es/EsRunEnv.h"
 #include "../../item/ItemEquip.h"
 #include "../../unit/char/pc/PcUnit.h"
 #include "../../status/CharStat.h"
 #include "../../status/EquipPlace.h"
 
 // External
+#include "../../../es/EsContext.h"
+#include "../../../es/EsObject.h"
+#include "../../../es/EsScopeProperty.h"
+#include "../../../es/EsSysClasses.h"
+#include "../../../es/EsSysPrototypes.h"
+#include "../../../es/EsRunEnv.h"
 
 SRCR_BEGIN_NS
 

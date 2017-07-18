@@ -28,13 +28,6 @@
 #include "../../body/Game.h"
 #include "../../episode/char/pc/MySpirit.h"
 #include "../../episode/party/MyParty.h"
-#include "../../es/Es.h"
-#include "../../es/EsContext.h"
-#include "../../es/EsExternalExtension.h"
-#include "../../es/EsRunStat.h"
-#include "../../es/EsValue.h"
-#include "../../es/kwset/JsKeywordSet.h"
-#include "../../es/kwset/SsKeywordSet.h"
 #include "../../magic/MagicCluster.h"
 #include "../../magic/MagicSys.h"
 #include "../../source/Source.h"
@@ -47,6 +40,13 @@
 #include "../../unit/Unit.h"
 
 // External
+#include "../../../es/Es.h"
+#include "../../../es/EsContext.h"
+#include "../../../es/EsExternalExtension.h"
+#include "../../../es/EsRunStat.h"
+#include "../../../es/EsValue.h"
+#include "../../../es/kwset/JsKeywordSet.h"
+#include "../../../es/kwset/SsKeywordSet.h"
 #include "../../../tfw/lib/Vector.h"
 
 // Library

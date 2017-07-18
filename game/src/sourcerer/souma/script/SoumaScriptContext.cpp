@@ -18,13 +18,13 @@
 // Friends
 #include "SoumaScript.h"
 #include "../Souma.h"
-#include "../../es/Es.h"
-#include "../../es/EsContext.h"
-#include "../../es/EsError.h"
-#include "../../es/EsRunStat.h"
-#include "../../es/EsValue.h"
 
 // External
+#include "../../../es/Es.h"
+#include "../../../es/EsContext.h"
+#include "../../../es/EsError.h"
+#include "../../../es/EsRunStat.h"
+#include "../../../es/EsValue.h"
 
 // Library
 

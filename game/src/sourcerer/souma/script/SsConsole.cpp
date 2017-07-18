@@ -19,16 +19,16 @@
 #include "SoumaScript.h"
 #include "SoumaScriptContext.h"
 #include "SoumaScriptKeywords.h"
-#include "../../es/EsContext.h"
-#include "../../es/EsKeyword.h"
-#include "../../es/EsObject.h"
-#include "../../es/EsRunEnv.h"
-#include "../../es/EsSysClasses.h"
-#include "../../es/EsSysPrototypes.h"
 #include "../../body/Conductor.h"
 #include "../../body/Game.h"
 
 // External
+#include "../../../es/EsContext.h"
+#include "../../../es/EsKeyword.h"
+#include "../../../es/EsObject.h"
+#include "../../../es/EsRunEnv.h"
+#include "../../../es/EsSysClasses.h"
+#include "../../../es/EsSysPrototypes.h"
 #include "../../../tfw/lib/Color.h"
 
 SRCR_BEGIN_NS

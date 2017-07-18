@@ -16,9 +16,10 @@
 #include "../../Base.h"
 
 #include "SoumaScriptKeywords.h"
-#include "../../es/EsClass.h"
-#include "../../es/EsPrototype.h"
-#include "../../es/EsValue.h"
+
+#include "../../../es/EsClass.h"
+#include "../../../es/EsPrototype.h"
+#include "../../../es/EsValue.h"
 
 ////////////////////////////////////////////////////////////////////////////
 // クラス

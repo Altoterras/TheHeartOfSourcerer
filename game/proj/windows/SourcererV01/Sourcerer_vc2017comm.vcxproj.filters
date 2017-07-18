@@ -218,12 +218,6 @@
     <Filter Include="src\sourcerer\sound">
       <UniqueIdentifier>{410a6dad-7b19-4d30-9512-eeb8028ce4a1}</UniqueIdentifier>
     </Filter>
-    <Filter Include="src\sourcerer\es">
-      <UniqueIdentifier>{60669e50-3b65-4a4e-a286-ba6dde4eb959}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="src\sourcerer\es\kwset">
-      <UniqueIdentifier>{feeb17d9-cd61-4ca8-980b-1d453b6feeea}</UniqueIdentifier>
-    </Filter>
     <Filter Include="src\sourcerer\effect">
       <UniqueIdentifier>{1ba8032c-daaa-4336-ba84-2b4a546b8db0}</UniqueIdentifier>
     </Filter>
@@ -416,6 +410,12 @@
     </Filter>
     <Filter Include="src\etk\sg">
       <UniqueIdentifier>{7a64cb8c-2a2d-44c7-b25a-980effbd2309}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\es">
+      <UniqueIdentifier>{8b4d39d8-ab7b-4b4c-a859-bd831e41c035}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\es\kwset">
+      <UniqueIdentifier>{d3659aa4-ca0a-43da-b826-e7f228af92b9}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -1334,174 +1334,6 @@
     <ClInclude Include="..\..\..\src\sourcerer\event\matter\implement\act\implement\ValFader.h">
       <Filter>src\sourcerer\event\matter\implement\act\implement</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\src\sourcerer\es\Es.h">
-      <Filter>src\sourcerer\es</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\src\sourcerer\es\EsArray.h">
-      <Filter>src\sourcerer\es</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\src\sourcerer\es\EsAtom.h">
-      <Filter>src\sourcerer\es</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\src\sourcerer\es\EsAtomList.h">
-      <Filter>src\sourcerer\es</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\src\sourcerer\es\EsBase.h">
-      <Filter>src\sourcerer\es</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\src\sourcerer\es\EsBcExInfo.h">
-      <Filter>src\sourcerer\es</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\src\sourcerer\es\EsBlock.h">
-      <Filter>src\sourcerer\es</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\src\sourcerer\es\EsBoolean.h">
-      <Filter>src\sourcerer\es</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\src\sourcerer\es\EsBytecodeBuilder.h">
-      <Filter>src\sourcerer\es</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\src\sourcerer\es\EsClass.h">
-      <Filter>src\sourcerer\es</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\src\sourcerer\es\EsContext.h">
-      <Filter>src\sourcerer\es</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\src\sourcerer\es\EsDef.h">
-      <Filter>src\sourcerer\es</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\src\sourcerer\es\EsDefaultObjectOp.h">
-      <Filter>src\sourcerer\es</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\src\sourcerer\es\EsError.h">
-      <Filter>src\sourcerer\es</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\src\sourcerer\es\EsExternalExtension.h">
-      <Filter>src\sourcerer\es</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\src\sourcerer\es\EsExtParam.h">
-      <Filter>src\sourcerer\es</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\src\sourcerer\es\EsFunction.h">
-      <Filter>src\sourcerer\es</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\src\sourcerer\es\EsFunctionBox.h">
-      <Filter>src\sourcerer\es</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\src\sourcerer\es\EsInterlang.h">
-      <Filter>src\sourcerer\es</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\src\sourcerer\es\EsIterator.h">
-      <Filter>src\sourcerer\es</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\src\sourcerer\es\EsItNode.h">
-      <Filter>src\sourcerer\es</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\src\sourcerer\es\EsItNodeFactory.h">
-      <Filter>src\sourcerer\es</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\src\sourcerer\es\EsKeyword.h">
-      <Filter>src\sourcerer\es</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\src\sourcerer\es\EsKeywordSet.h">
-      <Filter>src\sourcerer\es</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\src\sourcerer\es\EsMath.h">
-      <Filter>src\sourcerer\es</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\src\sourcerer\es\EsNumber.h">
-      <Filter>src\sourcerer\es</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\src\sourcerer\es\EsObject.h">
-      <Filter>src\sourcerer\es</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\src\sourcerer\es\EsObjectBox.h">
-      <Filter>src\sourcerer\es</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\src\sourcerer\es\EsObjectOp.h">
-      <Filter>src\sourcerer\es</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\src\sourcerer\es\EsObjectSlots.h">
-      <Filter>src\sourcerer\es</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\src\sourcerer\es\EsOpcode.h">
-      <Filter>src\sourcerer\es</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\src\sourcerer\es\EsOpcodeType.h">
-      <Filter>src\sourcerer\es</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\src\sourcerer\es\EsParser.h">
-      <Filter>src\sourcerer\es</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\src\sourcerer\es\EsProgramCounter.h">
-      <Filter>src\sourcerer\es</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\src\sourcerer\es\EsPrototype.h">
-      <Filter>src\sourcerer\es</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\src\sourcerer\es\EsResolver.h">
-      <Filter>src\sourcerer\es</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\src\sourcerer\es\EsRunEnv.h">
-      <Filter>src\sourcerer\es</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\src\sourcerer\es\EsRunStat.h">
-      <Filter>src\sourcerer\es</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\src\sourcerer\es\EsScope.h">
-      <Filter>src\sourcerer\es</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\src\sourcerer\es\EsScopeProperty.h">
-      <Filter>src\sourcerer\es</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\src\sourcerer\es\EsStackFrame.h">
-      <Filter>src\sourcerer\es</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\src\sourcerer\es\EsStackRegister.h">
-      <Filter>src\sourcerer\es</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\src\sourcerer\es\EsStatement.h">
-      <Filter>src\sourcerer\es</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\src\sourcerer\es\EsString.h">
-      <Filter>src\sourcerer\es</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\src\sourcerer\es\EsSysClasses.h">
-      <Filter>src\sourcerer\es</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\src\sourcerer\es\EsSysPrototypes.h">
-      <Filter>src\sourcerer\es</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\src\sourcerer\es\EsToken.h">
-      <Filter>src\sourcerer\es</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\src\sourcerer\es\EsTokenGetter.h">
-      <Filter>src\sourcerer\es</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\src\sourcerer\es\EsTokenParser.h">
-      <Filter>src\sourcerer\es</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\src\sourcerer\es\EsTokenPos.h">
-      <Filter>src\sourcerer\es</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\src\sourcerer\es\EsUnit.h">
-      <Filter>src\sourcerer\es</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\src\sourcerer\es\EsUpvarInfo.h">
-      <Filter>src\sourcerer\es</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\src\sourcerer\es\EsValue.h">
-      <Filter>src\sourcerer\es</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\src\sourcerer\es\EsWith.h">
-      <Filter>src\sourcerer\es</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\src\sourcerer\es\kwset\JsKeywordSet.h">
-      <Filter>src\sourcerer\es\kwset</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\src\sourcerer\es\kwset\SsKeywordSet.h">
-      <Filter>src\sourcerer\es\kwset</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\..\src\sourcerer\effect\AutoDecorationEffect.h">
       <Filter>src\sourcerer\effect</Filter>
     </ClInclude>
@@ -2384,6 +2216,177 @@
     <ClInclude Include="..\..\..\src\sourcerer\event\matter\implement\act\implement\ScrMode.h">
       <Filter>src\sourcerer\event\matter\implement\act\implement</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\..\src\es\Es.h">
+      <Filter>src\es</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\es\EsArray.h">
+      <Filter>src\es</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\es\EsAtom.h">
+      <Filter>src\es</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\es\EsAtomList.h">
+      <Filter>src\es</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\es\EsBase.h">
+      <Filter>src\es</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\es\EsBcExInfo.h">
+      <Filter>src\es</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\es\EsBlock.h">
+      <Filter>src\es</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\es\EsBoolean.h">
+      <Filter>src\es</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\es\EsBytecodeBuilder.h">
+      <Filter>src\es</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\es\EsClass.h">
+      <Filter>src\es</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\es\EsContext.h">
+      <Filter>src\es</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\es\EsDebug.h">
+      <Filter>src\es</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\es\EsDef.h">
+      <Filter>src\es</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\es\EsDefaultObjectOp.h">
+      <Filter>src\es</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\es\EsError.h">
+      <Filter>src\es</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\es\EsExternalExtension.h">
+      <Filter>src\es</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\es\EsExtParam.h">
+      <Filter>src\es</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\es\EsFunction.h">
+      <Filter>src\es</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\es\EsFunctionBox.h">
+      <Filter>src\es</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\es\EsInterlang.h">
+      <Filter>src\es</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\es\EsIterator.h">
+      <Filter>src\es</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\es\EsItNode.h">
+      <Filter>src\es</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\es\EsItNodeFactory.h">
+      <Filter>src\es</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\es\EsKeyword.h">
+      <Filter>src\es</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\es\EsKeywordSet.h">
+      <Filter>src\es</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\es\EsMath.h">
+      <Filter>src\es</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\es\EsNumber.h">
+      <Filter>src\es</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\es\EsObject.h">
+      <Filter>src\es</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\es\EsObjectBox.h">
+      <Filter>src\es</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\es\EsObjectOp.h">
+      <Filter>src\es</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\es\EsObjectSlots.h">
+      <Filter>src\es</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\es\EsOpcode.h">
+      <Filter>src\es</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\es\EsOpcodeType.h">
+      <Filter>src\es</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\es\EsParser.h">
+      <Filter>src\es</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\es\EsProgramCounter.h">
+      <Filter>src\es</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\es\EsPrototype.h">
+      <Filter>src\es</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\es\EsResolver.h">
+      <Filter>src\es</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\es\EsRunEnv.h">
+      <Filter>src\es</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\es\EsRunStat.h">
+      <Filter>src\es</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\es\EsScope.h">
+      <Filter>src\es</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\es\EsScopeProperty.h">
+      <Filter>src\es</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\es\EsStackFrame.h">
+      <Filter>src\es</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\es\EsStackRegister.h">
+      <Filter>src\es</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\es\EsStatement.h">
+      <Filter>src\es</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\es\EsString.h">
+      <Filter>src\es</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\es\EsSysClasses.h">
+      <Filter>src\es</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\es\EsSysPrototypes.h">
+      <Filter>src\es</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\es\EsToken.h">
+      <Filter>src\es</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\es\EsTokenGetter.h">
+      <Filter>src\es</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\es\EsTokenParser.h">
+      <Filter>src\es</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\es\EsTokenPos.h">
+      <Filter>src\es</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\es\EsUnit.h">
+      <Filter>src\es</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\es\EsUpvarInfo.h">
+      <Filter>src\es</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\es\EsValue.h">
+      <Filter>src\es</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\es\EsWith.h">
+      <Filter>src\es</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\es\kwset\JsKeywordSet.h">
+      <Filter>src\es\kwset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\es\kwset\SsKeywordSet.h">
+      <Filter>src\es\kwset</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\src\tfw\Tfw.cpp">
@@ -3129,156 +3132,6 @@
     </ClCompile>
     <ClCompile Include="..\..\..\src\sourcerer\event\matter\implement\act\implement\ValFader.cpp">
       <Filter>src\sourcerer\event\matter\implement\act\implement</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\src\sourcerer\es\Es.cpp">
-      <Filter>src\sourcerer\es</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\src\sourcerer\es\EsArray.cpp">
-      <Filter>src\sourcerer\es</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\src\sourcerer\es\EsAtom.cpp">
-      <Filter>src\sourcerer\es</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\src\sourcerer\es\EsAtomList.cpp">
-      <Filter>src\sourcerer\es</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\src\sourcerer\es\EsBase.cpp">
-      <Filter>src\sourcerer\es</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\src\sourcerer\es\EsBcExInfo.cpp">
-      <Filter>src\sourcerer\es</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\src\sourcerer\es\EsBlock.cpp">
-      <Filter>src\sourcerer\es</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\src\sourcerer\es\EsBoolean.cpp">
-      <Filter>src\sourcerer\es</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\src\sourcerer\es\EsBytecodeBuilder.cpp">
-      <Filter>src\sourcerer\es</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\src\sourcerer\es\EsClass.cpp">
-      <Filter>src\sourcerer\es</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\src\sourcerer\es\EsContext.cpp">
-      <Filter>src\sourcerer\es</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\src\sourcerer\es\EsDefaultObjectOp.cpp">
-      <Filter>src\sourcerer\es</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\src\sourcerer\es\EsError.cpp">
-      <Filter>src\sourcerer\es</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\src\sourcerer\es\EsExternalExtension.cpp">
-      <Filter>src\sourcerer\es</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\src\sourcerer\es\EsFunction.cpp">
-      <Filter>src\sourcerer\es</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\src\sourcerer\es\EsFunctionBox.cpp">
-      <Filter>src\sourcerer\es</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\src\sourcerer\es\EsInterlang.cpp">
-      <Filter>src\sourcerer\es</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\src\sourcerer\es\EsIterator.cpp">
-      <Filter>src\sourcerer\es</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\src\sourcerer\es\EsItNode.cpp">
-      <Filter>src\sourcerer\es</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\src\sourcerer\es\EsItNodeFactory.cpp">
-      <Filter>src\sourcerer\es</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\src\sourcerer\es\EsKeyword.cpp">
-      <Filter>src\sourcerer\es</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\src\sourcerer\es\EsKeywordSet.cpp">
-      <Filter>src\sourcerer\es</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\src\sourcerer\es\EsMath.cpp">
-      <Filter>src\sourcerer\es</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\src\sourcerer\es\EsNumber.cpp">
-      <Filter>src\sourcerer\es</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\src\sourcerer\es\EsObject.cpp">
-      <Filter>src\sourcerer\es</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\src\sourcerer\es\EsObjectBox.cpp">
-      <Filter>src\sourcerer\es</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\src\sourcerer\es\EsObjectOp.cpp">
-      <Filter>src\sourcerer\es</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\src\sourcerer\es\EsObjectSlots.cpp">
-      <Filter>src\sourcerer\es</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\src\sourcerer\es\EsOpcode.cpp">
-      <Filter>src\sourcerer\es</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\src\sourcerer\es\EsParser.cpp">
-      <Filter>src\sourcerer\es</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\src\sourcerer\es\EsProgramCounter.cpp">
-      <Filter>src\sourcerer\es</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\src\sourcerer\es\EsPrototype.cpp">
-      <Filter>src\sourcerer\es</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\src\sourcerer\es\EsResolver.cpp">
-      <Filter>src\sourcerer\es</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\src\sourcerer\es\EsRunEnv.cpp">
-      <Filter>src\sourcerer\es</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\src\sourcerer\es\EsScope.cpp">
-      <Filter>src\sourcerer\es</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\src\sourcerer\es\EsScopeProperty.cpp">
-      <Filter>src\sourcerer\es</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\src\sourcerer\es\EsStackFrame.cpp">
-      <Filter>src\sourcerer\es</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\src\sourcerer\es\EsStackRegister.cpp">
-      <Filter>src\sourcerer\es</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\src\sourcerer\es\EsStatement.cpp">
-      <Filter>src\sourcerer\es</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\src\sourcerer\es\EsString.cpp">
-      <Filter>src\sourcerer\es</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\src\sourcerer\es\EsSysClasses.cpp">
-      <Filter>src\sourcerer\es</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\src\sourcerer\es\EsSysPrototypes.cpp">
-      <Filter>src\sourcerer\es</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\src\sourcerer\es\EsToken.cpp">
-      <Filter>src\sourcerer\es</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\src\sourcerer\es\EsTokenGetter.cpp">
-      <Filter>src\sourcerer\es</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\src\sourcerer\es\EsTokenParser.cpp">
-      <Filter>src\sourcerer\es</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\src\sourcerer\es\EsTokenPos.cpp">
-      <Filter>src\sourcerer\es</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\src\sourcerer\es\EsValue.cpp">
-      <Filter>src\sourcerer\es</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\src\sourcerer\es\EsWith.cpp">
-      <Filter>src\sourcerer\es</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\src\sourcerer\es\kwset\JsKeywordSet.cpp">
-      <Filter>src\sourcerer\es\kwset</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\src\sourcerer\es\kwset\SsKeywordSet.cpp">
-      <Filter>src\sourcerer\es\kwset</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\sourcerer\effect\AutoDecorationEffect.cpp">
       <Filter>src\sourcerer\effect</Filter>
@@ -4107,6 +3960,159 @@
     </ClCompile>
     <ClCompile Include="..\..\..\src\sourcerer\event\matter\implement\act\implement\ScrMode.cpp">
       <Filter>src\sourcerer\event\matter\implement\act\implement</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\es\Es.cpp">
+      <Filter>src\es</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\es\EsArray.cpp">
+      <Filter>src\es</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\es\EsAtom.cpp">
+      <Filter>src\es</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\es\EsAtomList.cpp">
+      <Filter>src\es</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\es\EsBase.cpp">
+      <Filter>src\es</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\es\EsBcExInfo.cpp">
+      <Filter>src\es</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\es\EsBlock.cpp">
+      <Filter>src\es</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\es\EsBoolean.cpp">
+      <Filter>src\es</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\es\EsBytecodeBuilder.cpp">
+      <Filter>src\es</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\es\EsClass.cpp">
+      <Filter>src\es</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\es\EsContext.cpp">
+      <Filter>src\es</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\es\EsDebug.cpp">
+      <Filter>src\es</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\es\EsDefaultObjectOp.cpp">
+      <Filter>src\es</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\es\EsError.cpp">
+      <Filter>src\es</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\es\EsExternalExtension.cpp">
+      <Filter>src\es</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\es\EsFunction.cpp">
+      <Filter>src\es</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\es\EsFunctionBox.cpp">
+      <Filter>src\es</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\es\EsInterlang.cpp">
+      <Filter>src\es</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\es\EsIterator.cpp">
+      <Filter>src\es</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\es\EsItNode.cpp">
+      <Filter>src\es</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\es\EsItNodeFactory.cpp">
+      <Filter>src\es</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\es\EsKeyword.cpp">
+      <Filter>src\es</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\es\EsKeywordSet.cpp">
+      <Filter>src\es</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\es\EsMath.cpp">
+      <Filter>src\es</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\es\EsNumber.cpp">
+      <Filter>src\es</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\es\EsObject.cpp">
+      <Filter>src\es</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\es\EsObjectBox.cpp">
+      <Filter>src\es</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\es\EsObjectOp.cpp">
+      <Filter>src\es</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\es\EsObjectSlots.cpp">
+      <Filter>src\es</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\es\EsOpcode.cpp">
+      <Filter>src\es</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\es\EsParser.cpp">
+      <Filter>src\es</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\es\EsProgramCounter.cpp">
+      <Filter>src\es</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\es\EsPrototype.cpp">
+      <Filter>src\es</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\es\EsResolver.cpp">
+      <Filter>src\es</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\es\EsRunEnv.cpp">
+      <Filter>src\es</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\es\EsScope.cpp">
+      <Filter>src\es</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\es\EsScopeProperty.cpp">
+      <Filter>src\es</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\es\EsStackFrame.cpp">
+      <Filter>src\es</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\es\EsStackRegister.cpp">
+      <Filter>src\es</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\es\EsStatement.cpp">
+      <Filter>src\es</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\es\EsString.cpp">
+      <Filter>src\es</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\es\EsSysClasses.cpp">
+      <Filter>src\es</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\es\EsSysPrototypes.cpp">
+      <Filter>src\es</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\es\EsToken.cpp">
+      <Filter>src\es</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\es\EsTokenGetter.cpp">
+      <Filter>src\es</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\es\EsTokenParser.cpp">
+      <Filter>src\es</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\es\EsTokenPos.cpp">
+      <Filter>src\es</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\es\EsValue.cpp">
+      <Filter>src\es</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\es\EsWith.cpp">
+      <Filter>src\es</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\es\kwset\JsKeywordSet.cpp">
+      <Filter>src\es\kwset</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\es\kwset\SsKeywordSet.cpp">
+      <Filter>src\es\kwset</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

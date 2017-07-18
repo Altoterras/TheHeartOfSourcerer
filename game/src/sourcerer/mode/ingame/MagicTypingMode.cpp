@@ -18,7 +18,6 @@
 // Friends
 #include "../../episode/char/pc/MySpirit.h"
 #include "../../episode/party/MyParty.h"
-#include "../../es/Es.h"
 #include "../../body/Game.h"
 #include "../../gui/FocusCursor.h"
 #include "../../gui/GameGui.h"
@@ -31,6 +30,7 @@
 #include "../../source/SourceManager.h"
 
 // External
+#include "../../../es/Es.h"
 #include "../../../etk/sg/SorSgm.h"
 #include "../../../tfw/lib/Matrix.h"
 #include "../../../tfw/lib/Vector.h"

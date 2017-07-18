@@ -16,16 +16,16 @@
 #include "SsBase.h"
 
 // Friends
-#include "../../es/EsContext.h"
-#include "../../es/EsKeyword.h"
-#include "../../es/EsKeywordSet.h"
-#include "../../es/EsObject.h"
-#include "../../es/EsScopeProperty.h"
-#include "../../es/EsSysClasses.h"
-#include "../../es/EsSysPrototypes.h"
-#include "../../es/EsValue.h"
 
 // External
+#include "../../../es/EsContext.h"
+#include "../../../es/EsKeyword.h"
+#include "../../../es/EsKeywordSet.h"
+#include "../../../es/EsObject.h"
+#include "../../../es/EsScopeProperty.h"
+#include "../../../es/EsSysClasses.h"
+#include "../../../es/EsSysPrototypes.h"
+#include "../../../es/EsValue.h"
 
 SRCR_BEGIN_NS
 

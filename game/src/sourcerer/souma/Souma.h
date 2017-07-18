@@ -16,7 +16,8 @@
 #include "../Base.h"
 
 #include "../source/SourceDef.h"
-#include "../es/EsExtParam.h"
+
+#include "../../es/EsExtParam.h"
 
 ////////////////////////////////////////////////////////////////////////////
 // クラス

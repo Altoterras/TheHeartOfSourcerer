@@ -22,10 +22,6 @@
 #include "../../../effect/GaugeAnimEffect.h"
 #include "../../../episode/FixedSourceIdDef.h"
 #include "../../../episode/data/FixedData.h"
-#include "../../../es/Es.h"
-#include "../../../es/EsContext.h"
-#include "../../../es/EsExternalExtension.h"
-#include "../../../es/EsRunStat.h"
 #include "../../../gui/GameGui.h"
 #include "../../../gui/MoveCursor.h"
 #include "../../../gui/window/implement/AriaWindow.h"
@@ -43,6 +39,10 @@
 #include "../../../status/TransStat.h"
 
 // External
+#include "../../../../es/Es.h"
+#include "../../../../es/EsContext.h"
+#include "../../../../es/EsExternalExtension.h"
+#include "../../../../es/EsRunStat.h"
 #include "../../../../etk/sg/CamSgnc.h"
 #include "../../../../etk/sg/SorSgm.h"
 #include "../../../../tfw/lib/Point.h"

@@ -21,13 +21,6 @@
 #include "../common/CalcUtils.h"
 #include "../effect/EleneEffect.h"
 #include "../effect/StatusChangeEffect.h"
-#include "../es/Es.h"
-#include "../es/EsAtom.h"
-#include "../es/EsContext.h"
-#include "../es/EsError.h"
-#include "../es/EsExternalExtension.h"
-#include "../es/EsRunStat.h"
-#include "../es/EsValue.h"
 #include "../body/Conductor.h"
 #include "../body/Game.h"
 #include "../body/GameFixedStrTbl.h"
@@ -56,6 +49,13 @@
 #include "../episode/party/MyParty.h"
 
 // External
+#include "../../es/Es.h"
+#include "../../es/EsAtom.h"
+#include "../../es/EsContext.h"
+#include "../../es/EsError.h"
+#include "../../es/EsExternalExtension.h"
+#include "../../es/EsRunStat.h"
+#include "../../es/EsValue.h"
 #include "../../etk/particle/Particle.h"
 #include "../../etk/particle/ParticleSys.h"
 #include "../../etk/sound/SoundMngr.h"
@@ -148,7 +148,7 @@ bool Souma::start(const VcString* srccode, SourceDef::SourceKind srckind, u16 fl
 
 	// スクリプトシステムリセット
 	_ssctx->getEsContext()->reset();
-	_ssctx->getEsRunStat()->clear();
+	_ssctx->getEsRunStat()->reset();
 	_frmcntStep = 0.0f;		// 開始
 	_frmdcntWait = 0.0f;
 	_isMistake = false;

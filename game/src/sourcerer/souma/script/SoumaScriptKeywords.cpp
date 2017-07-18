@@ -16,16 +16,16 @@
 #include "SoumaScriptKeywords.h"
 
 // Friends
-#include "../../es/EsAtom.h"
-#include "../../es/EsContext.h"
-#include "../../es/EsKeywordSet.h"
-#include "../../es/EsObject.h"
-#include "../../es/EsScopeProperty.h"
-#include "../../es/EsSysClasses.h"
-#include "../../es/EsSysPrototypes.h"
-#include "../../es/EsValue.h"
 
 // External
+#include "../../../es/EsAtom.h"
+#include "../../../es/EsContext.h"
+#include "../../../es/EsKeywordSet.h"
+#include "../../../es/EsObject.h"
+#include "../../../es/EsScopeProperty.h"
+#include "../../../es/EsSysClasses.h"
+#include "../../../es/EsSysPrototypes.h"
+#include "../../../es/EsValue.h"
 
 SRCR_BEGIN_NS
 

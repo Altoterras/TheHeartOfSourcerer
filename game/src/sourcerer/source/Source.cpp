@@ -18,12 +18,12 @@
 // Friends
 #include "FixedSourceDefTbl.h"
 #include "../souma/script/SoumaScriptKeywords.h"
-#include "../es/EsAtom.h"
-#include "../es/EsTokenGetter.h"
-#include "../es/kwset/JsKeywordSet.h"
-#include "../es/kwset/SsKeywordSet.h"
 
 // External
+#include "../../es/EsAtom.h"
+#include "../../es/EsTokenGetter.h"
+#include "../../es/kwset/JsKeywordSet.h"
+#include "../../es/kwset/SsKeywordSet.h"
 #include "../../tfw/serialize/Serializer.h"
 #include "../../tfw/string/StringUtils.h"
 

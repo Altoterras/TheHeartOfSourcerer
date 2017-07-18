@@ -16,10 +16,10 @@
 #include "SourceDef.h"
 
 // Friends
-#include "../es/kwset/JsKeywordSet.h"
-#include "../es/kwset/SsKeywordSet.h"
 
 // External
+#include "../../es/kwset/JsKeywordSet.h"
+#include "../../es/kwset/SsKeywordSet.h"
 
 SRCR_BEGIN_NS
 

@@ -24,11 +24,6 @@
 #include "../body/Game.h"
 #include "../body/GameExecCtx.h"
 #include "../debug/MenuFuncTable_Debug.h"
-#include "../es/Es.h"
-#include "../es/EsExtParam.h"
-#include "../es/EsRunStat.h"
-#include "../es/kwset/JsKeywordSet.h"
-#include "../es/kwset/SsKeywordSet.h"
 #include "../episode/StoryManager.h"
 #include "../episode/party/MyParty.h"
 #include "../episode/char/pc/MySpirit.h"
@@ -57,6 +52,11 @@
 #include "../status/EleneUtils.h"
 
 // External
+#include "../../es/Es.h"
+#include "../../es/EsExtParam.h"
+#include "../../es/EsRunStat.h"
+#include "../../es/kwset/JsKeywordSet.h"
+#include "../../es/kwset/SsKeywordSet.h"
 #include "../../etk/particle/Particle.h"
 #include "../../etk/particle/ParticleSys.h"
 #include "../../etk/sound/SoundMngr.h" 

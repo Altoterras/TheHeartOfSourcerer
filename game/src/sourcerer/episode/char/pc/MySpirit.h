@@ -16,7 +16,8 @@
 #include "../../../spirit/char/pc/PcMode.h"
 #include "../../../spirit/char/pc/PcRole.h"
 #include "../../../spirit/char/pc/PcSpirit.h"
-#include "../../../es/EsExtParam.h"
+
+#include "../../../../es/EsExtParam.h"
 
 ////////////////////////////////////////////////////////////////////////////
 // クラス
